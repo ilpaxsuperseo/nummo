@@ -82,5 +82,26 @@
       "387645802",
       "387645808"
     ]
+  },
+  {
+    "data": "2026-10-05",
+    "giorno": 5,
+    "quando": "2026-10-05T05:50:37.465Z",
+    "programmato_per": {
+      "dateTime": "2026-10-05T08:00:03",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-10-05.jpg",
+    "metricool": [
+      "388219543",
+      "388219576"
+    ]
   }
 ]
