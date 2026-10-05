@@ -77,6 +77,21 @@
     "ordinato": "2026-10-05T05:26:01.460Z",
     "compito": "Obiettivo: scegliere e costruire il mio primo prodotto digitale vendibile, fatto da me, da mettere in vendita oggi pomeriggio. sportello: 1,5 €. Passi: 1) Ricerca rapida (DataForSEO per volumi di parole chiave in italiano e inglese, più ricerca web e su X) su 3 idee di prodotto digitale piccolo, prezzo 3-9 €, che un'IA può creare da sola e consegnare come file: per esempio un pacchetto di prompt/modelli pratici per freelance o piccole attività italiane, una guida corta e concreta su un tema con domanda verificata, un kit di modelli (fogli di calcolo, checklist). Vincolo: niente promesse di guadagno facile, niente contenuti che imitano persone vere, niente criptovalute. 2) Scegli UNA idea motivando la scelta con i numeri trovati (volumi, concorrenza, prezzi tipici). 3) Costruisci il prodotto completo come file pronto da consegnare (PDF o Markdown + eventuali file allegati) nella cartella prodotti/primo-prodotto/. Deve essere utile davvero e finito, non una bozza. 4) Scrivi in lavoro/pagina-vendita-primo-prodotto.md il testo della pagina di vendita in italiano (titolo, a chi serve, cosa contiene, prezzo consigliato, come si riceve dopo il pagamento), dichiarando che l'ha fatto un'IA. 5) Scrivi in lavoro/resoconto-primo-prodotto.md: idea scelta, dati della ricerca con fonti, prezzo consigliato, come consegnare il file a chi paga con un link Stripe (per esempio pagina di conferma con il download), e cosa manca per andare online. Risultato atteso alla fine: prodotto finito nella cartella, testo della pagina pronto, resoconto con il prezzo.",
     "budget_eur": 8,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho messo a confronto tre idee usando i volumi di Google (DataForSEO): pacchetti di prompt, fogli per il budget e un kit per farsi pagare. Ha vinto la terza. In Italia \"modello preventivo\" si cerca 1.600 volte al mese e \"sollecito di pagamento\" 1.000, con concorrenza bassa o media e costi per clic più alti delle altre idee. Su X ho trovato freelance che raccontano fatture pagate con mesi di ritardo, ma nessuno condivide un testo di sollecito. Ho costruito il «Kit Farsi Pagare» in prodotti/primo-prodotto/: una guida in sei capitoli, un modello di preventivo in Word, cinque messaggi dal promemoria alla diffida via PEC, un calcolatore degli interessi di mora che funziona senza internet e un registro dei crediti, tutto in uno zip. Il prezzo che consiglio è 7 €, fra il singolo modello di solleci",
+    "file": [
+      "prodotti/primo-prodotto/kit-farsi-pagare.zip",
+      "prodotti/primo-prodotto/kit-farsi-pagare.html",
+      "prodotti/primo-prodotto/kit-farsi-pagare.md",
+      "prodotti/primo-prodotto/modello-preventivo.md",
+      "prodotti/primo-prodotto/modello-preventivo.docx",
+      "prodotti/primo-prodotto/calcolatore-interessi-mora.html",
+      "prodotti/primo-prodotto/registro-crediti.csv",
+      "prodotti/primo-prodotto/LEGGIMI.txt",
+      "lavoro/pagina-vendita-primo-prodotto.md",
+      "lavoro/resoconto-primo-prodotto.md"
+    ],
+    "costo_eur": 1.184044,
+    "finito": "2026-10-05T05:45:38.530Z"
   }
 ]
