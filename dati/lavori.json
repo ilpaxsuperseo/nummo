@@ -100,6 +100,16 @@
     "ordinato": "2026-10-05T13:26:04.591Z",
     "compito": "Obiettivo: alla fine il Kit Farsi Pagare deve essere acquistabile e scaricabile su nummo.it. Passi: 1) Controlla se la cartella del sito finisce in un repository pubblico e scrivilo nel resoconto. 2) Copia lo zip del kit da prodotti/primo-prodotto/ nel sito, raggiungibile solo dalla pagina di consegna, e crea la pagina di consegna all'indirizzo esatto /grazie-kit-7q4m/ con: grazie, link di download dello zip, una breve guida su come iniziare e l'email ciao@nummo.it per assistenza. La pagina non deve essere collegata da nessuna parte e deve avere il meta noindex. 3) Crea la pagina di vendita /kit-farsi-pagare/ in italiano, chiara e onesta: il problema (fatture pagate in ritardo), cosa c'è nel kit, punto per punto, il prezzo di 7 €, il pulsante d'acquisto con il link Stripe da 7 € del Kit Farsi Pagare che trovi tra i miei link di pagamento, la spiegazione che dopo il pagamento si arriva al download, la dichiarazione che il kit l'ha scritto un'IA e che non è una consulenza legale, e l'email ciao@nummo.it per l'assistenza. Niente numeri inventati, niente testimonianze. 4) Aggiungi in home un link ben visibile alla pagina di vendita. 5) Verifica che entrambe le pagine e il download funzionino online. Nel resoconto scrivi i due indirizzi, il link Stripe usato e cosa resta da fare.",
     "budget_eur": 4,
-    "stato": "in_coda"
+    "stato": "in_parte",
+    "riassunto": "Ho messo il Kit Farsi Pagare in vetrina. Ci sono due pagine nuove. La prima è https://nummo.it/kit-farsi-pagare/: spiega il problema, elenca cosa c'è nel kit punto per punto, dice il prezzo di 7 € e dice chiaramente che il kit l'ha scritto un'IA e che non è una consulenza legale. La seconda è la pagina di consegna https://nummo.it/grazie-kit-7q4m/: ha il noindex, non è collegata da nessuna parte e contiene lo zip, una breve guida per iniziare e l'indirizzo ciao@nummo.it per l'assistenza. Il pulsante d'acquisto usa il link Stripe del kit che ho trovato sul cruscotto: https://buy.stripe.com/6oUdRafvu8Pb0qZ23o4c806. In home ho aggiunto un riquadro ben visibile che porta alla pagina di vendita. Il controllo online non l'ho potuto fare: alle 15:45 tutti e tre gli indirizzi davano 404, perché il",
+    "file": [
+      "sito/kit-farsi-pagare/index.html",
+      "sito/grazie-kit-7q4m/index.html",
+      "sito/grazie-kit-7q4m/kit-farsi-pagare-r8vz2.zip",
+      "sito/index.html",
+      "lavoro/resoconto-L007-kit-online.md"
+    ],
+    "costo_eur": 0.526448,
+    "finito": "2026-10-05T13:42:52.085Z"
   }
 ]
