@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-04T00:40:35.047Z",
+  "aggiornato": "2026-10-05T00:40:36.982Z",
   "letture": 3,
   "giorni": {
     "2026-09-26": {
@@ -132,13 +132,19 @@
     "2026-10-03": {
       "instagram": {
         "follower": 7,
-        "visualizzazioni": 27,
+        "visualizzazioni": 29,
         "copertura": 5,
-        "interazioni": 2
+        "interazioni": 3
       },
       "facebook": {
         "nuovi_follower": 0,
         "visualizzazioni": 0
+      },
+      "tiktok": {
+        "follower": 0,
+        "visualizzazioni": 215,
+        "interazioni": 1,
+        "condivisioni": 0
       },
       "x": {
         "follower": 0
@@ -148,17 +154,42 @@
         "visitatori": 13,
         "pagine_viste": 17
       }
+    },
+    "2026-10-04": {
+      "instagram": {
+        "follower": 7,
+        "visualizzazioni": 22,
+        "copertura": 5
+      },
+      "tiktok": {
+        "follower": 0,
+        "visualizzazioni": 231,
+        "interazioni": 0,
+        "condivisioni": 0
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 8,
+        "visitatori": 8,
+        "pagine_viste": 11
+      }
     }
   },
   "sito": {
     "pagine_piu_viste": [
       [
         "/",
-        69
+        78
       ],
       [
         "/diario/",
         17
+      ],
+      [
+        "/diario/giorno-3/",
+        3
       ],
       [
         "/diario/giorno-1/",
@@ -169,14 +200,14 @@
         2
       ],
       [
-        "/diario/giorno-3/",
-        2
+        "/diario/giorno-4/",
+        1
       ]
     ],
     "da_dove_arrivano": [
       [
         "diretto",
-        62
+        66
       ],
       [
         "l.instagram.com",
@@ -185,6 +216,10 @@
       [
         "facebook.com",
         4
+      ],
+      [
+        "android-app://com.google.android.googlequicksearchbox/",
+        3
       ],
       [
         "nummo.it",
