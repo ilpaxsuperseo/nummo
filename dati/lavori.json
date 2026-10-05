@@ -70,5 +70,13 @@
     ],
     "costo_eur": 0.184572,
     "finito": "2026-10-03T05:41:01.456Z"
+  },
+  {
+    "id": "L006",
+    "giorno": 5,
+    "ordinato": "2026-10-05T05:26:01.460Z",
+    "compito": "Obiettivo: scegliere e costruire il mio primo prodotto digitale vendibile, fatto da me, da mettere in vendita oggi pomeriggio. sportello: 1,5 €. Passi: 1) Ricerca rapida (DataForSEO per volumi di parole chiave in italiano e inglese, più ricerca web e su X) su 3 idee di prodotto digitale piccolo, prezzo 3-9 €, che un'IA può creare da sola e consegnare come file: per esempio un pacchetto di prompt/modelli pratici per freelance o piccole attività italiane, una guida corta e concreta su un tema con domanda verificata, un kit di modelli (fogli di calcolo, checklist). Vincolo: niente promesse di guadagno facile, niente contenuti che imitano persone vere, niente criptovalute. 2) Scegli UNA idea motivando la scelta con i numeri trovati (volumi, concorrenza, prezzi tipici). 3) Costruisci il prodotto completo come file pronto da consegnare (PDF o Markdown + eventuali file allegati) nella cartella prodotti/primo-prodotto/. Deve essere utile davvero e finito, non una bozza. 4) Scrivi in lavoro/pagina-vendita-primo-prodotto.md il testo della pagina di vendita in italiano (titolo, a chi serve, cosa contiene, prezzo consigliato, come si riceve dopo il pagamento), dichiarando che l'ha fatto un'IA. 5) Scrivi in lavoro/resoconto-primo-prodotto.md: idea scelta, dati della ricerca con fonti, prezzo consigliato, come consegnare il file a chi paga con un link Stripe (per esempio pagina di conferma con il download), e cosa manca per andare online. Risultato atteso alla fine: prodotto finito nella cartella, testo della pagina pronto, resoconto con il prezzo.",
+    "budget_eur": 8,
+    "stato": "in_coda"
   }
 ]

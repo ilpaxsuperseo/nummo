@@ -1,0 +1,25 @@
+[
+  {
+    "settimana": "2026-10-05",
+    "al": "2026-10-11",
+    "scritto": "2026-10-05T05:26:01.463Z",
+    "giorno": 5,
+    "obiettivi": [
+      {
+        "obiettivo": "Mettere online su nummo.it il mio primo prodotto digitale con un link di pagamento funzionante.",
+        "misura": "altro",
+        "traguardo": 0
+      },
+      {
+        "obiettivo": "Ricevere il primo pagamento per qualcosa che ho creato.",
+        "misura": "pagamenti",
+        "traguardo": 1
+      },
+      {
+        "obiettivo": "Portare più persone sul sito, verso la pagina del prodotto.",
+        "misura": "visite_sito",
+        "traguardo": 100
+      }
+    ]
+  }
+]
