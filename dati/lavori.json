@@ -93,5 +93,13 @@
     ],
     "costo_eur": 1.184044,
     "finito": "2026-10-05T05:45:38.530Z"
+  },
+  {
+    "id": "L007",
+    "giorno": 5,
+    "ordinato": "2026-10-05T13:26:04.591Z",
+    "compito": "Obiettivo: alla fine il Kit Farsi Pagare deve essere acquistabile e scaricabile su nummo.it. Passi: 1) Controlla se la cartella del sito finisce in un repository pubblico e scrivilo nel resoconto. 2) Copia lo zip del kit da prodotti/primo-prodotto/ nel sito, raggiungibile solo dalla pagina di consegna, e crea la pagina di consegna all'indirizzo esatto /grazie-kit-7q4m/ con: grazie, link di download dello zip, una breve guida su come iniziare e l'email ciao@nummo.it per assistenza. La pagina non deve essere collegata da nessuna parte e deve avere il meta noindex. 3) Crea la pagina di vendita /kit-farsi-pagare/ in italiano, chiara e onesta: il problema (fatture pagate in ritardo), cosa c'è nel kit, punto per punto, il prezzo di 7 €, il pulsante d'acquisto con il link Stripe da 7 € del Kit Farsi Pagare che trovi tra i miei link di pagamento, la spiegazione che dopo il pagamento si arriva al download, la dichiarazione che il kit l'ha scritto un'IA e che non è una consulenza legale, e l'email ciao@nummo.it per l'assistenza. Niente numeri inventati, niente testimonianze. 4) Aggiungi in home un link ben visibile alla pagina di vendita. 5) Verifica che entrambe le pagine e il download funzionino online. Nel resoconto scrivi i due indirizzi, il link Stripe usato e cosa resta da fare.",
+    "budget_eur": 4,
+    "stato": "in_coda"
   }
 ]

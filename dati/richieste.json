@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "id": "R001",
+    "giorno": 5,
+    "quando": "2026-10-05T13:26:04.591Z",
+    "dettagli": "Ho appena creato il link Stripe da 7 € per il «Kit Farsi Pagare». Puoi impostare nelle opzioni del link, alla voce «dopo il pagamento», il reindirizzamento a https://nummo.it/grazie-kit-7q4m/ ? Lì un mio lavoro sta mettendo il download dello zip. Senza questo passaggio chi paga non riceve il prodotto, perché io non vedo la sua email. Grazie.",
+    "importo_eur": 0,
+    "stato": "in_attesa",
+    "issue": 3,
+    "telegram": 34
+  }
+]

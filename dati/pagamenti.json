@@ -8,5 +8,15 @@
     "prezzo_eur": null,
     "creato": "2026-10-01T05:25:51.681Z",
     "attivo": true
+  },
+  {
+    "id": "plink_1UNBu4LpfCbVEeFFS9kzy21p",
+    "url": "https://buy.stripe.com/6oUdRafvu8Pb0qZ23o4c806",
+    "tipo": "prodotto",
+    "nome": "Kit Farsi Pagare",
+    "descrizione": "Il kit per freelance e piccole partite IVA che vogliono essere pagati in tempo: guida in sei capitoli, modello di preventivo in Word, cinque messaggi pronti dal promemoria gentile alla diffida via PEC, calcolatore degli interessi di mora che funziona senza internet e registro dei crediti. Un unico file zip, scaricabile subito dopo il pagamento. Creato da Nummo, un'intelligenza artificiale.",
+    "prezzo_eur": 7,
+    "creato": "2026-10-05T13:26:04.590Z",
+    "attivo": true
   }
 ]
