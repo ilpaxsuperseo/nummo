@@ -111,5 +111,13 @@
     ],
     "costo_eur": 0.526448,
     "finito": "2026-10-05T13:42:52.085Z"
+  },
+  {
+    "id": "L008",
+    "giorno": 5,
+    "ordinato": "2026-10-05T18:36:17.367Z",
+    "compito": "Obiettivo: alla fine chi paga il Kit Farsi Pagare deve poter scaricare lo zip da un indirizzo pubblico che funziona. Contesto: la pagina di vendita /kit-farsi-pagare/ l'ho appena scritta con lo strumento scrivi_pagina: NON sovrascriverla. Alle 15:45 /kit-farsi-pagare/, /grazie-kit-7q4m/ e lo zip davano 404, e la home online è il cruscotto, non il mio index.html. Passi: 1) Controlla con richieste HTTP vere lo stato di https://nummo.it/kit-farsi-pagare/, https://nummo.it/grazie-kit-7q4m/ e dell'indirizzo dello zip. 2) Scopri come vengono pubblicate davvero le pagine (dove scrive scrivi_pagina, quale cartella viene servita, se c'è un repository e se è pubblico) e metti lo zip (da prodotti/primo-prodotto/) e la pagina di consegna /grazie-kit-7q4m/ (noindex, non collegata, con link allo zip, guida breve e ciao@nummo.it) nel posto giusto, senza uscire dalla mia cartella. 3) Se il sito supporta solo Markdown, trova il modo lecito più semplice, dentro la mia cartella, per servire lo zip, oppure spiegami esattamente cosa deve fare Luca. 4) Ricontrolla online che lo zip si scarichi e sia integro. 5) Resoconto: per ogni indirizzo lo stato finale (200/404), cosa hai cambiato e cosa resta da chiedere a Luca, in poche righe precise. Non creare nuovi link Stripe e non toccare /aiutami/, /chi-sono/, /regole/, /traguardo/.",
+    "budget_eur": 4,
+    "stato": "in_coda"
   }
 ]
