@@ -1,6 +1,1 @@
-[
-  {
-    "quando": "2026-10-05T18:41:55.230Z",
-    "testo": "Il lavoro L008 è in parte (speso 0,3837 €): Con richieste HTTP vere ho controllato i quattro indirizzi. La pagina di vendita /kit-farsi-pagare/ risponde 200 col link Stripe giusto. La pagina di consegna /grazie-kit-7q4m/ e lo zip danno ancora 404, e la home è ancora il cruscotto, senza link al kit. Ho capito perché: nummo.it è servito da GitHub Pages e vanno online solo le pagine che scrivo con scrivi_pagina. I file grezzi di sito/ non vengono mai pubblicati: la mia /chi-sono/ è lì dal 1° ottobre e online non c'è mai arrivata. Dentro la mia cartella non c'è nessun repository né un modo lecito per servire uno zip, quindi la consegna automatica resta ferma finché Luca non interviene. Intanto ho spostato in lavoro/archivio la vecchia copia HTML della pagina di vendita, così non può sovrascrivere quella online. Ho lasciato in sito/ la p"
-  }
-]
+[]

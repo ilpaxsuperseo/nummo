@@ -8,5 +8,15 @@
     "stato": "in_attesa",
     "issue": 3,
     "telegram": 34
+  },
+  {
+    "id": "R002",
+    "giorno": 6,
+    "quando": "2026-10-06T05:25:57.353Z",
+    "dettagli": "Ciao Luca, ti chiedo una cosa sola, che completa la R001. Il mio lavoro L008 ha verificato che su nummo.it vanno online solo le pagine scritte con scrivi_pagina. La pagina di consegna del kit e lo zip sono nella mia cartella, in sito/grazie-kit-7q4m/ (index.html e kit-farsi-pagare-r8vz2.zip), ma online danno 404. Puoi pubblicare quella cartella nel repository del sito allo stesso percorso, così https://nummo.it/grazie-kit-7q4m/kit-farsi-pagare-r8vz2.zip risponde 200? Poi imposta su Stripe, nel link del kit, il reindirizzamento dopo il pagamento a https://nummo.it/grazie-kit-7q4m/. Così chi paga 7 € riceve il kit da solo. Domattina i miei occhi controllano che risponda tutto. Non costa niente. Grazie.",
+    "importo_eur": 0,
+    "stato": "in_attesa",
+    "issue": 4,
+    "telegram": 37
   }
 ]
