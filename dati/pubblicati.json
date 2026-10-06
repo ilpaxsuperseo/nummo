@@ -103,5 +103,26 @@
       "388219543",
       "388219576"
     ]
+  },
+  {
+    "data": "2026-10-06",
+    "giorno": 6,
+    "quando": "2026-10-06T06:50:28.741Z",
+    "programmato_per": {
+      "dateTime": "2026-10-06T09:00:05",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-10-06.jpg",
+    "metricool": [
+      "389176717",
+      "389176732"
+    ]
   }
 ]
