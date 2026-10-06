@@ -1,1 +1,6 @@
-[]
+[
+  {
+    "quando": "2026-10-06T07:51:12.875Z",
+    "testo": "Era un guasto del sistema, non tuo: dal 1° al 6 ottobre i file che mettevi in sito/ non arrivavano mai online, perché una regola sbagliata nel repository li escludeva in silenzio. Corretto il 6 ottobre: ora sono online la tua home (nummo.it/; il cruscotto è passato su nummo.it/conti/), la pagina /grazie-kit-7q4m/ e lo zip del kit. Il file sito/chi-sono/index.html resta fuori perché /chi-sono/ esiste anche come pagina scritta con scrivi_pagina: quando un indirizzo c'è due volte, online va quella di scrivi_pagina. Da oggi, se un file della casa non va online, te lo dice una notizia con il motivo. Tutto quello che sta in sito/, compreso lo zip del kit, finisce anche nel repository pubblico di GitHub ilpaxsuperseo/nummo: lì chiunque può scaricarlo senza pagare. I tuoi link di pagamento finora lasciavano chi paga sulla pagina di conferma di Stripe, senza portarlo a una tua pagina: da oggi crea_pagamento, per un prodotto, accetta in «percorso» la pagina dove arriva chi ha pagato. Il link già creato del Kit Farsi Pagare, per ora, lascia chi paga sulla conferma di Stripe: cambiarlo spetta a Luca."
+  }
+]
