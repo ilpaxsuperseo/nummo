@@ -288,3 +288,20 @@ test('la verifica del piano aspetta i dati completi, al massimo tre giorni; i fo
     process.env.NUMMO_ADESSO = prima
   }
 })
+
+test('il sito di Nummo non è escluso dal repository (dal 1/10 al 6/10 «sito/» nel .gitignore lo escludeva)', async () => {
+  const { execFileSync } = await import('node:child_process')
+  const radice = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..')
+  for (const f of ['casa/sito/index.html', 'casa/sito/una-pagina/index.html', 'casa/sito/x/kit.zip', 'casa/note/appunti.md', 'casa/mente/occhi.mjs']) {
+    let escluso = true
+    try { execFileSync('git', ['check-ignore', '-q', f], { cwd: radice }) } catch { escluso = false } // esce con 1 se non è escluso
+    assert.equal(escluso, false, `${f} è escluso dal .gitignore`)
+  }
+})
+
+test('la pagina dove arriva chi ha pagato è solo un indirizzo di nummo.it', async () => {
+  const { indirizzoConsegna } = await import('../src/stripe.mjs')
+  assert.equal(indirizzoConsegna('grazie-kit-7q4m'), 'https://nummo.it/grazie-kit-7q4m/')
+  assert.equal(indirizzoConsegna('/negozio/grazie/'), 'https://nummo.it/negozio/grazie/')
+  for (const cattivo of ['', 'https://altro.it', '../fuori', 'Maiuscole', 'a b', 'x?y=1']) assert.equal(indirizzoConsegna(cattivo), null)
+})

@@ -26,8 +26,15 @@ async function stripe(metodo, percorso, parametri = {}) {
 
 export const pagamenti = () => leggiJson('pagamenti.json', [])
 
+// Dove arriva chi ha pagato: una pagina di nummo.it (per un prodotto, di solito quella di consegna).
+export const indirizzoConsegna = (percorso) => {
+  const p = String(percorso ?? '').trim().replace(/^\/+|\/+$/g, '')
+  return /^[a-z0-9][a-z0-9-]*(\/[a-z0-9][a-z0-9-]*)*$/.test(p) ? `${config.sito}/${p}/` : null
+}
+
 // «mancia»: importo libero (da 1 € in su) → sostegno del pubblico. Altrimenti un prodotto a prezzo fisso → guadagno.
-export async function creaLink({ dettagli, importo_eur }) {
+// «percorso» (solo prodotti): la pagina dove Stripe porta chi ha pagato; senza, resta sulla conferma di Stripe.
+export async function creaLink({ dettagli, importo_eur, percorso }) {
   if (!collegato()) return 'non creato: Stripe non è collegato'
   const righe = String(dettagli ?? '').trim().split('\n')
   const mancia = /mancia/i.test(righe[0])
@@ -39,6 +46,8 @@ export async function creaLink({ dettagli, importo_eur }) {
     if (!(importo_eur >= 1)) return 'non creato: un prodotto vuole un prezzo di almeno 1 €'
   }
   if (pagamenti().filter((p) => p.attivo).length >= 10) return 'non creato: hai già 10 link attivi'
+  const consegna = mancia ? null : indirizzoConsegna(percorso)
+  if (!mancia && String(percorso ?? '').trim() && !consegna) return `non creato: «${percorso}» non è un indirizzo di nummo.it valido (lettere minuscole, numeri e trattini)`
   const meta = { progetto: 'nummo', tipo: mancia ? 'mancia' : 'prodotto' }
   const prodotto = await stripe('POST', 'products', { name: mancia ? `${nome} (mancia)` : nome, description: descrizione || undefined, metadata: meta })
   const prezzo = await stripe('POST', 'prices', {
@@ -47,11 +56,13 @@ export async function creaLink({ dettagli, importo_eur }) {
   })
   const link = await stripe('POST', 'payment_links', {
     line_items: { 0: { price: prezzo.id, quantity: 1 } }, metadata: meta,
-    after_completion: { type: 'hosted_confirmation', hosted_confirmation: { custom_message: mancia ? 'Grazie. Nummo registrerà la tua mancia nel suo libro dei conti (senza il tuo nome).' : 'Grazie. Nummo registrerà la vendita nel suo libro dei conti (senza il tuo nome).' } },
+    after_completion: consegna
+      ? { type: 'redirect', redirect: { url: consegna } }
+      : { type: 'hosted_confirmation', hosted_confirmation: { custom_message: mancia ? 'Grazie. Nummo registrerà la tua mancia nel suo libro dei conti (senza il tuo nome).' : 'Grazie. Nummo registrerà la vendita nel suo libro dei conti (senza il tuo nome).' } },
   })
-  const voce = { id: link.id, url: link.url, tipo: meta.tipo, nome, descrizione, prezzo_eur: mancia ? null : importo_eur, creato: adesso().toISOString(), attivo: true }
+  const voce = { id: link.id, url: link.url, tipo: meta.tipo, nome, descrizione, prezzo_eur: mancia ? null : importo_eur, ...(consegna ? { consegna } : {}), creato: adesso().toISOString(), attivo: true }
   scriviJson('pagamenti.json', [...pagamenti(), voce])
-  return `link creato (${meta.tipo}): ${link.url}`
+  return `link creato (${meta.tipo}): ${link.url}${mancia ? '' : consegna ? `; dopo il pagamento si arriva a ${consegna}` : '; dopo il pagamento si resta sulla conferma di Stripe (nessuna pagina di consegna)'}`
 }
 
 // I pagamenti completati sui link di Nummo, con la commissione vera di Stripe.

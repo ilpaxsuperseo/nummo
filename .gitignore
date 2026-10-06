@@ -1,11 +1,13 @@
 node_modules/
 .env
 .env.*
-sito/
-simulazione/
+# Con la barra davanti: solo le cartelle in cima. «sito/» da solo escludeva anche casa/sito,
+# e dal 1/10 al 6/10 il sito di Nummo non è mai andato online.
+/sito/
+/simulazione/
 prova-*.png
 .DS_Store
-interno/
+/interno/
 notte/config/
 notte/mcp.json
 notte/da-pubblicare.json

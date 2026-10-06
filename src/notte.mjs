@@ -174,12 +174,18 @@ function copiaCasa() {
         const s = fs.lstatSync(f)
         if (f === da) return true
         const leggibile = (() => { try { fs.accessSync(f, fs.constants.R_OK); return true } catch { return false } })()
-        const va = leggibile && !s.isSymbolicLink() && !path.basename(f).startsWith('.') && s.uid === nummo && (s.isDirectory() || (s.isFile() && s.nlink === 1 && s.size <= MAX_FILE))
-        if (!va) lasciati.push(path.relative(CASA, f))
-        return va
+        const motivo = !leggibile ? 'illeggibile' : s.isSymbolicLink() ? 'collegamento' : path.basename(f).startsWith('.') ? 'nascosto' : s.uid !== nummo ? 'non è tuo'
+          : s.isFile() && s.nlink !== 1 ? 'collegamento' : s.isFile() && s.size > MAX_FILE ? 'oltre 20 MB' : !s.isDirectory() && !s.isFile() ? 'non è un file' : ''
+        // Le cartelle interne di Claude Code (.claude) non si segnalano: non sono cose sue.
+        if (motivo && path.basename(f) !== '.claude') lasciati.push(`${path.relative(CASA, f)} (${motivo})`)
+        return !motivo
       },
     })
   }
+  // Copiati ma esclusi da git: non arriverebbero mai online. Non deve succedere (prove/conti.test.mjs), ma se
+  // succede si dice, invece di perderli in silenzio come dal 1/10 al 6/10.
+  for (const f of git('ls-files', '--others', '--ignored', '--exclude-standard', '--', 'casa').split('\n').filter(Boolean))
+    lasciati.push(`${f.replace(/^casa\//, '')} (escluso dal repository: è un guasto, Luca è avvisato)`)
   return lasciati
 }
 
@@ -330,6 +336,8 @@ async function turnoVero() {
 
   const lasciati = copiaCasa()
   if (process.env.NUMMO_NOTTE_A_SECCO) return console.log(JSON.stringify({ fatti, lasciati }, null, 2))
+  // Anche Nummo deve sapere cosa non è andato online, e perché: lo legge al prossimo risveglio.
+  if (lasciati.length) scriviEsito({ tipo: 'notizia', id: `lasciati ${adesso().toISOString()}`, testo: `Alla fine dei lavori questi file della casa non sono andati online: ${lasciati.slice(0, 20).join(', ')}${lasciati.length > 20 ? ` e altri ${lasciati.length - 20}` : ''}.` })
   // GitHub applica gli esiti al controllo che parte adesso (e ripubblica il sito con la casa nuova).
   if (salva(`${primaDiNascere ? 'Prova prima di nascere' : `Lavori del giorno ${giornoDiVita()}`}: ${fatti.map((l) => `${l.id} ${l.stato}`).join(', ') || 'niente'}`))
     execFileSync('gh', ['workflow', 'run', 'nummo.yml', '--repo', REPO, '-f', 'ciclo=controlla'])
@@ -338,7 +346,7 @@ async function turnoVero() {
     'Ho lavorato.',
     ...fatti.map((l) => `${l.id} · ${l.stato.replace('_', ' ')} · ${euro(l.costo_eur)}${l.omaggio ? ' pagati da te' : ''}\n${l.riassunto}`),
     post ? `Il post: ${post}` : '',
-    lasciati.length ? `Non messi online (collegamenti, file nascosti, illeggibili o oltre 20 MB): ${lasciati.slice(0, 10).join(', ')}` : '',
+    lasciati.length ? `Non messi online: ${lasciati.slice(0, 10).join(', ')}` : '',
   ].filter(Boolean).join('\n\n'), { silenzioso: true })
 }
 

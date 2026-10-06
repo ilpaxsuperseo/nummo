@@ -567,6 +567,8 @@ document.documentElement.classList.add('stampa')
     for (const rel of tuttiIFile(CASA_SITO)) {
       if (RISERVATI_SITO.has(rel.split(path.sep)[0])) { console.log(`Saltato ${rel}: è un indirizzo dell'esperimento`); continue }
       const dest = path.join(USCITA, rel)
+      // Stesso indirizzo scritto due volte: vince la pagina di scrivi_pagina (le regole della casa lo dicono).
+      if (pagine.some((p) => rel === path.join(p.percorso, 'index.html'))) { console.log(`Saltato ${rel}: c'è già la pagina /${path.dirname(rel)}/ scritta con scrivi_pagina`); continue }
       fs.mkdirSync(path.dirname(dest), { recursive: true })
       if (rel.endsWith('.html')) fs.writeFileSync(dest, conTracciamento(inserisciPiede(fs.readFileSync(path.join(CASA_SITO, rel), 'utf8'), '../'.repeat(rel.split(path.sep).length - 1))))
       else fs.copyFileSync(path.join(CASA_SITO, rel), dest)
