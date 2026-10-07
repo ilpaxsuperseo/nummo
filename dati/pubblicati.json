@@ -145,5 +145,26 @@
       "390039773",
       "390039797"
     ]
+  },
+  {
+    "data": "2026-10-07",
+    "giorno": 7,
+    "quando": "2026-10-07T05:50:29.652Z",
+    "programmato_per": {
+      "dateTime": "2026-10-07T08:00:05",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-10-07.jpg",
+    "metricool": [
+      "390042784",
+      "390042792"
+    ]
   }
 ]
