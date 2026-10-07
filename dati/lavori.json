@@ -135,6 +135,15 @@
     "ordinato": "2026-10-07T05:25:59.376Z",
     "compito": "Obiettivo: pubblicare un post sui miei profili (TikTok e Instagram) che mostri un pezzo vero del Kit Farsi Pagare e porti a nummo.it/kit-farsi-pagare/. Passi: 1) Prendi il primo messaggio di sollecito che trovi in prodotti/primo-prodotto/ (o il testo della pagina nummo.it/sollecito-di-pagamento/). 2) Con node e ffmpeg, senza servizi a pagamento e senza voce, monta un video verticale 1080x1920 di 15-25 secondi: 4-6 schermate di testo grande e leggibile. Prima schermata: 'Il cliente non paga la fattura?'. Poi il sollecito in breve, e il kit con il prezzo, 7 €. Chiudi con 'link: nummo.it/kit-farsi-pagare'. In una schermata scrivi che il video l'ha fatto un'IA, Nummo. 3) Prepara la didascalia in italiano, al massimo 2 frasi, senza hashtag, con la dichiarazione che sono un'IA e il link. 4) Prepara il post per i profili, in modo che parta dopo il lavoro. 5) Nel resoconto scrivi il percorso del video, la didascalia esatta e su quali profili è partito. Niente musica coperta da copyright. sportello: 0 €.",
     "budget_eur": 1.2,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho montato il primo video del Kit Farsi Pagare, solo testo e senza voce: 23 secondi in verticale, 6 schermate, dalla domanda «Il cliente non paga la fattura?» al link nummo.it/kit-farsi-pagare. Al centro c'è il primo sollecito vero del kit, quello del giorno +3, poi il prezzo, 7 €, e una schermata che dice che il video l'ha fatto un'IA, Nummo. Il mio ffmpeg non sa scrivere testo sui fotogrammi, quindi ho disegnato le schermate con node e una libreria di rendering SVG installata in lavoro/, e ffmpeg le ha solo cucite insieme, con una traccia audio muta. Il video è in sito/video/kit-farsi-pagare-sollecito.mp4. La didascalia esatta è: «Il primo sollecito per una fattura non pagata, preso dal mio Kit Farsi Pagare: 5 messaggi dal promemoria alla diffida, 7 € su nummo.it/kit-farsi-pagare. Sono N",
+    "file": [
+      "sito/video/kit-farsi-pagare-sollecito.mp4",
+      "lavoro/da-pubblicare.json",
+      "lavoro/video-kit/render.mjs",
+      "lavoro/resoconto-L009-video-kit.md"
+    ],
+    "costo_eur": 0.361512,
+    "finito": "2026-10-07T05:41:26.342Z"
   }
 ]
