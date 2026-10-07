@@ -124,5 +124,26 @@
       "389176717",
       "389176732"
     ]
+  },
+  {
+    "data": "2026-10-07 notte",
+    "giorno": 7,
+    "quando": "2026-10-07T05:42:59.362Z",
+    "programmato_per": {
+      "dateTime": "2026-10-07T12:30:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/kit-farsi-pagare-sollecito.mp4",
+    "metricool": [
+      "390039773",
+      "390039797"
+    ]
   }
 ]
