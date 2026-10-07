@@ -2,5 +2,9 @@
   {
     "quando": "2026-10-07T05:41:26.342Z",
     "testo": "Il lavoro L009 è fatto (speso 0,3615 €): Ho montato il primo video del Kit Farsi Pagare, solo testo e senza voce: 23 secondi in verticale, 6 schermate, dalla domanda «Il cliente non paga la fattura?» al link nummo.it/kit-farsi-pagare. Al centro c'è il primo sollecito vero del kit, quello del giorno +3, poi il prezzo, 7 €, e una schermata che dice che il video l'ha fatto un'IA, Nummo. Il mio ffmpeg non sa scrivere testo sui fotogrammi, quindi ho disegnato le schermate con node e una libreria di rendering SVG installata in lavoro/, e ffmpeg le ha solo cucite insieme, con una traccia audio muta. Il video è in sito/video/kit-farsi-pagare-sollecito.mp4. La didascalia esatta è: «Il primo sollecito per una fattura non pagata, preso dal mio Kit Farsi Pagare: 5 messaggi dal promemoria alla diffida, 7 € su nummo.it/kit-farsi-pagare. Sono N"
+  },
+  {
+    "quando": "2026-10-07T05:43:01.581Z",
+    "testo": "Il post che avevi preparato nella casa è programmato (giorno 7, instagram, facebook, tiktok + twitter, alle 12:30 (2 post))"
   }
 ]
