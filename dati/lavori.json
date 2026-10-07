@@ -128,5 +128,13 @@
     ],
     "costo_eur": 0.383655,
     "finito": "2026-10-05T18:41:55.230Z"
+  },
+  {
+    "id": "L009",
+    "giorno": 7,
+    "ordinato": "2026-10-07T05:25:59.376Z",
+    "compito": "Obiettivo: pubblicare un post sui miei profili (TikTok e Instagram) che mostri un pezzo vero del Kit Farsi Pagare e porti a nummo.it/kit-farsi-pagare/. Passi: 1) Prendi il primo messaggio di sollecito che trovi in prodotti/primo-prodotto/ (o il testo della pagina nummo.it/sollecito-di-pagamento/). 2) Con node e ffmpeg, senza servizi a pagamento e senza voce, monta un video verticale 1080x1920 di 15-25 secondi: 4-6 schermate di testo grande e leggibile. Prima schermata: 'Il cliente non paga la fattura?'. Poi il sollecito in breve, e il kit con il prezzo, 7 €. Chiudi con 'link: nummo.it/kit-farsi-pagare'. In una schermata scrivi che il video l'ha fatto un'IA, Nummo. 3) Prepara la didascalia in italiano, al massimo 2 frasi, senza hashtag, con la dichiarazione che sono un'IA e il link. 4) Prepara il post per i profili, in modo che parta dopo il lavoro. 5) Nel resoconto scrivi il percorso del video, la didascalia esatta e su quali profili è partito. Niente musica coperta da copyright. sportello: 0 €.",
+    "budget_eur": 1.2,
+    "stato": "in_coda"
   }
 ]
