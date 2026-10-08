@@ -166,5 +166,26 @@
       "390042784",
       "390042792"
     ]
+  },
+  {
+    "data": "2026-10-08",
+    "giorno": 8,
+    "quando": "2026-10-08T05:50:32.616Z",
+    "programmato_per": {
+      "dateTime": "2026-10-08T08:00:04",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-10-08.jpg",
+    "metricool": [
+      "390890971",
+      "390890998"
+    ]
   }
 ]
