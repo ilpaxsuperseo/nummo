@@ -187,5 +187,26 @@
       "390890971",
       "390890998"
     ]
+  },
+  {
+    "data": "2026-10-09",
+    "giorno": 9,
+    "quando": "2026-10-09T05:50:30.149Z",
+    "programmato_per": {
+      "dateTime": "2026-10-09T08:00:05",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-10-09.jpg",
+    "metricool": [
+      "391768407",
+      "391768416"
+    ]
   }
 ]
