@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-09T00:40:33.476Z",
+  "aggiornato": "2026-10-10T00:40:29.754Z",
   "letture": 3,
   "giorni": {
     "2026-09-26": {
@@ -219,7 +219,7 @@
       },
       "tiktok": {
         "follower": 0,
-        "visualizzazioni": 713,
+        "visualizzazioni": 714,
         "interazioni": 3,
         "condivisioni": 0
       },
@@ -238,7 +238,7 @@
         "visualizzazioni": 35,
         "copertura": 9,
         "interazioni": 5,
-        "visualizzazioni_reel": 12
+        "visualizzazioni_reel": 13
       },
       "facebook": {
         "nuovi_follower": 0,
@@ -246,7 +246,7 @@
       },
       "tiktok": {
         "follower": 0,
-        "visualizzazioni": 497,
+        "visualizzazioni": 517,
         "interazioni": 5,
         "condivisioni": 0
       },
@@ -269,6 +269,12 @@
         "nuovi_follower": 0,
         "visualizzazioni": 0
       },
+      "tiktok": {
+        "follower": 0,
+        "visualizzazioni": 285,
+        "interazioni": 0,
+        "condivisioni": 0
+      },
       "x": {
         "follower": 0
       },
@@ -277,17 +283,43 @@
         "visitatori": 7,
         "pagine_viste": 7
       }
+    },
+    "2026-10-09": {
+      "instagram": {
+        "follower": 7,
+        "visualizzazioni": 23,
+        "copertura": 6,
+        "interazioni": 1
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 0
+      },
+      "tiktok": {
+        "follower": 0,
+        "visualizzazioni": 253,
+        "interazioni": 0,
+        "condivisioni": 0
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 2,
+        "visitatori": 2,
+        "pagine_viste": 2
+      }
     }
   },
   "sito": {
     "pagine_piu_viste": [
       [
         "/",
-        70
+        54
       ],
       [
         "/diario/",
-        16
+        9
       ],
       [
         "/kit-farsi-pagare/",
@@ -303,10 +335,6 @@
       ],
       [
         "/diario/giorno-2/",
-        2
-      ],
-      [
-        "/diario/giorno-1/",
         1
       ],
       [
@@ -317,18 +345,14 @@
     "da_dove_arrivano": [
       [
         "diretto",
-        59
+        46
       ],
       [
         "l.instagram.com",
-        7
+        4
       ],
       [
         "android-app://com.google.android.googlequicksearchbox/",
-        3
-      ],
-      [
-        "nummo.it",
         3
       ],
       [
@@ -338,6 +362,10 @@
       [
         "google.com",
         2
+      ],
+      [
+        "nummo.it",
+        1
       ]
     ]
   },
