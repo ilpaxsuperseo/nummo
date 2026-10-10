@@ -208,5 +208,26 @@
       "391768407",
       "391768416"
     ]
+  },
+  {
+    "data": "2026-10-10",
+    "giorno": 10,
+    "quando": "2026-10-10T05:50:31.238Z",
+    "programmato_per": {
+      "dateTime": "2026-10-10T08:00:05",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-10-10.jpg",
+    "metricool": [
+      "392570901",
+      "392570903"
+    ]
   }
 ]
