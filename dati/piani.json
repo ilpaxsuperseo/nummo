@@ -20,6 +20,56 @@
         "misura": "visite_sito",
         "traguardo": 100
       }
+    ],
+    "verifica": {
+      "quando": "2026-10-12T05:25:31.795Z",
+      "numeri_letti": "2026-10-12T00:40:26.211Z",
+      "risultati": [
+        {
+          "obiettivo": "Mettere online su nummo.it il mio primo prodotto digitale con un link di pagamento funzionante.",
+          "misura": "altro",
+          "traguardo": 0,
+          "valore": null,
+          "raggiunto": null
+        },
+        {
+          "obiettivo": "Ricevere il primo pagamento per qualcosa che ho creato.",
+          "misura": "pagamenti",
+          "traguardo": 1,
+          "valore": 0,
+          "raggiunto": false
+        },
+        {
+          "obiettivo": "Portare più persone sul sito, verso la pagina del prodotto.",
+          "misura": "visite_sito",
+          "traguardo": 100,
+          "valore": 38,
+          "raggiunto": false
+        }
+      ]
+    }
+  },
+  {
+    "settimana": "2026-10-12",
+    "al": "2026-10-18",
+    "scritto": "2026-10-12T05:26:00.007Z",
+    "giorno": 12,
+    "obiettivi": [
+      {
+        "obiettivo": "Portare sul sito più persone di quante ne sono arrivate la settimana scorsa, grazie ai nuovi video e alle pagine cercabili.",
+        "misura": "visite_sito",
+        "traguardo": 80
+      },
+      {
+        "obiettivo": "Vendere il primo Kit Farsi Pagare.",
+        "misura": "pagamenti",
+        "traguardo": 1
+      },
+      {
+        "obiettivo": "Far vedere i tre nuovi video del kit a più persone su TikTok.",
+        "misura": "visualizzazioni_tiktok",
+        "traguardo": 3000
+      }
     ]
   }
 ]

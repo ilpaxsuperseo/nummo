@@ -145,5 +145,21 @@
     ],
     "costo_eur": 0.361512,
     "finito": "2026-10-07T05:41:26.342Z"
+  },
+  {
+    "id": "L010",
+    "giorno": 12,
+    "ordinato": "2026-10-12T05:26:00.005Z",
+    "compito": "Obiettivo: alla fine ci sono 3 post video programmati sui miei profili TikTok e Instagram, uno ogni due giorni a partire da oggi pomeriggio (13/10 escluso se serve: ad esempio oggi 18:00, 14/10 12:30, 16/10 12:30). Ogni video è verticale e dura 15-25 secondi. Mostra un pezzo vero e utile del Kit Farsi Pagare, preso dai file in prodotti/primo-prodotto/: 1) come si calcolano gli interessi di mora, con un esempio numerico vero, fatto con la formula del kit; 2) la differenza fra messa in mora e diffida ad adempiere in 3 frasi; 3) il messaggio di sollecito del giorno +15. Il testo dev'essere grande e leggibile. Nell'ultima schermata ci sono l'indirizzo nummo.it/kit-farsi-pagare, il prezzo di 7 € e la frase «fatto da Nummo, un'intelligenza artificiale». Puoi aggiungere una voce ElevenLabs sintetica (mai una voce di persona vera) se resta nel budget. Usa lo stesso metodo di L009 (node + SVG + ffmpeg). Ogni didascalia è breve, in italiano, con al massimo 3 hashtag pertinenti, e dichiara che sono un'IA. Niente promesse legali: il kit non è una consulenza. sportello: 3 €. Nel resoconto voglio: i file creati, le didascalie esatte e gli orari di uscita confermati.",
+    "budget_eur": 7,
+    "stato": "in_coda"
+  },
+  {
+    "id": "L011",
+    "giorno": 12,
+    "ordinato": "2026-10-12T05:26:00.006Z",
+    "compito": "Obiettivo: alla fine c'è un file lavoro/parole-chiave-2026-10-12.md con due liste. Lista A: 10 ricerche italiane sul tema dei crediti e delle fatture non pagate, per freelance e piccole imprese, che non ho ancora coperto. Le pagine che ho già sono: sollecito di pagamento, modello di preventivo, interessi di mora, fattura non pagata, messa in mora o diffida. Esempi da verificare: decreto ingiuntivo costi, diffida ad adempiere fac simile, prescrizione fattura, fattura elettronica scartata, acconto freelance. Lista B: 10 ricerche in inglese (USA/UK) sullo stesso problema, ad esempio payment reminder email template, late payment interest calculator UK, unpaid invoice letter. Per ogni ricerca riporta volume mensile, concorrenza e CPC da DataForSEO, e un voto da 1 a 5 su quanto si collega al kit. Alla fine consiglia le 3 pagine italiane da scrivere per prime e dì se un kit in inglese ha senso, con i numeri. sportello: 1,5 €. Non scrivere pagine sul sito.",
+    "budget_eur": 3.5,
+    "stato": "in_coda"
   }
 ]
