@@ -250,5 +250,26 @@
       "393109713",
       "393109727"
     ]
+  },
+  {
+    "data": "2026-10-12 notte",
+    "giorno": 12,
+    "quando": "2026-10-12T05:46:02.665Z",
+    "programmato_per": {
+      "dateTime": "2026-10-12T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/kit-mora-calcolo.mp4",
+    "metricool": [
+      "393734252",
+      "393734260"
+    ]
   }
 ]
