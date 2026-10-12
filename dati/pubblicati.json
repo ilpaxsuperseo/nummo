@@ -271,5 +271,26 @@
       "393734252",
       "393734260"
     ]
+  },
+  {
+    "data": "2026-10-12",
+    "giorno": 12,
+    "quando": "2026-10-12T05:50:38.574Z",
+    "programmato_per": {
+      "dateTime": "2026-10-12T08:00:03",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-10-12.jpg",
+    "metricool": [
+      "393736019",
+      "393736037"
+    ]
   }
 ]
