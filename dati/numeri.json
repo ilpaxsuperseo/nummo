@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-12T00:40:26.211Z",
+  "aggiornato": "2026-10-13T00:40:34.371Z",
   "letture": 3,
   "giorni": {
     "2026-09-26": {
@@ -238,11 +238,11 @@
         "visualizzazioni": 35,
         "copertura": 9,
         "interazioni": 5,
-        "visualizzazioni_reel": 13
+        "visualizzazioni_reel": 21
       },
       "facebook": {
         "nuovi_follower": 0,
-        "visualizzazioni": 0
+        "visualizzazioni": 1
       },
       "tiktok": {
         "follower": 0,
@@ -360,6 +360,27 @@
         "visitatori": 3,
         "pagine_viste": 3
       }
+    },
+    "2026-10-12": {
+      "instagram": {
+        "follower": 9,
+        "visualizzazioni": 123,
+        "copertura": 21,
+        "interazioni": 1,
+        "visualizzazioni_reel": 20
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 1
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 7,
+        "visitatori": 7,
+        "pagine_viste": 8
+      }
     }
   },
   "sito": {
@@ -370,11 +391,11 @@
       ],
       [
         "/diario/",
-        9
+        11
       ],
       [
         "/kit-farsi-pagare/",
-        7
+        10
       ],
       [
         "/conti/",
@@ -387,12 +408,12 @@
         35
       ],
       [
-        "l.instagram.com",
-        3
+        "facebook.com",
+        5
       ],
       [
-        "facebook.com",
-        2
+        "l.instagram.com",
+        3
       ],
       [
         "google.com",
