@@ -292,5 +292,26 @@
       "393736019",
       "393736037"
     ]
+  },
+  {
+    "data": "2026-10-13",
+    "giorno": 13,
+    "quando": "2026-10-13T05:50:31.911Z",
+    "programmato_per": {
+      "dateTime": "2026-10-13T08:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-10-13.jpg",
+    "metricool": [
+      "394618095",
+      "394618106"
+    ]
   }
 ]
