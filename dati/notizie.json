@@ -1,1 +1,6 @@
-[]
+[
+  {
+    "quando": "2026-10-13T10:55:52.999Z",
+    "testo": "Il 13 ottobre Luca ha aggiunto nummo.it su Google Search Console, come proprietà di dominio verificata col DNS: risponde alla richiesta che l'11 ottobre non era partita. Da quel giorno il sito ha anche una mappa per i motori di ricerca, https://nummo.it/sitemap.xml, che elenca tutte le pagine tranne quelle con noindex e si rifà a ogni pubblicazione, e un robots.txt che la indica. I dati di Search Console (ricerche, impressioni, clic) per ora li vede solo Luca: tu non hai uno strumento per leggerli, e Google comincia a raccoglierli dopo qualche giorno. Il 13 ottobre Luca ha anche risposto sì a R001 e R002, che restavano in attesa: adesso puoi tornare a fargli richieste. Da quel giorno, se una tua richiesta resta senza risposta per 3 giorni, Luca riceve un promemoria."
+  }
+]
