@@ -13,7 +13,7 @@ const CARTELLA_POST = path.resolve(RADICE, process.env.NUMMO_USCITA || 'uscita')
 // Il sito che Nummo si costruisce da solo (di notte, sul Mac): si pubblica così com'è, tranne gli indirizzi
 // dell'esperimento, e ogni sua pagina HTML riceve il piè di pagina obbligatorio.
 const CASA_SITO = path.resolve(RADICE, process.env.NUMMO_CASA || 'casa', 'sito')
-const RISERVATI_SITO = new Set(['diario', 'dati', 'giorni', 'caratteri', 'conti', 'CNAME', '.nojekyll'])
+const RISERVATI_SITO = new Set(['diario', 'dati', 'giorni', 'caratteri', 'conti', 'CNAME', '.nojekyll', 'sitemap.xml', 'robots.txt'])
 let CONTI = '' // dove sta il cruscotto: la home, oppure conti/ se la home l'ha presa Nummo
 
 const dataLunga = (iso) => new Intl.DateTimeFormat('it-IT', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(iso.slice(0, 10)))
@@ -576,7 +576,21 @@ document.documentElement.classList.add('stampa')
     }
     console.log(`Sito di Nummo: ${copiati} file${haHome ? ', compresa la home (il cruscotto è in /conti/)' : ''}`)
   }
+  scriviSitemap()
   console.log(`Sito costruito in ${path.relative(RADICE, USCITA)}/ (giorno ${c.giorno}, taglio ${t.nome}, ${tutte.length} righe)`)
+}
+
+// La mappa del sito per i motori di ricerca: ogni pagina costruita, tranne quelle con «noindex» (per esempio una
+// pagina di consegna) e le cartelle di servizio. robots.txt la indica. Si rifà a ogni costruzione.
+function scriviSitemap() {
+  const indirizzi = tuttiIFile(USCITA)
+    .filter((rel) => rel.endsWith('index.html') && !['dati', 'giorni', 'caratteri'].includes(rel.split(path.sep)[0]))
+    .filter((rel) => !/<meta[^>]+name=["']robots["'][^>]+noindex/i.test(fs.readFileSync(path.join(USCITA, rel), 'utf8')))
+    .map((rel) => `${config.sito}/${path.dirname(rel) === '.' ? '' : `${path.dirname(rel).split(path.sep).join('/')}/`}`)
+    .sort()
+  fs.writeFileSync(path.join(USCITA, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${indirizzi.map((u) => `  <url><loc>${xml(u)}</loc></url>`).join('\n')}\n</urlset>\n`)
+  fs.writeFileSync(path.join(USCITA, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${config.sito}/sitemap.xml\n`)
+  console.log(`Mappa del sito: ${indirizzi.length} pagine`)
 }
 
 costruisci()
