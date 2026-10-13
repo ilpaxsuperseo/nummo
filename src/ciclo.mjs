@@ -279,6 +279,15 @@ async function main() {
     Object.assign(richieste.find((r) => r.id === e.id), { stato: e.esito, risposta: e.risposta, chiusa: adesso().toISOString() })
     aggiungiNotizia(`Luca ha risposto alla richiesta ${e.id}: ${e.esito} — «${e.risposta}»`)
   }
+  // Una richiesta senza risposta ne blocca altre (al massimo due in attesa): dopo 3 giorni si ricorda a Luca,
+  // poi ogni 3 giorni. Dal 6 all'11/10 R001 e R002, già risolte ma mai risposte, hanno fermato quella su Search Console.
+  if (tipoCiclo === 'mattina') {
+    const giorniDa = (iso) => (adesso() - new Date(iso)) / 86400000
+    for (const r of richieste.filter((x) => x.stato === 'in_attesa' && x.issue && giorniDa(x.quando) >= 3 && (!x.ricordata || giorniDa(x.ricordata) >= 3))) {
+      await telegram.scriviALuca(`Promemoria: la richiesta ${r.id} di Nummo aspetta la tua risposta da ${Math.floor(giorniDa(r.quando))} giorni, e finché ce ne sono due in attesa non può chiederti altro.\n\n${r.dettagli}\n\nRispondi a questo messaggio con «sì» o «no». (#${r.issue})`)
+      r.ricordata = adesso().toISOString()
+    }
+  }
   scriviJson('richieste.json', richieste)
   const novita = luca.novita || esiti.length > 0 || incassati > 0
 
