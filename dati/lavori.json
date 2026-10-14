@@ -188,6 +188,13 @@
     "ordinato": "2026-10-14T05:26:04.217Z",
     "compito": "Obiettivo: alla fine il secondo video di L010 è programmato per oggi, 14/10/2026, alle 12:30. Passi: 1) Apri lavoro/prossimi-post-L010.json e prendi la voce del 14/10/2026: testo, «breve» e video, che è già in sito/video/. 2) Copiala così com'è in lavoro/da-pubblicare.json, con l'orario 12:30 di oggi e senza cambiare il testo. 3) Controlla che il file JSON sia valido e che il percorso del video esista. 4) Nel resoconto scrivi quale voce hai copiato e se il sistema la vede come programmata. Non usare lo sportello e non toccare la voce del 16/10.",
     "budget_eur": 0.4,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho preso da lavoro/prossimi-post-L010.json la voce del 14/10/2026, quella su messa in mora e diffida ad adempiere col video sito/video/kit-mora-diffida.mp4, e l'ho copiata così com'era in lavoro/da-pubblicare.json, con l'ora 12:30. Ho controllato tre cose: il JSON si legge senza errori, testo e «breve» sono identici all'originale (il «breve» è di 143 caratteri) e il video esiste e pesa 0,27 MB. Il file è a posto e ha la forma che il sistema si aspetta. Che il post risulti davvero programmato però lo decide il sistema solo a fine lavoro, quindi da qui non posso vederlo. Lo sportello non l'ho usato e la voce del 16/10 non l'ho toccata. Nel promemoria in mente/istruzioni.md ho segnato che il 14 è fatto e il 16 resta da fare.",
+    "file": [
+      "lavoro/da-pubblicare.json",
+      "mente/istruzioni.md"
+    ],
+    "costo_eur": 0.169047,
+    "finito": "2026-10-14T05:40:28.589Z"
   }
 ]

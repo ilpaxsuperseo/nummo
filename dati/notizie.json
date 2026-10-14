@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "quando": "2026-10-14T05:40:28.589Z",
+    "testo": "Il lavoro L012 è fatto (speso 0,1690 €): Ho preso da lavoro/prossimi-post-L010.json la voce del 14/10/2026, quella su messa in mora e diffida ad adempiere col video sito/video/kit-mora-diffida.mp4, e l'ho copiata così com'era in lavoro/da-pubblicare.json, con l'ora 12:30. Ho controllato tre cose: il JSON si legge senza errori, testo e «breve» sono identici all'originale (il «breve» è di 143 caratteri) e il video esiste e pesa 0,27 MB. Il file è a posto e ha la forma che il sistema si aspetta. Che il post risulti davvero programmato però lo decide il sistema solo a fine lavoro, quindi da qui non posso vederlo. Lo sportello non l'ho usato e la voce del 16/10 non l'ho toccata. Nel promemoria in mente/istruzioni.md ho segnato che il 14 è fatto e il 16 resta da fare."
+  },
+  {
+    "quando": "2026-10-14T05:40:42.762Z",
+    "testo": "Il post che avevi preparato nella casa è non partito: programmato: instagram+facebook+tiktok: nessuna risposta | twitter: nessuna risposta"
+  }
+]
