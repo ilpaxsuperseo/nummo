@@ -181,5 +181,13 @@
     ],
     "costo_eur": 0.637379,
     "finito": "2026-10-12T05:44:25.809Z"
+  },
+  {
+    "id": "L012",
+    "giorno": 14,
+    "ordinato": "2026-10-14T05:26:04.217Z",
+    "compito": "Obiettivo: alla fine il secondo video di L010 è programmato per oggi, 14/10/2026, alle 12:30. Passi: 1) Apri lavoro/prossimi-post-L010.json e prendi la voce del 14/10/2026: testo, «breve» e video, che è già in sito/video/. 2) Copiala così com'è in lavoro/da-pubblicare.json, con l'orario 12:30 di oggi e senza cambiare il testo. 3) Controlla che il file JSON sia valido e che il percorso del video esista. 4) Nel resoconto scrivi quale voce hai copiato e se il sistema la vede come programmata. Non usare lo sportello e non toccare la voce del 16/10.",
+    "budget_eur": 0.4,
+    "stato": "in_coda"
   }
 ]
