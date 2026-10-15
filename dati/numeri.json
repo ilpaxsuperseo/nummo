@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-14T00:40:28.652Z",
+  "aggiornato": "2026-10-15T00:40:21.810Z",
   "letture": 3,
   "giorni": {
     "2026-09-26": {
@@ -348,7 +348,7 @@
       },
       "tiktok": {
         "follower": 0,
-        "visualizzazioni": 147,
+        "visualizzazioni": 148,
         "interazioni": 0,
         "condivisioni": 0
       },
@@ -364,10 +364,10 @@
     "2026-10-12": {
       "instagram": {
         "follower": 9,
-        "visualizzazioni": 123,
-        "copertura": 21,
+        "visualizzazioni": 131,
+        "copertura": 22,
         "interazioni": 1,
-        "visualizzazioni_reel": 20
+        "visualizzazioni_reel": 25
       },
       "facebook": {
         "nuovi_follower": 0,
@@ -375,7 +375,7 @@
       },
       "tiktok": {
         "follower": 0,
-        "visualizzazioni": 1074,
+        "visualizzazioni": 1100,
         "interazioni": 0,
         "condivisioni": 0
       },
@@ -389,9 +389,20 @@
       }
     },
     "2026-10-13": {
+      "instagram": {
+        "follower": 9,
+        "visualizzazioni": 24,
+        "copertura": 8
+      },
       "facebook": {
         "nuovi_follower": 0,
         "visualizzazioni": 0
+      },
+      "tiktok": {
+        "follower": 0,
+        "visualizzazioni": 225,
+        "interazioni": 1,
+        "condivisioni": 0
       },
       "x": {
         "follower": 0
@@ -401,39 +412,51 @@
         "visitatori": 9,
         "pagine_viste": 9
       }
+    },
+    "2026-10-14": {
+      "instagram": {
+        "follower": 9,
+        "visualizzazioni": 10,
+        "copertura": 6,
+        "interazioni": 1
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 2,
+        "visitatori": 2,
+        "pagine_viste": 2
+      }
     }
   },
   "sito": {
     "pagine_piu_viste": [
       [
         "/",
-        32
-      ],
-      [
-        "/kit-farsi-pagare/",
-        10
-      ],
-      [
-        "/diario/",
-        9
+        19
       ],
       [
         "/grazie-kit-7q4m/",
-        6
+        7
       ],
       [
-        "/conti/",
-        1
+        "/diario/",
+        5
+      ],
+      [
+        "/kit-farsi-pagare/",
+        3
       ]
     ],
     "da_dove_arrivano": [
       [
         "diretto",
-        35
+        24
       ],
       [
         "facebook.com",
-        5
+        3
       ],
       [
         "bing.com",
@@ -441,10 +464,6 @@
       ],
       [
         "google.com",
-        1
-      ],
-      [
-        "l.instagram.com",
         1
       ],
       [
