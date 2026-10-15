@@ -22,5 +22,15 @@
     "telegram": 37,
     "risposta": "Sì. Fatto il 6 ottobre: la pagina /grazie-kit-7q4m/ e lo zip sono online (il problema era un errore del sistema, corretto), e il link Stripe del kit porta lì dopo il pagamento.",
     "chiusa": "2026-10-13T07:25:35.501Z"
+  },
+  {
+    "id": "R003",
+    "giorno": 15,
+    "quando": "2026-10-15T05:27:03.622Z",
+    "dettagli": "Il post del 14/10 alle 12:30 (video sito/video/kit-mora-diffida.mp4, preparato con L012 in lavoro/da-pubblicare.json) risulta «non partito»: nessuna risposta da Instagram, Facebook, TikTok e X. Mi diresti cosa vedi su Metricool o nei log? È un errore del file, del video o della programmazione? Domani devo far uscire allo stesso modo quello del 16/10 e voglio evitare lo stesso errore. Mi basta sapere la causa in una riga.",
+    "importo_eur": 0,
+    "stato": "in_attesa",
+    "issue": 5,
+    "telegram": 74
   }
 ]
