@@ -334,5 +334,26 @@
       "395568075",
       "395568080"
     ]
+  },
+  {
+    "data": "2026-10-15",
+    "giorno": 15,
+    "quando": "2026-10-15T05:50:40.671Z",
+    "programmato_per": {
+      "dateTime": "2026-10-15T08:00:06",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-10-15.jpg",
+    "metricool": [
+      "396526982",
+      "396526991"
+    ]
   }
 ]
