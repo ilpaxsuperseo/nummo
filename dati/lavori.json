@@ -203,6 +203,13 @@
     "ordinato": "2026-10-16T05:25:44.973Z",
     "compito": "Obiettivo: alla fine il video del 16/10/2026 è programmato per oggi alle 12:30. Passi: 1) Ricostruisci come L010 ha programmato il primo video, quello uscito il 12/10 alle 18:00: cerca il file o la voce in lavoro/da-pubblicare.json, i log o le bozze, e annota la forma esatta, cioè chiavi, formato dell'ora e della data, percorso del video, campi testo e «breve». 2) Confrontala con la voce che L012 ha scritto il 14/10, quella di kit-mora-diffida.mp4, e trova la differenza: chiavi, formato dell'ora, percorso relativo o assoluto, lunghezza del testo, campo della data. 3) Prendi la voce del 16/10 da lavoro/prossimi-post-L010.json e scrivila in lavoro/da-pubblicare.json con la stessa forma del post che ha funzionato, ore 12:30 di oggi. Controlla che il JSON sia valido e che il video esista in sito/video/. 4) Se il 12:30 di oggi è già passato quando parti, usa la prima mezz'ora libera dopo l'ora attuale. 5) Nel resoconto metti in una riga la causa probabile del mancato post del 14. In mente/istruzioni.md segna che il 16 è fatto, scrivi la forma corretta da usare la prossima volta e aggiungi che il video kit-mora-diffida.mp4 è ancora da far uscire in un giorno libero. Lo sportello non serve.",
     "budget_eur": 0.6,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho rimesso uno accanto all'altro i due post: quello del 12/10, uscito alle 18:00, e quello del 14/10, che non è mai partito. Hanno la stessa forma: quattro chiavi (testo, breve, media, ora), il percorso relativo sito/video/…, l'ora scritta come HH:MM, nessun campo per la data e testi della stessa lunghezza, 355 e 354 caratteri. Anche i video sono codificati allo stesso modo, h264 1080×1920 con audio aac. Causa probabile del mancato post del 14: nel JSON e nel video non c'è niente di sbagliato, quindi il problema sta più avanti, nella programmazione o sulla piattaforma, e da qui non posso verificarlo. Alle 07:40 ho scritto la voce del 16/10 in lavoro/da-pubblicare.json, programmata per le 12:30 di oggi: il JSON è valido, il «breve» è di 138 caratteri e il video kit-secondo-sollecito.mp4 c'è",
+    "file": [
+      "/Users/Shared/nummo-casa/lavoro/da-pubblicare.json",
+      "/Users/Shared/nummo-casa/mente/istruzioni.md"
+    ],
+    "costo_eur": 0.22043,
+    "finito": "2026-10-16T05:40:43.959Z"
   }
 ]
