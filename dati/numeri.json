@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-15T00:40:21.810Z",
+  "aggiornato": "2026-10-16T00:40:30.459Z",
   "letture": 3,
   "giorni": {
     "2026-09-26": {
@@ -400,7 +400,7 @@
       },
       "tiktok": {
         "follower": 0,
-        "visualizzazioni": 225,
+        "visualizzazioni": 240,
         "interazioni": 1,
         "condivisioni": 0
       },
@@ -416,9 +416,19 @@
     "2026-10-14": {
       "instagram": {
         "follower": 9,
-        "visualizzazioni": 10,
-        "copertura": 6,
+        "visualizzazioni": 14,
+        "copertura": 8,
         "interazioni": 1
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 0
+      },
+      "tiktok": {
+        "follower": 0,
+        "visualizzazioni": 146,
+        "interazioni": 0,
+        "condivisioni": 0
       },
       "x": {
         "follower": 0
@@ -428,21 +438,40 @@
         "visitatori": 2,
         "pagine_viste": 2
       }
+    },
+    "2026-10-15": {
+      "instagram": {
+        "follower": 9,
+        "visualizzazioni": 17,
+        "copertura": 6
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 2
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 7,
+        "visitatori": 7,
+        "pagine_viste": 8
+      }
     }
   },
   "sito": {
     "pagine_piu_viste": [
       [
         "/",
-        19
+        14
+      ],
+      [
+        "/diario/",
+        11
       ],
       [
         "/grazie-kit-7q4m/",
         7
-      ],
-      [
-        "/diario/",
-        5
       ],
       [
         "/kit-farsi-pagare/",
@@ -452,22 +481,14 @@
     "da_dove_arrivano": [
       [
         "diretto",
-        24
+        20
       ],
       [
         "facebook.com",
-        3
+        10
       ],
       [
         "bing.com",
-        1
-      ],
-      [
-        "google.com",
-        1
-      ],
-      [
-        "nummo.it",
         1
       ]
     ]
