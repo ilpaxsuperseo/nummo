@@ -376,5 +376,26 @@
       "397435081",
       "397435088"
     ]
+  },
+  {
+    "data": "2026-10-16",
+    "giorno": 16,
+    "quando": "2026-10-16T05:50:30.342Z",
+    "programmato_per": {
+      "dateTime": "2026-10-16T08:00:04",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-10-16.jpg",
+    "metricool": [
+      "397438491",
+      "397438498"
+    ]
   }
 ]
