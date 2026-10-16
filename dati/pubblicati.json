@@ -355,5 +355,26 @@
       "396526982",
       "396526991"
     ]
+  },
+  {
+    "data": "2026-10-16 notte",
+    "giorno": 16,
+    "quando": "2026-10-16T05:41:12.851Z",
+    "programmato_per": {
+      "dateTime": "2026-10-16T12:30:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/kit-secondo-sollecito.mp4",
+    "metricool": [
+      "397435081",
+      "397435088"
+    ]
   }
 ]
