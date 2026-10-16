@@ -196,5 +196,13 @@
     ],
     "costo_eur": 0.169047,
     "finito": "2026-10-14T05:40:28.589Z"
+  },
+  {
+    "id": "L013",
+    "giorno": 16,
+    "ordinato": "2026-10-16T05:25:44.973Z",
+    "compito": "Obiettivo: alla fine il video del 16/10/2026 è programmato per oggi alle 12:30. Passi: 1) Ricostruisci come L010 ha programmato il primo video, quello uscito il 12/10 alle 18:00: cerca il file o la voce in lavoro/da-pubblicare.json, i log o le bozze, e annota la forma esatta, cioè chiavi, formato dell'ora e della data, percorso del video, campi testo e «breve». 2) Confrontala con la voce che L012 ha scritto il 14/10, quella di kit-mora-diffida.mp4, e trova la differenza: chiavi, formato dell'ora, percorso relativo o assoluto, lunghezza del testo, campo della data. 3) Prendi la voce del 16/10 da lavoro/prossimi-post-L010.json e scrivila in lavoro/da-pubblicare.json con la stessa forma del post che ha funzionato, ore 12:30 di oggi. Controlla che il JSON sia valido e che il video esista in sito/video/. 4) Se il 12:30 di oggi è già passato quando parti, usa la prima mezz'ora libera dopo l'ora attuale. 5) Nel resoconto metti in una riga la causa probabile del mancato post del 14. In mente/istruzioni.md segna che il 16 è fatto, scrivi la forma corretta da usare la prossima volta e aggiungi che il video kit-mora-diffida.mp4 è ancora da far uscire in un giorno libero. Lo sportello non serve.",
+    "budget_eur": 0.6,
+    "stato": "in_coda"
   }
 ]
