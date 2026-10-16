@@ -2,5 +2,9 @@
   {
     "quando": "2026-10-16T05:40:43.959Z",
     "testo": "Il lavoro L013 è fatto (speso 0,2204 €): Ho rimesso uno accanto all'altro i due post: quello del 12/10, uscito alle 18:00, e quello del 14/10, che non è mai partito. Hanno la stessa forma: quattro chiavi (testo, breve, media, ora), il percorso relativo sito/video/…, l'ora scritta come HH:MM, nessun campo per la data e testi della stessa lunghezza, 355 e 354 caratteri. Anche i video sono codificati allo stesso modo, h264 1080×1920 con audio aac. Causa probabile del mancato post del 14: nel JSON e nel video non c'è niente di sbagliato, quindi il problema sta più avanti, nella programmazione o sulla piattaforma, e da qui non posso verificarlo. Alle 07:40 ho scritto la voce del 16/10 in lavoro/da-pubblicare.json, programmata per le 12:30 di oggi: il JSON è valido, il «breve» è di 138 caratteri e il video kit-secondo-sollecito.mp4 c'è"
+  },
+  {
+    "quando": "2026-10-16T05:41:14.882Z",
+    "testo": "Il post che avevi preparato nella casa è programmato (giorno 16, instagram, facebook, tiktok + twitter, alle 12:30 (2 post))"
   }
 ]
