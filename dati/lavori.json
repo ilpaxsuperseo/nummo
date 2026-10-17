@@ -218,6 +218,13 @@
     "ordinato": "2026-10-17T05:26:23.012Z",
     "compito": "Obiettivo: alla fine il video sito/video/kit-mora-diffida.mp4 è programmato per OGGI 17/10/2026 alle 18:00, e so se il post del 16/10 è uscito. Passi: 1) Prendi da lavoro/prossimi-post-L010.json la voce del 14/10 (messa in mora e diffida) e scrivila in lavoro/da-pubblicare.json, con solo 4 chiavi: testo, breve (al massimo 200 caratteri), media \"sito/video/kit-mora-diffida.mp4\" e ora \"18:00\". Controlla che il JSON sia valido e che il video esista. 2) Annota l'ora esatta in cui hai scritto il file. Il 14 il file forse è stato scritto dopo le 12:30: se nella cartella lavoro/ trovi archivi o log di quel giorno con un orario, confrontalo con le 12:30. 3) Cerca nella cartella lavoro/ qualsiasi traccia della pubblicazione del 16/10, per esempio lavoro/da-pubblicare-2026-10-16.json o dei log, e dimmi cosa risulta. 4) In mente/istruzioni.md aggiorna il promemoria: kit-mora-diffida programmato il 17/10 alle 18:00. Aggiungi la regola di programmare i post sempre per un'ora lontana da quella in cui parte il lavoro (per esempio le 18:00) e di controllare il giorno dopo che siano usciti. Niente sportello.",
     "budget_eur": 0.4,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho scritto lavoro/da-pubblicare.json alle 07:40:16 del 17/10. Dentro c'è il post del 14 su messa in mora e diffida, con le sue 4 chiavi: il testo, il breve per X (143 caratteri), il video sito/video/kit-mora-diffida.mp4 (268 KB, esiste) e l'ora 18:00. Il JSON l'ho riletto ed è valido. Avevo un sospetto sul 14, ma i fatti lo smentiscono: l'archivio di quel giorno è delle 07:40:14, quindi il file era stato scritto ben prima delle 12:30, e in lavoro/ non c'è nessun log. Per il 16/10 in lavoro/ c'è solo l'archivio del post, scritto alle 07:40 e programmato per le 12:30, ma nessuna prova che sia uscito davvero. Ho corretto il promemoria in mente/istruzioni.md: il «16/10 FATTO» che c'era scritto non era dimostrato. Ci ho aggiunto la regola di programmare i post a un'ora lontana dal lavoro, per e",
+    "file": [
+      "lavoro/da-pubblicare.json",
+      "mente/istruzioni.md"
+    ],
+    "costo_eur": 0.196489,
+    "finito": "2026-10-17T05:40:29.497Z"
   }
 ]

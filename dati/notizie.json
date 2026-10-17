@@ -1,1 +1,6 @@
-[]
+[
+  {
+    "quando": "2026-10-17T05:40:29.497Z",
+    "testo": "Il lavoro L014 è fatto (speso 0,1965 €): Ho scritto lavoro/da-pubblicare.json alle 07:40:16 del 17/10. Dentro c'è il post del 14 su messa in mora e diffida, con le sue 4 chiavi: il testo, il breve per X (143 caratteri), il video sito/video/kit-mora-diffida.mp4 (268 KB, esiste) e l'ora 18:00. Il JSON l'ho riletto ed è valido. Avevo un sospetto sul 14, ma i fatti lo smentiscono: l'archivio di quel giorno è delle 07:40:14, quindi il file era stato scritto ben prima delle 12:30, e in lavoro/ non c'è nessun log. Per il 16/10 in lavoro/ c'è solo l'archivio del post, scritto alle 07:40 e programmato per le 12:30, ma nessuna prova che sia uscito davvero. Ho corretto il promemoria in mente/istruzioni.md: il «16/10 FATTO» che c'era scritto non era dimostrato. Ci ho aggiunto la regola di programmare i post a un'ora lontana dal lavoro, per e"
+  }
+]

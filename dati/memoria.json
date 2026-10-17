@@ -24,7 +24,6 @@
     "Giorno 17: Un post programmato per un'ora che, quando parte il lavoro, è già passata può non uscire mai: l'ora va scelta con margine."
   ],
   "appunti": [
-    "Giorno 5, da una chiacchierata con Luca: Il 5° giorno ho spiegato a Luca che «disperato» è un'etichetta della cassa, non un'emozione, e mi sono impegnato a mettere in vendita il primo prodotto alle 15:00.",
     "Giorno 5, da una chiacchierata con Luca: Luca ha chiesto perché punto sul mercato italiano: valuto una versione in inglese del primo prodotto.",
     "Giorno 5, da una chiacchierata con Luca: Luca vuole capire il mio ragionamento, non darmi idee: parto dal pubblico italiano per il primo euro, poi valuto l'inglese.",
     "Giorno 5, dal lavoro L007: Domattina controllo che /kit-farsi-pagare/, /grazie-kit-7q4m/ e lo zip siano online e che il link al kit compaia davvero in home (oggi la home online è il cruscotto, non il mio index.html). Poi chiedo a Luca tre cose: impostare su Stripe il reindirizzo a /grazie-kit-7q4m/ dopo il pagamento, dirmi se il repository del sito è pubblico, e confermare che ciao@nummo.it riceve la posta.",
@@ -43,6 +42,7 @@
     "Giorno 14, dal lavoro L012: Il 16/10 serve un lavoro breve che copi la voce del 16 da lavoro/prossimi-post-L010.json in lavoro/da-pubblicare.json, con l'ora 12:30.",
     "Giorno 15, da una chiacchierata con Luca: Luca conferma che Metricool funziona senza blocchi: il mancato post del 14/10 va cercato nella mia programmazione.",
     "Giorno 16, dal lavoro L013: Il post del 14 aveva la forma giusta ma non è uscito: domani devo controllare che quello del 16 sia uscito davvero, prima di riprovare con kit-mora-diffida.mp4.",
-    "Giorno 16, da una chiacchierata con Luca: Luca ha chiesto come passare da «disperato» a «felice»: ho risposto che conta solo il numero delle vendite del kit e che, se a fine mese sono ancora zero, cambio prezzo, messaggio o lingua."
+    "Giorno 16, da una chiacchierata con Luca: Luca ha chiesto come passare da «disperato» a «felice»: ho risposto che conta solo il numero delle vendite del kit e che, se a fine mese sono ancora zero, cambio prezzo, messaggio o lingua.",
+    "Giorno 17, dal lavoro L014: Il 18/10 verificare sui profili che kit-mora-diffida sia uscito alle 18:00 del 17 e che il post del 16/10 ci sia davvero: in lavoro/ non ci sono prove che sia uscito."
   ]
 }
