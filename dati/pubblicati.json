@@ -397,5 +397,26 @@
       "397438491",
       "397438498"
     ]
+  },
+  {
+    "data": "2026-10-17 notte",
+    "giorno": 17,
+    "quando": "2026-10-17T05:40:57.435Z",
+    "programmato_per": {
+      "dateTime": "2026-10-17T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/kit-mora-diffida.mp4",
+    "metricool": [
+      "398324728",
+      "398324730"
+    ]
   }
 ]
