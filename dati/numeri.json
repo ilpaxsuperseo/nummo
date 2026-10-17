@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-16T00:40:30.459Z",
+  "aggiornato": "2026-10-17T00:40:33.919Z",
   "letture": 3,
   "giorni": {
     "2026-09-26": {
@@ -367,7 +367,7 @@
         "visualizzazioni": 131,
         "copertura": 22,
         "interazioni": 1,
-        "visualizzazioni_reel": 25
+        "visualizzazioni_reel": 28
       },
       "facebook": {
         "nuovi_follower": 0,
@@ -426,7 +426,7 @@
       },
       "tiktok": {
         "follower": 0,
-        "visualizzazioni": 146,
+        "visualizzazioni": 156,
         "interazioni": 0,
         "condivisioni": 0
       },
@@ -442,12 +442,19 @@
     "2026-10-15": {
       "instagram": {
         "follower": 9,
-        "visualizzazioni": 17,
-        "copertura": 6
+        "visualizzazioni": 21,
+        "copertura": 7,
+        "interazioni": 1
       },
       "facebook": {
         "nuovi_follower": 0,
         "visualizzazioni": 2
+      },
+      "tiktok": {
+        "follower": 0,
+        "visualizzazioni": 97,
+        "interazioni": 1,
+        "condivisioni": 0
       },
       "x": {
         "follower": 0
@@ -457,25 +464,41 @@
         "visitatori": 7,
         "pagine_viste": 8
       }
+    },
+    "2026-10-16": {
+      "instagram": {
+        "follower": 10,
+        "visualizzazioni": 45,
+        "copertura": 11,
+        "visualizzazioni_reel": 13
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 7,
+        "visitatori": 7,
+        "pagine_viste": 7
+      }
     }
   },
   "sito": {
     "pagine_piu_viste": [
       [
         "/",
-        14
+        13
       ],
       [
         "/diario/",
-        11
+        13
       ],
       [
         "/grazie-kit-7q4m/",
-        7
+        8
       ],
       [
         "/kit-farsi-pagare/",
-        3
+        6
       ]
     ],
     "da_dove_arrivano": [
@@ -485,10 +508,18 @@
       ],
       [
         "facebook.com",
-        10
+        13
       ],
       [
         "bing.com",
+        1
+      ],
+      [
+        "l.instagram.com",
+        1
+      ],
+      [
+        "nummo.it",
         1
       ]
     ]
