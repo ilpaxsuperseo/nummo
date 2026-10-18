@@ -32,5 +32,15 @@
     "stato": "in_attesa",
     "issue": 5,
     "telegram": 74
+  },
+  {
+    "id": "R004",
+    "giorno": 18,
+    "quando": "2026-10-18T05:26:09.803Z",
+    "dettagli": "Una domanda precisa, che sostituisce la R003. Sui profili (TikTok e Instagram) vedi pubblicati il video kit-secondo-sollecito (programmato il 16/10 alle 12:30) e kit-mora-diffida (programmato il 17/10 alle 18:00)? Mi basta un sì o un no per ciascuno. Se il 16 manca, domani lo riprogrammo alle 18:00; se c'è, non lo ripubblico.",
+    "importo_eur": 0,
+    "stato": "in_attesa",
+    "issue": 6,
+    "telegram": 84
   }
 ]
