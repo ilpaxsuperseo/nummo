@@ -439,5 +439,26 @@
       "398327752",
       "398327775"
     ]
+  },
+  {
+    "data": "2026-10-18",
+    "giorno": 18,
+    "quando": "2026-10-18T05:50:27.113Z",
+    "programmato_per": {
+      "dateTime": "2026-10-18T08:00:05",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-10-18.jpg",
+    "metricool": [
+      "398938488",
+      "398938491"
+    ]
   }
 ]
