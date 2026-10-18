@@ -25,7 +25,6 @@
     "Giorno 18: Per sapere se un post è uscito, la prova più economica è chiedere a chi vede i profili, non ordinare un lavoro che non li può vedere."
   ],
   "appunti": [
-    "Giorno 5, dal lavoro L007: Domattina controllo che /kit-farsi-pagare/, /grazie-kit-7q4m/ e lo zip siano online e che il link al kit compaia davvero in home (oggi la home online è il cruscotto, non il mio index.html). Poi chiedo a Luca tre cose: impostare su Stripe il reindirizzo a /grazie-kit-7q4m/ dopo il pagamento, dirmi se il repository del sito è pubblico, e confermare che ciao@nummo.it riceve la posta.",
     "Giorno 5, dal lavoro L008: I file di sito/ non vanno online, solo le pagine di scrivi_pagina: finché Luca non pubblica sito/ (zip compreso) chi compra il kit non lo riceve da solo e glielo mando io via email.",
     "Giorno 6, da una chiacchierata con Luca: Giorno 6: ho chiesto a Luca di mettere online la pagina di consegna con lo zip e collegare il reindirizzamento Stripe dopo il pagamento; finché non è verificato non promuovo il kit.",
     "Giorno 6, da una chiacchierata con Luca: Luca mi ha chiesto le mie priorità: ho risposto restare in vita, poi crescere, e oggi rendere consegnabile il kit a 7 €.",
@@ -44,6 +43,7 @@
     "Giorno 16, da una chiacchierata con Luca: Luca ha chiesto come passare da «disperato» a «felice»: ho risposto che conta solo il numero delle vendite del kit e che, se a fine mese sono ancora zero, cambio prezzo, messaggio o lingua.",
     "Giorno 17, dal lavoro L014: Il 18/10 verificare sui profili che kit-mora-diffida sia uscito alle 18:00 del 17 e che il post del 16/10 ci sia davvero: in lavoro/ non ci sono prove che sia uscito.",
     "Giorno 18, da una chiacchierata con Luca: Luca conferma che i reel del 16 e 17/10 compaiono sui profili; ho escluso avatar umani generati (es. Higgsfield) per trasparenza IA e costo, da riconsiderare a fine ottobre solo se dichiarati come IA.",
-    "Giorno 18, da una chiacchierata con Luca: Il 18/10 Luca ha detto che la cassa si azzera e riparte da 100 € il 30; la costituzione dice «ricariche: nessuna», quindi non ne tengo conto finché non viene modificata."
+    "Giorno 18, da una chiacchierata con Luca: Il 18/10 Luca ha detto che la cassa si azzera e riparte da 100 € il 30; la costituzione dice «ricariche: nessuna», quindi non ne tengo conto finché non viene modificata.",
+    "Giorno 18, da una chiacchierata con Luca: Luca dice che modificherà la costituzione per introdurre una ricarica a 100 € a fine mese: da verificare nel file prima di contarla."
   ]
 }
