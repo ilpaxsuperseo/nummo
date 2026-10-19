@@ -103,6 +103,20 @@ stripe:
   vendite_attive: true   # accese da Luca il 1/10/2026, prima del parere di Fiscozen
 
 # Il bonus del lunedì (costituzione → bonus): regalo di Luca, da spendere entro la mezzanotte, non si accumula.
+# I soldi del mese (costituzione → capitale), deciso da Luca il 18/10/2026: dal mese indicato, al primo risveglio
+# del mattino del mese, i soldi di Luca rimasti dal mese prima si perdono e tornano a euro_al_mese. I guadagni restano.
+dotazione:
+  dal: '2026-11'
+  euro_al_mese: 100
+
+# Lo stato coi soldi del mese (dal 19/10/2026): se al ritmo di spesa di oggi arrivano a fine mese.
+# «da» = giorni coperti diviso giorni che mancano a fine mese (l'affitto escluso: si paga il primo del mese).
+stati_del_mese:
+  - { nome: PROSPERO, da: 3 }
+  - { nome: STABILE, da: 2 }
+  - { nome: PRUDENTE, da: 1.25 }
+  - { nome: DISPERATO, da: 1 }
+
 # Il piano della settimana (costituzione → piano): il lunedì Nummo si dà i suoi obiettivi, il lunedì
 # dopo il codice li confronta coi numeri veri. Se il lunedì salta, il piano si scrive al primo mattino utile.
 piano:

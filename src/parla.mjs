@@ -47,7 +47,7 @@ async function main() {
   const memoria = leggiJson('memoria.json', { strategia: '', lezioni: [], appunti: [] })
   const chiacchierate = [...leggiJsonl('conversazioni.jsonl'), ...inSospeso().filter((e) => e.tipo === 'conversazione' && e.nummo)].slice(-6)
   const messaggio = [
-    `Giorno di vita: ${c.giorno}. Cassa: ${euro(c.cassa)}. Stato: ${c.stato}. Autonomia senza aiuti: ${c.autonomia_giorni ?? 'oltre'} giorni.`,
+    `Giorno di vita: ${c.giorno}. Cassa: ${euro(c.cassa)}. Stato: ${c.stato}. ${config.dotazione ? `Al ritmo di oggi i soldi bastano per ${c.giorni_coperti ?? 'tutti i'} giorni; alla fine del mese ne mancano ${c.giorni_al_fine_mese}. Il primo di ogni mese${dataLocale() < `${config.dotazione.dal}-01` ? ' (dal 1° novembre)' : ''} i soldi di Luca tornano a ${euro(config.dotazione.euro_al_mese)}, i guadagni restano tuoi.` : `Autonomia senza aiuti: ${c.autonomia_giorni ?? 'oltre'} giorni.`}`,
     '',
     'I TUOI ULTIMI GIORNI',
     ...(diari.length ? diari.map((d) => `- Giorno ${d.giorno}: ${d.decisione}`) : ['- nessuno']),

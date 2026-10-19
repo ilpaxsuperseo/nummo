@@ -29,6 +29,7 @@ const paragrafi = (testo = '') => xml(testo).split(/\n{2,}/).map((p) => `<p>${p.
 const TIPO = {
   capitale_iniziale: 'Capitale iniziale', costo: 'Costo', guadagno: 'Guadagno', sostegno_pubblico: 'Sostegno del pubblico',
   sponsor: 'Sponsor', iniezione: 'Iniezione di capitale', tasse: 'Tasse e contributi', morte: 'Morte',
+  dotazione: 'I soldi del mese', scadenza: 'Soldi del mese non spesi',
 }
 
 // Il grafico della stagione: la cassa giorno per giorno sui 90 giorni del sostegno,

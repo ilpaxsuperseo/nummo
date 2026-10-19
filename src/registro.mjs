@@ -14,6 +14,8 @@ export const TIPI = {
   sostegno_pubblico: +1,  // chi sostiene l'esperimento
   sponsor: +1,
   iniezione: +1,          // soldi senza un'attività dietro
+  dotazione: +1,          // i soldi del mese di Luca (dal 1/11/2026): ogni mese tornano a config.dotazione.euro_al_mese
+  scadenza: -1,           // i soldi del mese prima non spesi: si perdono quando arriva la dotazione nuova
   tasse: -1,
   morte: 0,               // riga senza soldi: da qui in poi Nummo è spento, per sempre
 }
@@ -151,6 +153,13 @@ export function conti(tutte = voci()) {
   const costoRespiro = mediaGiornaliera(tutte, (v) => v.categoria === 'respiro', oggi) ?? config.respiro_stimato_eur_giorno
   const autonomiaGiorni = costoGiorno > 0 ? cassa / costoGiorno : Infinity
   const morto = tutte.some((v) => v.tipo === 'morte')
+  // I soldi del mese: al ritmo di oggi, per quanti giorni bastano, e se arrivano a fine mese. L'affitto non conta
+  // nel ritmo: si paga il primo del mese, insieme all'arrivo dei soldi nuovi.
+  const [anno, mese, giornoDelMese] = dataLocale().split('-').map(Number)
+  const giorniAlFineMese = new Date(Date.UTC(anno, mese, 0)).getUTCDate() - giornoDelMese + 1
+  const spesaGiorno = Math.max(0, costoGiorno - affittoGiorno)
+  const giorniCoperti = spesaGiorno > 0 ? cassa / spesaGiorno : Infinity
+  const copertura = config.dotazione ? giorniCoperti / giorniAlFineMese : null
 
   return {
     giorno: oggi,
@@ -160,6 +169,8 @@ export function conti(tutte = voci()) {
     sostegno_pubblico: somma((v) => v.tipo === 'sostegno_pubblico'),
     sponsor: somma((v) => v.tipo === 'sponsor'),
     iniezioni: somma((v) => v.tipo === 'iniezione'),
+    dotazioni: somma((v) => v.tipo === 'dotazione'),
+    scaduti: somma((v) => v.tipo === 'scadenza'),
     tasse: somma((v) => v.tipo === 'tasse'),
     costi_pagati_da_nummo: somma((v) => v.tipo === 'costo' && v.pagato_da === 'nummo'),
     costi_pagati_dal_sostegno: somma((v) => v.tipo === 'costo' && v.pagato_da === 'sostegno_vitale'),
@@ -169,17 +180,22 @@ export function conti(tutte = voci()) {
     costo_giorno_medio: arrotonda(costoGiorno),
     costo_respiro_medio: arrotonda(costoRespiro, 6),
     autonomia_giorni: Number.isFinite(autonomiaGiorni) ? Math.max(0, Math.floor(autonomiaGiorni)) : null,
+    spesa_giorno_medio: arrotonda(spesaGiorno),
+    giorni_coperti: Number.isFinite(giorniCoperti) ? Math.max(0, Math.floor(giorniCoperti)) : null,
+    giorni_al_fine_mese: giorniAlFineMese,
     in_sostegno: inSostegno(),
     bonus_residuo: arrotonda(bonusResiduo('lavoro', tutte)),
-    stato: stato({ cassa, autonomiaGiorni, costoRespiro, morto }),
+    stato: stato({ cassa, autonomiaGiorni, costoRespiro, morto, copertura }),
   }
 }
 
 // MORTO è definitivo (c'è la riga «morte»). Durante il sostegno il respiro è pagato: al massimo CRITICO.
-// Dopo il sostegno si muore quando la cassa non basta più a pagare il prossimo respiro.
-export function stato({ cassa, autonomiaGiorni, costoRespiro, morto = false }) {
+// Coi soldi del mese (config.dotazione, dal 19/10/2026) non si muore: lo stato dice se, al ritmo di oggi, i soldi
+// arrivano a fine mese («copertura»: giorni coperti diviso giorni che mancano). Senza dotazione, i mesi di autonomia.
+export function stato({ cassa, autonomiaGiorni, costoRespiro, morto = false, copertura = null }) {
   if (morto) return 'MORTO'
-  if (cassa < costoRespiro) return inSostegno() ? 'CRITICO' : 'MORTO'
+  if (cassa < costoRespiro) return inSostegno() || config.dotazione ? 'CRITICO' : 'MORTO'
+  if (config.dotazione && copertura != null) return config.stati_del_mese.find((s) => copertura >= s.da)?.nome ?? 'CRITICO'
   const mesi = autonomiaGiorni / 30
   return config.stati.find((s) => mesi > s.sopra_mesi)?.nome ?? 'CRITICO'
 }
@@ -234,3 +250,24 @@ export function serieCassa(tutte = voci()) {
   }
   return serie
 }
+
+// I soldi del mese (costituzione → capitale): dal mese in config.dotazione, al primo risveglio del mattino del mese
+// i soldi di Luca del mese prima che Nummo non ha speso si perdono, e arrivano quelli nuovi. I guadagni restano:
+// Nummo spende prima i soldi di Luca (capitale o dotazione del mese, e le iniezioni), poi i suoi.
+const meseDi = (v) => dataLocale(new Date(v.quando)).slice(0, 7)
+const mesePrima = (mese) => { const [a, m] = mese.split('-').map(Number); return m === 1 ? `${a - 1}-12` : `${a}-${String(m - 1).padStart(2, '0')}` }
+const nomeMese = (mese) => new Intl.DateTimeFormat('it-IT', { month: 'long', timeZone: 'UTC' }).format(new Date(`${mese}-15T12:00:00Z`))
+export function rinnovaDotazione() {
+  const d = config.dotazione
+  const mese = dataLocale().slice(0, 7)
+  if (!d || mese < d.dal || giaRegistrato(`dotazione ${mese}`)) return null
+  const tutte = voci()
+  const prima = mesePrima(mese)
+  const diLuca = tutte.filter((v) => ['capitale_iniziale', 'dotazione', 'iniezione'].includes(v.tipo) && meseDi(v) === prima).reduce((t, v) => t + micro(v.importo_eur), 0)
+  const spesi = -tutte.filter((v) => v.tipo === 'costo' && v.pagato_da === 'nummo' && meseDi(v) === prima).reduce((t, v) => t + micro(v.importo_eur), 0)
+  const scade = Math.max(0, Math.min(diLuca - spesi, cassaMicro(tutte))) / 1e6
+  if (scade > 0) registra({ tipo: 'scadenza', importo_eur: -scade, descrizione: `I soldi di ${nomeMese(prima)} che non ho speso: si perdono`, rif: `scadenza ${prima}` })
+  registra({ tipo: 'dotazione', importo_eur: d.euro_al_mese, descrizione: `I ${d.euro_al_mese} euro di ${nomeMese(mese)} da Luca`, rif: `dotazione ${mese}` })
+  return { mese, scaduti: arrotonda(scade), nuovi: d.euro_al_mese }
+}
+

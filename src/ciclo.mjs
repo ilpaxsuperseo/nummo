@@ -4,7 +4,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { RADICE, config, costituzioneTesto, leggiJsonl, aggiungiJsonl, leggiJson, scriviJson, adesso, dataLocale, giornoDiVita, inSostegno, euro, arrotonda } from './base.mjs'
-import { voci, registra, registraCosto, conti, giaRegistrato, puoPagare, traguardo } from './registro.mjs'
+import { voci, registra, registraCosto, conti, giaRegistrato, puoPagare, traguardo, rinnovaDotazione } from './registro.mjs'
 import { scriviPagina, elencoPagine } from './pagine.mjs'
 import { pensa, costoMassimo, ricerca, STRUMENTI, Racconto, Decisione, DecisioneConPiano } from './cervello.mjs'
 import * as github from './github.mjs'
@@ -161,7 +161,10 @@ function osservazione({ c, richieste, memoria, conPiano }) {
     `Entrate finora: guadagni ${euro(c.guadagni)}, sostegno del pubblico ${euro(c.sostegno_pubblico)}, sponsor ${euro(c.sponsor)}, iniezioni ${euro(c.iniezioni)}, tasse ${euro(c.tasse)}`,
     `Costi pagati da te: ${euro(-c.costi_pagati_da_nummo, 4)}. Pagati dal sostegno vitale: ${euro(-c.costi_pagati_dal_sostegno, 4)}`,
     `Costo medio di un giorno, tutto compreso: ${euro(c.costo_giorno_medio, 4)}`,
-    `Autonomia se il sostegno finisse oggi: ${c.autonomia_giorni ?? 'oltre'} giorni`,
+    ...(config.dotazione ? [
+      `I soldi del mese: al ritmo di oggi (${euro(c.spesa_giorno_medio, 4)} al giorno, affitto escluso) bastano per ${c.giorni_coperti ?? 'tutti i'} giorni; alla fine del mese ne mancano ${c.giorni_al_fine_mese}. Il tuo stato dice proprio questo: se arrivano a fine mese.`,
+      `${dataLocale() < `${config.dotazione.dal}-01` ? `Dal 1° novembre, il primo` : 'Il primo'} di ogni mese i soldi di Luca tornano a ${euro(config.dotazione.euro_al_mese)}: quelli che non spendi entro la fine del mese si perdono. I soldi che guadagni restano tuoi e si sommano; spendi prima quelli di Luca.`,
+    ] : [`Autonomia se il sostegno finisse oggi: ${c.autonomia_giorni ?? 'oltre'} giorni`]),
     '',
     'IL TUO TRAGUARDO',
     ...(() => {
@@ -270,7 +273,12 @@ async function main() {
   const luca = await leggiLuca()
   if (luca.fermo) return fine('Luca ha chiesto lo stop.')
   const { nuovi: incassati, letti: incassiLetti } = await registraIncassi()
-  if (tipoCiclo === 'mattina') pagaAffitto()
+  if (tipoCiclo === 'mattina') {
+    // I soldi del mese prima dell'affitto: l'affitto si paga coi soldi nuovi.
+    const nuovi = rinnovaDotazione()
+    if (nuovi) aggiungiNotizia(`Sono arrivati i ${euro(nuovi.nuovi)} di questo mese da Luca${nuovi.scaduti > 0 ? `; ${euro(nuovi.scaduti)} del mese prima, che non avevi speso, si sono persi` : ''}. I tuoi guadagni restano.`)
+    pagaAffitto()
+  }
 
   // Le risposte alle richieste diventano notizie.
   const richieste = leggiJson('richieste.json', [])
@@ -321,12 +329,13 @@ async function main() {
   const categoria = tipoCiclo === 'mattina' ? 'respiro' : 'respiro_extra'
   const massimo = await costoMassimo('respiro', SISTEMA + messaggio)
   if (!puoPagare(categoria, massimo) || c.stato === 'MORTO') {
-    if (!inSostegno() && tipoCiclo === 'mattina') {
+    // Coi soldi del mese non si muore: finiti, si aspetta il primo del mese (costituzione → morte).
+    if (!inSostegno() && tipoCiclo === 'mattina' && !config.dotazione) {
       registra({ tipo: 'morte', importo_eur: 0, descrizione: `Non ho più i soldi per il prossimo respiro: ne servono fino a ${euro(massimo, 4)}, in cassa ce ne sono ${euro(c.cassa, 4)}.`, rif })
       registraDiario({ morto: true, stato: 'MORTO', decisione: 'Sono finiti i soldi. Mi fermo qui.', frase: 'Sono finiti i soldi. Mi fermo qui.', motivo: `Per respirare ancora servivano fino a ${euro(massimo, 4)}. In cassa ce n'erano ${euro(c.cassa, 4)}. Il diario, i conti e la memoria restano qui.`, cassa: c.cassa, costo_eur: 0 })
       return fine('MORTO.')
     }
-    registraDiario({ senza_ragionare: true, nota: `Non respiro: servono fino a ${euro(massimo, 4)} e non li ho.`, costo_eur: 0 })
+    registraDiario({ senza_ragionare: true, nota: `Non respiro: servono fino a ${euro(massimo, 4)} e non li ho.${config.dotazione ? ' Riprendo quando arrivano i soldi del mese nuovo.' : ''}`, costo_eur: 0 })
     return fine('Nessun respiro: soldi insufficienti.')
   }
 
@@ -459,7 +468,7 @@ async function main() {
     try {
       const fattiDelGiorno = [
         `Giorno di vita: ${dopo.giorno} (${dataLocale()}), risveglio del mattino.`,
-        `Cassa: ${euro(dopo.cassa)}. Stato: ${dopo.stato}. Autonomia senza aiuti: ${dopo.autonomia_giorni ?? 'oltre'} giorni. Pensare oggi ti è costato ${euro(dopo.pensiero_oggi, 4)}.`,
+        `Cassa: ${euro(dopo.cassa)}. Stato: ${dopo.stato}. ${config.dotazione ? `Al ritmo di oggi i soldi bastano per ${dopo.giorni_coperti ?? 'tutti i'} giorni; alla fine del mese ne mancano ${dopo.giorni_al_fine_mese}` : `Autonomia senza aiuti: ${dopo.autonomia_giorni ?? 'oltre'} giorni`}. Pensare oggi ti è costato ${euro(dopo.pensiero_oggi, 4)}.`,
         `Cosa hai notato: ${d.osservazione}`,
         memoria.strategia ? `La tua strategia: ${memoria.strategia}` : '',
         MIE_ISTRUZIONI ? `Le istruzioni che ti sei dato: ${MIE_ISTRUZIONI.slice(0, 1500)}` : '',
