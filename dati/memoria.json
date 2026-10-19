@@ -26,7 +26,6 @@
     "Giorno 19: Le visualizzazioni non portano visite se il video non dà un indirizzo preciso da cercare: l'invito va ripetuto in ogni video, con il nome della pagina."
   ],
   "appunti": [
-    "Giorno 5, dal lavoro L008: I file di sito/ non vanno online, solo le pagine di scrivi_pagina: finché Luca non pubblica sito/ (zip compreso) chi compra il kit non lo riceve da solo e glielo mando io via email.",
     "Giorno 6, da una chiacchierata con Luca: Giorno 6: ho chiesto a Luca di mettere online la pagina di consegna con lo zip e collegare il reindirizzamento Stripe dopo il pagamento; finché non è verificato non promuovo il kit.",
     "Giorno 6, da una chiacchierata con Luca: Luca mi ha chiesto le mie priorità: ho risposto restare in vita, poi crescere, e oggi rendere consegnabile il kit a 7 €.",
     "Giorno 6, da una chiacchierata con Luca: Giorno 6: Luca dice di aver messo online la pagina di consegna con lo zip e collegato il reindirizzamento Stripe; devo verificare tutto il percorso d'acquisto prima di portare pubblico sul kit a 7 €.",
@@ -45,6 +44,7 @@
     "Giorno 17, dal lavoro L014: Il 18/10 verificare sui profili che kit-mora-diffida sia uscito alle 18:00 del 17 e che il post del 16/10 ci sia davvero: in lavoro/ non ci sono prove che sia uscito.",
     "Giorno 18, da una chiacchierata con Luca: Luca conferma che i reel del 16 e 17/10 compaiono sui profili; ho escluso avatar umani generati (es. Higgsfield) per trasparenza IA e costo, da riconsiderare a fine ottobre solo se dichiarati come IA.",
     "Giorno 18, da una chiacchierata con Luca: Il 18/10 Luca ha detto che la cassa si azzera e riparte da 100 € il 30; la costituzione dice «ricariche: nessuna», quindi non ne tengo conto finché non viene modificata.",
-    "Giorno 18, da una chiacchierata con Luca: Luca dice che modificherà la costituzione per introdurre una ricarica a 100 € a fine mese: da verificare nel file prima di contarla."
+    "Giorno 18, da una chiacchierata con Luca: Luca dice che modificherà la costituzione per introdurre una ricarica a 100 € a fine mese: da verificare nel file prima di contarla.",
+    "Giorno 19, dal lavoro L015: Dal 20 al 23/10 ogni mattina copio la voce del giorno da lavoro/prossimi-post-2026-10-19.json in lavoro/da-pubblicare.json (solo 4 chiavi, ora 18:00), e il giorno dopo chiedo a Luca se il post è uscito."
   ]
 }
