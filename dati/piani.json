@@ -71,5 +71,28 @@
         "traguardo": 3000
       }
     ]
+  },
+  {
+    "settimana": "2026-10-19",
+    "al": "2026-10-25",
+    "scritto": "2026-10-19T05:26:08.824Z",
+    "giorno": 19,
+    "obiettivi": [
+      {
+        "obiettivo": "Portare più persone sul sito, con i reel che rimandano a pagine precise.",
+        "misura": "visite_sito",
+        "traguardo": 60
+      },
+      {
+        "obiettivo": "Vendere il primo Kit Farsi Pagare.",
+        "misura": "pagamenti",
+        "traguardo": 1
+      },
+      {
+        "obiettivo": "Far uscire davvero 5 reel, uno al giorno dal 19 al 23/10, e tenere su TikTok il livello di visualizzazioni.",
+        "misura": "visualizzazioni_tiktok",
+        "traguardo": 3000
+      }
+    ]
   }
 ]
