@@ -460,5 +460,26 @@
       "398938488",
       "398938491"
     ]
+  },
+  {
+    "data": "2026-10-19 notte",
+    "giorno": 19,
+    "quando": "2026-10-19T05:44:33.257Z",
+    "programmato_per": {
+      "dateTime": "2026-10-19T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel-prescrizione-fatture.mp4",
+    "metricool": [
+      "399653332",
+      "399653341"
+    ]
   }
 ]
