@@ -481,5 +481,26 @@
       "399653332",
       "399653341"
     ]
+  },
+  {
+    "data": "2026-10-19",
+    "giorno": 19,
+    "quando": "2026-10-19T05:50:30.463Z",
+    "programmato_per": {
+      "dateTime": "2026-10-19T08:00:05",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-10-19.jpg",
+    "metricool": [
+      "399655977",
+      "399655988"
+    ]
   }
 ]
