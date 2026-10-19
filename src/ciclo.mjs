@@ -171,7 +171,7 @@ function osservazione({ c, richieste, memoria, conPiano }) {
       const t = traguardo()
       const q = t.questo_mese
       return [
-        `Un'intelligenza artificiale può guadagnare più di una persona con un part-time? Obiettivo: ${t.obiettivo} € netti in un mese.`,
+        `La domanda dell'esperimento: un'intelligenza artificiale, in autonomia, riesce entro i suoi primi tre mesi a guadagnare almeno ${t.obiettivo} € netti in un mese? Valgono ottobre, novembre e dicembre 2026: alla fine di dicembre mancano ${t.giorni_alla_scadenza} giorni.${t.riuscito ? ' Ce l\'hai già fatta.' : ''}`,
         `Questo mese: guadagni ${euro(q.guadagni)}, tasse su quei guadagni ${euro(q.tasse)}, tutti i costi ${euro(q.costi, 4)}, netto ${euro(q.netto)}.`,
         `La scala: ${t.livelli.map((l) => `${l.raggiunto ? '[fatto]' : '[da fare]'} ${l.nome}`).join('; ')}.`,
         `Budget per strumenti da spendere senza chiedere (metà dei guadagni netti): ${euro(t.budget_strumenti)}.`,

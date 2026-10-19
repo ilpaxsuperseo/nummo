@@ -157,7 +157,8 @@ export function conti(tutte = voci()) {
   // nel ritmo: si paga il primo del mese, insieme all'arrivo dei soldi nuovi.
   const [anno, mese, giornoDelMese] = dataLocale().split('-').map(Number)
   const giorniAlFineMese = new Date(Date.UTC(anno, mese, 0)).getUTCDate() - giornoDelMese + 1
-  const spesaGiorno = Math.max(0, costoGiorno - affittoGiorno)
+  // Quello che esce davvero dalla cassa: i costi pagati da Nummo (non dal sostegno né dal bonus), affitto escluso.
+  const spesaGiorno = mediaGiornaliera(tutte, (v) => v.pagato_da === 'nummo' && !['affitto', 'infrastruttura'].includes(v.categoria), oggi) ?? 0
   const giorniCoperti = spesaGiorno > 0 ? cassa / spesaGiorno : Infinity
   const copertura = config.dotazione ? giorniCoperti / giorniAlFineMese : null
 
@@ -220,14 +221,17 @@ export function traguardo(tutte = voci()) {
   const elenco = Object.entries(mesi).map(([mese, m]) => ({ mese, ...m, netto: m.guadagni - m.tasse - m.costi }))
   const mese = dataLocale().slice(0, 7)
   const questo = elenco.find((m) => m.mese === mese) ?? { mese, guadagni: 0, tasse: 0, costi: 0, netto: 0 }
-  const vivo = !tutte.some((v) => v.tipo === 'morte')
   const tondo = (m) => ({ ...m, guadagni: arrotonda(m.guadagni), tasse: arrotonda(m.tasse), costi: arrotonda(m.costi), netto: arrotonda(m.netto) })
+  const entro = config.traguardo_entro
+  const [aE, mE] = entro.split('-').map(Number)
   return {
     obiettivo: config.traguardo_eur,
+    entro,
+    giorni_alla_scadenza: Math.max(0, Math.round((Date.UTC(aE, mE, 0) - Date.parse(`${dataLocale()}T00:00:00Z`)) / 86400000) + 1),
+    riuscito: elenco.some((m) => m.mese <= entro && m.netto >= config.traguardo_eur),
     questo_mese: tondo(questo),
     migliore_mese: elenco.length ? tondo(elenco.reduce((a, b) => (b.netto > a.netto ? b : a))) : null,
     livelli: [
-      { nome: 'Sopravvivere da solo', raggiunto: !inSostegno() && vivo && tutte.length > 0 },
       { nome: 'Il primo euro guadagnato', raggiunto: guadagniTot >= 1 },
       { nome: 'Autosufficiente per un mese', raggiunto: elenco.some((m) => m.guadagni > 0 && m.netto >= 0) },
       { nome: '100 € netti in un mese', raggiunto: elenco.some((m) => m.netto >= 100) },
@@ -251,23 +255,37 @@ export function serieCassa(tutte = voci()) {
   return serie
 }
 
-// I soldi del mese (costituzione → capitale): dal mese in config.dotazione, al primo risveglio del mattino del mese
-// i soldi di Luca del mese prima che Nummo non ha speso si perdono, e arrivano quelli nuovi. I guadagni restano:
-// Nummo spende prima i soldi di Luca (capitale o dotazione del mese, e le iniezioni), poi i suoi.
-const meseDi = (v) => dataLocale(new Date(v.quando)).slice(0, 7)
-const mesePrima = (mese) => { const [a, m] = mese.split('-').map(Number); return m === 1 ? `${a - 1}-12` : `${a}-${String(m - 1).padStart(2, '0')}` }
+// I soldi del mese (costituzione → capitale). La cassa è fatta di due fondi, che si ricavano rileggendo il libro
+// in ordine: i soldi di Luca (capitale iniziale, dotazioni, iniezioni) e quelli di Nummo (guadagni, mance, sponsor,
+// meno le tasse). Ogni costo pagato da Nummo esce prima dai soldi di Luca, poi dai suoi; la scadenza toglie solo il
+// residuo di Luca. Rileggere tutto, invece di contare per mese, regge anche i costi registrati in ritardo, i mesi
+// saltati e i rinnovi interrotti a metà.
+const DI_LUCA_IN_CASSA = ['capitale_iniziale', 'dotazione', 'iniezione']
+export function fondi(tutte = voci()) {
+  let luca = 0, propri = 0
+  for (const v of tutte) {
+    if (DI_LUCA.includes(v.pagato_da)) continue
+    const m = micro(v.importo_eur)
+    if (DI_LUCA_IN_CASSA.includes(v.tipo) || v.tipo === 'scadenza') luca += m
+    else if (v.tipo === 'costo') { const daLuca = Math.min(Math.max(luca, 0), -m); luca -= daLuca; propri += m + daLuca }
+    else propri += m
+  }
+  return { luca: luca / 1e6, propri: propri / 1e6 }
+}
+
+// Al primo risveglio del mattino del mese (dal mese in config.dotazione): il residuo dei soldi di Luca si perde e
+// arrivano i soldi nuovi. Due righe, ognuna col suo riferimento: se il rinnovo si interrompe a metà, si completa.
 const nomeMese = (mese) => new Intl.DateTimeFormat('it-IT', { month: 'long', timeZone: 'UTC' }).format(new Date(`${mese}-15T12:00:00Z`))
 export function rinnovaDotazione() {
   const d = config.dotazione
   const mese = dataLocale().slice(0, 7)
   if (!d || mese < d.dal || giaRegistrato(`dotazione ${mese}`)) return null
-  const tutte = voci()
-  const prima = mesePrima(mese)
-  const diLuca = tutte.filter((v) => ['capitale_iniziale', 'dotazione', 'iniezione'].includes(v.tipo) && meseDi(v) === prima).reduce((t, v) => t + micro(v.importo_eur), 0)
-  const spesi = -tutte.filter((v) => v.tipo === 'costo' && v.pagato_da === 'nummo' && meseDi(v) === prima).reduce((t, v) => t + micro(v.importo_eur), 0)
-  const scade = Math.max(0, Math.min(diLuca - spesi, cassaMicro(tutte))) / 1e6
-  if (scade > 0) registra({ tipo: 'scadenza', importo_eur: -scade, descrizione: `I soldi di ${nomeMese(prima)} che non ho speso: si perdono`, rif: `scadenza ${prima}` })
+  let scade = 0
+  if (!giaRegistrato(`scadenza ${mese}`)) {
+    const tutte = voci()
+    scade = Math.max(0, Math.min(micro(fondi(tutte).luca), cassaMicro(tutte))) / 1e6
+    if (scade > 0) registra({ tipo: 'scadenza', importo_eur: -scade, descrizione: `I soldi di Luca che non ho speso: si perdono all'arrivo di quelli di ${nomeMese(mese)}`, rif: `scadenza ${mese}` })
+  }
   registra({ tipo: 'dotazione', importo_eur: d.euro_al_mese, descrizione: `I ${d.euro_al_mese} euro di ${nomeMese(mese)} da Luca`, rif: `dotazione ${mese}` })
   return { mese, scaduti: arrotonda(scade), nuovi: d.euro_al_mese }
 }
-

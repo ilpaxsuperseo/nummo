@@ -118,8 +118,8 @@ test('il traguardo: netto del mese, scala e budget per gli strumenti', () => {
   assert.equal(dopo.questo_mese.guadagni, prima.questo_mese.guadagni + 10)
   assert.equal(dopo.questo_mese.tasse, prima.questo_mese.tasse + 2.4)
   assert.ok(Math.abs(dopo.questo_mese.netto - (prima.questo_mese.netto + 7.6)) < 1e-6)
-  assert.equal(dopo.livelli[1].raggiunto, true) // il primo euro guadagnato
-  assert.equal(dopo.livelli[4].raggiunto, false)
+  assert.equal(dopo.livelli[0].raggiunto, true) // il primo euro guadagnato
+  assert.equal(dopo.livelli[3].raggiunto, false) // 980 € netti in un mese
   assert.equal(dopo.budget_strumenti, 3.8) // metà di 10 − 2,40
 })
 

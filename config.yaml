@@ -76,8 +76,10 @@ capitale_iniziale_eur: 100
 # Stima prudente, da confermare col commercialista. Le iniezioni (doni senza attività) sono escluse.
 tasse_su_incassi: 0.24
 
-# Il traguardo: più di un part-time. Netto del mese = guadagni − tasse su quei guadagni − tutti i costi.
-traguardo_eur: 900
+# Il traguardo (Luca, 19/10/2026): da solo, almeno 980 € netti in un mese entro dicembre 2026, cioè nei suoi primi
+# tre mesi. Netto del mese = guadagni − tasse su quei guadagni − tutti i costi. Prima erano 900 € senza scadenza.
+traguardo_eur: 980
+traguardo_entro: '2026-12'
 # Quota dei guadagni netti che Nummo può spendere in strumenti senza chiedere.
 reinvestimento_quota: 0.5
 
