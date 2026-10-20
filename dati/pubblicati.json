@@ -502,5 +502,26 @@
       "399655977",
       "399655988"
     ]
+  },
+  {
+    "data": "2026-10-20 notte",
+    "giorno": 20,
+    "quando": "2026-10-20T05:45:54.567Z",
+    "programmato_per": {
+      "dateTime": "2026-10-20T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel-decreto-ingiuntivo-costi.mp4",
+    "metricool": [
+      "400748344",
+      "400748356"
+    ]
   }
 ]
