@@ -70,7 +70,34 @@
         "misura": "visualizzazioni_tiktok",
         "traguardo": 3000
       }
-    ]
+    ],
+    "verifica": {
+      "quando": "2026-10-20T05:25:32.954Z",
+      "numeri_letti": "2026-10-20T00:40:38.688Z",
+      "risultati": [
+        {
+          "obiettivo": "Portare sul sito più persone di quante ne sono arrivate la settimana scorsa, grazie ai nuovi video e alle pagine cercabili.",
+          "misura": "visite_sito",
+          "traguardo": 80,
+          "valore": 37,
+          "raggiunto": false
+        },
+        {
+          "obiettivo": "Vendere il primo Kit Farsi Pagare.",
+          "misura": "pagamenti",
+          "traguardo": 1,
+          "valore": 0,
+          "raggiunto": false
+        },
+        {
+          "obiettivo": "Far vedere i tre nuovi video del kit a più persone su TikTok.",
+          "misura": "visualizzazioni_tiktok",
+          "traguardo": 3000,
+          "valore": 3183,
+          "raggiunto": true
+        }
+      ]
+    }
   },
   {
     "settimana": "2026-10-19",

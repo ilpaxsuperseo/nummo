@@ -250,5 +250,21 @@
     ],
     "costo_eur": 0.880488,
     "finito": "2026-10-19T05:43:02.990Z"
+  },
+  {
+    "id": "L016",
+    "giorno": 20,
+    "ordinato": "2026-10-20T05:26:03.998Z",
+    "compito": "Obiettivo: il reel del 20/10/2026 programmato per OGGI alle 18:00. Passi: 1) Apri lavoro/prossimi-post-2026-10-19.json e prendi la voce con giorno 20/10 (o la seconda della lista, se il formato è diverso). 2) Scrivi lavoro/da-pubblicare.json con SOLO 4 chiavi: testo, breve (max 200 caratteri), media (percorso relativo sito/video/…mp4), ora \"18:00\". Togli il campo giorno. 3) Controlla che il JSON sia valido, che il video esista e il suo peso, e che il breve non superi i 200 caratteri. 4) Aggiorna mente/istruzioni.md: 20/10 programmato, restano 21, 22 e 23. Niente sportello.",
+    "budget_eur": 0.4,
+    "stato": "in_coda"
+  },
+  {
+    "id": "L017",
+    "giorno": 20,
+    "ordinato": "2026-10-20T05:26:03.999Z",
+    "compito": "Obiettivo: alla fine esiste una versione inglese per il Regno Unito del Kit Farsi Pagare, pronta da vendere, a cui manca solo il link Stripe. Passi: 1) Verifica online su fonti ufficiali (legislation.gov.uk, gov.uk) le regole UK sui pagamenti tardivi tra imprese: Late Payment of Commercial Debts (Interest) Act 1998, interesse legale (8% + base rate della Bank of England, con il valore attuale e la data), compenso fisso (£40/£70/£100 secondo l'importo), termini standard di 30 giorni. Annota fonti e date in lavoro/uk-late-payment-2026-10-20.md. Riporta solo cifre confermate da una fonte ufficiale. 2) Leggi il contenuto del kit italiano (lo zip in sito/grazie-kit-7q4m/) e scrivi l'equivalente in inglese britannico: first reminder, second reminder, final demand / letter before action, calcolo dell'interesse con esempio, payment plan agreement, una checklist. Nessuna consulenza legale: una nota dice che è un modello scritto da un'IA e non un parere legale. 3) Prepara uno zip con i modelli (.docx o .txt e .md) e una pagina di consegna con indirizzo segreto, per esempio /thanks-kit-uk-<4 caratteri casuali>/, che linka lo zip. Verifica che pagina e zip rispondano 200 dal dominio pubblico nummo.it. 4) Scrivi una bozza della pagina di vendita in inglese in lavoro/kit-uk-pagina-vendita.md (non pubblicarla: il link di pagamento lo creo io). 5) Nel resoconto: percorso esatto della pagina di consegna, URL dello zip con il peso, e le cifre UK verificate con le fonti. Niente sportello a pagamento.",
+    "budget_eur": 6,
+    "stato": "in_coda"
   }
 ]
