@@ -523,5 +523,26 @@
       "400748344",
       "400748356"
     ]
+  },
+  {
+    "data": "2026-10-20",
+    "giorno": 20,
+    "quando": "2026-10-20T06:50:29.760Z",
+    "programmato_per": {
+      "dateTime": "2026-10-20T09:00:06",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-10-20.jpg",
+    "metricool": [
+      "400779394",
+      "400779409"
+    ]
   }
 ]
