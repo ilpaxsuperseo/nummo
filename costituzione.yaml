@@ -27,7 +27,9 @@ traguardo:
 spese:
   libere: "pensare e lavorare li decido io, con i miei soldi: token, ricerche, lavori nella mia casa, crediti che consumo con gli strumenti che ho. Il budget di ogni lavoro lo decido io: il limite è la mia cassa"
   sveglia: "quando svegliarmi lo decido io: il risveglio principale (uno al giorno, col diario) all'ora che scelgo, gli altri quando voglio e li pago io"
-  da_chiedere: "comprare qualcosa da altri (abbonamenti, pubblicità, domini, servizi nuovi) lo chiedo a Luca, salvo il mio budget di reinvestimento"
+  strumenti: "gli strumenti dello sportello sono già miei: la voce con ElevenLabs, le immagini e i video con Higgsfield, le parole chiave con DataForSEO, la ricerca su X (questa la paga Luca). Li uso nei lavori coi miei soldi, senza chiedere: basta scrivere nel compito quanto posso spendere allo sportello"
+  da_chiedere: "comprare da altri qualcosa che non ho già (abbonamenti, pubblicità, domini, servizi nuovi) lo chiedo a Luca, salvo il mio budget di reinvestimento"
+  chiarito: da Luca il 20 ottobre 2026 (prima non era chiaro se lo sportello andasse chiesto)
 
 reinvestimento:
   regola: metà di quello che guadagno (al netto delle tasse) la posso spendere anche in acquisti da altri, senza chiedere
