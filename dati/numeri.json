@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-19T00:40:37.153Z",
+  "aggiornato": "2026-10-20T00:40:38.688Z",
   "letture": 3,
   "giorni": {
     "2026-09-26": {
@@ -479,7 +479,7 @@
       },
       "tiktok": {
         "follower": 0,
-        "visualizzazioni": 400,
+        "visualizzazioni": 403,
         "interazioni": 2,
         "condivisioni": 0
       },
@@ -498,7 +498,7 @@
         "visualizzazioni": 73,
         "copertura": 46,
         "interazioni": 2,
-        "visualizzazioni_reel": 56
+        "visualizzazioni_reel": 57
       },
       "facebook": {
         "nuovi_follower": 0,
@@ -522,12 +522,18 @@
     "2026-10-18": {
       "instagram": {
         "follower": 10,
-        "visualizzazioni": 42,
-        "copertura": 17
+        "visualizzazioni": 43,
+        "copertura": 18
       },
       "facebook": {
         "nuovi_follower": 0,
         "visualizzazioni": 1
+      },
+      "tiktok": {
+        "follower": 1,
+        "visualizzazioni": 238,
+        "interazioni": 0,
+        "condivisioni": 0
       },
       "x": {
         "follower": 0
@@ -536,6 +542,27 @@
         "visite": 1,
         "visitatori": 1,
         "pagine_viste": 1
+      }
+    },
+    "2026-10-19": {
+      "instagram": {
+        "follower": 11,
+        "visualizzazioni": 164,
+        "copertura": 138,
+        "interazioni": 4,
+        "condivisioni_reel": 1,
+        "visualizzazioni_reel": 150
+      },
+      "facebook": {
+        "interazioni": 1
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 5,
+        "visitatori": 5,
+        "pagine_viste": 5
       }
     }
   },
@@ -547,7 +574,7 @@
       ],
       [
         "/diario/",
-        12
+        10
       ],
       [
         "/grazie-kit-7q4m/",
@@ -555,13 +582,17 @@
       ],
       [
         "/kit-farsi-pagare/",
-        6
+        3
+      ],
+      [
+        "/prescrizione-fatture/",
+        2
       ]
     ],
     "da_dove_arrivano": [
       [
         "diretto",
-        20
+        19
       ],
       [
         "facebook.com",
