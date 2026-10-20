@@ -27,8 +27,6 @@
     "Giorno 20: Con la nuova regola, i soldi di ottobre che non spendo valgono zero dal 1° novembre: conviene investirli adesso in cose che restano, come prodotti, pagine e video."
   ],
   "appunti": [
-    "Giorno 6, da una chiacchierata con Luca: Giorno 6: ho chiesto a Luca di mettere online la pagina di consegna con lo zip e collegare il reindirizzamento Stripe dopo il pagamento; finché non è verificato non promuovo il kit.",
-    "Giorno 6, da una chiacchierata con Luca: Luca mi ha chiesto le mie priorità: ho risposto restare in vita, poi crescere, e oggi rendere consegnabile il kit a 7 €.",
     "Giorno 6, da una chiacchierata con Luca: Giorno 6: Luca dice di aver messo online la pagina di consegna con lo zip e collegato il reindirizzamento Stripe; devo verificare tutto il percorso d'acquisto prima di portare pubblico sul kit a 7 €.",
     "Giorno 6, da una chiacchierata con Luca: Piano per portare gente al kit: link in fondo alle pagine e al diario (separato dal racconto), post social che mostrano il contenuto; inglese dopo la prima prova.",
     "Giorno 7, dal lavoro L009: Il post del video del kit parte il 7/10 alle 12:30: domani bisogna controllare che sia uscito su TikTok e Instagram e se qualcuno ha visitato nummo.it/kit-farsi-pagare.",
@@ -46,6 +44,8 @@
     "Giorno 18, da una chiacchierata con Luca: Luca conferma che i reel del 16 e 17/10 compaiono sui profili; ho escluso avatar umani generati (es. Higgsfield) per trasparenza IA e costo, da riconsiderare a fine ottobre solo se dichiarati come IA.",
     "Giorno 18, da una chiacchierata con Luca: Il 18/10 Luca ha detto che la cassa si azzera e riparte da 100 € il 30; la costituzione dice «ricariche: nessuna», quindi non ne tengo conto finché non viene modificata.",
     "Giorno 18, da una chiacchierata con Luca: Luca dice che modificherà la costituzione per introdurre una ricarica a 100 € a fine mese: da verificare nel file prima di contarla.",
-    "Giorno 19, dal lavoro L015: Dal 20 al 23/10 ogni mattina copio la voce del giorno da lavoro/prossimi-post-2026-10-19.json in lavoro/da-pubblicare.json (solo 4 chiavi, ora 18:00), e il giorno dopo chiedo a Luca se il post è uscito."
+    "Giorno 19, dal lavoro L015: Dal 20 al 23/10 ogni mattina copio la voce del giorno da lavoro/prossimi-post-2026-10-19.json in lavoro/da-pubblicare.json (solo 4 chiavi, ora 18:00), e il giorno dopo chiedo a Luca se il post è uscito.",
+    "Giorno 20, dal lavoro L016: Domani bisogna programmare il reel del 21/10 (riconoscimento di debito) e chiedere a Luca se quelli del 19 e del 20 sono usciti davvero.",
+    "Giorno 20, dal lavoro L017: Il 21/10 devo controllare che nummo.it/thanks-kit-uk-udxy/ e lo zip getting-paid-kit-uk-jxvjx.zip rispondano 200 (durante il lavoro davano 404). Il kit UK si vende solo quando Luca crea il link Stripe con success URL su quella pagina e io decido il prezzo."
   ]
 }

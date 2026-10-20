@@ -257,7 +257,14 @@
     "ordinato": "2026-10-20T05:26:03.998Z",
     "compito": "Obiettivo: il reel del 20/10/2026 programmato per OGGI alle 18:00. Passi: 1) Apri lavoro/prossimi-post-2026-10-19.json e prendi la voce con giorno 20/10 (o la seconda della lista, se il formato è diverso). 2) Scrivi lavoro/da-pubblicare.json con SOLO 4 chiavi: testo, breve (max 200 caratteri), media (percorso relativo sito/video/…mp4), ora \"18:00\". Togli il campo giorno. 3) Controlla che il JSON sia valido, che il video esista e il suo peso, e che il breve non superi i 200 caratteri. 4) Aggiorna mente/istruzioni.md: 20/10 programmato, restano 21, 22 e 23. Niente sportello.",
     "budget_eur": 0.4,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho preso dalla lista del 19 ottobre la voce del 20/10, quella sul costo del decreto ingiuntivo. Con quella ho scritto lavoro/da-pubblicare.json: ci sono solo le quattro chiavi testo, breve, media e ora, il campo giorno l'ho tolto e il post è programmato per le 18:00. Ho controllato che il JSON si legga senza errori. Il video sito/video/reel-decreto-ingiuntivo-costi.mp4 esiste, pesa 0,70 MB e dura 30 secondi. Il breve è di 168 caratteri, sotto il limite di 200. Nel promemoria ho segnato il 20 come programmato: restano il 21, il 22 e il 23.",
+    "file": [
+      "lavoro/da-pubblicare.json",
+      "mente/istruzioni.md"
+    ],
+    "costo_eur": 0.168483,
+    "finito": "2026-10-20T05:40:29.115Z"
   },
   {
     "id": "L017",
@@ -265,6 +272,23 @@
     "ordinato": "2026-10-20T05:26:03.999Z",
     "compito": "Obiettivo: alla fine esiste una versione inglese per il Regno Unito del Kit Farsi Pagare, pronta da vendere, a cui manca solo il link Stripe. Passi: 1) Verifica online su fonti ufficiali (legislation.gov.uk, gov.uk) le regole UK sui pagamenti tardivi tra imprese: Late Payment of Commercial Debts (Interest) Act 1998, interesse legale (8% + base rate della Bank of England, con il valore attuale e la data), compenso fisso (£40/£70/£100 secondo l'importo), termini standard di 30 giorni. Annota fonti e date in lavoro/uk-late-payment-2026-10-20.md. Riporta solo cifre confermate da una fonte ufficiale. 2) Leggi il contenuto del kit italiano (lo zip in sito/grazie-kit-7q4m/) e scrivi l'equivalente in inglese britannico: first reminder, second reminder, final demand / letter before action, calcolo dell'interesse con esempio, payment plan agreement, una checklist. Nessuna consulenza legale: una nota dice che è un modello scritto da un'IA e non un parere legale. 3) Prepara uno zip con i modelli (.docx o .txt e .md) e una pagina di consegna con indirizzo segreto, per esempio /thanks-kit-uk-<4 caratteri casuali>/, che linka lo zip. Verifica che pagina e zip rispondano 200 dal dominio pubblico nummo.it. 4) Scrivi una bozza della pagina di vendita in inglese in lavoro/kit-uk-pagina-vendita.md (non pubblicarla: il link di pagamento lo creo io). 5) Nel resoconto: percorso esatto della pagina di consegna, URL dello zip con il peso, e le cifre UK verificate con le fonti. Niente sportello a pagamento.",
     "budget_eur": 6,
-    "stato": "in_coda"
+    "stato": "in_parte",
+    "riassunto": "Ho fatto la versione britannica del Kit Farsi Pagare. Si chiama «The Getting Paid Kit (UK edition)» e manca solo il link Stripe. Prima ho controllato le regole sulle fonti ufficiali: legislation.gov.uk, gov.uk, Bank of England e justice.gov.uk. Risultati: l'interesse legale è l'8% più il tasso della Bank of England in vigore il 30 giugno o il 31 dicembre (SI 2002/1675, art. 4). Il Bank Rate è al 3,75% dal 18/12/2025, quindi per gli interessi partiti tra il 1° luglio e il 31 dicembre 2026 si arriva all'11,75%. Il compenso fisso è £40, £70 o £100 secondo l'importo (Act 1998, s. 5A). Senza una data concordata il pagamento è in ritardo dopo 30 giorni; tra imprese il limite di norma è 60 giorni (s. 4). Il kit contiene cinque messaggi in sequenza fino alla letter before action, l'esempio di calc",
+    "file": [
+      "lavoro/uk-late-payment-2026-10-20.md",
+      "lavoro/kit-uk/getting-paid-kit-uk/getting-paid-kit-uk.md",
+      "lavoro/kit-uk/getting-paid-kit-uk/getting-paid-kit-uk.html",
+      "lavoro/kit-uk/getting-paid-kit-uk/getting-paid-kit-uk.docx",
+      "lavoro/kit-uk/getting-paid-kit-uk/late-payment-interest-calculator.html",
+      "lavoro/kit-uk/getting-paid-kit-uk/invoice-tracker.csv",
+      "lavoro/kit-uk/getting-paid-kit-uk/README.txt",
+      "lavoro/kit-uk/getting-paid-kit-uk/templates/ (7 file .txt + templates.docx)",
+      "sito/thanks-kit-uk-udxy/index.html",
+      "sito/thanks-kit-uk-udxy/getting-paid-kit-uk-jxvjx.zip",
+      "lavoro/kit-uk-pagina-vendita.md",
+      "mente/istruzioni.md"
+    ],
+    "costo_eur": 1.006888,
+    "finito": "2026-10-20T05:45:23.166Z"
   }
 ]
