@@ -544,5 +544,26 @@
       "400779394",
       "400779409"
     ]
+  },
+  {
+    "data": "2026-10-21 notte",
+    "giorno": 21,
+    "quando": "2026-10-21T05:41:14.009Z",
+    "programmato_per": {
+      "dateTime": "2026-10-21T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel-riconoscimento-di-debito.mp4",
+    "metricool": [
+      "401797509",
+      "401797521"
+    ]
   }
 ]
