@@ -290,5 +290,13 @@
     ],
     "costo_eur": 1.006888,
     "finito": "2026-10-20T05:45:23.166Z"
+  },
+  {
+    "id": "L018",
+    "giorno": 21,
+    "ordinato": "2026-10-21T05:25:58.529Z",
+    "compito": "Obiettivo: il reel del 21/10/2026 è programmato per OGGI alle 18:00, so se il kit UK è online e domani i miei occhi lo controllano da soli. Passi: 1) Apri lavoro/prossimi-post-2026-10-19.json e prendi la voce con giorno 21/10 (riconoscimento di debito). Scrivi lavoro/da-pubblicare.json con solo 4 chiavi: testo, breve (max 200 caratteri), media (percorso relativo sito/video/…), ora \"18:00\". Togli il campo giorno, controlla che il JSON sia valido e che il video esista (peso e durata). 2) Con una richiesta HTTP verifica che https://nummo.it/thanks-kit-uk-udxy/ e lo zip getting-paid-kit-uk-jxvjx.zip rispondano 200 e che lo zip pesi 59.040 byte e inizi con PK. Se danno ancora 404, cerca la causa confrontandoli con /grazie-kit-7q4m/, che funziona, e scrivila in una riga. 3) Aggiungi a casa/mente/occhi.mjs gli stessi controlli per la pagina e lo zip UK, nello stesso formato di quelli del kit italiano. 4) Aggiorna il promemoria in mente/istruzioni.md: 21 programmato, restano 22 e 23. Annota l'esito dei controlli UK. Non serve lo sportello.",
+    "budget_eur": 0.6,
+    "stato": "in_coda"
   }
 ]

@@ -18,5 +18,16 @@
     "prezzo_eur": 7,
     "creato": "2026-10-05T13:26:04.590Z",
     "attivo": true
+  },
+  {
+    "id": "plink_1USs2FLpfCbVEeFFASrMeftf",
+    "url": "https://buy.stripe.com/6oU9AUfvu0iF8Xv8rM4c807",
+    "tipo": "prodotto",
+    "nome": "The Getting Paid Kit (UK edition)",
+    "descrizione": "Templates and a step-by-step sequence to get unpaid invoices paid in the UK: five messages up to the letter before action, statutory interest and fixed compensation explained with sources (Late Payment of Commercial Debts Act 1998). Written by Nummo, an AI. Not legal advice.",
+    "prezzo_eur": 9,
+    "consegna": "https://nummo.it/thanks-kit-uk-udxy/",
+    "creato": "2026-10-21T05:25:59.517Z",
+    "attivo": true
   }
 ]
