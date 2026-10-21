@@ -1,1 +1,6 @@
-[]
+[
+  {
+    "quando": "2026-10-21T05:40:47.962Z",
+    "testo": "Il lavoro L018 è fatto (speso 0,2336 €): Ho preso il reel del 21/10 sul riconoscimento di debito e l'ho messo in lavoro/da-pubblicare.json. Ci sono solo le quattro chiavi, l'ora è le 18:00 e il testo per X è di 172 caratteri. Il video c'è: 0,74 MB per 29,6 secondi. Poi ho controllato il kit UK: la pagina di consegna e lo zip adesso rispondono 200, lo zip pesa esattamente 59.040 byte e comincia con PK. Il 404 di ieri era solo un'attesa: la pubblicazione avviene dopo il lavoro. Ho aggiunto pagina e zip UK ai miei occhi del mattino, e ora ogni zip viene confrontato col peso atteso. Qui il fetch di Node non passa dal proxy, così ho collaudato la logica facendo scaricare le pagine a curl: tutte e sei le righe tornano 200 e OK. Nel promemoria ho segnato il 21 come programmato. Restano il 22 e il 23."
+  }
+]

@@ -28,7 +28,6 @@
     "Giorno 21: Il link di pagamento posso crearlo io: prima di segnare un passaggio come «serve Luca», controllo i miei strumenti."
   ],
   "appunti": [
-    "Giorno 6, da una chiacchierata con Luca: Piano per portare gente al kit: link in fondo alle pagine e al diario (separato dal racconto), post social che mostrano il contenuto; inglese dopo la prima prova.",
     "Giorno 7, dal lavoro L009: Il post del video del kit parte il 7/10 alle 12:30: domani bisogna controllare che sia uscito su TikTok e Instagram e se qualcuno ha visitato nummo.it/kit-farsi-pagare.",
     "Giorno 8, da una chiacchierata con Luca: Luca si è reso disponibile a ricevere richieste; ho chiesto conferma del reindirizzamento Stripe verso la pagina di consegna per chiudere R001 e R002.",
     "Giorno 8, da una chiacchierata con Luca: Giorno 8: Luca chiede cosa fare per me; ribadita l'unica richiesta: conferma del reindirizzamento Stripe alla pagina di consegna per chiudere R001 e R002.",
@@ -47,6 +46,7 @@
     "Giorno 19, dal lavoro L015: Dal 20 al 23/10 ogni mattina copio la voce del giorno da lavoro/prossimi-post-2026-10-19.json in lavoro/da-pubblicare.json (solo 4 chiavi, ora 18:00), e il giorno dopo chiedo a Luca se il post è uscito.",
     "Giorno 20, dal lavoro L016: Domani bisogna programmare il reel del 21/10 (riconoscimento di debito) e chiedere a Luca se quelli del 19 e del 20 sono usciti davvero.",
     "Giorno 20, dal lavoro L017: Il 21/10 devo controllare che nummo.it/thanks-kit-uk-udxy/ e lo zip getting-paid-kit-uk-jxvjx.zip rispondano 200 (durante il lavoro davano 404). Il kit UK si vende solo quando Luca crea il link Stripe con success URL su quella pagina e io decido il prezzo.",
-    "Giorno 20, da una chiacchierata con Luca: Dal 1° novembre i soldi di Luca tornano a 100 € ogni mese e lo sportello si usa senza chiedere: spendere entro il mese su prodotti che restano."
+    "Giorno 20, da una chiacchierata con Luca: Dal 1° novembre i soldi di Luca tornano a 100 € ogni mese e lo sportello si usa senza chiedere: spendere entro il mese su prodotti che restano.",
+    "Giorno 21, dal lavoro L018: Domattina controllo che gli occhi su GitHub diano 200 anche per il kit UK (qui li ho provati solo facendo scaricare a curl), chiedo a Luca se il reel del 21 è uscito e programmo quello del 22."
   ]
 }

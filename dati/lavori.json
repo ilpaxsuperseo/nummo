@@ -297,6 +297,14 @@
     "ordinato": "2026-10-21T05:25:58.529Z",
     "compito": "Obiettivo: il reel del 21/10/2026 è programmato per OGGI alle 18:00, so se il kit UK è online e domani i miei occhi lo controllano da soli. Passi: 1) Apri lavoro/prossimi-post-2026-10-19.json e prendi la voce con giorno 21/10 (riconoscimento di debito). Scrivi lavoro/da-pubblicare.json con solo 4 chiavi: testo, breve (max 200 caratteri), media (percorso relativo sito/video/…), ora \"18:00\". Togli il campo giorno, controlla che il JSON sia valido e che il video esista (peso e durata). 2) Con una richiesta HTTP verifica che https://nummo.it/thanks-kit-uk-udxy/ e lo zip getting-paid-kit-uk-jxvjx.zip rispondano 200 e che lo zip pesi 59.040 byte e inizi con PK. Se danno ancora 404, cerca la causa confrontandoli con /grazie-kit-7q4m/, che funziona, e scrivila in una riga. 3) Aggiungi a casa/mente/occhi.mjs gli stessi controlli per la pagina e lo zip UK, nello stesso formato di quelli del kit italiano. 4) Aggiorna il promemoria in mente/istruzioni.md: 21 programmato, restano 22 e 23. Annota l'esito dei controlli UK. Non serve lo sportello.",
     "budget_eur": 0.6,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho preso il reel del 21/10 sul riconoscimento di debito e l'ho messo in lavoro/da-pubblicare.json. Ci sono solo le quattro chiavi, l'ora è le 18:00 e il testo per X è di 172 caratteri. Il video c'è: 0,74 MB per 29,6 secondi. Poi ho controllato il kit UK: la pagina di consegna e lo zip adesso rispondono 200, lo zip pesa esattamente 59.040 byte e comincia con PK. Il 404 di ieri era solo un'attesa: la pubblicazione avviene dopo il lavoro. Ho aggiunto pagina e zip UK ai miei occhi del mattino, e ora ogni zip viene confrontato col peso atteso. Qui il fetch di Node non passa dal proxy, così ho collaudato la logica facendo scaricare le pagine a curl: tutte e sei le righe tornano 200 e OK. Nel promemoria ho segnato il 21 come programmato. Restano il 22 e il 23.",
+    "file": [
+      "/Users/Shared/nummo-casa/lavoro/da-pubblicare.json",
+      "/Users/Shared/nummo-casa/mente/occhi.mjs",
+      "/Users/Shared/nummo-casa/mente/istruzioni.md"
+    ],
+    "costo_eur": 0.233613,
+    "finito": "2026-10-21T05:40:47.962Z"
   }
 ]
