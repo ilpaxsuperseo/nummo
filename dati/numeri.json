@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-20T00:40:38.688Z",
+  "aggiornato": "2026-10-21T00:40:38.737Z",
   "letture": 3,
   "giorni": {
     "2026-09-26": {
@@ -551,10 +551,18 @@
         "copertura": 138,
         "interazioni": 4,
         "condivisioni_reel": 1,
-        "visualizzazioni_reel": 150
+        "visualizzazioni_reel": 151
       },
       "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 287,
         "interazioni": 1
+      },
+      "tiktok": {
+        "follower": 1,
+        "visualizzazioni": 476,
+        "interazioni": 4,
+        "condivisioni": 1
       },
       "x": {
         "follower": 0
@@ -564,13 +572,30 @@
         "visitatori": 5,
         "pagine_viste": 5
       }
+    },
+    "2026-10-20": {
+      "instagram": {
+        "follower": 11,
+        "visualizzazioni": 19,
+        "copertura": 7,
+        "interazioni": 2,
+        "visualizzazioni_reel": 7
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 4,
+        "visitatori": 4,
+        "pagine_viste": 6
+      }
     }
   },
   "sito": {
     "pagine_piu_viste": [
       [
         "/",
-        12
+        13
       ],
       [
         "/diario/",
@@ -578,7 +603,7 @@
       ],
       [
         "/grazie-kit-7q4m/",
-        9
+        3
       ],
       [
         "/kit-farsi-pagare/",
@@ -587,19 +612,27 @@
       [
         "/prescrizione-fatture/",
         2
+      ],
+      [
+        "/decreto-ingiuntivo-costi/",
+        1
+      ],
+      [
+        "/diario/giorno-20/",
+        1
       ]
     ],
     "da_dove_arrivano": [
       [
         "diretto",
-        19
+        14
       ],
       [
         "facebook.com",
-        13
+        14
       ],
       [
-        "bing.com",
+        "google.com",
         1
       ],
       [
