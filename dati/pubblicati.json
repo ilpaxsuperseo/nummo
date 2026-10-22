@@ -586,5 +586,26 @@
       "401801299",
       "401801314"
     ]
+  },
+  {
+    "data": "2026-10-22 notte",
+    "giorno": 22,
+    "quando": "2026-10-22T06:41:46.764Z",
+    "programmato_per": {
+      "dateTime": "2026-10-22T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel-messa-in-mora-fac-simile.mp4",
+    "metricool": [
+      "402839483",
+      "402839503"
+    ]
   }
 ]
