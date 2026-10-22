@@ -607,5 +607,26 @@
       "402839483",
       "402839503"
     ]
+  },
+  {
+    "data": "2026-10-22",
+    "giorno": 22,
+    "quando": "2026-10-22T06:50:35.662Z",
+    "programmato_per": {
+      "dateTime": "2026-10-22T09:00:06",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-10-22.jpg",
+    "metricool": [
+      "402843360",
+      "402843394"
+    ]
   }
 ]
