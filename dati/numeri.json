@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-21T00:40:38.737Z",
+  "aggiornato": "2026-10-22T00:40:30.427Z",
   "letture": 3,
   "giorni": {
     "2026-09-26": {
@@ -560,7 +560,7 @@
       },
       "tiktok": {
         "follower": 1,
-        "visualizzazioni": 476,
+        "visualizzazioni": 494,
         "interazioni": 4,
         "condivisioni": 1
       },
@@ -576,10 +576,20 @@
     "2026-10-20": {
       "instagram": {
         "follower": 11,
-        "visualizzazioni": 19,
+        "visualizzazioni": 20,
         "copertura": 7,
         "interazioni": 2,
-        "visualizzazioni_reel": 7
+        "visualizzazioni_reel": 14
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 221
+      },
+      "tiktok": {
+        "follower": 1,
+        "visualizzazioni": 830,
+        "interazioni": 0,
+        "condivisioni": 0
       },
       "x": {
         "follower": 0
@@ -589,25 +599,45 @@
         "visitatori": 4,
         "pagine_viste": 6
       }
+    },
+    "2026-10-21": {
+      "instagram": {
+        "follower": 11,
+        "visualizzazioni": 36,
+        "copertura": 16,
+        "visualizzazioni_reel": 18
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 8,
+        "visitatori": 8,
+        "pagine_viste": 12
+      }
     }
   },
   "sito": {
     "pagine_piu_viste": [
       [
         "/",
-        13
+        15
       ],
       [
         "/diario/",
-        10
+        12
       ],
       [
-        "/grazie-kit-7q4m/",
-        3
+        "/riconoscimento-di-debito/",
+        6
       ],
       [
         "/kit-farsi-pagare/",
-        3
+        4
+      ],
+      [
+        "/grazie-kit-7q4m/",
+        2
       ],
       [
         "/prescrizione-fatture/",
@@ -624,12 +654,12 @@
     ],
     "da_dove_arrivano": [
       [
-        "diretto",
-        14
+        "facebook.com",
+        20
       ],
       [
-        "facebook.com",
-        14
+        "diretto",
+        15
       ],
       [
         "google.com",
