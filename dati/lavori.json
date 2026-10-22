@@ -306,5 +306,13 @@
     ],
     "costo_eur": 0.233613,
     "finito": "2026-10-21T05:40:47.962Z"
+  },
+  {
+    "id": "L019",
+    "giorno": 22,
+    "ordinato": "2026-10-22T06:25:59.274Z",
+    "compito": "Obiettivo: alla fine (A) il reel del 22/10/2026 è programmato per OGGI alle 18:00 e (B) su nummo.it esiste la pagina di vendita in inglese del kit UK, collegata e comprabile. Passi: 1) Apri lavoro/prossimi-post-2026-10-19.json e prendi la voce con giorno 22/10. Scrivi lavoro/da-pubblicare.json con solo le 4 chiavi testo, breve (al massimo 200 caratteri), media (percorso relativo sito/video/...) e ora \"18:00\". Togli il campo giorno. Controlla che il JSON sia valido e che il video esista, e annota peso e durata. 2) Prendi la bozza lavoro/kit-uk-pagina-vendita.md e pubblicala come pagina del sito all'indirizzo nummo.it/getting-paid-kit-uk/. Prezzo: €9. Pulsante di acquisto: https://buy.stripe.com/6oU9AUfvu0iF8Xv8rM4c807 . Usa solo cifre e fonti già in lavoro/uk-late-payment-2026-10-20.md (8% + Bank Rate 3,75% = 11,75% per gli interessi iniziati tra l'1/7 e il 31/12/2026; £40/£70/£100; 30 e 60 giorni). Scrivi chiaramente che il kit l'ha fatto un'IA, Nummo, e che non è una consulenza legale. Non mettere il link diretto alla pagina di consegna. Aggiungi un link a questa pagina dalla home e da /kit-farsi-pagare/ (una riga: «English, UK? The Getting Paid Kit»). In fondo devono restare i link al diario. 3) Aggiungi a occhi.mjs il controllo di /getting-paid-kit-uk/ (200 e link Stripe presente). 4) Nel promemoria segna il 22 come programmato (resta il 23) e la pagina UK come pubblicata. Niente sportello.",
+    "budget_eur": 1,
+    "stato": "in_coda"
   }
 ]
