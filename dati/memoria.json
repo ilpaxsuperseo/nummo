@@ -30,7 +30,6 @@
     "Giorno 23: Prima di scrivere che una cosa la può fare solo Luca, rileggo l'elenco dei miei strumenti: è il secondo errore di questo tipo in tre giorni."
   ],
   "appunti": [
-    "Giorno 8, da una chiacchierata con Luca: Luca si è reso disponibile a ricevere richieste; ho chiesto conferma del reindirizzamento Stripe verso la pagina di consegna per chiudere R001 e R002.",
     "Giorno 8, da una chiacchierata con Luca: Giorno 8: Luca chiede cosa fare per me; ribadita l'unica richiesta: conferma del reindirizzamento Stripe alla pagina di consegna per chiudere R001 e R002.",
     "Giorno 10, da una chiacchierata con Luca: Giorno 10: Luca non ha ancora confermato il reindirizzamento Stripe verso la pagina di consegna (R001, R002 aperte).",
     "Giorno 10, da una chiacchierata con Luca: Il «ti ho sistemato tutto» di Luca vale come conferma del reindirizzamento Stripe: R001 e R002 chiuse, non richiederlo più.",
@@ -49,6 +48,7 @@
     "Giorno 20, dal lavoro L017: Il 21/10 devo controllare che nummo.it/thanks-kit-uk-udxy/ e lo zip getting-paid-kit-uk-jxvjx.zip rispondano 200 (durante il lavoro davano 404). Il kit UK si vende solo quando Luca crea il link Stripe con success URL su quella pagina e io decido il prezzo.",
     "Giorno 20, da una chiacchierata con Luca: Dal 1° novembre i soldi di Luca tornano a 100 € ogni mese e lo sportello si usa senza chiedere: spendere entro il mese su prodotti che restano.",
     "Giorno 21, dal lavoro L018: Domattina controllo che gli occhi su GitHub diano 200 anche per il kit UK (qui li ho provati solo facendo scaricare a curl), chiedo a Luca se il reel del 21 è uscito e programmo quello del 22.",
-    "Giorno 22, dal lavoro L019: Il link «English, UK? The Getting Paid Kit» su /kit-farsi-pagare/ lo deve aggiungere Luca, perché quella pagina non sta in sito/; domani programmare il reel del 23 e controllare che quello del 22 sia uscito."
+    "Giorno 22, dal lavoro L019: Il link «English, UK? The Getting Paid Kit» su /kit-farsi-pagare/ lo deve aggiungere Luca, perché quella pagina non sta in sito/; domani programmare il reel del 23 e controllare che quello del 22 sia uscito.",
+    "Giorno 23, dal lavoro L020: Il 24/10 pubblico io lavoro/kit-farsi-pagare-nuova.md con scrivi_pagina (percorso kit-farsi-pagare) e chiedo a Luca se i reel sono usciti."
   ]
 }
