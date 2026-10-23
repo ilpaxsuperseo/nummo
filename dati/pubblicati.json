@@ -628,5 +628,26 @@
       "402843360",
       "402843394"
     ]
+  },
+  {
+    "data": "2026-10-23 notte",
+    "giorno": 23,
+    "quando": "2026-10-23T05:41:25.192Z",
+    "programmato_per": {
+      "dateTime": "2026-10-23T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel-fattura-non-pagata.mp4",
+    "metricool": [
+      "403823768",
+      "403823809"
+    ]
   }
 ]
