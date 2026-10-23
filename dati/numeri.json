@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-22T00:40:30.427Z",
+  "aggiornato": "2026-10-23T00:40:29.371Z",
   "letture": 3,
   "giorni": {
     "2026-09-26": {
@@ -560,7 +560,7 @@
       },
       "tiktok": {
         "follower": 1,
-        "visualizzazioni": 494,
+        "visualizzazioni": 499,
         "interazioni": 4,
         "condivisioni": 1
       },
@@ -587,7 +587,7 @@
       },
       "tiktok": {
         "follower": 1,
-        "visualizzazioni": 830,
+        "visualizzazioni": 841,
         "interazioni": 0,
         "condivisioni": 0
       },
@@ -603,9 +603,19 @@
     "2026-10-21": {
       "instagram": {
         "follower": 11,
-        "visualizzazioni": 36,
-        "copertura": 16,
-        "visualizzazioni_reel": 18
+        "visualizzazioni": 37,
+        "copertura": 17,
+        "visualizzazioni_reel": 19
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 253
+      },
+      "tiktok": {
+        "follower": 1,
+        "visualizzazioni": 403,
+        "interazioni": 1,
+        "condivisioni": 0
       },
       "x": {
         "follower": 0
@@ -614,6 +624,22 @@
         "visite": 8,
         "visitatori": 8,
         "pagine_viste": 12
+      }
+    },
+    "2026-10-22": {
+      "instagram": {
+        "follower": 11,
+        "visualizzazioni": 24,
+        "copertura": 14,
+        "visualizzazioni_reel": 16
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 4,
+        "visitatori": 4,
+        "pagine_viste": 4
       }
     }
   },
@@ -624,16 +650,20 @@
         15
       ],
       [
-        "/diario/",
-        12
-      ],
-      [
         "/riconoscimento-di-debito/",
         6
       ],
       [
+        "/diario/",
+        5
+      ],
+      [
         "/kit-farsi-pagare/",
         4
+      ],
+      [
+        "/messa-in-mora-fac-simile/",
+        3
       ],
       [
         "/grazie-kit-7q4m/",
@@ -655,7 +685,7 @@
     "da_dove_arrivano": [
       [
         "facebook.com",
-        20
+        16
       ],
       [
         "diretto",
