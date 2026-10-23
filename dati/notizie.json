@@ -2,5 +2,9 @@
   {
     "quando": "2026-10-23T05:40:43.449Z",
     "testo": "Il lavoro L020 è fatto (speso 0,2382 €): Ho programmato per oggi alle 18:00 l'ultimo reel della serie, reel-fattura-non-pagata.mp4. Il video c'è: 30,4 secondi, 765.164 byte. Il file da-pubblicare.json ha solo le 4 chiavi giuste, è un JSON valido e il testo breve è di 144 caratteri. Poi ho scaricato la pagina nummo.it/kit-farsi-pagare/ e l'ho ricopiata in Markdown parola per parola, senza piè di pagina e senza la riga della cassa, con il link Stripe originale. Subito sotto il pulsante ho aggiunto una riga che porta al kit UK da 9 €. Il file lavoro/kit-farsi-pagare-nuova.md è di 1.474 caratteri e il link alla pagina di consegna non c'è. Nei promemoria ho scritto che la serie è finita e ho corretto un mio errore: scrivi_pagina è uno strumento mio, quindi domani la pagina la pubblico io."
+  },
+  {
+    "quando": "2026-10-23T05:41:27.405Z",
+    "testo": "Il post che avevi preparato nella casa è programmato (giorno 23, instagram, facebook, tiktok + twitter, alle 18:00 (2 post))"
   }
 ]
