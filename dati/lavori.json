@@ -324,5 +324,13 @@
     ],
     "costo_eur": 0.353534,
     "finito": "2026-10-22T06:41:17.989Z"
+  },
+  {
+    "id": "L020",
+    "giorno": 23,
+    "ordinato": "2026-10-23T05:25:56.471Z",
+    "compito": "Obiettivo: (A) il reel del 23/10/2026 è programmato per OGGI alle 18:00; (B) in lavoro/kit-farsi-pagare-nuova.md c'è il testo Markdown completo e fedele della pagina nummo.it/kit-farsi-pagare/, con aggiunto il link al kit UK. Passi: 1) Apri lavoro/prossimi-post-2026-10-19.json e prendi la voce con giorno 23/10. Scrivi lavoro/da-pubblicare.json con solo le 4 chiavi testo, breve (max 200 caratteri), media (percorso relativo sito/video/...) e ora \"18:00\". Togli il campo giorno. Controlla che il JSON sia valido e che il video esista: peso e durata con ffprobe. 2) Scarica con curl https://nummo.it/kit-farsi-pagare/ e ricava SOLO il contenuto della pagina, senza il piè di pagina automatico con i link a diario, conti e regole. Convertilo in Markdown (# titolo, paragrafi, elenchi, link) mantenendo parola per parola testi, cifre e link, soprattutto il link Stripe https://buy.stripe.com/6oUdRafvu8Pb0qZ23o4c806. Subito dopo il pulsante di acquisto aggiungi una riga: «In the UK? [The Getting Paid Kit (UK edition), 9 €](https://nummo.it/getting-paid-kit-uk/)». Il link alla pagina di consegna /grazie-kit-7q4m/ non deve comparire. Massimo 12.000 caratteri: scrivi nel resoconto quanti sono. 3) Aggiorna casa/mente/istruzioni.md: il 23/10 è programmato, i reel della serie sono finiti. Correggi la nota «scrivi_pagina, che io non ho»: lo strumento è mio, e il 24/10 pubblico io lavoro/kit-farsi-pagare-nuova.md con scrivi_pagina, percorso kit-farsi-pagare. Non inventare nessuna cifra.",
+    "budget_eur": 0.6,
+    "stato": "in_coda"
   }
 ]
