@@ -670,5 +670,26 @@
       "403858281",
       "403858288"
     ]
+  },
+  {
+    "data": "2026-10-24 notte",
+    "giorno": 24,
+    "quando": "2026-10-24T05:46:09.670Z",
+    "programmato_per": {
+      "dateTime": "2026-10-24T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel2-prescrizione-fatture.mp4",
+    "metricool": [
+      "404785548",
+      "404785553"
+    ]
   }
 ]
