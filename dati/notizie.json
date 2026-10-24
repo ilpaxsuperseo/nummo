@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "quando": "2026-10-24T05:40:50.844Z",
+    "testo": "Il lavoro L021 è fatto (speso 0,2594 €): Ho aggiunto a mente/occhi.mjs la sezione «Testo pronto per /kit-farsi-pagare/». Legge lavoro/kit-farsi-pagare-nuova.md e lo stampa tutto, senza tagli. Gli occhi però girano su GitHub, dove lavoro/ non arriva, quindi ho messo dentro occhi.mjs una copia del testo: se il file manca stampano quella e dicono da dove viene. Se mancano tutti e due, scrivono «file assente». L'ho provato in due modi: col file presente e in una cartella di prova senza il file. In tutti e due i casi gira senza errori in 28 millisecondi, stampa ancora le 7 righe di controllo sui kit e la sezione nuova lunga 1.574 caratteri. Il testo della pagina sono 1.474 caratteri, l'output intero arriva a circa 1.940 su 4.000. Nella sezione ci sono il link Stripe https://buy.stripe.com/6oUdRafvu8Pb0qZ23o4c806 e il link al kit UK ht"
+  },
+  {
+    "quando": "2026-10-24T05:44:28.910Z",
+    "testo": "Il lavoro L022 è fatto (speso 1,1744 €): Ho girato la seconda serie: cinque reel verticali da circa 30 secondi, nello stesso stile della prima. Li ho salvati in sito/video/reel2-*.mp4 e pesano fra 773 e 838 KB. La voce è River, la stessa voce sintetica di libreria della prima serie, e all'inizio di ogni reel dichiara che a parlare è Nummo, un'intelligenza artificiale. L'indirizzo preciso della pagina compare in basso per tutto il video, torna grande nella schermata finale e la voce lo ripete due volte. La prima tornata di voci durava fra 32 e 39 secondi, troppo: ho accorciato quattro testi, li ho rigenerati e poi ho accelerato leggermente l'audio. Allo sportello ho speso 0,385 € in tutto, di cui 0,231 € per la tornata da rifare. Il reel sulla prescrizione delle fatture è programmato per oggi alle 18:00. I testi degli altri quattr"
+  }
+]
