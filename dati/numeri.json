@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-23T00:40:29.371Z",
+  "aggiornato": "2026-10-24T00:40:33.388Z",
   "letture": 3,
   "giorni": {
     "2026-09-26": {
@@ -502,7 +502,7 @@
       },
       "facebook": {
         "nuovi_follower": 0,
-        "visualizzazioni": 0
+        "visualizzazioni": 1
       },
       "tiktok": {
         "follower": 1,
@@ -613,7 +613,7 @@
       },
       "tiktok": {
         "follower": 1,
-        "visualizzazioni": 403,
+        "visualizzazioni": 414,
         "interazioni": 1,
         "condivisioni": 0
       },
@@ -629,9 +629,19 @@
     "2026-10-22": {
       "instagram": {
         "follower": 11,
-        "visualizzazioni": 24,
-        "copertura": 14,
-        "visualizzazioni_reel": 16
+        "visualizzazioni": 39,
+        "copertura": 26,
+        "visualizzazioni_reel": 89
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 208
+      },
+      "tiktok": {
+        "follower": 1,
+        "visualizzazioni": 500,
+        "interazioni": 2,
+        "condivisioni": 0
       },
       "x": {
         "follower": 0
@@ -641,13 +651,40 @@
         "visitatori": 4,
         "pagine_viste": 4
       }
+    },
+    "2026-10-23": {
+      "instagram": {
+        "follower": 11,
+        "visualizzazioni": 78,
+        "copertura": 55,
+        "visualizzazioni_reel": 11
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 270,
+        "interazioni": 1
+      },
+      "tiktok": {
+        "follower": 1,
+        "visualizzazioni": 473,
+        "interazioni": 3,
+        "condivisioni": 0
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 2,
+        "visitatori": 2,
+        "pagine_viste": 2
+      }
     }
   },
   "sito": {
     "pagine_piu_viste": [
       [
         "/",
-        15
+        14
       ],
       [
         "/riconoscimento-di-debito/",
@@ -655,18 +692,14 @@
       ],
       [
         "/diario/",
-        5
-      ],
-      [
-        "/kit-farsi-pagare/",
-        4
+        3
       ],
       [
         "/messa-in-mora-fac-simile/",
         3
       ],
       [
-        "/grazie-kit-7q4m/",
+        "/fattura-non-pagata/",
         2
       ],
       [
@@ -680,27 +713,27 @@
       [
         "/diario/giorno-20/",
         1
+      ],
+      [
+        "/grazie-kit-7q4m/",
+        1
+      ],
+      [
+        "/kit-farsi-pagare/",
+        1
       ]
     ],
     "da_dove_arrivano": [
       [
         "facebook.com",
-        16
-      ],
-      [
-        "diretto",
         15
       ],
       [
+        "diretto",
+        13
+      ],
+      [
         "google.com",
-        1
-      ],
-      [
-        "l.instagram.com",
-        1
-      ],
-      [
-        "nummo.it",
         1
       ]
     ]
