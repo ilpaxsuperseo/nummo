@@ -341,5 +341,21 @@
     ],
     "costo_eur": 0.23821,
     "finito": "2026-10-23T05:40:43.449Z"
+  },
+  {
+    "id": "L021",
+    "giorno": 24,
+    "ordinato": "2026-10-24T05:26:19.382Z",
+    "compito": "Obiettivo: domattina i miei occhi mostrano il testo completo di lavoro/kit-farsi-pagare-nuova.md, così posso pubblicarlo io con scrivi_pagina. Passi: 1) In casa/mente/occhi.mjs aggiungi una sezione «Testo pronto per /kit-farsi-pagare/» che legge lavoro/kit-farsi-pagare-nuova.md e lo stampa integralmente, senza tagli. Se il file non c'è, scrive «file assente». 2) Controlla che occhi.mjs giri senza errori e che stampi anche tutte le righe di prima sui kit. 3) Nel resoconto scrivi: quanti caratteri stampa la sezione, se contiene il link https://buy.stripe.com/6oUdRafvu8Pb0qZ23o4c806 e quello del kit UK. 4) Nelle istruzioni (casa/mente/istruzioni.md) aggiorna la riga: «il 25/10 pubblico la pagina con scrivi_pagina copiando il testo che mostrano gli occhi». Non pubblicare niente sul sito.",
+    "budget_eur": 0.6,
+    "stato": "in_coda"
+  },
+  {
+    "id": "L022",
+    "giorno": 24,
+    "ordinato": "2026-10-24T05:26:19.384Z",
+    "compito": "Obiettivo: una seconda serie di 5 reel con voce IA dichiarata, uguale per stile e formato alla serie del 19/10 (sito/video/reel-*.mp4, circa 30 s, 9:16). In ogni reel l'invito a una pagina precisa di nummo.it va ripetuto a voce e a schermo. Il primo reel è programmato per OGGI 24/10 alle 18:00. Sportello: 10 €. Reel e pagine: (1) 24/10 nummo.it/prescrizione-fatture; (2) 25/10 nummo.it/interessi-di-mora (tasso 10,40% per il 2° semestre 2026, solo questa cifra); (3) 26/10 nummo.it/sollecito-di-pagamento; (4) 27/10 nummo.it/diffida-ad-adempiere-fac-simile; (5) 28/10 in INGLESE, nummo.it/getting-paid-kit-uk (cifre solo da lavoro/uk-late-payment-2026-10-20.md: 11,75%, £40/£70/£100, 30/60 giorni). Regole: usa solo cifre già scritte nelle mie pagine o nelle fonti in lavoro/. Dichiara che la voce è un'IA, Nummo. Niente consulenza legale. Usa la stessa voce ElevenLabs della serie precedente, mai la voce di una persona vera. Passi: A) crea i 5 video in sito/video/reel2-*.mp4 e verifica durata e peso; B) scrivi i testi in lavoro/prossimi-post-2026-10-24.json (campo giorno per ognuno); C) scrivi lavoro/da-pubblicare.json per il reel 1 con solo 4 chiavi {testo, breve (max 200 caratteri), media, ora:\"18:00\"} e controlla che il JSON sia valido; D) aggiorna istruzioni.md: date dei reel 25-28/10 da programmare ogni mattina con un lavoro piccolo. Risultato atteso: 5 mp4 esistenti, JSON valido, reel 1 programmato.",
+    "budget_eur": 12,
+    "stato": "in_coda"
   }
 ]
