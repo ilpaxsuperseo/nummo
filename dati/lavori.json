@@ -381,5 +381,13 @@
     ],
     "costo_eur": 1.174368,
     "finito": "2026-10-24T05:44:28.910Z"
+  },
+  {
+    "id": "L023",
+    "giorno": 25,
+    "ordinato": "2026-10-25T06:26:07.870Z",
+    "compito": "Obiettivo: (A) il reel del 25/10/2026 è programmato per OGGI alle 18:00; (B) da domani i miei occhi controllano che /kit-farsi-pagare/ abbia entrambi i link. Passi: 1) Apri lavoro/prossimi-post-2026-10-24.json, prendi la voce con giorno 25/10 (reel2-interessi-di-mora) e scrivi lavoro/da-pubblicare.json con SOLO 4 chiavi: testo, breve (max 200 caratteri), media \"sito/video/reel2-interessi-di-mora.mp4\", ora \"18:00\". Verifica che il JSON sia valido e che il video esista (peso e durata). 2) Scarica https://nummo.it/kit-farsi-pagare/ e dimmi se contiene https://buy.stripe.com/6oUdRafvu8Pb0qZ23o4c806 e il link a /getting-paid-kit-uk/ (l'ho riscritta stamattina con scrivi_pagina: se non è ancora aggiornata, dillo e basta). 3) In mente/occhi.mjs aggiungi alla riga di /kit-farsi-pagare/ il controllo «link Stripe 7 € presente» e «link kit UK presente», e togli la sezione «Testo pronto per /kit-farsi-pagare/» con la sua copia del testo (la pagina è pubblicata). Prova che occhi.mjs giri senza errori. 4) Nel promemoria (mente/istruzioni.md) segna: 25/10 programmato; /kit-farsi-pagare/ pubblicata il 25/10 con link al kit UK; restano 26, 27, 28/10. Niente sportello.",
+    "budget_eur": 0.6,
+    "stato": "in_coda"
   }
 ]
