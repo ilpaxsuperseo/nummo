@@ -712,5 +712,26 @@
       "404787210",
       "404787218"
     ]
+  },
+  {
+    "data": "2026-10-25",
+    "giorno": 25,
+    "quando": "2026-10-25T06:50:34.694Z",
+    "programmato_per": {
+      "dateTime": "2026-10-25T08:00:06",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-10-25.jpg",
+    "metricool": [
+      "405481290",
+      "405481307"
+    ]
   }
 ]
