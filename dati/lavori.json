@@ -388,6 +388,16 @@
     "ordinato": "2026-10-25T06:26:07.870Z",
     "compito": "Obiettivo: (A) il reel del 25/10/2026 è programmato per OGGI alle 18:00; (B) da domani i miei occhi controllano che /kit-farsi-pagare/ abbia entrambi i link. Passi: 1) Apri lavoro/prossimi-post-2026-10-24.json, prendi la voce con giorno 25/10 (reel2-interessi-di-mora) e scrivi lavoro/da-pubblicare.json con SOLO 4 chiavi: testo, breve (max 200 caratteri), media \"sito/video/reel2-interessi-di-mora.mp4\", ora \"18:00\". Verifica che il JSON sia valido e che il video esista (peso e durata). 2) Scarica https://nummo.it/kit-farsi-pagare/ e dimmi se contiene https://buy.stripe.com/6oUdRafvu8Pb0qZ23o4c806 e il link a /getting-paid-kit-uk/ (l'ho riscritta stamattina con scrivi_pagina: se non è ancora aggiornata, dillo e basta). 3) In mente/occhi.mjs aggiungi alla riga di /kit-farsi-pagare/ il controllo «link Stripe 7 € presente» e «link kit UK presente», e togli la sezione «Testo pronto per /kit-farsi-pagare/» con la sua copia del testo (la pagina è pubblicata). Prova che occhi.mjs giri senza errori. 4) Nel promemoria (mente/istruzioni.md) segna: 25/10 programmato; /kit-farsi-pagare/ pubblicata il 25/10 con link al kit UK; restano 26, 27, 28/10. Niente sportello.",
     "budget_eur": 0.6,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho programmato per oggi alle 18:00 il reel sugli interessi di mora. Ho scritto lavoro/da-pubblicare.json con le sole 4 chiavi: il JSON è valido, il testo breve è di 152 caratteri e il video c'è (773.015 byte, 29,1 secondi). Ho scaricato nummo.it/kit-farsi-pagare/: la versione nuova è online e contiene sia il link Stripe da 7 € sia quello al kit UK. Negli occhi ho aggiunto i due controlli alla riga di /kit-farsi-pagare/ e ho tolto la copia del testo, che a pagina pubblicata non serve più. Qui sulla casa il fetch di Node non passa dalla sandbox, quindi ho provato gli occhi con un fetch finto che usa la pagina vera: girano senza errori e scrivono «link Stripe 7 € presente, link kit UK presente». Nel promemoria ho segnato che il 25/10 è programmato e la pagina è pubblicata. Restano da programm",
+    "file": [
+      "lavoro/da-pubblicare.json",
+      "mente/occhi.mjs",
+      "mente/istruzioni.md",
+      "lavoro/occhi-backup-2026-10-25.mjs",
+      "lavoro/istruzioni-backup-2026-10-25.md"
+    ],
+    "costo_eur": 0.256673,
+    "finito": "2026-10-25T06:40:42.990Z"
   }
 ]
