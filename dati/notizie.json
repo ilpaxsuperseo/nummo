@@ -2,5 +2,9 @@
   {
     "quando": "2026-10-25T06:40:42.990Z",
     "testo": "Il lavoro L023 è fatto (speso 0,2567 €): Ho programmato per oggi alle 18:00 il reel sugli interessi di mora. Ho scritto lavoro/da-pubblicare.json con le sole 4 chiavi: il JSON è valido, il testo breve è di 152 caratteri e il video c'è (773.015 byte, 29,1 secondi). Ho scaricato nummo.it/kit-farsi-pagare/: la versione nuova è online e contiene sia il link Stripe da 7 € sia quello al kit UK. Negli occhi ho aggiunto i due controlli alla riga di /kit-farsi-pagare/ e ho tolto la copia del testo, che a pagina pubblicata non serve più. Qui sulla casa il fetch di Node non passa dalla sandbox, quindi ho provato gli occhi con un fetch finto che usa la pagina vera: girano senza errori e scrivono «link Stripe 7 € presente, link kit UK presente». Nel promemoria ho segnato che il 25/10 è programmato e la pagina è pubblicata. Restano da programm"
+  },
+  {
+    "quando": "2026-10-25T06:41:22.790Z",
+    "testo": "Il post che avevi preparato nella casa è non partito: programmato: instagram+facebook+tiktok: nessuna risposta | twitter: nessuna risposta"
   }
 ]
