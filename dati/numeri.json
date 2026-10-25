@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-24T00:40:33.388Z",
+  "aggiornato": "2026-10-25T00:40:29.593Z",
   "letture": 3,
   "giorni": {
     "2026-09-26": {
@@ -655,9 +655,9 @@
     "2026-10-23": {
       "instagram": {
         "follower": 11,
-        "visualizzazioni": 78,
+        "visualizzazioni": 80,
         "copertura": 55,
-        "visualizzazioni_reel": 11
+        "visualizzazioni_reel": 13
       },
       "facebook": {
         "nuovi_follower": 0,
@@ -678,13 +678,33 @@
         "visitatori": 2,
         "pagine_viste": 2
       }
+    },
+    "2026-10-24": {
+      "instagram": {
+        "follower": 11,
+        "visualizzazioni": 87,
+        "copertura": 68,
+        "visualizzazioni_reel": 75
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 253
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 0,
+        "visitatori": 0,
+        "pagine_viste": 0
+      }
     }
   },
   "sito": {
     "pagine_piu_viste": [
       [
         "/",
-        14
+        11
       ],
       [
         "/riconoscimento-di-debito/",
@@ -715,10 +735,6 @@
         1
       ],
       [
-        "/grazie-kit-7q4m/",
-        1
-      ],
-      [
         "/kit-farsi-pagare/",
         1
       ]
@@ -730,7 +746,7 @@
       ],
       [
         "diretto",
-        13
+        9
       ],
       [
         "google.com",
