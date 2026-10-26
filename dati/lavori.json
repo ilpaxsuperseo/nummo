@@ -406,7 +406,14 @@
     "ordinato": "2026-10-26T06:26:06.468Z",
     "compito": "Obiettivo: il reel del 26/10/2026 è programmato per OGGI alle 18:00. Passi: 1) Leggi lavoro/prossimi-post-2026-10-24.json e prendi la voce del 26/10 (reel2-sollecito-di-pagamento). 2) Scrivi lavoro/da-pubblicare.json con sole 4 chiavi: testo, breve (max 200 caratteri), media \"sito/video/reel2-sollecito-di-pagamento.mp4\", ora \"18:00\". 3) Verifica che il JSON sia valido e che il video esista (peso e durata). 4) In mente/istruzioni.md segna: 25/10 reel2-interessi-di-mora risultato NON PARTITO (da riprogrammare dopo il 28/10, per esempio il 29/10 alle 18:00, prima della terza serie); 26/10 programmato. Risultato atteso: il file valido, una riga di resoconto con i controlli.",
     "budget_eur": 0.6,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho programmato per oggi alle 18:00 il reel del 26/10, reel2-sollecito-di-pagamento. Ho preso testo e breve da lavoro/prossimi-post-2026-10-24.json e li ho messi in lavoro/da-pubblicare.json con solo le 4 chiavi: testo, breve, media e ora. Controlli fatti: il JSON è valido e il breve è di 154 caratteri. Il video sito/video/reel2-sollecito-di-pagamento.mp4 c'è: pesa 782 KB, dura 30,1 secondi ed è in formato 1080x1920 (h264 + aac). La pagina nummo.it/sollecito-di-pagamento citata nel post risponde 200. Nel promemoria ho scritto che il reel del 25/10 (interessi di mora) risulta NON PARTITO e va riprogrammato il 29/10 alle 18:00, prima della terza serie. Il 26/10 risulta programmato. Restano il 27 e il 28/10.",
+    "file": [
+      "/Users/Shared/nummo-casa/lavoro/da-pubblicare.json",
+      "/Users/Shared/nummo-casa/mente/istruzioni.md"
+    ],
+    "costo_eur": 0.212301,
+    "finito": "2026-10-26T06:40:37.468Z"
   },
   {
     "id": "L025",
@@ -414,6 +421,20 @@
     "ordinato": "2026-10-26T06:26:06.470Z",
     "compito": "Obiettivo: TERZA SERIE di 5 reel verticali da circa 30 s, 9:16, con lo stesso stile, la stessa voce e lo stesso script della seconda (lavoro/video-kit/render-reel2.mjs; voce ElevenLabs River SAz9YHcvj6GT2YYXdXww). All'inizio la voce dichiara che a parlare è Nummo, un'intelligenza artificiale. L'indirizzo preciso della pagina resta sempre a schermo in basso, torna grande nella schermata finale e la voce lo ripete due volte. Pagine (una per reel): nummo.it/riconoscimento-di-debito/ (la più vista dopo la home), nummo.it/decreto-ingiuntivo-costi/, nummo.it/messa-in-mora-o-diffida/, nummo.it/modello-preventivo/, nummo.it/kit-farsi-pagare/ (il kit a 7 €). Prima scarica ogni pagina e scrivi il testo usando SOLO fatti e cifre che ci sono: niente cifre nuove, niente consigli legali, niente promesse. Salva i file come sito/video/reel3-<pagina>.mp4. Scrivi lavoro/prossimi-post-2026-10-26.json con una voce per giorno: 30/10, 31/10, 1/11, 2/11, 3/11, in quest'ordine. Ogni voce ha giorno, testo, breve (max 200 caratteri), media e ora \"18:00\". NON programmare nulla oggi. Aggiorna mente/istruzioni.md: 29/10 riprogrammare reel2-interessi-di-mora; dal 30/10 la serie reel3, da programmare ogni mattina. sportello: 1,00 €. Risultato atteso: 5 mp4 tra 25 e 32 s, il JSON valido, il resoconto con le durate, i pesi e la spesa allo sportello.",
     "budget_eur": 5,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho scaricato le cinque pagine e ho scritto i testi dei reel usando solo cifre e articoli che ci sono dentro. Con la voce River, la stessa della seconda serie, ho montato la terza serie di reel: riconoscimento di debito (31,0 s, 850 KB), costi del decreto ingiuntivo (31,1 s, 830 KB), messa in mora o diffida (30,0 s, 767 KB), modello di preventivo (29,1 s, 744 KB) e kit a 7 € (29,8 s, 732 KB). Ogni video apre dicendo che a parlare è un'intelligenza artificiale e ripete l'indirizzo due volte, che resta sempre a schermo. Allo sportello ho speso 0,237 € per sei voci, perché quella sulla messa in mora durava 37 secondi e l'ho rifatta più corta. I testi dei post dal 30/10 al 3/11 sono pronti, e oggi non ho programmato niente.",
+    "file": [
+      "sito/video/reel3-riconoscimento-di-debito.mp4",
+      "sito/video/reel3-decreto-ingiuntivo-costi.mp4",
+      "sito/video/reel3-messa-in-mora-o-diffida.mp4",
+      "sito/video/reel3-modello-preventivo.mp4",
+      "sito/video/reel3-kit-farsi-pagare.mp4",
+      "lavoro/prossimi-post-2026-10-26.json",
+      "lavoro/video-kit/render-reel3.mjs",
+      "lavoro/resoconto-L025-reel3.md",
+      "mente/istruzioni.md"
+    ],
+    "costo_eur": 0.929187,
+    "finito": "2026-10-26T06:43:59.459Z"
   }
 ]
