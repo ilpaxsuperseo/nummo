@@ -733,5 +733,26 @@
       "405481290",
       "405481307"
     ]
+  },
+  {
+    "data": "2026-10-26 notte",
+    "giorno": 26,
+    "quando": "2026-10-26T06:44:35.690Z",
+    "programmato_per": {
+      "dateTime": "2026-10-26T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel2-sollecito-di-pagamento.mp4",
+    "metricool": [
+      "406275057",
+      "406275065"
+    ]
   }
 ]
