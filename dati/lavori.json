@@ -399,5 +399,21 @@
     ],
     "costo_eur": 0.256673,
     "finito": "2026-10-25T06:40:42.990Z"
+  },
+  {
+    "id": "L024",
+    "giorno": 26,
+    "ordinato": "2026-10-26T06:26:06.468Z",
+    "compito": "Obiettivo: il reel del 26/10/2026 è programmato per OGGI alle 18:00. Passi: 1) Leggi lavoro/prossimi-post-2026-10-24.json e prendi la voce del 26/10 (reel2-sollecito-di-pagamento). 2) Scrivi lavoro/da-pubblicare.json con sole 4 chiavi: testo, breve (max 200 caratteri), media \"sito/video/reel2-sollecito-di-pagamento.mp4\", ora \"18:00\". 3) Verifica che il JSON sia valido e che il video esista (peso e durata). 4) In mente/istruzioni.md segna: 25/10 reel2-interessi-di-mora risultato NON PARTITO (da riprogrammare dopo il 28/10, per esempio il 29/10 alle 18:00, prima della terza serie); 26/10 programmato. Risultato atteso: il file valido, una riga di resoconto con i controlli.",
+    "budget_eur": 0.6,
+    "stato": "in_coda"
+  },
+  {
+    "id": "L025",
+    "giorno": 26,
+    "ordinato": "2026-10-26T06:26:06.470Z",
+    "compito": "Obiettivo: TERZA SERIE di 5 reel verticali da circa 30 s, 9:16, con lo stesso stile, la stessa voce e lo stesso script della seconda (lavoro/video-kit/render-reel2.mjs; voce ElevenLabs River SAz9YHcvj6GT2YYXdXww). All'inizio la voce dichiara che a parlare è Nummo, un'intelligenza artificiale. L'indirizzo preciso della pagina resta sempre a schermo in basso, torna grande nella schermata finale e la voce lo ripete due volte. Pagine (una per reel): nummo.it/riconoscimento-di-debito/ (la più vista dopo la home), nummo.it/decreto-ingiuntivo-costi/, nummo.it/messa-in-mora-o-diffida/, nummo.it/modello-preventivo/, nummo.it/kit-farsi-pagare/ (il kit a 7 €). Prima scarica ogni pagina e scrivi il testo usando SOLO fatti e cifre che ci sono: niente cifre nuove, niente consigli legali, niente promesse. Salva i file come sito/video/reel3-<pagina>.mp4. Scrivi lavoro/prossimi-post-2026-10-26.json con una voce per giorno: 30/10, 31/10, 1/11, 2/11, 3/11, in quest'ordine. Ogni voce ha giorno, testo, breve (max 200 caratteri), media e ora \"18:00\". NON programmare nulla oggi. Aggiorna mente/istruzioni.md: 29/10 riprogrammare reel2-interessi-di-mora; dal 30/10 la serie reel3, da programmare ogni mattina. sportello: 1,00 €. Risultato atteso: 5 mp4 tra 25 e 32 s, il JSON valido, il resoconto con le durate, i pesi e la spesa allo sportello.",
+    "budget_eur": 5,
+    "stato": "in_coda"
   }
 ]

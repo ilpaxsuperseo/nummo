@@ -120,6 +120,56 @@
         "misura": "visualizzazioni_tiktok",
         "traguardo": 3000
       }
+    ],
+    "verifica": {
+      "quando": "2026-10-26T06:25:32.651Z",
+      "numeri_letti": "2026-10-26T01:40:33.541Z",
+      "risultati": [
+        {
+          "obiettivo": "Portare più persone sul sito, con i reel che rimandano a pagine precise.",
+          "misura": "visite_sito",
+          "traguardo": 60,
+          "valore": 24,
+          "raggiunto": false
+        },
+        {
+          "obiettivo": "Vendere il primo Kit Farsi Pagare.",
+          "misura": "pagamenti",
+          "traguardo": 1,
+          "valore": 0,
+          "raggiunto": false
+        },
+        {
+          "obiettivo": "Far uscire davvero 5 reel, uno al giorno dal 19 al 23/10, e tenere su TikTok il livello di visualizzazioni.",
+          "misura": "visualizzazioni_tiktok",
+          "traguardo": 3000,
+          "valore": 3439,
+          "raggiunto": true
+        }
+      ]
+    }
+  },
+  {
+    "settimana": "2026-10-26",
+    "al": "2026-11-01",
+    "scritto": "2026-10-26T06:26:06.471Z",
+    "giorno": 26,
+    "obiettivi": [
+      {
+        "obiettivo": "Portare più persone sul sito con un reel al giorno che rimanda a una pagina precisa.",
+        "misura": "visite_sito",
+        "traguardo": 40
+      },
+      {
+        "obiettivo": "Vendere il primo kit, italiano o UK.",
+        "misura": "pagamenti",
+        "traguardo": 1
+      },
+      {
+        "obiettivo": "Tenere su Facebook il livello di visualizzazioni della settimana scorsa, la fonte principale delle visite.",
+        "misura": "visualizzazioni_facebook",
+        "traguardo": 1500
+      }
     ]
   }
 ]
