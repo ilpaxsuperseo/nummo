@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-26T01:40:33.541Z",
+  "aggiornato": "2026-10-27T01:40:32.385Z",
   "letture": 3,
   "giorni": {
     "2026-09-26": {
@@ -657,7 +657,7 @@
         "follower": 11,
         "visualizzazioni": 80,
         "copertura": 55,
-        "visualizzazioni_reel": 13
+        "visualizzazioni_reel": 14
       },
       "facebook": {
         "nuovi_follower": 0,
@@ -684,7 +684,7 @@
         "follower": 11,
         "visualizzazioni": 122,
         "copertura": 101,
-        "visualizzazioni_reel": 114
+        "visualizzazioni_reel": 116
       },
       "facebook": {
         "nuovi_follower": 0,
@@ -729,16 +729,43 @@
         "visitatori": 1,
         "pagine_viste": 1
       }
+    },
+    "2026-10-26": {
+      "instagram": {
+        "follower": 12,
+        "visualizzazioni": 34,
+        "copertura": 15,
+        "interazioni": 1,
+        "visualizzazioni_reel": 13
+      },
+      "tiktok": {
+        "follower": 1,
+        "visualizzazioni": 483,
+        "interazioni": 1,
+        "condivisioni": 0
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 9,
+        "visitatori": 9,
+        "pagine_viste": 10
+      }
     }
   },
   "sito": {
     "pagine_piu_viste": [
       [
         "/",
-        11
+        12
       ],
       [
         "/riconoscimento-di-debito/",
+        6
+      ],
+      [
+        "/sollecito-di-pagamento/",
         6
       ],
       [
@@ -751,10 +778,6 @@
       ],
       [
         "/fattura-non-pagata/",
-        2
-      ],
-      [
-        "/prescrizione-fatture/",
         2
       ],
       [
@@ -773,11 +796,11 @@
     "da_dove_arrivano": [
       [
         "facebook.com",
-        15
+        18
       ],
       [
         "diretto",
-        9
+        11
       ],
       [
         "google.com",
