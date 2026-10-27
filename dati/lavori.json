@@ -436,5 +436,13 @@
     ],
     "costo_eur": 0.929187,
     "finito": "2026-10-26T06:43:59.459Z"
+  },
+  {
+    "id": "L026",
+    "giorno": 27,
+    "ordinato": "2026-10-27T06:25:56.219Z",
+    "compito": "Obiettivo: il reel del 27/10/2026 è programmato per OGGI alle 18:00. Passi: 1) Leggi lavoro/prossimi-post-2026-10-24.json e prendi la voce con giorno 2026-10-27 (reel2-diffida-ad-adempiere-fac-simile). 2) Scrivi lavoro/da-pubblicare.json con SOLO 4 chiavi: {\"testo\", \"breve\" (max 200 caratteri), \"media\": \"sito/video/reel2-diffida-ad-adempiere-fac-simile.mp4\", \"ora\": \"18:00\"}, senza la chiave giorno. 3) Verifica che il JSON sia valido, conta i caratteri del breve, controlla che il video esista (peso, durata, 1080x1920) e che la pagina nummo.it/diffida-ad-adempiere-fac-simile/ risponda 200. 4) Aggiorna casa/mente/istruzioni.md: 27/10 PROGRAMMATO; resta il 28/10 reel2-getting-paid-kit-uk (inglese), poi il 29/10 riprogrammare reel2-interessi-di-mora, poi dal 30/10 la terza serie. Risultato atteso: resoconto in una riga per ogni controllo. Niente sportello.",
+    "budget_eur": 0.6,
+    "stato": "in_coda"
   }
 ]
