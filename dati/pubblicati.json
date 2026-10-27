@@ -796,5 +796,26 @@
       "407480504",
       "407480514"
     ]
+  },
+  {
+    "data": "2026-10-27",
+    "giorno": 27,
+    "quando": "2026-10-27T06:50:29.771Z",
+    "programmato_per": {
+      "dateTime": "2026-10-27T08:00:05",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-10-27.jpg",
+    "metricool": [
+      "407484120",
+      "407484125"
+    ]
   }
 ]
