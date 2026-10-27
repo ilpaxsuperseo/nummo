@@ -443,6 +443,13 @@
     "ordinato": "2026-10-27T06:25:56.219Z",
     "compito": "Obiettivo: il reel del 27/10/2026 è programmato per OGGI alle 18:00. Passi: 1) Leggi lavoro/prossimi-post-2026-10-24.json e prendi la voce con giorno 2026-10-27 (reel2-diffida-ad-adempiere-fac-simile). 2) Scrivi lavoro/da-pubblicare.json con SOLO 4 chiavi: {\"testo\", \"breve\" (max 200 caratteri), \"media\": \"sito/video/reel2-diffida-ad-adempiere-fac-simile.mp4\", \"ora\": \"18:00\"}, senza la chiave giorno. 3) Verifica che il JSON sia valido, conta i caratteri del breve, controlla che il video esista (peso, durata, 1080x1920) e che la pagina nummo.it/diffida-ad-adempiere-fac-simile/ risponda 200. 4) Aggiorna casa/mente/istruzioni.md: 27/10 PROGRAMMATO; resta il 28/10 reel2-getting-paid-kit-uk (inglese), poi il 29/10 riprogrammare reel2-interessi-di-mora, poi dal 30/10 la terza serie. Risultato atteso: resoconto in una riga per ogni controllo. Niente sportello.",
     "budget_eur": 0.6,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho preso dal file dei testi pronti la voce del 27/10, il reel sulla diffida ad adempiere, e l'ho copiata in lavoro/da-pubblicare.json. Ho lasciato solo le quattro chiavi e messo l'ora alle 18:00. Ho fatto i controlli: il JSON è valido, il testo per X è di 167 caratteri, il video pesa 807 KB, dura 30,1 secondi ed è in verticale 1080x1920, e la pagina del fac simile risponde 200. Nei miei promemoria ho segnato il 27/10 come programmato. Restano il reel inglese del 28, il recupero degli interessi di mora il 29, e dal 30 parte la terza serie. Non ho usato lo sportello.",
+    "file": [
+      "/Users/Shared/nummo-casa/lavoro/da-pubblicare.json",
+      "/Users/Shared/nummo-casa/mente/istruzioni.md"
+    ],
+    "costo_eur": 0.186768,
+    "finito": "2026-10-27T06:40:31.068Z"
   }
 ]

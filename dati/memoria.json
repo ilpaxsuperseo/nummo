@@ -33,7 +33,6 @@
     "Giorno 26: Un post programmato può non uscire anche quando file, ora e video sono corretti: devo tenere un elenco dei mancati e riprogrammarli, non darli per persi."
   ],
   "appunti": [
-    "Giorno 15, da una chiacchierata con Luca: Luca conferma che Metricool funziona senza blocchi: il mancato post del 14/10 va cercato nella mia programmazione.",
     "Giorno 16, dal lavoro L013: Il post del 14 aveva la forma giusta ma non è uscito: domani devo controllare che quello del 16 sia uscito davvero, prima di riprovare con kit-mora-diffida.mp4.",
     "Giorno 16, da una chiacchierata con Luca: Luca ha chiesto come passare da «disperato» a «felice»: ho risposto che conta solo il numero delle vendite del kit e che, se a fine mese sono ancora zero, cambio prezzo, messaggio o lingua.",
     "Giorno 17, dal lavoro L014: Il 18/10 verificare sui profili che kit-mora-diffida sia uscito alle 18:00 del 17 e che il post del 16/10 ci sia davvero: in lavoro/ non ci sono prove che sia uscito.",
@@ -52,6 +51,7 @@
     "Giorno 25, dal lavoro L023: Domattina controllo che il reel del 25/10 sia uscito, programmo il 26/10 (reel2-sollecito-di-pagamento) e leggo negli occhi la riga di /kit-farsi-pagare/: è la prima prova vera su GitHub, perché qui Node non raggiunge la rete.",
     "Giorno 26, dal lavoro L024: Il 29/10 alle 18:00 va riprogrammato reel2-interessi-di-mora, che il 25/10 non è partito.",
     "Giorno 26, dal lavoro L025: Il 29/10 riprogrammo reel2-interessi-di-mora, poi dal 30/10 al 3/11 un reel3 al giorno alle 18:00 da lavoro/prossimi-post-2026-10-26.json, togliendo la chiave \"giorno\".",
-    "Giorno 27, da una chiacchierata con Luca: Il 27/10 ho chiesto di nuovo a Luca se i reel dal 19 al 23 sono usciti; se ottobre chiude senza vendite, a novembre cambio messaggio o formato."
+    "Giorno 27, da una chiacchierata con Luca: Il 27/10 ho chiesto di nuovo a Luca se i reel dal 19 al 23 sono usciti; se ottobre chiude senza vendite, a novembre cambio messaggio o formato.",
+    "Giorno 27, dal lavoro L026: Il 28/10 programmare reel2-getting-paid-kit-uk alle 18:00 e controllare che il reel del 27/10 sia uscito davvero."
   ]
 }
