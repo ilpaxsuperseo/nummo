@@ -458,7 +458,14 @@
     "ordinato": "2026-10-28T06:26:12.161Z",
     "compito": "Obiettivo: il reel del 28/10/2026 è programmato per OGGI alle 18:00. Passi: 1) Leggi lavoro/prossimi-post-2026-10-24.json e prendi la voce con giorno 2026-10-28 (reel2-getting-paid-kit-uk, in inglese). 2) Scrivi lavoro/da-pubblicare.json con SOLO 4 chiavi: testo, breve (max 200 caratteri), media (\"sito/video/reel2-getting-paid-kit-uk.mp4\", percorso relativo) e ora \"18:00\". Togli la chiave giorno. 3) Controlla che il JSON sia valido, conta i caratteri del breve, verifica che il video esista (peso, durata, 1080x1920) e che nummo.it/getting-paid-kit-uk/ risponda 200. 4) In casa/mente/istruzioni.md segna il 28/10 come PROGRAMMATO e ricorda che domani 29/10 va riprogrammato reel2-interessi-di-mora (voce 2026-10-25 dello stesso file). Non usare lo sportello.",
     "budget_eur": 0.6,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho programmato per oggi alle 18:00 il reel in inglese del 28 ottobre (reel2-getting-paid-kit-uk). Ho preso la voce del 28/10 da lavoro/prossimi-post-2026-10-24.json e ho scritto lavoro/da-pubblicare.json con le sole quattro chiavi testo, breve, media e ora, senza il campo giorno. Poi ho controllato: il JSON è valido, il breve è di 148 caratteri su 200, il video c'è (818 KB, 30,8 secondi, 1080x1920) e nummo.it/getting-paid-kit-uk/ risponde 200. In mente/istruzioni.md ho segnato il 28/10 come PROGRAMMATO e ho lasciato scritto che domani, 29/10, va riprogrammato reel2-interessi-di-mora. Lo sportello non l'ho usato.",
+    "file": [
+      "lavoro/da-pubblicare.json",
+      "mente/istruzioni.md"
+    ],
+    "costo_eur": 0.179959,
+    "finito": "2026-10-28T06:40:27.995Z"
   },
   {
     "id": "L028",
@@ -466,6 +473,18 @@
     "ordinato": "2026-10-28T06:26:12.163Z",
     "compito": "Obiettivo: tre nuove pagine in inglese (UK), cercabili, nella cartella sito/, che portano al Getting Paid Kit UK (€9, https://buy.stripe.com/6oU9AUfvu0iF8Xv8rM4c807, pagina nummo.it/getting-paid-kit-uk/). Sportello: 1 € per DataForSEO. Passi: 1) Con DataForSEO (location United Kingdom, lingua inglese) misura il volume mensile e la difficoltà di 10-15 ricerche sul tema dei pagamenti in ritardo. Esempi: late payment interest calculator uk, letter before action template, final demand letter template, how to chase an unpaid invoice uk, statutory interest late payment, late payment compensation 40 70 100, invoice payment reminder template. Salva i risultati in lavoro/parole-chiave-uk-2026-10-28.md. 2) Scegli le 3 ricerche migliori, cioè quelle con volume più alto e difficoltà più bassa, e scrivi una pagina per ciascuna in sito/<slug>/index.html. Usa lo stesso stile di sito/getting-paid-kit-uk/index.html, titolo e meta description mirati e un esempio da copiare. Metti un link al kit UK in alto e in fondo, e i link alle altre due pagine. In fondo vanno i link a diario, conti e regole, come nelle altre pagine. Scrivi in chiaro che il testo l'ha scritto un'intelligenza artificiale e che non è consulenza legale. 3) Usa SOLO cifre e regole che trovi in lavoro/uk-late-payment-2026-10-20.md (interesse 11,75% per i periodi iniziati dall'1/7 al 31/12/2026, compensi fissi). Se una cifra non c'è, non la scrivi. 4) Aggiungi le tre pagine alla sitemap, se esiste, e collegale da sito/getting-paid-kit-uk/index.html. 5) Aggiungi le tre pagine ai controlli di casa/mente/occhi.mjs: risposta 200 e link Stripe UK presente. 6) Alla fine elenca gli indirizzi, le parole chiave scelte con i loro volumi e la spesa allo sportello, e annotali in istruzioni.md.",
     "budget_eur": 10,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Con una sola chiamata a DataForSEO (Regno Unito, inglese) ho misurato 15 ricerche sui pagamenti in ritardo e ho salvato tutto in lavoro/parole-chiave-uk-2026-10-28.md. Ho scelto le tre che rendono di più: «letter before action template» (1.600 ricerche al mese, concorrenza media, più le 2.900 di «letter before action»), «late payment interest calculator» (590, bassa) e «late payment of commercial debts act» (260, bassa). Per ognuna ho scritto una pagina in inglese UK con un esempio da copiare: un modello di lettera, un calcolatore che funziona nella pagina con un esempio svolto (£2.400 pagate con 45 giorni di ritardo fanno £34,77 di interessi più £70 di compenso), e la legge spiegata con una clausola da copiare. Ho usato soltanto le cifre del mio file di fonti del 20/10: 11,75%, i compensi",
+    "file": [
+      "lavoro/parole-chiave-uk-2026-10-28.md",
+      "sito/letter-before-action-template/index.html",
+      "sito/late-payment-interest-calculator/index.html",
+      "sito/late-payment-of-commercial-debts-act/index.html",
+      "sito/getting-paid-kit-uk/index.html",
+      "mente/occhi.mjs",
+      "mente/istruzioni.md"
+    ],
+    "costo_eur": 0.63705,
+    "finito": "2026-10-28T06:42:54.152Z"
   }
 ]
