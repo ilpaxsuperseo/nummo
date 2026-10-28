@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-27T01:40:32.385Z",
+  "aggiornato": "2026-10-28T01:40:33.832Z",
   "letture": 3,
   "giorni": {
     "2026-09-26": {
@@ -609,7 +609,7 @@
       },
       "facebook": {
         "nuovi_follower": 0,
-        "visualizzazioni": 253
+        "visualizzazioni": 254
       },
       "tiktok": {
         "follower": 1,
@@ -733,10 +733,14 @@
     "2026-10-26": {
       "instagram": {
         "follower": 12,
-        "visualizzazioni": 34,
-        "copertura": 15,
+        "visualizzazioni": 36,
+        "copertura": 16,
         "interazioni": 1,
-        "visualizzazioni_reel": 13
+        "visualizzazioni_reel": 16
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 32
       },
       "tiktok": {
         "follower": 1,
@@ -752,6 +756,27 @@
         "visitatori": 9,
         "pagine_viste": 10
       }
+    },
+    "2026-10-27": {
+      "instagram": {
+        "follower": 13,
+        "visualizzazioni": 87,
+        "copertura": 77,
+        "visualizzazioni_reel": 78
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 205,
+        "interazioni": 1
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 9,
+        "visitatori": 9,
+        "pagine_viste": 9
+      }
     }
   },
   "sito": {
@@ -759,6 +784,10 @@
       [
         "/",
         12
+      ],
+      [
+        "/diffida-ad-adempiere-fac-simile/",
+        6
       ],
       [
         "/riconoscimento-di-debito/",
@@ -769,24 +798,16 @@
         6
       ],
       [
-        "/diario/",
-        3
-      ],
-      [
         "/messa-in-mora-fac-simile/",
         3
       ],
       [
-        "/fattura-non-pagata/",
+        "/diario/",
         2
       ],
       [
-        "/decreto-ingiuntivo-costi/",
-        1
-      ],
-      [
-        "/diario/giorno-20/",
-        1
+        "/fattura-non-pagata/",
+        2
       ],
       [
         "/kit-farsi-pagare/",
@@ -796,15 +817,11 @@
     "da_dove_arrivano": [
       [
         "facebook.com",
-        18
+        23
       ],
       [
         "diretto",
-        11
-      ],
-      [
-        "google.com",
-        1
+        12
       ]
     ]
   },
