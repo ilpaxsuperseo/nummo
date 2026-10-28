@@ -817,5 +817,26 @@
       "407484120",
       "407484125"
     ]
+  },
+  {
+    "data": "2026-10-28 notte",
+    "giorno": 28,
+    "quando": "2026-10-28T06:43:22.313Z",
+    "programmato_per": {
+      "dateTime": "2026-10-28T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel2-getting-paid-kit-uk.mp4",
+    "metricool": [
+      "408611044",
+      "408611058"
+    ]
   }
 ]
