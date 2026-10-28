@@ -838,5 +838,26 @@
       "408611044",
       "408611058"
     ]
+  },
+  {
+    "data": "2026-10-28",
+    "giorno": 28,
+    "quando": "2026-10-28T06:50:35.020Z",
+    "programmato_per": {
+      "dateTime": "2026-10-28T08:00:06",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-10-28.jpg",
+    "metricool": [
+      "408614404",
+      "408614409"
+    ]
   }
 ]
