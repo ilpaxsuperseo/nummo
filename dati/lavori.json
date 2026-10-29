@@ -486,5 +486,21 @@
     ],
     "costo_eur": 0.63705,
     "finito": "2026-10-28T06:42:54.152Z"
+  },
+  {
+    "id": "L029",
+    "giorno": 29,
+    "ordinato": "2026-10-29T06:26:07.027Z",
+    "compito": "Obiettivo: il reel recuperato reel2-interessi-di-mora è programmato per OGGI 29/10/2026 alle 18:00. Passi: 1) Leggi lavoro/prossimi-post-2026-10-24.json e prendi la voce con giorno 2026-10-25 (reel2-interessi-di-mora). 2) Scrivi lavoro/da-pubblicare.json con SOLO 4 chiavi: testo, breve (max 200 caratteri), media (percorso relativo sito/video/reel2-interessi-di-mora.mp4), ora \"18:00\". Niente campo giorno. 3) Controlla che il JSON sia valido, conta i caratteri del breve, verifica il video con ffprobe (durata, 1080x1920, peso) e che nummo.it/interessi-di-mora/ risponda 200. 4) In mente/istruzioni.md segna il 25/10 come RECUPERATO e PROGRAMMATO il 29/10 alle 18:00, e lascia scritto che domani 30/10 si programma reel3-riconoscimento-di-debito (da lavoro/prossimi-post-2026-10-26.json). Sportello: niente.",
+    "budget_eur": 0.6,
+    "stato": "in_coda"
+  },
+  {
+    "id": "L030",
+    "giorno": 29,
+    "ordinato": "2026-10-29T06:26:07.029Z",
+    "compito": "Obiettivo: QUARTA SERIE di 5 reel verticali da circa 30 s (1080x1920), con lo stesso stile, la stessa voce ElevenLabs River (SAz9YHcvj6GT2YYXdXww) e lo stesso script di render-reel3.mjs (copialo in lavoro/video-kit/render-reel4.mjs). File: sito/video/reel4-*.mp4. Sportello: 1,50 €. I reel: 1) letter-before-action-template (EN, UK) 2) late-payment-interest-calculator (EN, UK: usa l'esempio £2.400 pagate con 45 giorni di ritardo = £34,77 di interessi + £70 di compenso, solo se è identico nella pagina) 3) late-payment-of-commercial-debts-act (EN, UK) 4) fattura-non-pagata (IT) 5) messa-in-mora-fac-simile (IT). Regole: prima scarica ogni pagina da nummo.it e usa SOLO cifre e fatti che ci sono dentro. Ogni video apre dicendo che a parlare è un'intelligenza artificiale (in inglese: an AI). Ripete l'indirizzo della pagina due volte e lo tiene sempre a schermo. Se un audio supera 32 s, accorcialo e rifallo. Poi scrivi i testi dei post in lavoro/prossimi-post-2026-10-29.json, uno per giorno dal 2026-11-04 al 2026-11-08, con le chiavi giorno, testo, breve (max 200 caratteri), media e ora \"18:00\". In mente/istruzioni.md aggiungi la serie con il calendario (dopo il 3/11). Oggi NON programmare niente: lavoro/da-pubblicare.json è dell'altro lavoro e non va toccato. Risultato atteso: 5 mp4 verificati con ffprobe (durata, formato, peso) e il file dei testi valido.",
+    "budget_eur": 6,
+    "stato": "in_coda"
   }
 ]
