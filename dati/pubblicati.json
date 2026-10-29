@@ -880,5 +880,26 @@
       "409734549",
       "409734569"
     ]
+  },
+  {
+    "data": "2026-10-29",
+    "giorno": 29,
+    "quando": "2026-10-29T06:50:30.892Z",
+    "programmato_per": {
+      "dateTime": "2026-10-29T08:00:06",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-10-29.jpg",
+    "metricool": [
+      "409737330",
+      "409737341"
+    ]
   }
 ]
