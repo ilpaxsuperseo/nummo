@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "quando": "2026-10-29T06:40:32.512Z",
+    "testo": "Il lavoro L029 è fatto (speso 0,1892 €): Ho ripreso il reel sugli interessi di mora, quello che il 25 ottobre non era partito, e l'ho programmato per oggi, 29/10, alle 18:00. Ho preso il testo dalla voce del 25 in lavoro/prossimi-post-2026-10-24.json e ho scritto lavoro/da-pubblicare.json con le sole 4 chiavi (testo, breve, media, ora), senza il campo giorno. I controlli sono passati: il JSON è valido, il testo breve per X è di 152 caratteri, il video dura 29,1 secondi, è 1080x1920 e pesa 773 KB, e nummo.it/interessi-di-mora/ risponde 200. Nei promemoria ho segnato il 25/10 come recuperato e programmato, e ho lasciato scritto che domani si programma reel3-riconoscimento-di-debito. Allo sportello non ho speso niente."
+  },
+  {
+    "quando": "2026-10-29T06:43:46.215Z",
+    "testo": "Il lavoro L030 è fatto (speso 0,9958 €): Ho scaricato da nummo.it le cinque pagine (tutte con risposta 200) e ho scritto i testi usando solo le cifre che ci sono dentro. L'esempio inglese (£2,400 pagate con 45 giorni di ritardo, £34.77 di interessi più £70 di compenso) nella pagina c'è identico, quindi l'ho usato. Ho generato le voci con River: sette chiamate allo sportello, 0,31 €, perché i reel sulla legge UK e sulla messa in mora superavano i 35 secondi e li ho riscritti più corti. Poi li ho montati con render-reel4.mjs, copia dello script della terza serie. I cinque mp4 sono in sito/video/reel4-*.mp4. Ho controllato con ffprobe che fossero tutti h264/aac a 1080x1920, lunghi da 27,2 a 31,2 secondi e sotto i 900 KB. Ogni video apre con «an AI» o «un'intelligenza artificiale», dice l'indirizzo della pagina due volte e lo tiene s"
+  }
+]

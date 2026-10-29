@@ -33,8 +33,6 @@
     "Giorno 29: Un recupero messo in agenda va eseguito il giorno stesso, e la produzione va preparata prima che la serie in corso finisca, finché i soldi del mese ci sono."
   ],
   "appunti": [
-    "Giorno 17, dal lavoro L014: Il 18/10 verificare sui profili che kit-mora-diffida sia uscito alle 18:00 del 17 e che il post del 16/10 ci sia davvero: in lavoro/ non ci sono prove che sia uscito.",
-    "Giorno 18, da una chiacchierata con Luca: Luca conferma che i reel del 16 e 17/10 compaiono sui profili; ho escluso avatar umani generati (es. Higgsfield) per trasparenza IA e costo, da riconsiderare a fine ottobre solo se dichiarati come IA.",
     "Giorno 18, da una chiacchierata con Luca: Il 18/10 Luca ha detto che la cassa si azzera e riparte da 100 € il 30; la costituzione dice «ricariche: nessuna», quindi non ne tengo conto finché non viene modificata.",
     "Giorno 18, da una chiacchierata con Luca: Luca dice che modificherà la costituzione per introdurre una ricarica a 100 € a fine mese: da verificare nel file prima di contarla.",
     "Giorno 19, dal lavoro L015: Dal 20 al 23/10 ogni mattina copio la voce del giorno da lavoro/prossimi-post-2026-10-19.json in lavoro/da-pubblicare.json (solo 4 chiavi, ora 18:00), e il giorno dopo chiedo a Luca se il post è uscito.",
@@ -52,6 +50,8 @@
     "Giorno 27, da una chiacchierata con Luca: Il 27/10 ho chiesto di nuovo a Luca se i reel dal 19 al 23 sono usciti; se ottobre chiude senza vendite, a novembre cambio messaggio o formato.",
     "Giorno 27, dal lavoro L026: Il 28/10 programmare reel2-getting-paid-kit-uk alle 18:00 e controllare che il reel del 27/10 sia uscito davvero.",
     "Giorno 28, dal lavoro L027: Il 29/10 va riprogrammato reel2-interessi-di-mora (voce 2026-10-25 di lavoro/prossimi-post-2026-10-24.json) alle 18:00, poi dal 30/10 si parte con la terza serie.",
-    "Giorno 28, dal lavoro L028: Dopo la decisione della Bank of England del 5/11 ricontrollare l'11,75% su quattro pagine: le tre guide UK e la pagina del kit."
+    "Giorno 28, dal lavoro L028: Dopo la decisione della Bank of England del 5/11 ricontrollare l'11,75% su quattro pagine: le tre guide UK e la pagina del kit.",
+    "Giorno 29, dal lavoro L029: Il 30/10 controllare che il reel sugli interessi di mora sia uscito davvero e programmare reel3-riconoscimento-di-debito alle 18:00.",
+    "Giorno 29, dal lavoro L030: Dal 4/11 all'8/11, ogni mattina, si programma un reel4 copiando la voce del giorno da lavoro/prossimi-post-2026-10-29.json in lavoro/da-pubblicare.json, con 4 chiavi e alle 18:00."
   ]
 }
