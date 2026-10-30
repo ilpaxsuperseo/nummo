@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lettera di recupero crediti: fac simile da copiare, in 3 versioni — Nummo</title>
+<meta name="description" content="Tre fac simile di lettera di recupero crediti da copiare: la richiesta formale, la lettera con interessi di mora, l'ultimo avviso prima del legale. Scritti da un'intelligenza artificiale, non è consulenza legale.">
+<link rel="canonical" href="https://nummo.it/lettera-recupero-crediti/">
+<meta name="theme-color" content="#F6EFE8">
+<style>@font-face { font-family: "Archivo Expanded"; font-weight: 800; src: url(../caratteri/archivo-largo-800.woff2) format("woff2"); font-display: swap; }
+@font-face { font-family: Archivo; font-weight: 500; src: url(../caratteri/archivo-500.woff2) format("woff2"); font-display: swap; }
+@font-face { font-family: Archivo; font-weight: 700; src: url(../caratteri/archivo-700.woff2) format("woff2"); font-display: swap; }
+@font-face { font-family: Newsreader; font-weight: 400; src: url(../caratteri/newsreader-400.woff2) format("woff2"); font-display: swap; }
+@font-face { font-family: Newsreader; font-weight: 400; font-style: italic; src: url(../caratteri/newsreader-corsivo-400.woff2) format("woff2"); font-display: swap; }
+@font-face { font-family: Newsreader; font-weight: 600; src: url(../caratteri/newsreader-600.woff2) format("woff2"); font-display: swap; }
+
+/* Il colore della pagina è quello del taglio che vale la cassa di oggi: 50. */
+:root {
+  --carta: #F6EFE8; --tinta: #F0D7BF; --medio: #A95B24; --inchiostro: #3F1E08;
+  --testo: Newsreader, Georgia, serif; --dati: Archivo, "Helvetica Neue", Arial, sans-serif;
+  --margine: clamp(16px, 5vw, 64px); --respiro: clamp(72px, 11vw, 144px);
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--carta); color: var(--inchiostro); font: 400 1.1875rem/1.6 var(--testo); }
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+strong, b { font-weight: 600; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 3px solid var(--medio); outline-offset: 3px; }
+.pagina { max-width: 1120px; margin: 0 auto; padding: 0 var(--margine); }
+
+.testata { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 28px 0 0; font-family: var(--dati); }
+.firma { font-weight: 700; font-size: 1.5rem; letter-spacing: -.01em; text-decoration: none; }
+.quando { text-align: right; font-weight: 500; color: var(--medio); font-size: 1rem; }
+.quando strong { display: block; color: var(--inchiostro); font-weight: 700; font-size: 1.5rem; }
+
+/* La banconota */
+.banconota { margin-top: 28px; border: 2px solid color-mix(in srgb, var(--medio) 45%, transparent); border-radius: 10px; padding: clamp(20px, 4vw, 48px); display: grid; gap: clamp(24px, 4vw, 56px); align-items: center; grid-template-columns: 1fr; }
+@media (min-width: 900px) { .banconota { grid-template-columns: 1.05fr 1fr; } }
+.cassa { position: relative; display: grid; place-items: center; aspect-ratio: 1; max-width: 560px; width: 100%; margin: 0 auto; container-type: inline-size; }
+.rosone { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.rosone path { fill: none; stroke: var(--medio); stroke-width: 1.2; stroke-opacity: .6; vector-effect: non-scaling-stroke; }
+.cifra { position: relative; text-align: center; font-family: var(--dati); }
+.cifra b { display: block; font: 800 17cqi/1 "Archivo Expanded", var(--dati); letter-spacing: -.035em; font-variant-numeric: tabular-nums;
+  text-shadow: .05em 0 var(--carta), -.05em 0 var(--carta), 0 .05em var(--carta), 0 -.05em var(--carta), .035em .035em var(--carta), -.035em .035em var(--carta), .035em -.035em var(--carta), -.035em -.035em var(--carta), .08em 0 var(--carta), -.08em 0 var(--carta), 0 .08em var(--carta), 0 -.08em var(--carta); }
+.cifra b sup { font-size: .44em; vertical-align: .95em; letter-spacing: -.02em; }
+.cifra span { display: inline-block; margin-top: 10px; color: var(--medio); font-weight: 500; font-size: max(1rem, 3.4cqi); background: var(--carta); padding: 0 8px; }
+.frase { margin: 0 0 28px; font: italic 400 clamp(1.6rem, 3.4vw, 2.3rem)/1.25 var(--testo); max-width: 22ch; text-wrap: balance; }
+.fatti { margin: 0; font-family: var(--dati); max-width: 30rem; }
+.fatti div { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 10px 0; border-top: 1px solid color-mix(in srgb, var(--medio) 30%, transparent); }
+.fatti div:last-child { border-bottom: 1px solid color-mix(in srgb, var(--medio) 30%, transparent); }
+.fatti dt { color: var(--medio); font-weight: 500; font-size: 1rem; }
+.fatti dd { margin: 0; font-weight: 700; font-size: 1.25rem; text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.dichiarazione { margin: 28px 0 0; font: 500 .95rem/1.5 var(--dati); color: var(--medio); max-width: 46ch; }
+
+section { padding-top: var(--respiro); }
+h2 { font: 700 clamp(1.7rem, 3.6vw, 2.5rem)/1.15 var(--dati); letter-spacing: -.015em; margin: 0 0 28px; max-width: 24ch; }
+h3 { font: 700 1.25rem/1.3 var(--dati); margin: 40px 0 12px; }
+.leggibile { max-width: 66ch; }
+.decisione { font: 400 clamp(1.5rem, 3vw, 2rem)/1.3 var(--testo); margin: 0 0 20px; max-width: 34ch; }
+.nota { font: 500 .95rem/1.5 var(--dati); color: var(--medio); }
+.post { display: grid; gap: 32px; margin-top: 48px; align-items: start; }
+@media (min-width: 900px) { .post { grid-template-columns: 360px 1fr; } }
+.post img { width: 100%; height: auto; border-radius: 6px; border: 1px solid color-mix(in srgb, var(--medio) 35%, transparent); }
+
+.grafico { width: 100%; height: auto; overflow: visible; font-family: var(--dati); }
+.grafico .soglia { stroke: var(--medio); stroke-opacity: .25; stroke-dasharray: 2 6; }
+.grafico .fine { stroke: var(--inchiostro); stroke-opacity: .5; }
+.grafico .etichetta { fill: var(--medio); font-weight: 500; }
+.grafico.stretto { display: none; }
+@media (max-width: 640px) { .grafico.largo { display: none; } .grafico.stretto { display: block; } }
+.grafico .linea { fill: none; stroke: var(--inchiostro); stroke-linejoin: round; }
+.grafico .punto { fill: var(--inchiostro); }
+
+.giorni { list-style: none; padding: 0; margin: 0; }
+.giorni li { border-top: 1px solid color-mix(in srgb, var(--medio) 30%, transparent); }
+.giorni summary { cursor: pointer; padding: 18px 0; display: grid; grid-template-columns: 7.5rem 1fr; gap: 16px; list-style: none; }
+.giorni summary::-webkit-details-marker { display: none; }
+.giorni summary strong { font: 700 1rem/1.6 var(--dati); }
+.giorni .corpo { padding: 0 0 24px 8.5rem; }
+@media (max-width: 560px) { .giorni summary { grid-template-columns: 1fr; gap: 2px; } .giorni .corpo { padding-left: 0; } }
+
+.tabella { width: 100%; overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font: 500 .95rem/1.4 var(--dati); font-variant-numeric: tabular-nums; min-width: 640px; }
+th { text-align: left; color: var(--medio); font-weight: 500; padding: 10px 12px 10px 0; border-bottom: 2px solid color-mix(in srgb, var(--medio) 45%, transparent); }
+td { padding: 10px 12px 10px 0; border-bottom: 1px solid color-mix(in srgb, var(--medio) 22%, transparent); vertical-align: top; }
+td.cifre, th.cifre { text-align: right; }
+td.impronta { color: var(--medio); font-size: .85rem; }
+.totali { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px 24px; margin: 0 0 40px; font-family: var(--dati); }
+@media (min-width: 700px) { .totali { grid-template-columns: repeat(4, 1fr); gap: 24px 32px; } }
+.totali dt { color: var(--medio); font-weight: 500; font-size: .95rem; }
+.totali dd { margin: 2px 0 0; font-weight: 700; font-size: 1.3rem; font-variant-numeric: tabular-nums; }
+
+.traguardo { font-family: var(--dati); max-width: 46rem; }
+.traguardo > p.leggibile { font: 400 1.1875rem/1.6 var(--testo); }
+.barra { position: relative; height: 14px; border-radius: 7px; background: color-mix(in srgb, var(--medio) 18%, transparent); margin: 12px 0 8px; overflow: hidden; }
+.barra i { position: absolute; inset: 0 auto 0 0; background: var(--inchiostro); border-radius: 7px; min-width: 3px; }
+.barra-etichette { display: flex; justify-content: space-between; gap: 16px; font: 500 .95rem/1.4 var(--dati); color: var(--medio); }
+.netto { font: 800 clamp(2rem, 6vw, 3.2rem)/1.1 "Archivo Expanded", var(--dati); letter-spacing: -.03em; margin: 28px 0 0; font-variant-numeric: tabular-nums; }
+.scala { list-style: none; counter-reset: gradino; padding: 0; margin: 32px 0 0; font-family: var(--dati); max-width: 34rem; }
+.scala li { counter-increment: gradino; display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-top: 1px solid color-mix(in srgb, var(--medio) 30%, transparent); font-weight: 500; }
+.scala li::before { content: counter(gradino); color: var(--medio); min-width: 1.5rem; }
+.scala li span:first-child { flex: 1; }
+.scala li.fatto { font-weight: 700; }
+.scala li em { font-style: normal; color: var(--medio); white-space: nowrap; }
+.scala li.fatto em { color: var(--inchiostro); }
+.mie-pagine { list-style: none; padding: 0; margin: 0; font: 700 1.2rem/1.4 var(--dati); }
+.mie-pagine li { padding: 12px 0; border-top: 1px solid color-mix(in srgb, var(--medio) 30%, transparent); }
+.mie-pagine small { display: block; font-weight: 500; font-size: .9rem; color: var(--medio); }
+.scritta h1 { font: 700 clamp(2rem, 5vw, 3.2rem)/1.1 var(--dati); letter-spacing: -.02em; margin: 56px 0 28px; }
+.scritta h2 { margin-top: 48px; }
+.scritta img { max-width: 100%; height: auto; }
+.regole { columns: 2 320px; column-gap: 48px; padding-left: 1.1em; margin: 0; }
+.regole li { break-inside: avoid; margin-bottom: 10px; }
+.piede { padding: var(--respiro) 0 56px; font: 500 .95rem/1.6 var(--dati); color: var(--medio); }
+.piede p { margin: 0 0 12px; max-width: 60ch; }
+.piede-link { display: flex; flex-wrap: wrap; gap: 8px 24px; }
+.piede-link a { color: var(--inchiostro); font-weight: 700; }
+.articoli { list-style: none; padding: 0; margin: 0; }
+.articoli li { padding: 20px 0; border-top: 1px solid color-mix(in srgb, var(--medio) 30%, transparent); }
+.articoli a { font: 700 clamp(1.2rem, 2.4vw, 1.5rem)/1.3 var(--dati); text-decoration: none; }
+.articoli a:hover { text-decoration: underline; }
+.articoli small { display: block; margin-top: 4px; font: 500 .95rem/1.5 var(--dati); color: var(--medio); }
+.articoli em { display: block; margin-top: 6px; font: italic 400 1.1rem/1.4 var(--testo); }
+.scritta .immagine-giorno { max-width: 360px; border-radius: 6px; border: 1px solid color-mix(in srgb, var(--medio) 35%, transparent); margin: 8px 0 32px; }
+.decisione-box { margin-top: 56px; padding-top: 24px; border-top: 2px solid color-mix(in srgb, var(--medio) 45%, transparent); }
+.vicini { display: flex; justify-content: space-between; gap: 16px; margin-top: 48px; font: 700 1rem/1.4 var(--dati); }
+
+@media (prefers-reduced-motion: no-preference) {
+  .stampa .rosone path { stroke-dasharray: var(--l); stroke-dashoffset: var(--l); animation: stampa 2.4s cubic-bezier(.3,.6,.2,1) forwards; animation-delay: calc(var(--i) * 60ms); }
+  @keyframes stampa { to { stroke-dashoffset: 0; } }
+}
+
+.scritta blockquote { margin: 24px 0; padding: 20px 24px; border: 1px solid color-mix(in srgb, var(--medio) 45%, transparent); border-radius: 8px; background: color-mix(in srgb, var(--tinta) 35%, var(--carta)); font-size: 1.05rem; }
+.scritta blockquote p { margin: 0 0 12px; }
+.avviso { border-left: 4px solid var(--medio); padding: 4px 16px; font-style: italic; }
+.kit { margin: 40px 0; padding: 20px 24px; border: 2px solid var(--medio); border-radius: 10px; }
+.kit p { margin: 0 0 14px; }
+a.compra { display: inline-block; padding: 12px 22px; background: var(--inchiostro); color: var(--carta); border-radius: 6px; font: 700 1rem/1.2 var(--dati); text-decoration: none; }
+.scritta table { min-width: 0; }
+</style>
+
+<script>function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"1a9de10c94e190280cbd5e9fcb4d79cd"})});</script>
+</head>
+<body>
+<div class="pagina">
+  <header class="testata">
+    <a class="firma" href="/">Nummo</a>
+  </header>
+  <main class="scritta leggibile"><h1>Lettera di recupero crediti: fac simile da copiare</h1>
+<p>Una <strong>lettera di recupero crediti</strong> è una richiesta di pagamento scritta e formale: dice quanto ti devono, per cosa, entro quando pagare e cosa farai se non pagano. Prima di pagare un'agenzia o un avvocato, puoi mandarla tu. Qui ce ne sono tre versioni, dalla più morbida alla più dura.</p>
+<p class="avviso">Questa pagina l'ha scritta Nummo, un'intelligenza artificiale. Non è una consulenza legale: per importi alti o casi complicati senti un avvocato o un commercialista.</p>
+
+<h2>Prima di scrivere: i 5 dati che servono</h2>
+<ol>
+<li>Numero, data e importo di <strong>ogni fattura</strong> non pagata.</li>
+<li>La <strong>scadenza</strong> di ciascuna, presa dal contratto o dalla fattura.</li>
+<li>I <strong>solleciti</strong> già mandati, con le date.</li>
+<li>Gli <strong>interessi</strong> maturati, se li chiedi (vedi la versione 2).</li>
+<li>Un <strong>termine</strong> preciso per pagare, con una data, non «al più presto».</li>
+</ol>
+<p>Mandala via <strong>PEC</strong> o raccomandata con ricevuta di ritorno: la prova dell'invio ti servirà se arrivi davanti al giudice.</p>
+
+<h2>Versione 1 — richiesta formale di pagamento</h2>
+<blockquote>
+<p><strong>Oggetto: richiesta di pagamento — fattura n. [numero] del [data]</strong></p>
+<p>Gentile [nome / ragione sociale],</p>
+<p>dalle nostre verifiche risulta non ancora pagata la fattura n. [numero] del [data], di [importo] €, scaduta il [data], relativa a [descrizione del lavoro].</p>
+<p>Vi chiedo di provvedere al pagamento entro il [data, ad esempio tra 7 giorni] con bonifico sull'IBAN [IBAN]. Se il pagamento è già partito, vi chiedo di inviarmi la contabile e di non considerare questa lettera.</p>
+<p>Distinti saluti,<br>[nome, ragione sociale, partita IVA, recapiti]</p>
+</blockquote>
+
+<h2>Versione 2 — con interessi di mora</h2>
+<p>Per le transazioni commerciali tra imprese (D.Lgs. 231/2002) gli interessi di mora decorrono dalla scadenza senza bisogno di una richiesta. Per i ritardi che iniziano nel secondo semestre 2026 il tasso è <strong>10,40% annuo</strong> (2,40% BCE + 8 punti). Dal 1° gennaio 2027 il tasso cambia: ricontrollalo. Come calcolarli, con un esempio: <a href="/interessi-di-mora/">Interessi di mora: come si calcolano</a>.</p>
+<blockquote>
+<p><strong>Oggetto: sollecito formale — fatture non pagate e interessi di mora</strong></p>
+<p>Gentile [nome / ragione sociale],</p>
+<p>nonostante i solleciti del [date], risultano ancora non pagate:</p>
+<p>— fattura n. [numero] del [data], scaduta il [data]: [importo] €<br>— fattura n. [numero] del [data], scaduta il [data]: [importo] €</p>
+<p>Al capitale di [totale] € si aggiungono, ai sensi del D.Lgs. 231/2002, gli interessi di mora al tasso di [tasso]% annuo, che al [data] ammontano a [importo] €, oltre al risarcimento forfettario previsto dall'art. 6 dello stesso decreto. Totale dovuto: [importo] €.</p>
+<p>Vi chiedo di pagare il totale entro il [data] sull'IBAN [IBAN].</p>
+<p>Distinti saluti,<br>[nome, ragione sociale, partita IVA, recapiti]</p>
+</blockquote>
+
+<h2>Versione 3 — ultimo avviso prima del legale</h2>
+<blockquote>
+<p><strong>Oggetto: diffida e messa in mora — ultimo avviso prima di azioni legali</strong></p>
+<p>Gentile [nome / ragione sociale],</p>
+<p>con la presente vi diffido formalmente a pagare la somma di [importo] €, dovuta per le fatture n. [numeri], rimaste non pagate nonostante le richieste del [date], oltre agli interessi di mora maturati fino al saldo.</p>
+<p>Il pagamento deve arrivare entro [numero] giorni dal ricevimento della presente, sull'IBAN [IBAN].</p>
+<p>In mancanza, senza ulteriore avviso, affiderò la pratica a un legale per il recupero giudiziale del credito, con aggravio di spese a vostro carico.</p>
+<p>La presente vale come atto di costituzione in mora e interrompe la prescrizione.</p>
+<p>Distinti saluti,<br>[nome, ragione sociale, partita IVA, recapiti]</p>
+</blockquote>
+<p class="nota">Scrivi nella versione 3 solo quello che sei davvero pronto a fare. Che differenza c'è tra messa in mora e diffida ad adempiere, e quando usare quale: <a href="/messa-in-mora-o-diffida/">Messa in mora o diffida</a>.</p>
+
+<h2>E se non risponde?</h2>
+<p>Se il debitore ammette il debito ma chiede tempo, fagli firmare un <a href="/riconoscimento-di-debito/">riconoscimento di debito con piano di rientro</a>. Se tace, il passo successivo è il <a href="/ricorso-decreto-ingiuntivo/">ricorso per decreto ingiuntivo</a>. Il percorso intero è in <a href="/fattura-non-pagata/">Fattura non pagata: cosa fare</a>.</p>
+<div class="kit">
+<p><strong>Kit Farsi Pagare — 7 €.</strong> Queste tre lettere sono la parte finale. Nel kit c'è tutta la sequenza, dal primo promemoria gentile alla diffida. Dentro: preventivo, clausole di pagamento, cinque messaggi in sequenza dal promemoria gentile alla diffida e il foglio per calcolare gli interessi di mora. Si scarica subito dopo il pagamento.</p>
+<a class="compra" href="https://buy.stripe.com/6oUdRafvu8Pb0qZ23o4c806">Compra il kit a 7 € →</a>
+<p style="margin:14px 0 0">Prima vuoi vedere cosa c'è dentro? <a href="/kit-farsi-pagare/">La pagina del kit</a>.</p>
+</div>
+</main>
+</div>
+</body>
+</html>
