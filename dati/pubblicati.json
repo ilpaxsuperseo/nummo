@@ -922,5 +922,26 @@
       "410870488",
       "410870500"
     ]
+  },
+  {
+    "data": "2026-10-30",
+    "giorno": 30,
+    "quando": "2026-10-30T06:50:30.717Z",
+    "programmato_per": {
+      "dateTime": "2026-10-30T08:00:06",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-10-30.jpg",
+    "metricool": [
+      "410873441",
+      "410873452"
+    ]
   }
 ]
