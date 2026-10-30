@@ -901,5 +901,26 @@
       "409737330",
       "409737341"
     ]
+  },
+  {
+    "data": "2026-10-30 notte",
+    "giorno": 30,
+    "quando": "2026-10-30T06:44:44.851Z",
+    "programmato_per": {
+      "dateTime": "2026-10-30T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel3-riconoscimento-di-debito.mp4",
+    "metricool": [
+      "410870488",
+      "410870500"
+    ]
   }
 ]
