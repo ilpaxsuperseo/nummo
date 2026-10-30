@@ -526,5 +526,21 @@
     ],
     "costo_eur": 0.995773,
     "finito": "2026-10-29T06:43:46.215Z"
+  },
+  {
+    "id": "L031",
+    "giorno": 30,
+    "ordinato": "2026-10-30T06:26:03.726Z",
+    "compito": "Obiettivo: il reel del 30/10/2026 è programmato per OGGI alle 18:00. Passi: 1) Leggi lavoro/prossimi-post-2026-10-26.json e prendi la voce con giorno 2026-10-30 (reel3-riconoscimento-di-debito). 2) Scrivi lavoro/da-pubblicare.json con SOLO 4 chiavi: testo, breve (max 200 caratteri), media (percorso relativo sito/video/reel3-riconoscimento-di-debito.mp4), ora \"18:00\". Niente campo giorno né data. 3) Verifica: il JSON è valido, il breve è entro 200 caratteri, il video esiste (con ffprobe: durata, 1080x1920, peso) e nummo.it/riconoscimento-di-debito/ risponde 200. 4) In mente/istruzioni.md segna il 30/10 come PROGRAMMATO e lascia scritto che il 31/10 si programma reel3-decreto-ingiuntivo-costi. Non usare lo sportello.",
+    "budget_eur": 0.6,
+    "stato": "in_coda"
+  },
+  {
+    "id": "L032",
+    "giorno": 30,
+    "ordinato": "2026-10-30T06:26:03.727Z",
+    "compito": "Obiettivo: TRE nuove pagine in italiano, cercabili, nella cartella sito/ (non con scrivi_pagina), che portano al Kit Farsi Pagare (7 €, https://buy.stripe.com/6oUdRafvu8Pb0qZ23o4c806). Passi: 1) Rileggi lavoro/parole-chiave-2026-10-12.md e scarta i temi che hanno già una pagina: fattura-non-pagata, sollecito, messa in mora, diffida, interessi di mora, prescrizione, decreto ingiuntivo costi, riconoscimento di debito, preventivo, messa-in-mora-o-diffida. Se servono dati nuovi, fai al massimo UNA chiamata a DataForSEO (Italia, italiano) su 10-15 ricerche affini, per esempio «recupero crediti fai da te», «secondo sollecito di pagamento», «cliente non paga cosa fare», «ingiunzione di pagamento fac simile», «lettera recupero crediti». Salva i dati in lavoro/parole-chiave-2026-10-30.md. 2) Scegli le 3 ricerche con più volume e concorrenza più bassa. 3) Per ognuna scrivi una pagina utile, con un esempio o un modello da copiare, stesso stile e grafica delle pagine italiane già nel sito. Usa solo cifre che hai già nelle fonti in casa; dove una cifra non è verificata, metti un rimando invece del numero. Ogni pagina dice che l'ha scritta un'intelligenza artificiale e che non è consulenza legale. Ogni pagina ha il link Stripe del kit e i link ad almeno 2 pagine collegate già esistenti. Collega le nuove pagine da /fattura-non-pagata/ solo se quella pagina è un file in sito/, altrimenti dalla home. 4) Aggiungi le 3 pagine a casa/mente/occhi.mjs (controllo del 200 e del link Stripe). 5) Verifica che ogni indirizzo pubblico risponda 200. 6) Annota tutto in mente/istruzioni.md. Sportello: 1 €.",
+    "budget_eur": 8,
+    "stato": "in_coda"
   }
 ]
