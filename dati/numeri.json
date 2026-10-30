@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-28T01:40:33.832Z",
+  "aggiornato": "2026-10-30T01:40:27.004Z",
   "letture": 3,
   "giorni": {
     "2026-09-26": {
@@ -661,7 +661,7 @@
       },
       "facebook": {
         "nuovi_follower": 0,
-        "visualizzazioni": 270,
+        "visualizzazioni": 271,
         "interazioni": 1
       },
       "tiktok": {
@@ -688,7 +688,7 @@
       },
       "facebook": {
         "nuovi_follower": 0,
-        "visualizzazioni": 253
+        "visualizzazioni": 255
       },
       "tiktok": {
         "follower": 1,
@@ -744,7 +744,7 @@
       },
       "tiktok": {
         "follower": 1,
-        "visualizzazioni": 483,
+        "visualizzazioni": 484,
         "interazioni": 1,
         "condivisioni": 0
       },
@@ -762,12 +762,19 @@
         "follower": 13,
         "visualizzazioni": 87,
         "copertura": 77,
-        "visualizzazioni_reel": 78
+        "interazioni": 1,
+        "visualizzazioni_reel": 85
       },
       "facebook": {
         "nuovi_follower": 0,
         "visualizzazioni": 205,
         "interazioni": 1
+      },
+      "tiktok": {
+        "follower": 1,
+        "visualizzazioni": 470,
+        "interazioni": 1,
+        "condivisioni": 0
       },
       "x": {
         "follower": 0
@@ -777,20 +784,66 @@
         "visitatori": 9,
         "pagine_viste": 9
       }
+    },
+    "2026-10-28": {
+      "instagram": {
+        "follower": 13,
+        "visualizzazioni": 30,
+        "copertura": 11,
+        "visualizzazioni_reel": 8
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 141
+      },
+      "tiktok": {
+        "follower": 1,
+        "visualizzazioni": 581,
+        "interazioni": 1,
+        "condivisioni": 0
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 6,
+        "visitatori": 6,
+        "pagine_viste": 8
+      }
+    },
+    "2026-10-29": {
+      "instagram": {
+        "follower": 13,
+        "visualizzazioni": 12,
+        "copertura": 6,
+        "visualizzazioni_reel": 3
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 199
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 8,
+        "visitatori": 8,
+        "pagine_viste": 8
+      }
     }
   },
   "sito": {
     "pagine_piu_viste": [
       [
         "/",
-        12
+        13
       ],
       [
         "/diffida-ad-adempiere-fac-simile/",
         6
       ],
       [
-        "/riconoscimento-di-debito/",
+        "/getting-paid-kit-uk/",
         6
       ],
       [
@@ -798,16 +851,16 @@
         6
       ],
       [
-        "/messa-in-mora-fac-simile/",
+        "/interessi-di-mora/",
         3
-      ],
-      [
-        "/diario/",
-        2
       ],
       [
         "/fattura-non-pagata/",
         2
+      ],
+      [
+        "/conti/",
+        1
       ],
       [
         "/kit-farsi-pagare/",
@@ -817,11 +870,15 @@
     "da_dove_arrivano": [
       [
         "facebook.com",
-        23
+        22
       ],
       [
         "diretto",
-        12
+        13
+      ],
+      [
+        "google.com",
+        1
       ]
     ]
   },
