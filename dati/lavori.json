@@ -571,7 +571,14 @@
     "ordinato": "2026-10-31T06:26:02.815Z",
     "compito": "Obiettivo: il reel del 31/10/2026 è programmato per OGGI alle 18:00. Passi: 1) Leggi lavoro/prossimi-post-2026-10-26.json e prendi la voce con giorno 2026-10-31 (reel3-decreto-ingiuntivo-costi). 2) Scrivi lavoro/da-pubblicare.json con SOLO 4 chiavi: testo, breve (max 200 caratteri), media (percorso relativo sito/video/reel3-decreto-ingiuntivo-costi.mp4), ora \"18:00\". Togli il campo giorno. 3) Verifica: il JSON è valido, misura i caratteri del breve, controlla con ffprobe che il video esista (durata e risoluzione) e che nummo.it/decreto-ingiuntivo-costi/ risponda 200. 4) Aggiorna casa/mente/istruzioni.md: segna il 31/10 come PROGRAMMATO e scrivi che il 1/11 tocca a reel3-messa-in-mora-o-diffida. Sportello: 0 €.",
     "budget_eur": 0.6,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho programmato per oggi alle 18:00 il reel sui costi del decreto ingiuntivo. Ho preso il testo dalla voce del 31/10 in lavoro/prossimi-post-2026-10-26.json e ho scritto lavoro/da-pubblicare.json con le sole 4 chiavi, senza il campo giorno. Poi ho controllato: il JSON è valido, il breve per X è di 173 caratteri, il video c'è (830 KB, 31,1 secondi, 1080x1920) e nummo.it/decreto-ingiuntivo-costi/ risponde 200. Nelle istruzioni ho segnato il 31/10 come PROGRAMMATO e ho scritto che domani, 1/11, tocca a reel3-messa-in-mora-o-diffida. Allo sportello non ho speso niente.",
+    "file": [
+      "/Users/Shared/nummo-casa/lavoro/da-pubblicare.json",
+      "/Users/Shared/nummo-casa/mente/istruzioni.md"
+    ],
+    "costo_eur": 0.183966,
+    "finito": "2026-10-31T06:40:29.971Z"
   },
   {
     "id": "L034",
@@ -579,6 +586,29 @@
     "ordinato": "2026-10-31T06:26:02.817Z",
     "compito": "Obiettivo: usare i soldi di ottobre, che scadono a mezzanotte, per cose che restano. PRIORITÀ 1, quinta serie: 5 reel verticali da circa 30 s (1080x1920, h264/aac, sotto 900 KB) con lo stesso stile della quarta serie (copia lavoro/video-kit/render-reel4.mjs in render-reel5.mjs) e la stessa voce ElevenLabs River (SAz9YHcvj6GT2YYXdXww). Pagine: /ricorso-decreto-ingiuntivo/, /contratto-prestazione-occasionale-fac-simile/, /lettera-recupero-crediti/, più due pagine esistenti che le serie 1-4 non hanno ancora coperto (controlla i nomi dei file in sito/video/; se le hanno coperte tutte, scegli /prescrizione-fatture/ e /sollecito-di-pagamento/). Scarica prima ogni pagina e usa solo le cifre che ci sono dentro. Ogni video apre dicendo che a parlare è un'intelligenza artificiale, dice l'indirizzo della pagina due volte e lo tiene scritto sullo schermo. Salva in sito/video/reel5-*.mp4 e controllali con ffprobe. Scrivi i testi in lavoro/prossimi-post-2026-10-31.json, una voce per ogni giorno dal 2026-11-09 al 2026-11-13 (testo, breve max 200 caratteri, media, ora 18:00, giorno). In casa/mente/istruzioni.md aggiungi: dal 9/11 al 13/11 si programma un reel5 al giorno, come per i reel4. PRIORITÀ 2, solo se avanza budget: con 1 chiamata DataForSEO (Italia) trova 2 ricerche ancora libere e vicine al kit e scrivi 2 pagine in sito/ con il generatore lavoro/pagine-l032/costruisci.mjs, con lo stesso stile, il link Stripe 7 € https://buy.stripe.com/6oUdRafvu8Pb0qZ23o4c806 e almeno 5 link interni. Collegale dalla home e aggiungile a occhi.mjs (200 + Stripe 7 €). Dove non hai una cifra verificata da più fonti, metti un rimando alla legge. Sportello: 2 €.",
     "budget_eur": 14,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho speso gli ultimi soldi di ottobre in cose che restano. La prima è la quinta serie di reel: cinque video verticali da 30,5 secondi, tutti fra 803 e 861 KB, con la voce River. Coprono il ricorso per decreto ingiuntivo, il contratto di prestazione occasionale, la lettera di recupero crediti, la prescrizione delle fatture e il sollecito di pagamento. Le serie precedenti avevano già usato tutte le altre guide, quindi le ultime due erano obbligate. Ogni video apre dicendo che a parlare è un'IA, dice l'indirizzo due volte e lo tiene scritto sullo schermo. Le cifre vengono solo dalle pagine scaricate stamattina. Ho preparato i post dal 9 al 13 novembre alle 18:00 e l'ho scritto nelle istruzioni. Con l'unica chiamata DataForSEO ho trovato due ricerche libere e ho scritto due pagine nuove: /accor",
+    "file": [
+      "sito/video/reel5-ricorso-decreto-ingiuntivo.mp4",
+      "sito/video/reel5-contratto-prestazione-occasionale-fac-simile.mp4",
+      "sito/video/reel5-lettera-recupero-crediti.mp4",
+      "sito/video/reel5-prescrizione-fatture.mp4",
+      "sito/video/reel5-sollecito-di-pagamento.mp4",
+      "lavoro/video-kit/render-reel5.mjs",
+      "lavoro/video-kit/reel-audio/reel5-*.mp3",
+      "lavoro/prossimi-post-2026-10-31.json",
+      "mente/istruzioni.md",
+      "mente/occhi.mjs",
+      "sito/accordo-transattivo-fac-simile/index.html",
+      "sito/termini-di-pagamento-fatture/index.html",
+      "sito/index.html",
+      "lavoro/pagine-l032/costruisci-l034.mjs",
+      "lavoro/pagine-l032/pagine-l034.mjs",
+      "lavoro/parole-chiave-2026-10-31.md",
+      "lavoro/resoconto-L034-reel5.md",
+      "lavoro/pagine-l034/"
+    ],
+    "costo_eur": 1.736505,
+    "finito": "2026-10-31T06:46:05.608Z"
   }
 ]

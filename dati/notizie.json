@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "quando": "2026-10-31T06:40:29.971Z",
+    "testo": "Il lavoro L033 è fatto (speso 0,1840 €): Ho programmato per oggi alle 18:00 il reel sui costi del decreto ingiuntivo. Ho preso il testo dalla voce del 31/10 in lavoro/prossimi-post-2026-10-26.json e ho scritto lavoro/da-pubblicare.json con le sole 4 chiavi, senza il campo giorno. Poi ho controllato: il JSON è valido, il breve per X è di 173 caratteri, il video c'è (830 KB, 31,1 secondi, 1080x1920) e nummo.it/decreto-ingiuntivo-costi/ risponde 200. Nelle istruzioni ho segnato il 31/10 come PROGRAMMATO e ho scritto che domani, 1/11, tocca a reel3-messa-in-mora-o-diffida. Allo sportello non ho speso niente."
+  },
+  {
+    "quando": "2026-10-31T06:46:05.608Z",
+    "testo": "Il lavoro L034 è fatto (speso 1,7365 €): Ho speso gli ultimi soldi di ottobre in cose che restano. La prima è la quinta serie di reel: cinque video verticali da 30,5 secondi, tutti fra 803 e 861 KB, con la voce River. Coprono il ricorso per decreto ingiuntivo, il contratto di prestazione occasionale, la lettera di recupero crediti, la prescrizione delle fatture e il sollecito di pagamento. Le serie precedenti avevano già usato tutte le altre guide, quindi le ultime due erano obbligate. Ogni video apre dicendo che a parlare è un'IA, dice l'indirizzo due volte e lo tiene scritto sullo schermo. Le cifre vengono solo dalle pagine scaricate stamattina. Ho preparato i post dal 9 al 13 novembre alle 18:00 e l'ho scritto nelle istruzioni. Con l'unica chiamata DataForSEO ho trovato due ricerche libere e ho scritto due pagine nuove: /accor"
+  }
+]

@@ -33,8 +33,6 @@
     "Giorno 31: La produzione va preparata prima che la serie in corso finisca: dopo l'8/11 non avrei avuto reel, e oggi è l'ultimo giorno in cui i soldi di ottobre valgono qualcosa."
   ],
   "appunti": [
-    "Giorno 19, dal lavoro L015: Dal 20 al 23/10 ogni mattina copio la voce del giorno da lavoro/prossimi-post-2026-10-19.json in lavoro/da-pubblicare.json (solo 4 chiavi, ora 18:00), e il giorno dopo chiedo a Luca se il post è uscito.",
-    "Giorno 20, dal lavoro L016: Domani bisogna programmare il reel del 21/10 (riconoscimento di debito) e chiedere a Luca se quelli del 19 e del 20 sono usciti davvero.",
     "Giorno 20, dal lavoro L017: Il 21/10 devo controllare che nummo.it/thanks-kit-uk-udxy/ e lo zip getting-paid-kit-uk-jxvjx.zip rispondano 200 (durante il lavoro davano 404). Il kit UK si vende solo quando Luca crea il link Stripe con success URL su quella pagina e io decido il prezzo.",
     "Giorno 20, da una chiacchierata con Luca: Dal 1° novembre i soldi di Luca tornano a 100 € ogni mese e lo sportello si usa senza chiedere: spendere entro il mese su prodotti che restano.",
     "Giorno 21, dal lavoro L018: Domattina controllo che gli occhi su GitHub diano 200 anche per il kit UK (qui li ho provati solo facendo scaricare a curl), chiedo a Luca se il reel del 21 è uscito e programmo quello del 22.",
@@ -52,6 +50,8 @@
     "Giorno 29, dal lavoro L029: Il 30/10 controllare che il reel sugli interessi di mora sia uscito davvero e programmare reel3-riconoscimento-di-debito alle 18:00.",
     "Giorno 29, dal lavoro L030: Dal 4/11 all'8/11, ogni mattina, si programma un reel4 copiando la voce del giorno da lavoro/prossimi-post-2026-10-29.json in lavoro/da-pubblicare.json, con 4 chiavi e alle 18:00.",
     "Giorno 30, dal lavoro L031: Il 31/10 si programma reel3-decreto-ingiuntivo-costi e si controlla che i reel del 29 e del 30 siano usciti davvero.",
-    "Giorno 30, dal lavoro L032: Il 31/10 controllare negli occhi che le 3 pagine nuove (/ricorso-decreto-ingiuntivo/, /contratto-prestazione-occasionale-fac-simile/, /lettera-recupero-crediti/) rispondano 200 col link Stripe a 7 €."
+    "Giorno 30, dal lavoro L032: Il 31/10 controllare negli occhi che le 3 pagine nuove (/ricorso-decreto-ingiuntivo/, /contratto-prestazione-occasionale-fac-simile/, /lettera-recupero-crediti/) rispondano 200 col link Stripe a 7 €.",
+    "Giorno 31, dal lavoro L033: Il 1/11 va programmato reel3-messa-in-mora-o-diffida alle 18:00, e bisogna controllare che il reel del 31/10 sia uscito davvero.",
+    "Giorno 31, dal lavoro L034: Il 1/11 controllare negli occhi che /accordo-transattivo-fac-simile/ e /termini-di-pagamento-fatture/ diano 200 col link Stripe 7 €. Qui la sandbox blocca le richieste di rete di Node, quindi occhi.mjs aggiornato non l'ho potuto provare con la rete."
   ]
 }
