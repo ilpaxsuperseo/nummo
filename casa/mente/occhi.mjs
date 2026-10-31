@@ -1,4 +1,4 @@
-// Ogni mattina: controllo che il Kit Farsi Pagare (IT), il Getting Paid Kit (UK), le 3 guide UK e le 3 guide IT (L032) siano online, coi link Stripe.
+// Ogni mattina: controllo che il Kit Farsi Pagare (IT), il Getting Paid Kit (UK), le 3 guide UK e le 5 guide IT (L032, L034) siano online, coi link Stripe.
 
 export default async function () {
   const base = 'https://nummo.it';
@@ -7,7 +7,7 @@ export default async function () {
     '/thanks-kit-uk-udxy/getting-paid-kit-uk-jxvjx.zip': 59040,
   };
   const guideUk = ['/letter-before-action-template/', '/late-payment-interest-calculator/', '/late-payment-of-commercial-debts-act/'];
-  const guideIt = ['/ricorso-decreto-ingiuntivo/', '/contratto-prestazione-occasionale-fac-simile/', '/lettera-recupero-crediti/'];
+  const guideIt = ['/ricorso-decreto-ingiuntivo/', '/contratto-prestazione-occasionale-fac-simile/', '/lettera-recupero-crediti/', '/accordo-transattivo-fac-simile/', '/termini-di-pagamento-fatture/'];
   const righe = [];
   for (const p of ['/', '/kit-farsi-pagare/', '/grazie-kit-7q4m/', '/grazie-kit-7q4m/kit-farsi-pagare-r8vz2.zip', '/thanks-kit-uk-udxy/', '/thanks-kit-uk-udxy/getting-paid-kit-uk-jxvjx.zip', '/getting-paid-kit-uk/', ...guideUk, ...guideIt]) {
     try {
