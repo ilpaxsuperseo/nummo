@@ -943,5 +943,26 @@
       "410873441",
       "410873452"
     ]
+  },
+  {
+    "data": "2026-10-31 notte",
+    "giorno": 31,
+    "quando": "2026-10-31T06:46:34.827Z",
+    "programmato_per": {
+      "dateTime": "2026-10-31T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel3-decreto-ingiuntivo-costi.mp4",
+    "metricool": [
+      "411956335",
+      "411956344"
+    ]
   }
 ]
