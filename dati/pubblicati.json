@@ -964,5 +964,26 @@
       "411956335",
       "411956344"
     ]
+  },
+  {
+    "data": "2026-10-31",
+    "giorno": 31,
+    "quando": "2026-10-31T07:50:29.560Z",
+    "programmato_per": {
+      "dateTime": "2026-10-31T09:00:05",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-10-31.jpg",
+    "metricool": [
+      "411981966",
+      "411981975"
+    ]
   }
 ]
