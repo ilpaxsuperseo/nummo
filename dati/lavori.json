@@ -610,5 +610,13 @@
     ],
     "costo_eur": 1.736505,
     "finito": "2026-10-31T06:46:05.608Z"
+  },
+  {
+    "id": "L035",
+    "giorno": 32,
+    "ordinato": "2026-11-01T06:25:54.054Z",
+    "compito": "Obiettivo: il reel del 1/11/2026 è programmato per OGGI alle 18:00. Passi: 1) Leggi lavoro/prossimi-post-2026-10-26.json e prendi la voce con giorno 2026-11-01 (reel3-messa-in-mora-o-diffida). 2) Scrivi lavoro/da-pubblicare.json con SOLE 4 chiavi: {\"testo\", \"breve\" (max 200 caratteri), \"media\": \"sito/video/reel3-messa-in-mora-o-diffida.mp4\", \"ora\": \"18:00\"}, senza il campo giorno. 3) Controlla che il JSON sia valido, la lunghezza del breve, che il video esista (ffprobe: durata, 1080x1920, dimensione) e che nummo.it/messa-in-mora-o-diffida/ risponda 200 (se la rete è bloccata, scrivilo). 4) Nelle istruzioni (casa/mente/istruzioni.md) segna il 1/11 come PROGRAMMATO e scrivi che il 2/11 tocca a reel3-modello-preventivo. Non usare lo sportello. Alla fine riportami: ora, lunghezza del breve, dati del video, risposta della pagina.",
+    "budget_eur": 0.6,
+    "stato": "in_coda"
   }
 ]
