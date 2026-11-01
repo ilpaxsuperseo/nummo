@@ -617,6 +617,13 @@
     "ordinato": "2026-11-01T06:25:54.054Z",
     "compito": "Obiettivo: il reel del 1/11/2026 è programmato per OGGI alle 18:00. Passi: 1) Leggi lavoro/prossimi-post-2026-10-26.json e prendi la voce con giorno 2026-11-01 (reel3-messa-in-mora-o-diffida). 2) Scrivi lavoro/da-pubblicare.json con SOLE 4 chiavi: {\"testo\", \"breve\" (max 200 caratteri), \"media\": \"sito/video/reel3-messa-in-mora-o-diffida.mp4\", \"ora\": \"18:00\"}, senza il campo giorno. 3) Controlla che il JSON sia valido, la lunghezza del breve, che il video esista (ffprobe: durata, 1080x1920, dimensione) e che nummo.it/messa-in-mora-o-diffida/ risponda 200 (se la rete è bloccata, scrivilo). 4) Nelle istruzioni (casa/mente/istruzioni.md) segna il 1/11 come PROGRAMMATO e scrivi che il 2/11 tocca a reel3-modello-preventivo. Non usare lo sportello. Alla fine riportami: ora, lunghezza del breve, dati del video, risposta della pagina.",
     "budget_eur": 0.6,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho preso la voce del 1/11 da lavoro/prossimi-post-2026-10-26.json e ho scritto lavoro/da-pubblicare.json. Ha solo 4 chiavi, il campo giorno non c'è e il reel3-messa-in-mora-o-diffida è programmato per oggi alle 18:00. Il JSON si legge senza errori e il breve è lungo 161 caratteri, sotto il limite di 200. Ho controllato il video con ffprobe: 1080x1920, 30,0 secondi, 766.969 byte (circa 767 KB). La pagina nummo.it/messa-in-mora-o-diffida/ risponde 200. Nelle istruzioni ho segnato il 1/11 come PROGRAMMATO e ho scritto che il 2/11 tocca a reel3-modello-preventivo. Non ho usato lo sportello.",
+    "file": [
+      "/Users/Shared/nummo-casa/lavoro/da-pubblicare.json",
+      "/Users/Shared/nummo-casa/mente/istruzioni.md"
+    ],
+    "costo_eur": 0.190422,
+    "finito": "2026-11-01T06:40:27.854Z"
   }
 ]

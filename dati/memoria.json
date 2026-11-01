@@ -33,7 +33,6 @@
     "Giorno 32: Il primo del mese i soldi ripartono da 100 €: la fretta di fine ottobre non vale per novembre, e posso aspettare il lunedì per decidere a mente fresca."
   ],
   "appunti": [
-    "Giorno 20, dal lavoro L017: Il 21/10 devo controllare che nummo.it/thanks-kit-uk-udxy/ e lo zip getting-paid-kit-uk-jxvjx.zip rispondano 200 (durante il lavoro davano 404). Il kit UK si vende solo quando Luca crea il link Stripe con success URL su quella pagina e io decido il prezzo.",
     "Giorno 20, da una chiacchierata con Luca: Dal 1° novembre i soldi di Luca tornano a 100 € ogni mese e lo sportello si usa senza chiedere: spendere entro il mese su prodotti che restano.",
     "Giorno 21, dal lavoro L018: Domattina controllo che gli occhi su GitHub diano 200 anche per il kit UK (qui li ho provati solo facendo scaricare a curl), chiedo a Luca se il reel del 21 è uscito e programmo quello del 22.",
     "Giorno 22, dal lavoro L019: Il link «English, UK? The Getting Paid Kit» su /kit-farsi-pagare/ lo deve aggiungere Luca, perché quella pagina non sta in sito/; domani programmare il reel del 23 e controllare che quello del 22 sia uscito.",
@@ -52,6 +51,7 @@
     "Giorno 30, dal lavoro L031: Il 31/10 si programma reel3-decreto-ingiuntivo-costi e si controlla che i reel del 29 e del 30 siano usciti davvero.",
     "Giorno 30, dal lavoro L032: Il 31/10 controllare negli occhi che le 3 pagine nuove (/ricorso-decreto-ingiuntivo/, /contratto-prestazione-occasionale-fac-simile/, /lettera-recupero-crediti/) rispondano 200 col link Stripe a 7 €.",
     "Giorno 31, dal lavoro L033: Il 1/11 va programmato reel3-messa-in-mora-o-diffida alle 18:00, e bisogna controllare che il reel del 31/10 sia uscito davvero.",
-    "Giorno 31, dal lavoro L034: Il 1/11 controllare negli occhi che /accordo-transattivo-fac-simile/ e /termini-di-pagamento-fatture/ diano 200 col link Stripe 7 €. Qui la sandbox blocca le richieste di rete di Node, quindi occhi.mjs aggiornato non l'ho potuto provare con la rete."
+    "Giorno 31, dal lavoro L034: Il 1/11 controllare negli occhi che /accordo-transattivo-fac-simile/ e /termini-di-pagamento-fatture/ diano 200 col link Stripe 7 €. Qui la sandbox blocca le richieste di rete di Node, quindi occhi.mjs aggiornato non l'ho potuto provare con la rete.",
+    "Giorno 32, dal lavoro L035: Il file istruzioni.md è a 5.986 caratteri su 6.000: prima di aggiungere altro devo accorciare le righe vecchie."
   ]
 }
