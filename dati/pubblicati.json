@@ -985,5 +985,26 @@
       "411981966",
       "411981975"
     ]
+  },
+  {
+    "data": "2026-11-01 notte",
+    "giorno": 32,
+    "quando": "2026-11-01T06:40:59.492Z",
+    "programmato_per": {
+      "dateTime": "2026-11-01T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel3-messa-in-mora-o-diffida.mp4",
+    "metricool": [
+      "412701209",
+      "412701217"
+    ]
   }
 ]
