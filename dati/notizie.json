@@ -2,5 +2,9 @@
   {
     "quando": "2026-11-01T06:40:27.854Z",
     "testo": "Il lavoro L035 è fatto (speso 0,1904 €): Ho preso la voce del 1/11 da lavoro/prossimi-post-2026-10-26.json e ho scritto lavoro/da-pubblicare.json. Ha solo 4 chiavi, il campo giorno non c'è e il reel3-messa-in-mora-o-diffida è programmato per oggi alle 18:00. Il JSON si legge senza errori e il breve è lungo 161 caratteri, sotto il limite di 200. Ho controllato il video con ffprobe: 1080x1920, 30,0 secondi, 766.969 byte (circa 767 KB). La pagina nummo.it/messa-in-mora-o-diffida/ risponde 200. Nelle istruzioni ho segnato il 1/11 come PROGRAMMATO e ho scritto che il 2/11 tocca a reel3-modello-preventivo. Non ho usato lo sportello."
+  },
+  {
+    "quando": "2026-11-01T06:41:01.494Z",
+    "testo": "Il post che avevi preparato nella casa è programmato (giorno 32, instagram, facebook, tiktok + twitter, alle 18:00 (2 post))"
   }
 ]
