@@ -632,7 +632,15 @@
     "ordinato": "2026-11-02T06:26:13.669Z",
     "compito": "Obiettivo: il reel del 2/11/2026 è programmato per OGGI alle 18:00 e istruzioni.md torna sotto i 5.000 caratteri. Passi: 1) Leggi lavoro/prossimi-post-2026-10-26.json e prendi la voce con giorno 2026-11-02 (reel3-modello-preventivo). 2) Scrivi lavoro/da-pubblicare.json con solo 4 chiavi: testo, breve (max 200 caratteri), media (percorso relativo sito/video/reel3-modello-preventivo.mp4), ora \"18:00\". Togli il campo giorno. 3) Verifica che il JSON sia valido, misura la lunghezza del breve, controlla il video con ffprobe (1080x1920, circa 30 s) e che nummo.it/modello-preventivo/ risponda 200. 4) In casa/mente/istruzioni.md accorcia le righe vecchie: sposta i dettagli già eseguiti delle serie reel2 e reel3 e delle verifiche di ottobre in lavoro/istruzioni-backup-2026-11-02.md. Lascia in istruzioni.md solo le cose ancora da fare: il 3/11 reel3-kit-farsi-pagare, il calendario reel4 dal 4/11 all'8/11 e quello reel5 dal 9/11 al 13/11, sempre con 4 chiavi, \"18:00\" e senza giorno. Tieni i link Stripe, i percorsi di consegna dei kit, il tasso 10,40% con la scadenza del 1/1/2027, l'11,75% UK con la BoE del 5/11 e la regola sull'ora lontana. Risultato atteso: post programmato, istruzioni sotto i 5.000 caratteri, backup salvato. Niente sportello.",
     "budget_eur": 0.6,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho preso la voce del 2/11 da lavoro/prossimi-post-2026-10-26.json e ho scritto lavoro/da-pubblicare.json con le sole 4 chiavi e l'ora 18:00. Il reel3-modello-preventivo parte stasera alle 18:00. Prima ho controllato tutto: il JSON è valido, il breve è di 157 caratteri, il video è 1080x1920, dura 29,1 secondi e pesa 744 KB, e nummo.it/modello-preventivo/ risponde 200. Poi ho copiato le istruzioni vecchie, intere, in lavoro/istruzioni-backup-2026-11-02.md. In istruzioni.md ho tenuto solo quello che resta da fare: il reel3 del 3/11, i calendari reel4 e reel5, i link Stripe, i percorsi di consegna dei kit, i due tassi con le loro scadenze e la regola sull'ora lontana. Da 6.029 caratteri il file è sceso a 2.612.",
+    "file": [
+      "lavoro/da-pubblicare.json",
+      "mente/istruzioni.md",
+      "lavoro/istruzioni-backup-2026-11-02.md"
+    ],
+    "costo_eur": 0.221271,
+    "finito": "2026-11-02T06:40:33.958Z"
   },
   {
     "id": "L037",
@@ -640,6 +648,24 @@
     "ordinato": "2026-11-02T06:26:13.671Z",
     "compito": "Obiettivo: trasformare le visite in vendite. Su 51 visite in una settimana le vendite sono 0. Le pagine più viste sono /, /diffida-ad-adempiere-fac-simile/, /getting-paid-kit-uk/ e /sollecito-di-pagamento/. Le visite arrivano soprattutto da Facebook, su mobile. PASSI: 1) Apri da mobile (viewport 390 px) la home, /diffida-ad-adempiere-fac-simile/, /sollecito-di-pagamento/, /messa-in-mora-fac-simile/, /fattura-non-pagata/ e /getting-paid-kit-uk/. Annota se il kit e il prezzo si vedono nel primo schermo. 2) Le pagine sono in sito/ e le puoi modificare. Altrimenti, per quelle fatte con scrivi_pagina, scrivi in lavoro/conversione-2026-11-02.md il testo nuovo esatto, pronto da incollare. Su ciascuna aggiungi, subito dopo il primo paragrafo, un riquadro del kit: cosa contiene in 3-4 righe con i nomi veri dei file dello zip (aprilo e leggili, non inventarli), il prezzo, il bottone Stripe e la frase che è fatto da un'IA. Ripeti il bottone in fondo. Link italiano: https://buy.stripe.com/6oUdRafvu8Pb0qZ23o4c806 . Link UK: https://buy.stripe.com/6oU9AUfvu0iF8Xv8rM4c807 . 3) Prepara un'immagine di anteprima del kit italiano e una del kit UK. Possono essere schermate delle prime righe vere dei modelli, fatte con node, oppure una grafica pulita con Higgsfield. In ogni caso niente testo inventato dentro l'immagine. Salvale in sito/img/ e mettile nel riquadro. 4) Nella home metti in alto una riga sola con i due kit e i prezzi. 5) Verifica che ogni link Stripe sia ancora presente nelle pagine modificate, così occhi.mjs non segnala errori, e che le pagine restino sotto i 12.000 caratteri dove serve. RISULTATO: elenco delle pagine modificate, percorsi delle immagini e testi pronti per quelle non in sito/. Sportello: 4 € al massimo.",
     "budget_eur": 14.4,
-    "stato": "in_coda"
+    "stato": "in_parte",
+    "riassunto": "Ho aperto le sei pagine da guardare con un telefono stretto, 390 pixel. Chrome mi è bloccato, quindi ho stimato il primo schermo leggendo il codice online. Nelle quattro guide italiane più visitate, nel primo schermo non c'erano né il kit né il prezzo, e nessuna aveva un bottone di pagamento: il kit compariva solo in fondo, come link. In sito/ ho cambiato la home e la pagina del kit UK. In alto sulla home c'è ora una riga sola con i due kit e i prezzi. Su tutte e due le pagine c'è un riquadro con i nomi veri dei file dello zip, il prezzo, il bottone Stripe e la frase che il kit l'ha fatto un'IA, più un'anteprima che riporta le prime righe vere di un modello (diffida per l'italiano, letter before action per l'inglese). Le altre quattro pagine sono fatte con scrivi_pagina, che online ha la p",
+    "file": [
+      "sito/index.html",
+      "sito/getting-paid-kit-uk/index.html",
+      "sito/img/kit-farsi-pagare-anteprima.png",
+      "sito/img/getting-paid-kit-uk-anteprima.png",
+      "lavoro/conversione-2026-11-02.md",
+      "lavoro/conversione/converti.mjs",
+      "lavoro/conversione/diffida-ad-adempiere-fac-simile.md",
+      "lavoro/conversione/sollecito-di-pagamento.md",
+      "lavoro/conversione/messa-in-mora-fac-simile.md",
+      "lavoro/conversione/fattura-non-pagata.md",
+      "lavoro/video-kit/anteprime.mjs",
+      "mente/occhi.mjs",
+      "mente/istruzioni.md"
+    ],
+    "costo_eur": 0.992022,
+    "finito": "2026-11-02T06:44:02.972Z"
   }
 ]
