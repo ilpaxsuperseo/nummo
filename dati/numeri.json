@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-01T01:40:31.260Z",
+  "aggiornato": "2026-11-02T01:40:32.512Z",
   "letture": 3,
   "giorni": {
     "2026-09-26": {
@@ -736,11 +736,11 @@
         "visualizzazioni": 36,
         "copertura": 16,
         "interazioni": 1,
-        "visualizzazioni_reel": 17
+        "visualizzazioni_reel": 18
       },
       "facebook": {
         "nuovi_follower": 0,
-        "visualizzazioni": 32
+        "visualizzazioni": 33
       },
       "tiktok": {
         "follower": 1,
@@ -763,11 +763,11 @@
         "visualizzazioni": 87,
         "copertura": 77,
         "interazioni": 1,
-        "visualizzazioni_reel": 87
+        "visualizzazioni_reel": 88
       },
       "facebook": {
         "nuovi_follower": 0,
-        "visualizzazioni": 205,
+        "visualizzazioni": 207,
         "interazioni": 1
       },
       "tiktok": {
@@ -843,7 +843,7 @@
         "visualizzazioni": 18,
         "copertura": 14,
         "interazioni": 1,
-        "visualizzazioni_reel": 6
+        "visualizzazioni_reel": 8
       },
       "facebook": {
         "nuovi_follower": 0,
@@ -868,9 +868,13 @@
     "2026-10-31": {
       "instagram": {
         "follower": 13,
-        "visualizzazioni": 82,
-        "copertura": 16,
-        "visualizzazioni_reel": 14
+        "visualizzazioni": 92,
+        "copertura": 17,
+        "visualizzazioni_reel": 19
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 234
       },
       "tiktok": {
         "follower": 1,
@@ -886,17 +890,38 @@
         "visitatori": 6,
         "pagine_viste": 6
       }
+    },
+    "2026-11-01": {
+      "instagram": {
+        "follower": 13,
+        "visualizzazioni": 68,
+        "copertura": 29,
+        "interazioni": 1,
+        "visualizzazioni_reel": 29
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 9
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 3,
+        "visitatori": 3,
+        "pagine_viste": 6
+      }
     }
   },
   "sito": {
     "pagine_piu_viste": [
       [
         "/",
-        15
+        16
       ],
       [
         "/diario/",
-        10
+        12
       ],
       [
         "/diffida-ad-adempiere-fac-simile/",
@@ -919,33 +944,33 @@
         3
       ],
       [
-        "/conti/",
-        1
-      ],
-      [
-        "/diario/giorno-15/",
-        1
-      ],
-      [
         "/kit-farsi-pagare/",
+        2
+      ],
+      [
+        "/messa-in-mora-o-diffida/",
+        1
+      ],
+      [
+        "/conti/",
         1
       ]
     ],
     "da_dove_arrivano": [
       [
         "facebook.com",
-        32
+        33
       ],
       [
         "diretto",
         16
       ],
       [
-        "google.com",
-        1
+        "l.instagram.com",
+        3
       ],
       [
-        "l.instagram.com",
+        "google.com",
         1
       ]
     ]
