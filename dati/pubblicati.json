@@ -1027,5 +1027,26 @@
       "412704513",
       "412704520"
     ]
+  },
+  {
+    "data": "2026-11-02",
+    "giorno": 33,
+    "quando": "2026-11-02T06:50:26.066Z",
+    "programmato_per": {
+      "dateTime": "2026-11-02T08:00:06",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-11-02.jpg",
+    "metricool": [
+      "413610532",
+      "413610542"
+    ]
   }
 ]
