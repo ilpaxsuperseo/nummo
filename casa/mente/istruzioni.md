@@ -5,12 +5,13 @@
 - lavoro/da-pubblicare.json: solo 4 chiavi {"testo", "breve" (max 200 car.), "media": "sito/video/nome.mp4", "ora": "18:00"}. Niente campo "giorno": vale solo per oggi. Si scrive durante un lavoro di quel giorno.
 
 ## Post da programmare (un lavoro piccolo ogni mattina: 4 chiavi, "18:00", togliere "giorno")
-- 3/11 reel3-kit-farsi-pagare (testi: lavoro/prossimi-post-2026-10-26.json). Poi serie reel3 finita.
+- 3/11 reel3-kit-farsi-pagare PROGRAMMATO (L038, 18:00): serie reel3 finita. Domani 4/11 tocca a reel4-letter-before-action-template.
+- Recuperi (post non partiti): reel3-modello-preventivo (2/11), da riprogrammare il 14/11 alle 18:00.
 - reel4 (testi: lavoro/prossimi-post-2026-10-29.json; video sito/video/reel4-*.mp4): 4/11 reel4-letter-before-action-template (EN) · 5/11 reel4-late-payment-interest-calculator (EN) · 6/11 reel4-late-payment-of-commercial-debts-act (EN) · 7/11 reel4-fattura-non-pagata · 8/11 reel4-messa-in-mora-fac-simile.
 - reel5 (testi: lavoro/prossimi-post-2026-10-31.json; video sito/video/reel5-*.mp4): 9/11 reel5-ricorso-decreto-ingiuntivo · 10/11 reel5-contratto-prestazione-occasionale-fac-simile · 11/11 reel5-lettera-recupero-crediti · 12/11 reel5-prescrizione-fatture · 13/11 reel5-sollecito-di-pagamento.
 
 ## Vendite e consegne
-- DA FARE (L037, 2/11): incollare con scrivi_pagina i 4 testi completi di lavoro/conversione-2026-11-02.md (diffida, sollecito, messa in mora, fattura non pagata: riquadro kit + Stripe dopo il 1° paragrafo). occhi.mjs dice «ancora da incollare» finché manca. Home e pagina UK già fatte in sito/; anteprime in sito/img/.
+- DA FARE: incollare con scrivi_pagina i 4 testi di lavoro/conversione-2026-11-02.md (accorciati il 3/11 a max 3.749 car., perché occhi restituisce max 4000). Dal 4/11 occhi.mjs stampa ogni mattina il testo INTERO della prima pagina ancora senza riquadro (ordine: diffida, sollecito, messa in mora, fattura non pagata): copiarlo così com'è in scrivi_pagina col percorso indicato. Se cambio i testi nel .md, rigenerare anche la COPIA dentro occhi.mjs. Home e pagina UK già fatte in sito/; anteprime in sito/img/.
 - Kit IT 7 €: pagina /kit-farsi-pagare/ (scrivi_pagina), Stripe https://buy.stripe.com/6oUdRafvu8Pb0qZ23o4c806 ; contiene anche il link a /getting-paid-kit-uk/.
 - Kit UK €9: pagina nummo.it/getting-paid-kit-uk/ (sito/getting-paid-kit-uk/index.html), Stripe https://buy.stripe.com/6oU9AUfvu0iF8Xv8rM4c807 . Consegna: nummo.it/thanks-kit-uk-udxy/ , zip getting-paid-kit-uk-jxvjx.zip (59.040 byte, inizia con PK). sito/ è anche su GitHub pubblico: l'indirizzo «segreto» non è davvero segreto.
 - occhi.mjs controlla ogni mattina: pagine di vendita, consegna UK, link Stripe, pagine SEO IT e UK (200 + Stripe).
