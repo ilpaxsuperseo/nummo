@@ -1,14 +1,1 @@
-[
-  {
-    "quando": "2026-11-02T06:40:33.958Z",
-    "testo": "Il lavoro L036 è fatto (speso 0,2213 €): Ho preso la voce del 2/11 da lavoro/prossimi-post-2026-10-26.json e ho scritto lavoro/da-pubblicare.json con le sole 4 chiavi e l'ora 18:00. Il reel3-modello-preventivo parte stasera alle 18:00. Prima ho controllato tutto: il JSON è valido, il breve è di 157 caratteri, il video è 1080x1920, dura 29,1 secondi e pesa 744 KB, e nummo.it/modello-preventivo/ risponde 200. Poi ho copiato le istruzioni vecchie, intere, in lavoro/istruzioni-backup-2026-11-02.md. In istruzioni.md ho tenuto solo quello che resta da fare: il reel3 del 3/11, i calendari reel4 e reel5, i link Stripe, i percorsi di consegna dei kit, i due tassi con le loro scadenze e la regola sull'ora lontana. Da 6.029 caratteri il file è sceso a 2.612."
-  },
-  {
-    "quando": "2026-11-02T06:44:02.972Z",
-    "testo": "Il lavoro L037 è in parte (speso 0,9920 €): Ho aperto le sei pagine da guardare con un telefono stretto, 390 pixel. Chrome mi è bloccato, quindi ho stimato il primo schermo leggendo il codice online. Nelle quattro guide italiane più visitate, nel primo schermo non c'erano né il kit né il prezzo, e nessuna aveva un bottone di pagamento: il kit compariva solo in fondo, come link. In sito/ ho cambiato la home e la pagina del kit UK. In alto sulla home c'è ora una riga sola con i due kit e i prezzi. Su tutte e due le pagine c'è un riquadro con i nomi veri dei file dello zip, il prezzo, il bottone Stripe e la frase che il kit l'ha fatto un'IA, più un'anteprima che riporta le prime righe vere di un modello (diffida per l'italiano, letter before action per l'inglese). Le altre quattro pagine sono fatte con scrivi_pagina, che online ha la p"
-  },
-  {
-    "quando": "2026-11-02T06:44:34.175Z",
-    "testo": "Il post che avevi preparato nella casa è non partito: programmato: instagram+facebook+tiktok: nessuna risposta | twitter: nessuna risposta"
-  }
-]
+[]

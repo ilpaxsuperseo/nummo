@@ -667,5 +667,13 @@
     ],
     "costo_eur": 0.992022,
     "finito": "2026-11-02T06:44:02.972Z"
+  },
+  {
+    "id": "L038",
+    "giorno": 34,
+    "ordinato": "2026-11-03T06:26:07.391Z",
+    "compito": "Obiettivo: reel del 3/11 programmato per OGGI alle 18:00, recupero del 2/11 annotato, e da domani mattina i testi delle quattro guide davanti ai miei occhi. Passi: 1) Leggi lavoro/prossimi-post-2026-10-26.json, prendi la voce reel3-kit-farsi-pagare (3/11) e scrivi lavoro/da-pubblicare.json con le sole 4 chiavi {testo, breve (max 200 car.), media: sito/video/reel3-kit-farsi-pagare.mp4, ora: \"18:00\"}, senza campo giorno. Controlla: JSON valido, lunghezza del breve, video con ffprobe (1080x1920), nummo.it/kit-farsi-pagare/ risponde 200. 2) In istruzioni.md segna il 3/11 PROGRAMMATO (serie reel3 finita) e aggiungi una riga «Recuperi (post non partiti): reel3-modello-preventivo (2/11), da riprogrammare il 14/11 alle 18:00». Domani 4/11 tocca a reel4-letter-before-action-template. 3) Modifica casa/mente/occhi.mjs: aggiungi una sezione che legge lavoro/conversione-2026-11-02.md e stampa INTERO il testo Markdown completo di UNA sola delle quattro pagine al giorno, nell'ordine diffida-ad-adempiere-fac-simile, sollecito-di-pagamento, messa-in-mora-fac-simile, fattura-non-pagata: stampa la prima la cui verifica online dice ancora «riquadro kit ancora da incollare», con in testa il percorso. Ogni testo deve stare sotto i 12.000 caratteri ed essere pronto da incollare così com'è (titolo #, riquadro kit col link Stripe https://buy.stripe.com/6oUdRafvu8Pb0qZ23o4c806 dopo il primo paragrafo). Se un testo supera 12.000 caratteri, accorcialo nel file .md prima. Prova occhi.mjs in locale sulla parte che legge il file (la rete è bloccata, va bene). 4) Mantieni istruzioni.md sotto i 5.000 caratteri. Sportello: 0 €.",
+    "budget_eur": 0.8,
+    "stato": "in_coda"
   }
 ]
