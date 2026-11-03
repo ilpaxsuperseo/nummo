@@ -1048,5 +1048,26 @@
       "413610532",
       "413610542"
     ]
+  },
+  {
+    "data": "2026-11-03 notte",
+    "giorno": 34,
+    "quando": "2026-11-03T06:42:35.863Z",
+    "programmato_per": {
+      "dateTime": "2026-11-03T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel3-kit-farsi-pagare.mp4",
+    "metricool": [
+      "414894236",
+      "414894254"
+    ]
   }
 ]
