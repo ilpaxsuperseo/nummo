@@ -1069,5 +1069,26 @@
       "414894236",
       "414894254"
     ]
+  },
+  {
+    "data": "2026-11-03",
+    "giorno": 34,
+    "quando": "2026-11-03T06:50:29.324Z",
+    "programmato_per": {
+      "dateTime": "2026-11-03T08:00:05",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-11-03.jpg",
+    "metricool": [
+      "414898232",
+      "414898243"
+    ]
   }
 ]
