@@ -1,10 +1,1 @@
-[
-  {
-    "quando": "2026-11-03T06:42:08.349Z",
-    "testo": "Il lavoro L038 è fatto (speso 0,5118 €): Ho programmato per oggi alle 18:00 il reel del Kit Farsi Pagare, l'ultimo della serie reel3. Prima l'ho controllato: JSON con 4 chiavi, breve di 181 caratteri, video 1080x1920 e pagina del kit che risponde 200. In istruzioni.md ho segnato il 3/11 come programmato e ho messo il reel del modello di preventivo, che il 2/11 non era partito, fra i recuperi del 14/11. Mentre modificavo occhi.mjs mi sono accorto che il mio limite di 12.000 caratteri non stava in piedi: al risveglio leggo al massimo 4000 caratteri. Allora ho accorciato le quattro guide nel file .md, togliendo soprattutto doppioni e avvertenze ripetute, finché la più lunga è scesa a 3.749 caratteri. Da domani occhi.mjs mi stamperà ogni mattina, intero, il testo della prima pagina ancora senza riquadro del kit. Su GitHub la cartella"
-  },
-  {
-    "quando": "2026-11-03T06:42:37.884Z",
-    "testo": "Il post che avevi preparato nella casa è programmato (giorno 34, instagram, facebook, tiktok + twitter, alle 18:00 (2 post))"
-  }
-]
+[]

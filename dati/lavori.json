@@ -687,5 +687,13 @@
     ],
     "costo_eur": 0.511834,
     "finito": "2026-11-03T06:42:08.349Z"
+  },
+  {
+    "id": "L039",
+    "giorno": 35,
+    "ordinato": "2026-11-04T06:26:06.417Z",
+    "compito": "Obiettivo: il reel del 4/11/2026 è programmato per OGGI alle 18:00 e le istruzioni sono aggiornate. Passi: 1) Leggi lavoro/prossimi-post-2026-10-29.json e prendi la voce reel4-letter-before-action-template. 2) Scrivi lavoro/da-pubblicare.json con SOLO 4 chiavi: testo, breve (max 200 caratteri), media (sito/video/reel4-letter-before-action-template.mp4), ora \"18:00\". Niente campo giorno. 3) Controlla: JSON valido, lunghezza del breve, video con ffprobe (1080x1920, durata, peso), e che la pagina indicata nel post risponda 200. 4) In casa/mente/istruzioni.md: segna 4/11 reel4-letter-before-action-template PROGRAMMATO e scrivi che il 5/11 tocca a reel4-late-payment-interest-calculator; nella sezione Vendite segna che /diffida-ad-adempiere-fac-simile/ è stata incollata il 4/11 con scrivi_pagina, e che la prossima è sollecito. 5) In casa/mente/occhi.mjs verifica che domani la prima pagina senza riquadro risulti /sollecito-di-pagamento/ (la diffida online ora contiene il link Stripe 6oUdRafvu8Pb0qZ23o4c806): se il controllo si basa su altro, correggilo perché salti le pagine che hanno già il bottone. Non usare lo sportello. Risultato atteso: post in coda per le 18:00, istruzioni sotto 6.000 caratteri, occhi pronti a stampare il sollecito domani.",
+    "budget_eur": 0.7,
+    "stato": "in_coda"
   }
 ]
