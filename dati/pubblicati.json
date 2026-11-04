@@ -1111,5 +1111,26 @@
       "416140186",
       "416140201"
     ]
+  },
+  {
+    "data": "2026-11-04",
+    "giorno": 35,
+    "quando": "2026-11-04T06:50:25.230Z",
+    "programmato_per": {
+      "dateTime": "2026-11-04T08:00:06",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-11-04.jpg",
+    "metricool": [
+      "416144691",
+      "416144703"
+    ]
   }
 ]
