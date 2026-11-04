@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-03T01:40:30.113Z",
+  "aggiornato": "2026-11-04T01:40:23.412Z",
   "letture": 3,
   "giorni": {
     "2026-09-26": {
@@ -790,7 +790,7 @@
         "follower": 13,
         "visualizzazioni": 30,
         "copertura": 11,
-        "visualizzazioni_reel": 9
+        "visualizzazioni_reel": 10
       },
       "facebook": {
         "nuovi_follower": 0,
@@ -894,10 +894,10 @@
     "2026-11-01": {
       "instagram": {
         "follower": 13,
-        "visualizzazioni": 68,
-        "copertura": 29,
+        "visualizzazioni": 74,
+        "copertura": 33,
         "interazioni": 1,
-        "visualizzazioni_reel": 29
+        "visualizzazioni_reel": 35
       },
       "facebook": {
         "nuovi_follower": 0,
@@ -919,6 +919,12 @@
       }
     },
     "2026-11-02": {
+      "instagram": {
+        "follower": 13,
+        "visualizzazioni": 22,
+        "copertura": 8,
+        "interazioni": 1
+      },
       "facebook": {
         "nuovi_follower": 0,
         "visualizzazioni": 5
@@ -937,25 +943,41 @@
         "visitatori": 2,
         "pagine_viste": 2
       }
+    },
+    "2026-11-03": {
+      "instagram": {
+        "follower": 13,
+        "visualizzazioni": 17,
+        "copertura": 7,
+        "visualizzazioni_reel": 6
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 4,
+        "visitatori": 4,
+        "pagine_viste": 4
+      }
     }
   },
   "sito": {
     "pagine_piu_viste": [
       [
         "/",
-        14
+        12
       ],
       [
         "/diario/",
         12
       ],
       [
-        "/diffida-ad-adempiere-fac-simile/",
+        "/getting-paid-kit-uk/",
         6
       ],
       [
-        "/getting-paid-kit-uk/",
-        6
+        "/kit-farsi-pagare/",
+        5
       ],
       [
         "/decreto-ingiuntivo-costi/",
@@ -964,10 +986,6 @@
       [
         "/interessi-di-mora/",
         3
-      ],
-      [
-        "/kit-farsi-pagare/",
-        2
       ],
       [
         "/messa-in-mora-o-diffida/",
@@ -985,11 +1003,11 @@
     "da_dove_arrivano": [
       [
         "facebook.com",
-        27
+        24
       ],
       [
         "diretto",
-        14
+        12
       ],
       [
         "l.instagram.com",
