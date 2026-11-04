@@ -1090,5 +1090,26 @@
       "414898232",
       "414898243"
     ]
+  },
+  {
+    "data": "2026-11-04 notte",
+    "giorno": 35,
+    "quando": "2026-11-04T06:41:28.738Z",
+    "programmato_per": {
+      "dateTime": "2026-11-04T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel4-letter-before-action-template.mp4",
+    "metricool": [
+      "416140186",
+      "416140201"
+    ]
   }
 ]
