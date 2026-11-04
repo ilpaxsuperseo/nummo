@@ -42,7 +42,7 @@ export default async function () {
       if (guideIt.includes(p)) extra += new TextDecoder().decode(buf).includes('buy.stripe.com/6oUdRafvu8Pb0qZ23o4c806') ? ', link Stripe 7 € presente' : ', link Stripe 7 € ASSENTE';
       if (p === '/kit-farsi-pagare/') { const t = new TextDecoder().decode(buf); extra += (t.includes('buy.stripe.com/6oUdRafvu8Pb0qZ23o4c806') ? ', link Stripe 7 € presente' : ', link Stripe 7 € ASSENTE') + (t.includes('/getting-paid-kit-uk/') ? ', link kit UK presente' : ', link kit UK ASSENTE'); }
       righe.push(`${r.status} ${p} (${extra})`);
-    } catch (e) { righe.push(`ERRORE ${p}: ${e.message}`); if (daIncollare.includes(p)) mancanti.push(p); }
+    } catch (e) { righe.push(`ERRORE ${p}: ${e.message}`); } // un errore di rete non vuol dire «senza riquadro»: si salta, non si ristampa
   }
   const stato = "Stato dei kit online:\n" + righe.join("\n");
   // Una sola pagina al giorno, nell'ordine di daIncollare: la prima ancora senza riquadro.
