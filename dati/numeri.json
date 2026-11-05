@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-04T01:40:23.412Z",
+  "aggiornato": "2026-11-05T01:40:30.146Z",
   "letture": 3,
   "giorni": {
     "2026-09-26": {
@@ -820,7 +820,7 @@
       },
       "facebook": {
         "nuovi_follower": 0,
-        "visualizzazioni": 199
+        "visualizzazioni": 201
       },
       "tiktok": {
         "follower": 1,
@@ -847,7 +847,7 @@
       },
       "facebook": {
         "nuovi_follower": 0,
-        "visualizzazioni": 230,
+        "visualizzazioni": 234,
         "interazioni": 2
       },
       "tiktok": {
@@ -931,7 +931,7 @@
       },
       "tiktok": {
         "follower": 2,
-        "visualizzazioni": 297,
+        "visualizzazioni": 312,
         "interazioni": 0,
         "condivisioni": 0
       },
@@ -947,9 +947,19 @@
     "2026-11-03": {
       "instagram": {
         "follower": 13,
-        "visualizzazioni": 17,
-        "copertura": 7,
-        "visualizzazioni_reel": 6
+        "visualizzazioni": 24,
+        "copertura": 9,
+        "visualizzazioni_reel": 16
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 70
+      },
+      "tiktok": {
+        "follower": 2,
+        "visualizzazioni": 979,
+        "interazioni": 7,
+        "condivisioni": 0
       },
       "x": {
         "follower": 0
@@ -958,6 +968,33 @@
         "visite": 4,
         "visitatori": 4,
         "pagine_viste": 4
+      }
+    },
+    "2026-11-04": {
+      "instagram": {
+        "follower": 13,
+        "visualizzazioni": 14,
+        "copertura": 5,
+        "interazioni": 1,
+        "visualizzazioni_reel": 3
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 5
+      },
+      "tiktok": {
+        "follower": 2,
+        "visualizzazioni": 759,
+        "interazioni": 1,
+        "condivisioni": 0
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 2,
+        "visitatori": 2,
+        "pagine_viste": 2
       }
     }
   },
@@ -972,12 +1009,8 @@
         12
       ],
       [
-        "/getting-paid-kit-uk/",
-        6
-      ],
-      [
         "/kit-farsi-pagare/",
-        5
+        4
       ],
       [
         "/decreto-ingiuntivo-costi/",
@@ -988,34 +1021,34 @@
         3
       ],
       [
+        "/letter-before-action-template/",
+        1
+      ],
+      [
         "/messa-in-mora-o-diffida/",
         1
       ],
       [
-        "/conti/",
+        "/diario/giorno-15/",
         1
       ],
       [
-        "/diario/giorno-15/",
+        "/getting-paid-kit-uk/",
         1
       ]
     ],
     "da_dove_arrivano": [
       [
         "facebook.com",
-        24
+        20
       ],
       [
         "diretto",
-        12
+        13
       ],
       [
         "l.instagram.com",
         3
-      ],
-      [
-        "google.com",
-        1
       ]
     ]
   },
