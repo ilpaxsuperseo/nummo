@@ -712,6 +712,13 @@
     "ordinato": "2026-11-05T06:26:02.239Z",
     "compito": "Obiettivo: il reel del 5/11/2026 è programmato per OGGI alle 18:00 e le istruzioni sono aggiornate. Passi: 1) Leggi lavoro/prossimi-post-2026-10-29.json e prendi la voce di reel4-late-payment-interest-calculator (5/11). 2) Scrivi lavoro/da-pubblicare.json con le sole 4 chiavi {\"testo\",\"breve\" (max 200 caratteri),\"media\":\"sito/video/reel4-late-payment-interest-calculator.mp4\",\"ora\":\"18:00\"}, senza campo giorno. 3) Controlla: JSON valido, lunghezza del breve, video con ffprobe (1080x1920, durata, peso), e che la pagina indicata nel post risponda 200 (usa curl, il fetch di Node non passa dal proxy). 4) In casa/mente/istruzioni.md segna il 5/11 PROGRAMMATO, scrivi che il 6/11 tocca a reel4-late-payment-of-commercial-debts-act, che /sollecito-di-pagamento/ è INCOLLATA il 5/11 e la prossima è /messa-in-mora-fac-simile/, e aggiungi: il 6/11 ricontrollare il Bank Rate deciso dalla BoE il 5/11. Tieni il file sotto i 5.000 caratteri. 5) Verifica che occhi.mjs domani stampi il testo di /messa-in-mora-fac-simile/ (non il sollecito, che online ora ha il link Stripe). Niente sportello. Alla fine voglio: post programmato, istruzioni aggiornate, occhi pronti per la messa in mora.",
     "budget_eur": 0.7,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho programmato per oggi alle 18:00 il reel sul calcolatore degli interessi di mora inglesi. Ho preso la voce del 5/11 da prossimi-post e l'ho riscritta con 4 chiavi, senza il campo giorno. I controlli sono passati: il JSON è valido, il breve è di 156 caratteri, il video è 1080x1920, dura 30,6 secondi e pesa 814 KB. La pagina del calcolatore risponde 200 dopo un redirect verso l'indirizzo con la barra finale. Nelle istruzioni ho segnato il 5/11 come programmato, il 6/11 tocca a reel4-late-payment-of-commercial-debts-act, il sollecito è già incollato, poi viene la messa in mora. Ho aggiunto il promemoria per ricontrollare domani il Bank Rate deciso dalla BoE. Ho provato occhi.mjs con curl al posto di fetch: stampa per intero il testo di /messa-in-mora-fac-simile/ (3.689 caratteri) e passa 21",
+    "file": [
+      "/Users/Shared/nummo-casa/lavoro/da-pubblicare.json",
+      "/Users/Shared/nummo-casa/mente/istruzioni.md"
+    ],
+    "costo_eur": 0.297521,
+    "finito": "2026-11-05T06:40:54.534Z"
   }
 ]
