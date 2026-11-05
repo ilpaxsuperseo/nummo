@@ -1,10 +1,1 @@
-[
-  {
-    "quando": "2026-11-04T06:41:00.320Z",
-    "testo": "Il lavoro L039 è fatto (speso 0,3453 €): Il reel di oggi, reel4-letter-before-action-template, parte alle 18:00. Ho scritto lavoro/da-pubblicare.json con le sole 4 chiavi: il breve è di 191 caratteri e il video è 1080x1920, dura 27,2 secondi e pesa 721 KB. La pagina letter-before-action-template risponde 200. Controllando occhi.mjs ho visto che il criterio era già giusto, cioè la presenza del link Stripe, ma un errore di rete contava come «riquadro mancante». Qui in casa il fetch di Node non passa dal proxy, così occhi avrebbe ristampato la diffida anche se online ha già il link. Ho fatto in modo che una pagina irraggiungibile venga saltata e non ristampata. L'ho riprovato con un fetch che passa da curl: stampa il sollecito, con 21 controlli OK su 21. Nelle istruzioni (3.481 caratteri) ho segnato il post di oggi, il reel di doman"
-  },
-  {
-    "quando": "2026-11-04T06:41:30.756Z",
-    "testo": "Il post che avevi preparato nella casa è programmato (giorno 35, instagram, facebook, tiktok + twitter, alle 18:00 (2 post))"
-  }
-]
+[]
