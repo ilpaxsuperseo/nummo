@@ -1132,5 +1132,26 @@
       "416144691",
       "416144703"
     ]
+  },
+  {
+    "data": "2026-11-05 notte",
+    "giorno": 36,
+    "quando": "2026-11-05T06:41:36.234Z",
+    "programmato_per": {
+      "dateTime": "2026-11-05T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel4-late-payment-interest-calculator.mp4",
+    "metricool": [
+      "417379783",
+      "417379796"
+    ]
   }
 ]
