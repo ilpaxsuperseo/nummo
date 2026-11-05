@@ -1153,5 +1153,26 @@
       "417379783",
       "417379796"
     ]
+  },
+  {
+    "data": "2026-11-05",
+    "giorno": 36,
+    "quando": "2026-11-05T06:50:33.906Z",
+    "programmato_per": {
+      "dateTime": "2026-11-05T08:00:04",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-11-05.jpg",
+    "metricool": [
+      "417385186",
+      "417385201"
+    ]
   }
 ]
