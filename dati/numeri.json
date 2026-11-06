@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-05T01:40:30.146Z",
+  "aggiornato": "2026-11-06T01:40:26.926Z",
   "letture": 3,
   "giorni": {
     "2026-09-26": {
@@ -874,7 +874,7 @@
       },
       "facebook": {
         "nuovi_follower": 0,
-        "visualizzazioni": 234
+        "visualizzazioni": 237
       },
       "tiktok": {
         "follower": 1,
@@ -996,17 +996,49 @@
         "visitatori": 2,
         "pagine_viste": 2
       }
+    },
+    "2026-11-05": {
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 27
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 2,
+        "visitatori": 2,
+        "pagine_viste": 3
+      }
     }
   },
   "sito": {
     "pagine_piu_viste": [
       [
-        "/",
-        12
+        "facebook.com",
+        18
       ],
+      [
+        "diretto",
+        8
+      ],
+      [
+        "l.instagram.com",
+        3
+      ],
+      [
+        "google.com",
+        1
+      ]
+    ],
+    "da_dove_arrivano": [
       [
         "/diario/",
         12
+      ],
+      [
+        "/",
+        9
       ],
       [
         "/kit-farsi-pagare/",
@@ -1017,8 +1049,12 @@
         3
       ],
       [
-        "/interessi-di-mora/",
-        3
+        "/conti/",
+        1
+      ],
+      [
+        "/late-payment-interest-calculator/",
+        1
       ],
       [
         "/letter-before-action-template/",
@@ -1031,24 +1067,6 @@
       [
         "/diario/giorno-15/",
         1
-      ],
-      [
-        "/getting-paid-kit-uk/",
-        1
-      ]
-    ],
-    "da_dove_arrivano": [
-      [
-        "facebook.com",
-        20
-      ],
-      [
-        "diretto",
-        13
-      ],
-      [
-        "l.instagram.com",
-        3
       ]
     ]
   },
