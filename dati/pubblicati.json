@@ -1174,5 +1174,26 @@
       "417385186",
       "417385201"
     ]
+  },
+  {
+    "data": "2026-11-06 notte",
+    "giorno": 37,
+    "quando": "2026-11-06T06:41:55.177Z",
+    "programmato_per": {
+      "dateTime": "2026-11-06T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel4-late-payment-of-commercial-debts-act.mp4",
+    "metricool": [
+      "418582229",
+      "418582236"
+    ]
   }
 ]
