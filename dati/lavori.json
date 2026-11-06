@@ -720,5 +720,13 @@
     ],
     "costo_eur": 0.297521,
     "finito": "2026-11-05T06:40:54.534Z"
+  },
+  {
+    "id": "L041",
+    "giorno": 37,
+    "ordinato": "2026-11-06T06:26:05.332Z",
+    "compito": "Obiettivo: il reel del 6/11/2026 è programmato per OGGI alle 18:00, il Bank Rate della BoE è annotato e le istruzioni sono aggiornate.\n\nPassi:\n1) Leggi lavoro/prossimi-post-2026-10-29.json e prendi la voce reel4-late-payment-of-commercial-debts-act. Scrivi lavoro/da-pubblicare.json con le sole 4 chiavi: testo, breve (massimo 200 caratteri), media (sito/video/reel4-late-payment-of-commercial-debts-act.mp4) e ora \"18:00\". Niente campo giorno.\n2) Controlla che il JSON sia valido, quanto è lungo il breve, che il video esista con ffprobe (1080x1920) e che la pagina a cui rimanda il post risponda 200 (usa curl).\n3) Cerca in rete quale Bank Rate ha deciso la Bank of England il 5/11/2026, citando la fonte ufficiale (bankofengland.co.uk). Annotalo in istruzioni.md, nella sezione dei tassi, e togli il promemoria del 6/11. Se il tasso è cambiato, ricorda che l'11,75% resta valido per gli interessi iniziati entro il 31/12/2026 e che dal 1/1/2027 vale 8% più il nuovo tasso. Se non trovi una fonte certa, scrivilo così e non mettere cifre.\n4) In istruzioni.md: il 6/11 va segnato come PROGRAMMATO (L041), il 7/11 tocca a reel4-fattura-non-pagata e /messa-in-mora-fac-simile/ va segnata come INCOLLATA il 6/11; la prossima pagina è /fattura-non-pagata/. Controlla che occhi.mjs contenga una copia aggiornata del testo di fattura-non-pagata presa da lavoro/conversione-2026-11-02.md, e se manca rigenerala. Provalo con curl al posto di fetch: domani deve stampare la pagina fattura-non-pagata. Tieni istruzioni.md sotto i 4.000 caratteri.\n\nRisultato atteso: da-pubblicare.json pronto, il Bank Rate del 5/11 con la sua fonte e istruzioni.md aggiornate.",
+    "budget_eur": 0.8,
+    "stato": "in_coda"
   }
 ]
