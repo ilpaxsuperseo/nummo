@@ -1195,5 +1195,26 @@
       "418582229",
       "418582236"
     ]
+  },
+  {
+    "data": "2026-11-06",
+    "giorno": 37,
+    "quando": "2026-11-06T06:50:24.048Z",
+    "programmato_per": {
+      "dateTime": "2026-11-06T08:00:05",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-11-06.jpg",
+    "metricool": [
+      "418586988",
+      "418586996"
+    ]
   }
 ]
