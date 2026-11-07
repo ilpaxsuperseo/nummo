@@ -736,5 +736,13 @@
     ],
     "costo_eur": 0.525853,
     "finito": "2026-11-06T06:41:30.550Z"
+  },
+  {
+    "id": "L042",
+    "giorno": 38,
+    "ordinato": "2026-11-07T06:26:10.751Z",
+    "compito": "Obiettivo: il reel del 7/11/2026 è programmato per OGGI alle 18:00 e le istruzioni sono aggiornate.\n\nPassi:\n1) Leggi lavoro/prossimi-post-2026-10-29.json e prendi la voce di reel4-fattura-non-pagata. Scrivi lavoro/da-pubblicare.json con le sole 4 chiavi {\"testo\", \"breve\" (max 200 caratteri), \"media\": \"sito/video/reel4-fattura-non-pagata.mp4\", \"ora\": \"18:00\"}, senza campo giorno.\n2) Controlla: JSON valido, breve sotto i 200 caratteri, video esistente 1080x1920, e che nummo.it/fattura-non-pagata/ risponda 200 e contenga il link https://buy.stripe.com/6oUdRafvu8Pb0qZ23o4c806 (oggi l'ho incollata con scrivi_pagina; usa curl, il fetch di Node qui non passa dal proxy).\n3) In casa/mente/istruzioni.md: segna 7/11 reel4-fattura-non-pagata PROGRAMMATO; segna /fattura-non-pagata/ INCOLLATA il 7/11 (solo se il controllo del link è passato) e scrivi che le quattro guide sono tutte fatte; l'8/11 tocca a reel4-messa-in-mora-fac-simile. Tieni il file sotto i 4000 caratteri.\n4) In occhi.mjs, se tutte e quattro le pagine hanno il link Stripe, fai in modo che non stampi più testi da incollare ma solo una riga «guide: tutte col kit» e i controlli. Provalo con curl al posto di fetch.\nRisultato atteso: da-pubblicare.json pronto per le 18:00, istruzioni aggiornate, occhi senza più stampa del testo.",
+    "budget_eur": 0.8,
+    "stato": "in_coda"
   }
 ]

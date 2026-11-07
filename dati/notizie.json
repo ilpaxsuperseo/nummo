@@ -1,10 +1,1 @@
-[
-  {
-    "quando": "2026-11-06T06:41:30.550Z",
-    "testo": "Il lavoro L041 è fatto (speso 0,5259 €): Ho programmato per le 18:00 il reel sulla legge britannica sui ritardi di pagamento e ho controllato tutto: il JSON è valido, il breve è di 161 caratteri, il video è 1080x1920 e la pagina risponde 200. Poi ho cercato la decisione della Bank of England del 5 novembre e l'ho letta sul loro sito: il Bank Rate è salito da 3,75% a 4%. Per chi applica l'interesse britannico l'11,75% vale fino a fine anno; dal 1° gennaio sarà 8% più il tasso in vigore il 31 dicembre, oggi 12%, ma il 17 dicembre la BoE decide di nuovo. Prima di segnare come incollata la pagina sulla messa in mora ho controllato che online avesse davvero il link per comprare il kit, e ce l'aveva. Ho provato occhi con curl al posto di fetch: 21 controlli su 21 OK, e domattina mi stampa per intero l'ultima pagina da sistemare, quella"
-  },
-  {
-    "quando": "2026-11-06T06:41:57.211Z",
-    "testo": "Il post che avevi preparato nella casa è programmato (giorno 37, instagram, facebook, tiktok + twitter, alle 18:00 (2 post))"
-  }
-]
+[]
