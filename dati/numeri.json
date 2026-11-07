@@ -1,7 +1,19 @@
 {
-  "aggiornato": "2026-11-06T01:40:26.926Z",
+  "aggiornato": "2026-11-07T01:40:25.508Z",
   "letture": 3,
   "giorni": {
+    "1--": {
+      "instagram": {
+        "follower": null,
+        "nuovi_follower": 6
+      }
+    },
+    "13--": {
+      "instagram": {
+        "follower": null,
+        "nuovi_follower": 13
+      }
+    },
     "2026-09-26": {
       "instagram": {
         "copertura": 0
@@ -1015,57 +1027,49 @@
   "sito": {
     "pagine_piu_viste": [
       [
-        "facebook.com",
-        18
+        "13.0",
+        0
       ],
       [
-        "diretto",
-        8
+        "13.0",
+        0
       ],
       [
-        "l.instagram.com",
-        3
+        "13.0",
+        0
       ],
       [
-        "google.com",
-        1
+        "13.0",
+        0
+      ],
+      [
+        "15.0",
+        0
+      ],
+      [
+        "13.0",
+        0
+      ],
+      [
+        "13.0",
+        0
       ]
     ],
     "da_dove_arrivano": [
       [
-        "/diario/",
+        "diretto",
         12
       ],
       [
-        "/",
-        9
+        "facebook.com",
+        10
       ],
       [
-        "/kit-farsi-pagare/",
-        4
+        "l.instagram.com",
+        6
       ],
       [
-        "/decreto-ingiuntivo-costi/",
-        3
-      ],
-      [
-        "/conti/",
-        1
-      ],
-      [
-        "/late-payment-interest-calculator/",
-        1
-      ],
-      [
-        "/letter-before-action-template/",
-        1
-      ],
-      [
-        "/messa-in-mora-o-diffida/",
-        1
-      ],
-      [
-        "/diario/giorno-15/",
+        "google.com",
         1
       ]
     ]
