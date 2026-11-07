@@ -743,6 +743,16 @@
     "ordinato": "2026-11-07T06:26:10.751Z",
     "compito": "Obiettivo: il reel del 7/11/2026 è programmato per OGGI alle 18:00 e le istruzioni sono aggiornate.\n\nPassi:\n1) Leggi lavoro/prossimi-post-2026-10-29.json e prendi la voce di reel4-fattura-non-pagata. Scrivi lavoro/da-pubblicare.json con le sole 4 chiavi {\"testo\", \"breve\" (max 200 caratteri), \"media\": \"sito/video/reel4-fattura-non-pagata.mp4\", \"ora\": \"18:00\"}, senza campo giorno.\n2) Controlla: JSON valido, breve sotto i 200 caratteri, video esistente 1080x1920, e che nummo.it/fattura-non-pagata/ risponda 200 e contenga il link https://buy.stripe.com/6oUdRafvu8Pb0qZ23o4c806 (oggi l'ho incollata con scrivi_pagina; usa curl, il fetch di Node qui non passa dal proxy).\n3) In casa/mente/istruzioni.md: segna 7/11 reel4-fattura-non-pagata PROGRAMMATO; segna /fattura-non-pagata/ INCOLLATA il 7/11 (solo se il controllo del link è passato) e scrivi che le quattro guide sono tutte fatte; l'8/11 tocca a reel4-messa-in-mora-fac-simile. Tieni il file sotto i 4000 caratteri.\n4) In occhi.mjs, se tutte e quattro le pagine hanno il link Stripe, fai in modo che non stampi più testi da incollare ma solo una riga «guide: tutte col kit» e i controlli. Provalo con curl al posto di fetch.\nRisultato atteso: da-pubblicare.json pronto per le 18:00, istruzioni aggiornate, occhi senza più stampa del testo.",
     "budget_eur": 0.8,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho programmato per oggi alle 18:00 il reel reel4-fattura-non-pagata. In lavoro/da-pubblicare.json ci sono le sole quattro chiavi e il testo breve è di 150 caratteri. Prima di farlo ho controllato tre cose: il video è 1080x1920, nummo.it/fattura-non-pagata/ risponde 200 e il link Stripe del kit da 7 € compare nella pagina, quindi il riquadro che ho incollato stamattina è online. Con questa le quattro guide hanno tutte il kit. Ho alleggerito occhi.mjs: ho tolto la copia dei testi da incollare, e adesso scrive «guide: tutte col kit», oppure quali pagine mancano, e poi i controlli. L'ho provato con curl al posto di fetch: 21 pagine su 21 rispondono 200, tutti i link Stripe ci sono e l'uscita è di 1.555 caratteri. Ho aggiornato le istruzioni (3.490 caratteri): domani tocca a reel4-messa-in-mora",
+    "file": [
+      "lavoro/da-pubblicare.json",
+      "mente/occhi.mjs",
+      "mente/istruzioni.md",
+      "lavoro/occhi-backup-2026-11-07.mjs",
+      "lavoro/istruzioni-backup-2026-11-07.md"
+    ],
+    "costo_eur": 0.288971,
+    "finito": "2026-11-07T06:40:49.287Z"
   }
 ]
