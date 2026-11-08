@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-07T01:40:25.508Z",
+  "aggiornato": "2026-11-08T01:40:21.757Z",
   "letture": 3,
   "giorni": {
     "1--": {
@@ -961,7 +961,7 @@
         "follower": 13,
         "visualizzazioni": 24,
         "copertura": 9,
-        "visualizzazioni_reel": 16
+        "visualizzazioni_reel": 17
       },
       "facebook": {
         "nuovi_follower": 0,
@@ -969,7 +969,7 @@
       },
       "tiktok": {
         "follower": 2,
-        "visualizzazioni": 979,
+        "visualizzazioni": 980,
         "interazioni": 7,
         "condivisioni": 0
       },
@@ -988,7 +988,7 @@
         "visualizzazioni": 14,
         "copertura": 5,
         "interazioni": 1,
-        "visualizzazioni_reel": 3
+        "visualizzazioni_reel": 7
       },
       "facebook": {
         "nuovi_follower": 0,
@@ -996,7 +996,7 @@
       },
       "tiktok": {
         "follower": 2,
-        "visualizzazioni": 759,
+        "visualizzazioni": 760,
         "interazioni": 1,
         "condivisioni": 0
       },
@@ -1010,9 +1010,22 @@
       }
     },
     "2026-11-05": {
+      "instagram": {
+        "follower": 13,
+        "visualizzazioni": 28,
+        "copertura": 14,
+        "interazioni": 1,
+        "visualizzazioni_reel": 11
+      },
       "facebook": {
         "nuovi_follower": 0,
         "visualizzazioni": 27
+      },
+      "tiktok": {
+        "follower": 2,
+        "visualizzazioni": 1088,
+        "interazioni": 1,
+        "condivisioni": 0
       },
       "x": {
         "follower": 0
@@ -1022,51 +1035,101 @@
         "visitatori": 2,
         "pagine_viste": 3
       }
+    },
+    "2026-11-06": {
+      "instagram": {
+        "follower": 15,
+        "visualizzazioni": 54,
+        "copertura": 25,
+        "interazioni": 1,
+        "visualizzazioni_reel": 25
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 246
+      },
+      "tiktok": {
+        "follower": 2,
+        "visualizzazioni": 958,
+        "interazioni": 6,
+        "condivisioni": 0
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 9,
+        "visitatori": 6,
+        "pagine_viste": 10
+      }
+    },
+    "2026-11-07": {
+      "instagram": {
+        "follower": 15,
+        "visualizzazioni": 13,
+        "copertura": 6
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 2
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 0,
+        "visitatori": 0,
+        "pagine_viste": 0
+      }
     }
   },
   "sito": {
     "pagine_piu_viste": [
       [
-        "13.0",
-        0
+        "/",
+        12
       ],
       [
-        "13.0",
-        0
+        "/diario/",
+        6
       ],
       [
-        "13.0",
-        0
+        "/kit-farsi-pagare/",
+        4
       ],
       [
-        "13.0",
-        0
+        "/conti/",
+        1
       ],
       [
-        "15.0",
-        0
+        "/late-payment-interest-calculator/",
+        1
       ],
       [
-        "13.0",
-        0
+        "/late-payment-of-commercial-debts-act/",
+        1
       ],
       [
-        "13.0",
-        0
+        "/letter-before-action-template/",
+        1
+      ],
+      [
+        "/messa-in-mora-o-diffida/",
+        1
       ]
     ],
     "da_dove_arrivano": [
       [
         "diretto",
-        12
-      ],
-      [
-        "facebook.com",
         10
       ],
       [
+        "facebook.com",
+        7
+      ],
+      [
         "l.instagram.com",
-        6
+        5
       ],
       [
         "google.com",
