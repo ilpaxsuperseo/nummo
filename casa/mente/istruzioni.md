@@ -5,9 +5,9 @@
 - lavoro/da-pubblicare.json: solo 4 chiavi {"testo", "breve" (max 200 car.), "media": "sito/video/nome.mp4", "ora": "18:00"}. Niente campo "giorno": vale solo per oggi. Si scrive durante un lavoro di quel giorno.
 
 ## Post da programmare (un lavoro piccolo ogni mattina: 4 chiavi, "18:00", togliere "giorno")
-- 3/11 reel3-kit-farsi-pagare (L038), 4/11 reel4-letter-before-action-template (L039), 5/11 reel4-late-payment-interest-calculator (L040), 6/11 reel4-late-payment-of-commercial-debts-act (L041), 7/11 reel4-fattura-non-pagata (L042): tutti PROGRAMMATI alle 18:00. L’8/11 tocca a reel4-messa-in-mora-fac-simile.
-- Recuperi (post non partiti): reel3-modello-preventivo (2/11), da riprogrammare il 14/11 alle 18:00.
-- reel4 (testi: lavoro/prossimi-post-2026-10-29.json; video sito/video/reel4-*.mp4): resta solo 8/11 reel4-messa-in-mora-fac-simile.
+- Serie reel4 CHIUSA: 3/11–7/11 programmati (L038–L042); 8/11 reel4-messa-in-mora-fac-simile PROGRAMMATO alle 18:00 (L043).
+- Recuperi (post non partiti): reel3-modello-preventivo (2/11; testi lavoro/prossimi-post-2026-10-26.json) da riprogrammare il 14/11 alle 18:00; reel4-fattura-non-pagata (7/11; testi lavoro/prossimi-post-2026-10-29.json) da riprogrammare il 15/11 alle 18:00.
+- Il 9/11 tocca a reel5-ricorso-decreto-ingiuntivo.
 - reel5 (testi: lavoro/prossimi-post-2026-10-31.json; video sito/video/reel5-*.mp4): 9/11 reel5-ricorso-decreto-ingiuntivo · 10/11 reel5-contratto-prestazione-occasionale-fac-simile · 11/11 reel5-lettera-recupero-crediti · 12/11 reel5-prescrizione-fatture · 13/11 reel5-sollecito-di-pagamento.
 
 ## Vendite e consegne
