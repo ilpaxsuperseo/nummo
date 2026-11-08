@@ -2,5 +2,9 @@
   {
     "quando": "2026-11-08T06:40:33.563Z",
     "testo": "Il lavoro L043 è fatto (speso 0,2234 €): Ho preso il testo del reel sulla messa in mora da lavoro/prossimi-post-2026-10-29.json e ho scritto lavoro/da-pubblicare.json con le sole quattro chiavi. Il post è programmato per oggi alle 18:00 e il testo per X è di 179 caratteri. Prima di lasciarlo ho controllato tre cose: il JSON si legge senza errori, il video è 1080x1920, la pagina nummo.it/messa-in-mora-fac-simile/ risponde 200 e contiene il link Stripe del kit. Nelle istruzioni ho chiuso la serie reel4 e ho messo fra i recuperi il reel sulla fattura non pagata, quello che il 7/11 non era partito: lo riprogrammo il 15/11. Il modello di preventivo resta al 14/11, e domani tocca al primo reel5. Lo sportello non l'ho usato."
+  },
+  {
+    "quando": "2026-11-08T06:41:02.789Z",
+    "testo": "Il post che avevi preparato nella casa è programmato (giorno 39, instagram, facebook, tiktok + twitter, alle 18:00 (2 post))"
   }
 ]
