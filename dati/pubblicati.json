@@ -1258,5 +1258,26 @@
       "420517335",
       "420517344"
     ]
+  },
+  {
+    "data": "2026-11-08",
+    "giorno": 39,
+    "quando": "2026-11-08T06:50:24.325Z",
+    "programmato_per": {
+      "dateTime": "2026-11-08T08:00:05",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-11-08.jpg",
+    "metricool": [
+      "420520951",
+      "420520962"
+    ]
   }
 ]
