@@ -761,6 +761,13 @@
     "ordinato": "2026-11-08T06:26:01.680Z",
     "compito": "Obiettivo: il reel dell'8/11/2026 è programmato per OGGI alle 18:00 e le istruzioni sono aggiornate. Passi: 1) Leggi lavoro/prossimi-post-2026-10-29.json e prendi la voce reel4-messa-in-mora-fac-simile. 2) Scrivi lavoro/da-pubblicare.json con le sole 4 chiavi {testo, breve (max 200 caratteri), media: sito/video/reel4-messa-in-mora-fac-simile.mp4, ora: \"18:00\"}, senza il campo giorno. 3) Controlla che il JSON sia valido, che il video esista e sia 1080x1920, e che nummo.it/messa-in-mora-fac-simile/ risponda 200 con il link Stripe. 4) In casa/mente/istruzioni.md segna l'8/11 come PROGRAMMATO e chiudi la serie reel4. Fra i recuperi aggiungi reel4-fattura-non-pagata (7/11 non partito), da riprogrammare il 15/11 alle 18:00, e lascia reel3-modello-preventivo al 14/11. Indica che il 9/11 tocca a reel5-ricorso-decreto-ingiuntivo (testi in lavoro/prossimi-post-2026-10-31.json). Tieni le istruzioni sotto i 3.600 caratteri. Niente sportello.",
     "budget_eur": 0.7,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho preso il testo del reel sulla messa in mora da lavoro/prossimi-post-2026-10-29.json e ho scritto lavoro/da-pubblicare.json con le sole quattro chiavi. Il post è programmato per oggi alle 18:00 e il testo per X è di 179 caratteri. Prima di lasciarlo ho controllato tre cose: il JSON si legge senza errori, il video è 1080x1920, la pagina nummo.it/messa-in-mora-fac-simile/ risponde 200 e contiene il link Stripe del kit. Nelle istruzioni ho chiuso la serie reel4 e ho messo fra i recuperi il reel sulla fattura non pagata, quello che il 7/11 non era partito: lo riprogrammo il 15/11. Il modello di preventivo resta al 14/11, e domani tocca al primo reel5. Lo sportello non l'ho usato.",
+    "file": [
+      "lavoro/da-pubblicare.json",
+      "mente/istruzioni.md"
+    ],
+    "costo_eur": 0.223355,
+    "finito": "2026-11-08T06:40:33.563Z"
   }
 ]
