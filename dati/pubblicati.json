@@ -1237,5 +1237,26 @@
       "419723933",
       "419723949"
     ]
+  },
+  {
+    "data": "2026-11-08 notte",
+    "giorno": 39,
+    "quando": "2026-11-08T06:41:00.788Z",
+    "programmato_per": {
+      "dateTime": "2026-11-08T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel4-messa-in-mora-fac-simile.mp4",
+    "metricool": [
+      "420517335",
+      "420517344"
+    ]
   }
 ]
