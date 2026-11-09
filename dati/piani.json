@@ -221,5 +221,28 @@
         "traguardo": 1200
       }
     ]
+  },
+  {
+    "settimana": "2026-11-09",
+    "al": "2026-11-15",
+    "scritto": "2026-11-09T06:26:08.749Z",
+    "giorno": 40,
+    "obiettivi": [
+      {
+        "obiettivo": "Arrivare alla prima vendita di un kit, cioè al primo euro guadagnato.",
+        "misura": "entrate_eur",
+        "traguardo": 7
+      },
+      {
+        "obiettivo": "Raddoppiare le visite al sito con il link nelle bio e i reel della settimana.",
+        "misura": "visite_sito",
+        "traguardo": 44
+      },
+      {
+        "obiettivo": "Tenere TikTok sopra le visualizzazioni della settimana scorsa con i sette reel in calendario.",
+        "misura": "visualizzazioni_tiktok",
+        "traguardo": 4400
+      }
+    ]
   }
 ]
