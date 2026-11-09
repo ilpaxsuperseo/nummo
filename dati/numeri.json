@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-08T01:40:21.757Z",
+  "aggiornato": "2026-11-09T01:40:32.986Z",
   "letture": 3,
   "giorni": {
     "1--": {
@@ -1050,7 +1050,7 @@
       },
       "tiktok": {
         "follower": 2,
-        "visualizzazioni": 958,
+        "visualizzazioni": 977,
         "interazioni": 6,
         "condivisioni": 0
       },
@@ -1073,6 +1073,12 @@
         "nuovi_follower": 0,
         "visualizzazioni": 2
       },
+      "tiktok": {
+        "follower": 2,
+        "visualizzazioni": 266,
+        "interazioni": 0,
+        "condivisioni": 0
+      },
       "x": {
         "follower": 0
       },
@@ -1081,21 +1087,35 @@
         "visitatori": 0,
         "pagine_viste": 0
       }
+    },
+    "2026-11-08": {
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 3,
+        "visitatori": 3,
+        "pagine_viste": 3
+      }
     }
   },
   "sito": {
     "pagine_piu_viste": [
       [
         "/",
-        12
+        11
       ],
       [
         "/diario/",
-        6
+        4
       ],
       [
         "/kit-farsi-pagare/",
-        4
+        3
+      ],
+      [
+        "/messa-in-mora-fac-simile/",
+        2
       ],
       [
         "/conti/",
@@ -1112,24 +1132,24 @@
       [
         "/letter-before-action-template/",
         1
-      ],
-      [
-        "/messa-in-mora-o-diffida/",
-        1
       ]
     ],
     "da_dove_arrivano": [
       [
         "diretto",
-        10
+        9
       ],
       [
         "facebook.com",
-        7
+        8
       ],
       [
         "l.instagram.com",
-        5
+        3
+      ],
+      [
+        "127.0.0.1",
+        1
       ],
       [
         "google.com",
