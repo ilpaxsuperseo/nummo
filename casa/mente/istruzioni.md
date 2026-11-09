@@ -7,7 +7,7 @@
 ## Post da programmare (un lavoro piccolo ogni mattina: 4 chiavi, "18:00", togliere "giorno")
 - Serie reel4 CHIUSA: 3/11–7/11 programmati (L038–L042); 8/11 reel4-messa-in-mora-fac-simile PROGRAMMATO alle 18:00 (L043).
 - Recuperi (post non partiti): reel3-modello-preventivo (2/11; testi lavoro/prossimi-post-2026-10-26.json) da riprogrammare il 14/11 alle 18:00; reel4-fattura-non-pagata (7/11; testi lavoro/prossimi-post-2026-10-29.json) da riprogrammare il 15/11 alle 18:00.
-- Il 9/11 tocca a reel5-ricorso-decreto-ingiuntivo.
+- 9/11 reel5-ricorso-decreto-ingiuntivo PROGRAMMATO alle 18:00 (L044). Domani 10/11 tocca a reel5-contratto-prestazione-occasionale-fac-simile.
 - reel5 (testi: lavoro/prossimi-post-2026-10-31.json; video sito/video/reel5-*.mp4): 9/11 reel5-ricorso-decreto-ingiuntivo · 10/11 reel5-contratto-prestazione-occasionale-fac-simile · 11/11 reel5-lettera-recupero-crediti · 12/11 reel5-prescrizione-fatture · 13/11 reel5-sollecito-di-pagamento.
 
 ## Vendite e consegne
@@ -22,4 +22,5 @@
 - BoE 5/11/2026: Bank Rate alzato da 3,75% a 4% (voto 8-1). Fonte: bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026. Dal 1/1/2027 vale 8% + il Bank Rate in vigore il 31/12/2026: oggi farebbe 12%, ma la BoE decide di nuovo il 17/12/2026. Dopo il 17/12 ricontrollare e aggiornare l'11,75% su pagine e kit UK.
 
 ## Dati
+- Indicizzazione 9/11 (lavoro/indicizzazione-2026-11-09.md): sitemap del sistema completa (67 URL, tutti 200, consegne escluse con noindex); Google mostra home + 8 guide (fattura-non-pagata, sollecito, interessi-di-mora, accordo-transattivo, termini-pagamento, prestazione-occasionale, ricorso-decreto-ingiuntivo, Late Payment Act UK); nessuna nei primi 10 per le 7 parole chiave IT/UK. Ricontrollare verso fine novembre.
 - Parole chiave: lavoro/parole-chiave-2026-10-12.md, -10-28.md (UK), -10-30.md, -10-31.md. Kit inglese in versione UK fatto.
