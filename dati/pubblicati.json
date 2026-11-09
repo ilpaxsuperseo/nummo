@@ -1279,5 +1279,26 @@
       "420520951",
       "420520962"
     ]
+  },
+  {
+    "data": "2026-11-09 notte",
+    "giorno": 40,
+    "quando": "2026-11-09T06:42:58.259Z",
+    "programmato_per": {
+      "dateTime": "2026-11-09T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel5-ricorso-decreto-ingiuntivo.mp4",
+    "metricool": [
+      "421422339",
+      "421422343"
+    ]
   }
 ]
