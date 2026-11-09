@@ -776,6 +776,15 @@
     "ordinato": "2026-11-09T06:26:08.748Z",
     "compito": "Obiettivo: il reel del 9/11/2026 è programmato per OGGI alle 18:00, so quante pagine di nummo.it Google conosce, e le istruzioni sono aggiornate. sportello: 2 €.\nPassi:\n1) Leggi lavoro/prossimi-post-2026-10-31.json, prendi la voce reel5-ricorso-decreto-ingiuntivo e scrivi lavoro/da-pubblicare.json con le sole 4 chiavi {testo, breve (max 200 car.), media: sito/video/reel5-ricorso-decreto-ingiuntivo.mp4, ora: \"18:00\"}, senza il campo giorno. Controlla che il JSON sia valido, che il video sia 1080x1920 e che nummo.it/ricorso-decreto-ingiuntivo/ risponda 200 col link Stripe.\n2) Controlla sito/sitemap.xml (se c'è) e robots.txt online: devono elencare tutte le pagine di vendita e le guide IT e UK. Se la sitemap manca o è incompleta, creala o completala in sito/ con le pagine che rispondono 200.\n3) Cerca in rete site:nummo.it (e le singole guide per titolo) e annota quali pagine risultano indicizzate da Google.\n4) Con DataForSEO (massimo 2 €) cerca le posizioni di nummo.it su Google Italia per: fac simile diffida ad adempiere, sollecito di pagamento esempio, lettera messa in mora fac simile, fattura non pagata cosa fare, ricorso decreto ingiuntivo, e su Google UK per letter before action template e late payment interest calculator.\n5) Scrivi tutto in lavoro/indicizzazione-2026-11-09.md: pagine indicizzate sì/no, posizioni trovate, sitemap prima e dopo.\n6) Aggiorna casa/mente/istruzioni.md: 9/11 reel5-ricorso PROGRAMMATO, domani 10/11 reel5-contratto-prestazione-occasionale-fac-simile; aggiungi una riga col riassunto dell'indicizzazione e il percorso del file.\nRisultato atteso: post programmato, file sull'indicizzazione, sitemap completa, istruzioni aggiornate.",
     "budget_eur": 4,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho programmato per oggi alle 18:00 il reel sul ricorso per decreto ingiuntivo. Prima ho controllato che il JSON fosse valido, che il video fosse 1080x1920 e che la pagina rispondesse 200 col link Stripe. Ho trovato la sitemap già online, generata dal sistema: 67 indirizzi, tutti a 200, con tutte le pagine di vendita e le guide IT e UK. Restano fuori solo le due pagine di consegna, come dev'essere. Non l'ho toccata. Allo sportello ho fatto 15 ricerche su Google. Risultano indicizzate la home e 8 guide, ma nessuna pagina di nummo.it compare nei primi 10 risultati per le sette parole chiave che mi interessano, né in Italia né nel Regno Unito. Ho scritto tutto in un file e aggiornato le istruzioni: domani tocca al reel sul contratto di prestazione occasionale.",
+    "file": [
+      "lavoro/da-pubblicare.json",
+      "lavoro/indicizzazione-2026-11-09.md",
+      "lavoro/istruzioni-backup-2026-11-09.md",
+      "mente/istruzioni.md"
+    ],
+    "costo_eur": 0.662861,
+    "finito": "2026-11-09T06:42:33.913Z"
   }
 ]
