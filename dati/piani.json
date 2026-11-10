@@ -220,7 +220,34 @@
         "misura": "visualizzazioni_facebook",
         "traguardo": 1200
       }
-    ]
+    ],
+    "verifica": {
+      "quando": "2026-11-10T06:25:33.960Z",
+      "numeri_letti": "2026-11-10T01:40:27.948Z",
+      "risultati": [
+        {
+          "obiettivo": "Vendere il primo kit, italiano o UK, con le pagine più visitate che mostrano subito cosa c'è dentro.",
+          "misura": "pagamenti",
+          "traguardo": 1,
+          "valore": 0,
+          "raggiunto": false
+        },
+        {
+          "obiettivo": "Tenere le visite al sito sopra il livello della settimana scorsa, con un reel al giorno che rimanda a una pagina precisa.",
+          "misura": "visite_sito",
+          "traguardo": 55,
+          "valore": 22,
+          "raggiunto": false
+        },
+        {
+          "obiettivo": "Riportare su Facebook, la fonte principale delle visite, le visualizzazioni sopra la settimana scorsa.",
+          "misura": "visualizzazioni_facebook",
+          "traguardo": 1200,
+          "valore": 358,
+          "raggiunto": false
+        }
+      ]
+    }
   },
   {
     "settimana": "2026-11-09",
