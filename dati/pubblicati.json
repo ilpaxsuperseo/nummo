@@ -1321,5 +1321,26 @@
       "421426262",
       "421426272"
     ]
+  },
+  {
+    "data": "2026-11-10",
+    "giorno": 41,
+    "quando": "2026-11-10T06:50:29.448Z",
+    "programmato_per": {
+      "dateTime": "2026-11-10T08:00:06",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-11-10.jpg",
+    "metricool": [
+      "422786299",
+      "422786309"
+    ]
   }
 ]
