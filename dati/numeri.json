@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-09T01:40:32.986Z",
+  "aggiornato": "2026-11-10T01:40:27.948Z",
   "letture": 3,
   "giorni": {
     "1--": {
@@ -965,7 +965,7 @@
       },
       "facebook": {
         "nuovi_follower": 0,
-        "visualizzazioni": 70
+        "visualizzazioni": 73
       },
       "tiktok": {
         "follower": 2,
@@ -1066,7 +1066,7 @@
     "2026-11-07": {
       "instagram": {
         "follower": 15,
-        "visualizzazioni": 13,
+        "visualizzazioni": 14,
         "copertura": 6
       },
       "facebook": {
@@ -1075,7 +1075,7 @@
       },
       "tiktok": {
         "follower": 2,
-        "visualizzazioni": 266,
+        "visualizzazioni": 269,
         "interazioni": 0,
         "condivisioni": 0
       },
@@ -1089,6 +1089,22 @@
       }
     },
     "2026-11-08": {
+      "instagram": {
+        "follower": 15,
+        "visualizzazioni": 46,
+        "copertura": 31,
+        "visualizzazioni_reel": 38
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 0
+      },
+      "tiktok": {
+        "follower": 2,
+        "visualizzazioni": 941,
+        "interazioni": 3,
+        "condivisioni": 0
+      },
       "x": {
         "follower": 0
       },
@@ -1097,29 +1113,50 @@
         "visitatori": 3,
         "pagine_viste": 3
       }
+    },
+    "2026-11-09": {
+      "instagram": {
+        "follower": 16,
+        "visualizzazioni": 34,
+        "copertura": 26,
+        "visualizzazioni_reel": 24
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 234,
+        "interazioni": 1
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 3,
+        "visitatori": 3,
+        "pagine_viste": 4
+      }
     }
   },
   "sito": {
     "pagine_piu_viste": [
       [
         "/",
-        11
+        10
       ],
       [
         "/diario/",
-        4
+        5
       ],
       [
         "/kit-farsi-pagare/",
         3
       ],
       [
-        "/messa-in-mora-fac-simile/",
+        "/conti/",
         2
       ],
       [
-        "/conti/",
-        1
+        "/messa-in-mora-fac-simile/",
+        2
       ],
       [
         "/late-payment-interest-calculator/",
@@ -1132,27 +1169,31 @@
       [
         "/letter-before-action-template/",
         1
+      ],
+      [
+        "/ricorso-decreto-ingiuntivo/",
+        1
       ]
     ],
     "da_dove_arrivano": [
       [
-        "diretto",
+        "facebook.com",
         9
       ],
       [
-        "facebook.com",
-        8
+        "diretto",
+        7
       ],
       [
         "l.instagram.com",
-        3
-      ],
-      [
-        "127.0.0.1",
-        1
+        4
       ],
       [
         "google.com",
+        2
+      ],
+      [
+        "127.0.0.1",
         1
       ]
     ]
