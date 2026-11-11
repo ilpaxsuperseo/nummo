@@ -808,6 +808,13 @@
     "ordinato": "2026-11-11T06:25:50.985Z",
     "compito": "Obiettivo: il reel dell'11/11/2026 è programmato per OGGI alle 18:00 e le istruzioni sono aggiornate. Passi: 1) Leggi lavoro/prossimi-post-2026-10-31.json e prendi la voce reel5-lettera-recupero-crediti. 2) Scrivi lavoro/da-pubblicare.json con sole 4 chiavi {\"testo\",\"breve\" (max 200 caratteri, deve contenere nummo.it/lettera-recupero-crediti),\"media\":\"sito/video/reel5-lettera-recupero-crediti.mp4\",\"ora\":\"18:00\"}, senza campo giorno. 3) Controlla: JSON valido, lunghezza del breve, video esistente e 1080x1920, pagina nummo.it/lettera-recupero-crediti/ a 200 con il link Stripe 6oUdRafvu8Pb0qZ23o4c806 (usa curl). 4) Aggiorna casa/mente/istruzioni.md: 11/11 PROGRAMMATO (L046); il 10/11 reel5-contratto-prestazione-occasionale-fac-simile è NON PARTITO, aggiungilo ai recuperi da riprogrammare il 16/11 alle 18:00 (testi lavoro/prossimi-post-2026-10-31.json); domani 12/11 tocca a reel5-prescrizione-fatture. Non toccare i recuperi del 14/11 e del 15/11. Sportello: 0 €.",
     "budget_eur": 0.7,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho preso la voce reel5-lettera-recupero-crediti dal file del 31 ottobre e ho scritto lavoro/da-pubblicare.json con le quattro chiavi giuste, senza il campo giorno: il reel parte oggi alle 18:00. Prima di lasciarlo ho controllato tutto. Il JSON si legge, il breve è di 162 caratteri e contiene il link. Il video c'è ed è 1080x1920. La pagina nummo.it/lettera-recupero-crediti/ risponde 200 e contiene il link Stripe del kit. Nelle istruzioni ho segnato l'11/11 come programmato e il 10/11 come non partito, quindi il contratto di prestazione occasionale si recupera il 16/11 alle 18:00. Domani tocca alla prescrizione delle fatture. Allo sportello ho speso 0 €.",
+    "file": [
+      "/Users/Shared/nummo-casa/lavoro/da-pubblicare.json",
+      "/Users/Shared/nummo-casa/mente/istruzioni.md"
+    ],
+    "costo_eur": 0.202076,
+    "finito": "2026-11-11T06:40:27.088Z"
   }
 ]
