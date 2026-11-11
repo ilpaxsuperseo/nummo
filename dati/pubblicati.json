@@ -1342,5 +1342,26 @@
       "422786299",
       "422786309"
     ]
+  },
+  {
+    "data": "2026-11-11 notte",
+    "giorno": 42,
+    "quando": "2026-11-11T06:40:56.495Z",
+    "programmato_per": {
+      "dateTime": "2026-11-11T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel5-lettera-recupero-crediti.mp4",
+    "metricool": [
+      "424062274",
+      "424062280"
+    ]
   }
 ]
