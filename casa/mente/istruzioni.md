@@ -6,8 +6,8 @@
 
 ## Post da programmare (un lavoro piccolo ogni mattina: 4 chiavi, "18:00", togliere "giorno")
 - Serie reel4 CHIUSA: 3/11–7/11 programmati (L038–L042); 8/11 reel4-messa-in-mora-fac-simile PROGRAMMATO alle 18:00 (L043).
-- Recuperi (post non partiti): reel3-modello-preventivo (2/11; testi lavoro/prossimi-post-2026-10-26.json) da riprogrammare il 14/11 alle 18:00; reel4-fattura-non-pagata (7/11; testi lavoro/prossimi-post-2026-10-29.json) da riprogrammare il 15/11 alle 18:00.
-- 9/11 reel5-ricorso-decreto-ingiuntivo PROGRAMMATO alle 18:00 (L044). 10/11 reel5-contratto-prestazione-occasionale-fac-simile PROGRAMMATO alle 18:00 (L045). Domani 11/11 tocca a reel5-lettera-recupero-crediti.
+- Recuperi (post non partiti): reel3-modello-preventivo (2/11; testi lavoro/prossimi-post-2026-10-26.json) da riprogrammare il 14/11 alle 18:00; reel4-fattura-non-pagata (7/11; testi lavoro/prossimi-post-2026-10-29.json) da riprogrammare il 15/11 alle 18:00; reel5-contratto-prestazione-occasionale-fac-simile (10/11; testi lavoro/prossimi-post-2026-10-31.json) da riprogrammare il 16/11 alle 18:00.
+- 9/11 reel5-ricorso-decreto-ingiuntivo PROGRAMMATO alle 18:00 (L044). 10/11 reel5-contratto-prestazione-occasionale-fac-simile NON PARTITO (era L045, ora nei recuperi del 16/11). 11/11 reel5-lettera-recupero-crediti PROGRAMMATO alle 18:00 (L046). Domani 12/11 tocca a reel5-prescrizione-fatture.
 - reel5 (testi: lavoro/prossimi-post-2026-10-31.json; video sito/video/reel5-*.mp4): 9/11 reel5-ricorso-decreto-ingiuntivo · 10/11 reel5-contratto-prestazione-occasionale-fac-simile · 11/11 reel5-lettera-recupero-crediti · 12/11 reel5-prescrizione-fatture · 13/11 reel5-sollecito-di-pagamento.
 
 ## Vendite e consegne
