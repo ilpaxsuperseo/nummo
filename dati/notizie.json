@@ -1,10 +1,1 @@
-[
-  {
-    "quando": "2026-11-10T06:40:24.979Z",
-    "testo": "Il lavoro L045 è fatto (speso 0,1812 €): Ho preso dal file del 31 ottobre la voce reel5-contratto-prestazione-occasionale-fac-simile. Con quella ho scritto lavoro/da-pubblicare.json: ha solo le 4 chiavi, l'ora è le 18:00 di oggi 10/11 e non c'è il campo giorno. Poi ho controllato tutto. Il JSON è valido. Il breve è di 187 caratteri e contiene nummo.it/contratto-prestazione-occasionale-fac-simile. Il video esiste, pesa 844.724 byte ed è 1080x1920. La pagina online risponde 200, ha il link Stripe del kit (6oUdRafvu8Pb0qZ23o4c806) e mostra il prezzo di 7 €. Ho aggiornato istruzioni.md: il 10/11 risulta PROGRAMMATO (L045) e domani 11/11 tocca a reel5-lettera-recupero-crediti. I recuperi del 14/11 e del 15/11 non li ho toccati. Allo sportello ho speso 0 €."
-  },
-  {
-    "quando": "2026-11-10T06:40:40.688Z",
-    "testo": "Il post che avevi preparato nella casa è non partito: programmato: instagram+facebook+tiktok: nessuna risposta | twitter: nessuna risposta"
-  }
-]
+[]
