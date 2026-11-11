@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-10T01:40:27.948Z",
+  "aggiornato": "2026-11-11T01:40:24.411Z",
   "letture": 3,
   "giorni": {
     "1--": {
@@ -1023,7 +1023,7 @@
       },
       "tiktok": {
         "follower": 2,
-        "visualizzazioni": 1088,
+        "visualizzazioni": 1089,
         "interazioni": 1,
         "condivisioni": 0
       },
@@ -1050,7 +1050,7 @@
       },
       "tiktok": {
         "follower": 2,
-        "visualizzazioni": 977,
+        "visualizzazioni": 979,
         "interazioni": 6,
         "condivisioni": 0
       },
@@ -1075,7 +1075,7 @@
       },
       "tiktok": {
         "follower": 2,
-        "visualizzazioni": 269,
+        "visualizzazioni": 270,
         "interazioni": 0,
         "condivisioni": 0
       },
@@ -1101,7 +1101,7 @@
       },
       "tiktok": {
         "follower": 2,
-        "visualizzazioni": 941,
+        "visualizzazioni": 953,
         "interazioni": 3,
         "condivisioni": 0
       },
@@ -1117,14 +1117,20 @@
     "2026-11-09": {
       "instagram": {
         "follower": 16,
-        "visualizzazioni": 34,
-        "copertura": 26,
-        "visualizzazioni_reel": 24
+        "visualizzazioni": 37,
+        "copertura": 27,
+        "visualizzazioni_reel": 26
       },
       "facebook": {
         "nuovi_follower": 0,
         "visualizzazioni": 234,
         "interazioni": 1
+      },
+      "tiktok": {
+        "follower": 2,
+        "visualizzazioni": 961,
+        "interazioni": 3,
+        "condivisioni": 0
       },
       "x": {
         "follower": 0
@@ -1134,21 +1140,32 @@
         "visitatori": 3,
         "pagine_viste": 4
       }
+    },
+    "2026-11-10": {
+      "instagram": {
+        "follower": 16,
+        "visualizzazioni": 10,
+        "copertura": 4
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 0,
+        "visitatori": 0,
+        "pagine_viste": 0
+      }
     }
   },
   "sito": {
     "pagine_piu_viste": [
       [
         "/",
-        10
+        9
       ],
       [
         "/diario/",
         5
-      ],
-      [
-        "/kit-farsi-pagare/",
-        3
       ],
       [
         "/conti/",
@@ -1177,12 +1194,12 @@
     ],
     "da_dove_arrivano": [
       [
-        "facebook.com",
-        9
+        "diretto",
+        6
       ],
       [
-        "diretto",
-        7
+        "facebook.com",
+        6
       ],
       [
         "l.instagram.com",
