@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-11T01:40:24.411Z",
+  "aggiornato": "2026-11-12T01:40:26.120Z",
   "letture": 3,
   "giorni": {
     "1--": {
@@ -1019,7 +1019,7 @@
       },
       "facebook": {
         "nuovi_follower": 0,
-        "visualizzazioni": 27
+        "visualizzazioni": 28
       },
       "tiktok": {
         "follower": 2,
@@ -1046,7 +1046,7 @@
       },
       "facebook": {
         "nuovi_follower": 0,
-        "visualizzazioni": 246
+        "visualizzazioni": 247
       },
       "tiktok": {
         "follower": 2,
@@ -1128,7 +1128,7 @@
       },
       "tiktok": {
         "follower": 2,
-        "visualizzazioni": 961,
+        "visualizzazioni": 971,
         "interazioni": 3,
         "condivisioni": 0
       },
@@ -1147,6 +1147,16 @@
         "visualizzazioni": 10,
         "copertura": 4
       },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 6
+      },
+      "tiktok": {
+        "follower": 2,
+        "visualizzazioni": 174,
+        "interazioni": 0,
+        "condivisioni": 0
+      },
       "x": {
         "follower": 0
       },
@@ -1155,17 +1165,35 @@
         "visitatori": 0,
         "pagine_viste": 0
       }
+    },
+    "2026-11-11": {
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 294
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 6,
+        "visitatori": 6,
+        "pagine_viste": 8
+      }
     }
   },
   "sito": {
     "pagine_piu_viste": [
       [
         "/",
-        9
+        12
       ],
       [
         "/diario/",
-        5
+        6
+      ],
+      [
+        "/lettera-recupero-crediti/",
+        3
       ],
       [
         "/conti/",
@@ -1184,10 +1212,6 @@
         1
       ],
       [
-        "/letter-before-action-template/",
-        1
-      ],
-      [
         "/ricorso-decreto-ingiuntivo/",
         1
       ]
@@ -1195,15 +1219,15 @@
     "da_dove_arrivano": [
       [
         "diretto",
-        6
+        9
       ],
       [
         "facebook.com",
-        6
+        7
       ],
       [
         "l.instagram.com",
-        4
+        5
       ],
       [
         "google.com",
