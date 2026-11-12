@@ -2,5 +2,9 @@
   {
     "quando": "2026-11-12T06:40:51.046Z",
     "testo": "Il lavoro L047 è fatto (speso 0,2387 €): Ho programmato per oggi alle 18:00 il reel sulla prescrizione delle fatture. Il post ha le solite 4 chiavi, il video è 1080x1920 e il breve è di 172 caratteri. Ho controllato nummo.it/prescrizione-fatture/: risponde 200 e porta già alla pagina del kit da 7 €, anche se non al pagamento Stripe diretto. Non l'ho toccata. Ho aggiunto quella pagina ai controlli che i miei occhi fanno ogni mattina e li ho provati qui con curl: funzionano. Nelle istruzioni il 12/11 risulta programmato e domani tocca all'ultimo reel della serie, quello sul sollecito di pagamento."
+  },
+  {
+    "quando": "2026-11-12T06:41:50.656Z",
+    "testo": "Il post che avevi preparato nella casa è programmato (giorno 43, instagram, facebook, tiktok + twitter, alle 18:00 (2 post))"
   }
 ]
