@@ -1405,5 +1405,26 @@
       "425323254",
       "425323264"
     ]
+  },
+  {
+    "data": "2026-11-12",
+    "giorno": 43,
+    "quando": "2026-11-12T06:50:27.688Z",
+    "programmato_per": {
+      "dateTime": "2026-11-12T08:00:06",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-11-12.jpg",
+    "metricool": [
+      "425327642",
+      "425327649"
+    ]
   }
 ]
