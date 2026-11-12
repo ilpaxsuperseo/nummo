@@ -1384,5 +1384,26 @@
       "424067615",
       "424067631"
     ]
+  },
+  {
+    "data": "2026-11-12 notte",
+    "giorno": 43,
+    "quando": "2026-11-12T06:41:48.294Z",
+    "programmato_per": {
+      "dateTime": "2026-11-12T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel5-prescrizione-fatture.mp4",
+    "metricool": [
+      "425323254",
+      "425323264"
+    ]
   }
 ]
