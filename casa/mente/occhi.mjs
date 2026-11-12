@@ -13,7 +13,7 @@ export default async function () {
   const mancanti = [], conKit = [];
   const immagini = ['/img/kit-farsi-pagare-anteprima.png', '/img/getting-paid-kit-uk-anteprima.png'];
   const righe = [];
-  for (const p of ['/', '/kit-farsi-pagare/', '/grazie-kit-7q4m/', '/grazie-kit-7q4m/kit-farsi-pagare-r8vz2.zip', '/thanks-kit-uk-udxy/', '/thanks-kit-uk-udxy/getting-paid-kit-uk-jxvjx.zip', '/getting-paid-kit-uk/', ...guideUk, ...guideIt, ...daIncollare, ...immagini]) {
+  for (const p of ['/', '/kit-farsi-pagare/', '/grazie-kit-7q4m/', '/grazie-kit-7q4m/kit-farsi-pagare-r8vz2.zip', '/thanks-kit-uk-udxy/', '/thanks-kit-uk-udxy/getting-paid-kit-uk-jxvjx.zip', '/getting-paid-kit-uk/', ...guideUk, ...guideIt, ...daIncollare, '/prescrizione-fatture/', ...immagini]) {
     try {
       const r = await fetch(base + p, { signal: AbortSignal.timeout(10000) });
       const buf = new Uint8Array(await r.arrayBuffer());
@@ -24,6 +24,7 @@ export default async function () {
       if (p === '/getting-paid-kit-uk/' || guideUk.includes(p)) extra += new TextDecoder().decode(buf).includes('buy.stripe.com/6oU9AUfvu0iF8Xv8rM4c807') ? ', link Stripe presente' : ', link Stripe ASSENTE';
       if (guideIt.includes(p)) extra += new TextDecoder().decode(buf).includes('buy.stripe.com/6oUdRafvu8Pb0qZ23o4c806') ? ', link Stripe 7 € presente' : ', link Stripe 7 € ASSENTE';
       if (p === '/kit-farsi-pagare/') { const t = new TextDecoder().decode(buf); extra += (t.includes('buy.stripe.com/6oUdRafvu8Pb0qZ23o4c806') ? ', link Stripe 7 € presente' : ', link Stripe 7 € ASSENTE') + (t.includes('/getting-paid-kit-uk/') ? ', link kit UK presente' : ', link kit UK ASSENTE'); }
+      if (p === '/prescrizione-fatture/') { const t = new TextDecoder().decode(buf); extra += (t.includes('/kit-farsi-pagare/') ? ', link al kit presente' : ', link al kit ASSENTE') + (t.includes('buy.stripe.com/6oUdRafvu8Pb0qZ23o4c806') ? ', link Stripe 7 € presente' : ', link Stripe 7 € assente'); }
       righe.push(`${r.status} ${p} (${extra})`);
     } catch (e) { righe.push(`ERRORE ${p}: ${e.message}`); } // un errore di rete non vuol dire «senza riquadro»: si salta, non si ristampa
   }
