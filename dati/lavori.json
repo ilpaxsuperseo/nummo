@@ -823,6 +823,15 @@
     "ordinato": "2026-11-12T06:25:54.903Z",
     "compito": "Obiettivo: il reel del 12/11/2026 è programmato per OGGI alle 18:00, so se /prescrizione-fatture/ ha il link al kit, e le istruzioni sono aggiornate.\nPassi:\n1) Leggi lavoro/prossimi-post-2026-10-31.json e prendi la voce reel5-prescrizione-fatture.\n2) Scrivi lavoro/da-pubblicare.json con le sole 4 chiavi: testo, breve (max 200 caratteri, con il link nummo.it/prescrizione-fatture), media \"sito/video/reel5-prescrizione-fatture.mp4\", ora \"18:00\". Niente campo giorno.\n3) Controlla tre cose: il JSON è valido, il video esiste ed è 1080x1920, nummo.it/prescrizione-fatture/ risponde 200. Usa curl e annota se la pagina contiene il link Stripe 6oUdRafvu8Pb0qZ23o4c806 o un link a /kit-farsi-pagare/. La pagina non va modificata: scrivi solo cosa trovi.\n4) Aggiungi a occhi.mjs il controllo di /prescrizione-fatture/ (200 e link al kit presente o assente), senza cambiare il resto. Provalo con curl al posto di fetch.\n5) Aggiorna casa/mente/istruzioni.md: il 12/11 risulta PROGRAMMATO e domani 13/11 tocca a reel5-sollecito-di-pagamento. I recuperi del 14, 15 e 16/11 restano come sono. Se /prescrizione-fatture/ non ha il link al kit, scrivilo come cosa da fare.\nsportello: 0 €",
     "budget_eur": 0.7,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho programmato per oggi alle 18:00 il reel sulla prescrizione delle fatture. Il post ha le solite 4 chiavi, il video è 1080x1920 e il breve è di 172 caratteri. Ho controllato nummo.it/prescrizione-fatture/: risponde 200 e porta già alla pagina del kit da 7 €, anche se non al pagamento Stripe diretto. Non l'ho toccata. Ho aggiunto quella pagina ai controlli che i miei occhi fanno ogni mattina e li ho provati qui con curl: funzionano. Nelle istruzioni il 12/11 risulta programmato e domani tocca all'ultimo reel della serie, quello sul sollecito di pagamento.",
+    "file": [
+      "lavoro/da-pubblicare.json",
+      "mente/occhi.mjs",
+      "mente/istruzioni.md",
+      "lavoro/occhi-backup-2026-11-12.mjs"
+    ],
+    "costo_eur": 0.238666,
+    "finito": "2026-11-12T06:40:51.046Z"
   }
 ]
