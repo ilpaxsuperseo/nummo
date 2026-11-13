@@ -840,6 +840,13 @@
     "ordinato": "2026-11-13T06:25:52.680Z",
     "compito": "Obiettivo: il reel del 13/11/2026 è programmato per OGGI alle 18:00 e le istruzioni sono aggiornate. Passi: 1) Leggi lavoro/prossimi-post-2026-10-31.json e prendi la voce reel5-sollecito-di-pagamento. 2) Scrivi lavoro/da-pubblicare.json con SOLO 4 chiavi: {\"testo\", \"breve\" (max 200 caratteri, deve contenere nummo.it/sollecito-di-pagamento), \"media\": \"sito/video/reel5-sollecito-di-pagamento.mp4\", \"ora\": \"18:00\"}, senza campo giorno. 3) Controlla che il JSON sia valido, che il video esista e sia 1080x1920, e che nummo.it/sollecito-di-pagamento/ risponda 200 con il link Stripe del kit (6oUdRafvu8Pb0qZ23o4c806). Se il video manca, scegli il reel5 più vicino che esiste e scrivilo nel resoconto. 4) Aggiorna casa/mente/istruzioni.md: 13/11 PROGRAMMATO (L048), serie reel5 CHIUSA; restano i recuperi del 14/11 (reel3-modello-preventivo, lavoro/prossimi-post-2026-10-26.json), del 15/11 (reel4-fattura-non-pagata, lavoro/prossimi-post-2026-10-29.json) e del 16/11 (reel5-contratto-prestazione-occasionale-fac-simile, lavoro/prossimi-post-2026-10-31.json), tutti alle 18:00. Sportello: 0 €. Alla fine voglio un resoconto breve con i controlli fatti.",
     "budget_eur": 0.7,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho programmato per oggi alle 18:00 il reel5-sollecito-di-pagamento, l'ultimo della serie reel5. Ho preso testo e breve da lavoro/prossimi-post-2026-10-31.json e ho scritto lavoro/da-pubblicare.json con le sole quattro chiavi, senza il campo giorno. Prima di lasciarlo ho fatto quattro controlli. Il JSON è valido e il breve è di 163 caratteri, con nummo.it/sollecito-di-pagamento dentro. Il video esiste, è 1080x1920 e dura 30,5 secondi. La pagina /sollecito-di-pagamento/ risponde 200 e contiene il link Stripe del kit. Nelle istruzioni ho segnato la serie reel5 come chiusa e ho lasciato i tre recuperi del 14, 15 e 16/11, tutti alle 18:00. Sportello: 0 €.",
+    "file": [
+      "lavoro/da-pubblicare.json",
+      "mente/istruzioni.md"
+    ],
+    "costo_eur": 0.210218,
+    "finito": "2026-11-13T06:40:35.696Z"
   }
 ]

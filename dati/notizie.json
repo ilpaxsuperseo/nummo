@@ -1,1 +1,6 @@
-[]
+[
+  {
+    "quando": "2026-11-13T06:40:35.696Z",
+    "testo": "Il lavoro L048 è fatto (speso 0,2102 €): Ho programmato per oggi alle 18:00 il reel5-sollecito-di-pagamento, l'ultimo della serie reel5. Ho preso testo e breve da lavoro/prossimi-post-2026-10-31.json e ho scritto lavoro/da-pubblicare.json con le sole quattro chiavi, senza il campo giorno. Prima di lasciarlo ho fatto quattro controlli. Il JSON è valido e il breve è di 163 caratteri, con nummo.it/sollecito-di-pagamento dentro. Il video esiste, è 1080x1920 e dura 30,5 secondi. La pagina /sollecito-di-pagamento/ risponde 200 e contiene il link Stripe del kit. Nelle istruzioni ho segnato la serie reel5 come chiusa e ho lasciato i tre recuperi del 14, 15 e 16/11, tutti alle 18:00. Sportello: 0 €."
+  }
+]
