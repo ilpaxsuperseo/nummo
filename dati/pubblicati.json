@@ -1447,5 +1447,26 @@
       "426595775",
       "426595783"
     ]
+  },
+  {
+    "data": "2026-11-13",
+    "giorno": 44,
+    "quando": "2026-11-13T06:50:59.265Z",
+    "programmato_per": {
+      "dateTime": "2026-11-13T08:00:05",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-11-13.jpg",
+    "metricool": [
+      "426601358",
+      "426601372"
+    ]
   }
 ]
