@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-12T01:40:26.120Z",
+  "aggiornato": "2026-11-13T01:40:27.833Z",
   "letture": 3,
   "giorni": {
     "1--": {
@@ -1101,7 +1101,7 @@
       },
       "tiktok": {
         "follower": 2,
-        "visualizzazioni": 953,
+        "visualizzazioni": 954,
         "interazioni": 3,
         "condivisioni": 0
       },
@@ -1119,7 +1119,7 @@
         "follower": 16,
         "visualizzazioni": 37,
         "copertura": 27,
-        "visualizzazioni_reel": 26
+        "visualizzazioni_reel": 28
       },
       "facebook": {
         "nuovi_follower": 0,
@@ -1128,7 +1128,7 @@
       },
       "tiktok": {
         "follower": 2,
-        "visualizzazioni": 971,
+        "visualizzazioni": 973,
         "interazioni": 3,
         "condivisioni": 0
       },
@@ -1144,8 +1144,8 @@
     "2026-11-10": {
       "instagram": {
         "follower": 16,
-        "visualizzazioni": 10,
-        "copertura": 4
+        "visualizzazioni": 20,
+        "copertura": 6
       },
       "facebook": {
         "nuovi_follower": 0,
@@ -1153,7 +1153,7 @@
       },
       "tiktok": {
         "follower": 2,
-        "visualizzazioni": 174,
+        "visualizzazioni": 182,
         "interazioni": 0,
         "condivisioni": 0
       },
@@ -1167,9 +1167,22 @@
       }
     },
     "2026-11-11": {
+      "instagram": {
+        "follower": 16,
+        "visualizzazioni": 18,
+        "copertura": 11,
+        "interazioni": 1,
+        "visualizzazioni_reel": 14
+      },
       "facebook": {
         "nuovi_follower": 0,
         "visualizzazioni": 294
+      },
+      "tiktok": {
+        "follower": 2,
+        "visualizzazioni": 881,
+        "interazioni": 3,
+        "condivisioni": 0
       },
       "x": {
         "follower": 0
@@ -1179,44 +1192,37 @@
         "visitatori": 6,
         "pagine_viste": 8
       }
+    },
+    "2026-11-12": {
+      "instagram": {
+        "follower": 16,
+        "visualizzazioni": 22,
+        "copertura": 7,
+        "interazioni": 1
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 214,
+        "interazioni": 2
+      },
+      "tiktok": {
+        "follower": 2,
+        "visualizzazioni": 851,
+        "interazioni": 4,
+        "condivisioni": 0
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 1,
+        "visitatori": 1,
+        "pagine_viste": 1
+      }
     }
   },
   "sito": {
     "pagine_piu_viste": [
-      [
-        "/",
-        12
-      ],
-      [
-        "/diario/",
-        6
-      ],
-      [
-        "/lettera-recupero-crediti/",
-        3
-      ],
-      [
-        "/conti/",
-        2
-      ],
-      [
-        "/messa-in-mora-fac-simile/",
-        2
-      ],
-      [
-        "/late-payment-interest-calculator/",
-        1
-      ],
-      [
-        "/late-payment-of-commercial-debts-act/",
-        1
-      ],
-      [
-        "/ricorso-decreto-ingiuntivo/",
-        1
-      ]
-    ],
-    "da_dove_arrivano": [
       [
         "diretto",
         9
@@ -1230,14 +1236,15 @@
         5
       ],
       [
-        "google.com",
-        2
-      ],
-      [
         "127.0.0.1",
         1
+      ],
+      [
+        "google.com",
+        1
       ]
-    ]
+    ],
+    "da_dove_arrivano": []
   },
   "posta": {
     "totali": 0,
