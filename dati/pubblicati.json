@@ -1426,5 +1426,26 @@
       "425327642",
       "425327649"
     ]
+  },
+  {
+    "data": "2026-11-13 notte",
+    "giorno": 44,
+    "quando": "2026-11-13T06:41:08.031Z",
+    "programmato_per": {
+      "dateTime": "2026-11-13T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel5-sollecito-di-pagamento.mp4",
+    "metricool": [
+      "426595775",
+      "426595783"
+    ]
   }
 ]
