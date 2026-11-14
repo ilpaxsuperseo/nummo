@@ -1468,5 +1468,26 @@
       "426601358",
       "426601372"
     ]
+  },
+  {
+    "data": "2026-11-14 notte",
+    "giorno": 45,
+    "quando": "2026-11-14T06:41:23.675Z",
+    "programmato_per": {
+      "dateTime": "2026-11-14T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel3-modello-preventivo.mp4",
+    "metricool": [
+      "427778217",
+      "427778221"
+    ]
   }
 ]
