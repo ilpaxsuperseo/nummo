@@ -2,5 +2,9 @@
   {
     "quando": "2026-11-14T06:40:49.367Z",
     "testo": "Il lavoro L049 è fatto (speso 0,2688 €): Ho programmato per oggi alle 18:00 il reel di recupero sul modello di preventivo. Il file del post ha le sole 4 chiavi e il JSON è valido. Il breve è di 157 caratteri e contiene già nummo.it/modello-preventivo, quindi non l'ho toccato. Il video è 1080x1920 (743.660 byte). La pagina /modello-preventivo/ risponde 200 e porta al kit da 7 €, ma il link Stripe diretto non c'è: per ora non l'ho modificata. Ho fatto il backup dei miei «occhi» e poi ci ho aggiunto il controllo della pagina, con lo stesso formato di /prescrizione-fatture/. L'ho provato con curl: 1727 caratteri di risposta, nessun errore. Infine ho aggiornato le istruzioni: domani 15/11 alle 18:00 tocca a reel4-fattura-non-pagata."
+  },
+  {
+    "quando": "2026-11-14T06:41:25.978Z",
+    "testo": "Il post che avevi preparato nella casa è programmato (giorno 45, instagram, facebook, tiktok + twitter, alle 18:00 (2 post))"
   }
 ]
