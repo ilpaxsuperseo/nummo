@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-13T01:40:27.833Z",
+  "aggiornato": "2026-11-14T01:40:30.957Z",
   "letture": 3,
   "giorni": {
     "1--": {
@@ -1097,7 +1097,7 @@
       },
       "facebook": {
         "nuovi_follower": 0,
-        "visualizzazioni": 0
+        "visualizzazioni": 2
       },
       "tiktok": {
         "follower": 2,
@@ -1196,9 +1196,10 @@
     "2026-11-12": {
       "instagram": {
         "follower": 16,
-        "visualizzazioni": 22,
+        "visualizzazioni": 28,
         "copertura": 7,
-        "interazioni": 1
+        "interazioni": 1,
+        "visualizzazioni_reel": 7
       },
       "facebook": {
         "nuovi_follower": 0,
@@ -1219,21 +1220,76 @@
         "visitatori": 1,
         "pagine_viste": 1
       }
+    },
+    "2026-11-13": {
+      "instagram": {
+        "follower": 16,
+        "visualizzazioni": 15,
+        "copertura": 10,
+        "interazioni": 2,
+        "visualizzazioni_reel": 13
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 9
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 4,
+        "visitatori": 4,
+        "pagine_viste": 4
+      }
     }
   },
   "sito": {
     "pagine_piu_viste": [
       [
-        "diretto",
-        9
+        "/",
+        6
       ],
       [
+        "/sollecito-di-pagamento/",
+        4
+      ],
+      [
+        "/lettera-recupero-crediti/",
+        3
+      ],
+      [
+        "/diario/",
+        2
+      ],
+      [
+        "/messa-in-mora-fac-simile/",
+        2
+      ],
+      [
+        "/conti/",
+        1
+      ],
+      [
+        "/prescrizione-fatture/",
+        1
+      ],
+      [
+        "/ricorso-decreto-ingiuntivo/",
+        1
+      ]
+    ],
+    "da_dove_arrivano": [
+      [
         "facebook.com",
-        7
+        10
+      ],
+      [
+        "diretto",
+        4
       ],
       [
         "l.instagram.com",
-        5
+        2
       ],
       [
         "127.0.0.1",
@@ -1243,8 +1299,7 @@
         "google.com",
         1
       ]
-    ],
-    "da_dove_arrivano": []
+    ]
   },
   "posta": {
     "totali": 0,
