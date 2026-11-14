@@ -848,5 +848,13 @@
     ],
     "costo_eur": 0.210218,
     "finito": "2026-11-13T06:40:35.696Z"
+  },
+  {
+    "id": "L049",
+    "giorno": 45,
+    "ordinato": "2026-11-14T06:25:53.839Z",
+    "compito": "Obiettivo: il reel del 14/11/2026 è programmato per OGGI alle 18:00, so se /modello-preventivo/ ha il link al kit e il link Stripe, e le istruzioni sono aggiornate.\nPassi:\n1) Leggi lavoro/prossimi-post-2026-10-26.json e prendi la voce reel3-modello-preventivo (testo e breve).\n2) Scrivi lavoro/da-pubblicare.json con le sole 4 chiavi {\"testo\", \"breve\" (max 200 caratteri, deve contenere nummo.it/modello-preventivo), \"media\": \"sito/video/reel3-modello-preventivo.mp4\", \"ora\": \"18:00\"}, senza il campo giorno. Se il breve non contiene l'indirizzo della pagina, accorcialo e aggiungilo.\n3) Controlla che il JSON sia valido, che il video esista e sia 1080x1920 (con ffprobe) e la lunghezza del breve.\n4) Con curl controlla che https://nummo.it/modello-preventivo/ risponda 200 e scrivi se contiene il link /kit-farsi-pagare/ e il link Stripe 6oUdRafvu8Pb0qZ23o4c806. Non modificare la pagina.\n5) Aggiungi /modello-preventivo/ ai controlli di casa/mente/occhi.mjs, con lo stesso formato usato per /prescrizione-fatture/. Prima fai un backup in lavoro/occhi-backup-2026-11-14.mjs, poi provalo sostituendo fetch con curl.\n6) In casa/mente/istruzioni.md segna il 14/11 come PROGRAMMATO (L049) e scrivi che domani 15/11 tocca a reel4-fattura-non-pagata (lavoro/prossimi-post-2026-10-29.json) alle 18:00.\nsportello: 0 €",
+    "budget_eur": 0.7,
+    "stato": "in_coda"
   }
 ]
