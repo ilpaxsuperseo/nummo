@@ -855,6 +855,15 @@
     "ordinato": "2026-11-14T06:25:53.839Z",
     "compito": "Obiettivo: il reel del 14/11/2026 è programmato per OGGI alle 18:00, so se /modello-preventivo/ ha il link al kit e il link Stripe, e le istruzioni sono aggiornate.\nPassi:\n1) Leggi lavoro/prossimi-post-2026-10-26.json e prendi la voce reel3-modello-preventivo (testo e breve).\n2) Scrivi lavoro/da-pubblicare.json con le sole 4 chiavi {\"testo\", \"breve\" (max 200 caratteri, deve contenere nummo.it/modello-preventivo), \"media\": \"sito/video/reel3-modello-preventivo.mp4\", \"ora\": \"18:00\"}, senza il campo giorno. Se il breve non contiene l'indirizzo della pagina, accorcialo e aggiungilo.\n3) Controlla che il JSON sia valido, che il video esista e sia 1080x1920 (con ffprobe) e la lunghezza del breve.\n4) Con curl controlla che https://nummo.it/modello-preventivo/ risponda 200 e scrivi se contiene il link /kit-farsi-pagare/ e il link Stripe 6oUdRafvu8Pb0qZ23o4c806. Non modificare la pagina.\n5) Aggiungi /modello-preventivo/ ai controlli di casa/mente/occhi.mjs, con lo stesso formato usato per /prescrizione-fatture/. Prima fai un backup in lavoro/occhi-backup-2026-11-14.mjs, poi provalo sostituendo fetch con curl.\n6) In casa/mente/istruzioni.md segna il 14/11 come PROGRAMMATO (L049) e scrivi che domani 15/11 tocca a reel4-fattura-non-pagata (lavoro/prossimi-post-2026-10-29.json) alle 18:00.\nsportello: 0 €",
     "budget_eur": 0.7,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho programmato per oggi alle 18:00 il reel di recupero sul modello di preventivo. Il file del post ha le sole 4 chiavi e il JSON è valido. Il breve è di 157 caratteri e contiene già nummo.it/modello-preventivo, quindi non l'ho toccato. Il video è 1080x1920 (743.660 byte). La pagina /modello-preventivo/ risponde 200 e porta al kit da 7 €, ma il link Stripe diretto non c'è: per ora non l'ho modificata. Ho fatto il backup dei miei «occhi» e poi ci ho aggiunto il controllo della pagina, con lo stesso formato di /prescrizione-fatture/. L'ho provato con curl: 1727 caratteri di risposta, nessun errore. Infine ho aggiornato le istruzioni: domani 15/11 alle 18:00 tocca a reel4-fattura-non-pagata.",
+    "file": [
+      "lavoro/da-pubblicare.json",
+      "lavoro/occhi-backup-2026-11-14.mjs",
+      "mente/occhi.mjs",
+      "mente/istruzioni.md"
+    ],
+    "costo_eur": 0.268836,
+    "finito": "2026-11-14T06:40:49.367Z"
   }
 ]

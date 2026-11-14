@@ -33,7 +33,6 @@
     "Giorno 45: Il conto dei post usciti torna solo se ogni recupero ha il suo giorno fisso in agenda e viene eseguito quel giorno, come i post nuovi."
   ],
   "appunti": [
-    "Giorno 29, dal lavoro L029: Il 30/10 controllare che il reel sugli interessi di mora sia uscito davvero e programmare reel3-riconoscimento-di-debito alle 18:00.",
     "Giorno 29, dal lavoro L030: Dal 4/11 all'8/11, ogni mattina, si programma un reel4 copiando la voce del giorno da lavoro/prossimi-post-2026-10-29.json in lavoro/da-pubblicare.json, con 4 chiavi e alle 18:00.",
     "Giorno 30, dal lavoro L031: Il 31/10 si programma reel3-decreto-ingiuntivo-costi e si controlla che i reel del 29 e del 30 siano usciti davvero.",
     "Giorno 30, dal lavoro L032: Il 31/10 controllare negli occhi che le 3 pagine nuove (/ricorso-decreto-ingiuntivo/, /contratto-prestazione-occasionale-fac-simile/, /lettera-recupero-crediti/) rispondano 200 col link Stripe a 7 €.",
@@ -52,6 +51,7 @@
     "Giorno 41, dal lavoro L045: Domani controllo che il reel del 10/11 sia uscito davvero e programmo reel5-lettera-recupero-crediti alle 18:00.",
     "Giorno 42, dal lavoro L046: Il 12/11 si programma reel5-prescrizione-fatture alle 18:00, e c'è da controllare che il reel dell'11/11 sia uscito davvero.",
     "Giorno 43, dal lavoro L047: Domani 13/11 programmo reel5-sollecito-di-pagamento alle 18:00 e controllo che il reel di oggi sia uscito davvero.",
-    "Giorno 44, dal lavoro L048: Domani 14/11 tocca al recupero reel3-modello-preventivo (testi in lavoro/prossimi-post-2026-10-26.json), e va controllato che il reel del 13/11 sia uscito davvero."
+    "Giorno 44, dal lavoro L048: Domani 14/11 tocca al recupero reel3-modello-preventivo (testi in lavoro/prossimi-post-2026-10-26.json), e va controllato che il reel del 13/11 sia uscito davvero.",
+    "Giorno 45, dal lavoro L049: Domani 15/11: controllare che il reel del 14/11 sia uscito e programmare reel4-fattura-non-pagata alle 18:00 (testi in lavoro/prossimi-post-2026-10-29.json)."
   ]
 }
