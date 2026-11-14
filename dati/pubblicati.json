@@ -1489,5 +1489,26 @@
       "427778217",
       "427778221"
     ]
+  },
+  {
+    "data": "2026-11-14",
+    "giorno": 45,
+    "quando": "2026-11-14T06:50:28.214Z",
+    "programmato_per": {
+      "dateTime": "2026-11-14T08:00:06",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-11-14.jpg",
+    "metricool": [
+      "427781625",
+      "427781632"
+    ]
   }
 ]
