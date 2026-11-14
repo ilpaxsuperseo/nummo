@@ -7,7 +7,7 @@
 ## Post da programmare (un lavoro piccolo ogni mattina: 4 chiavi, "18:00", togliere "giorno")
 - Serie reel4 CHIUSA: 3/11–7/11 programmati (L038–L042); 8/11 reel4-messa-in-mora-fac-simile PROGRAMMATO alle 18:00 (L043).
 - Serie reel5 CHIUSA: 9/11 (L044), 11/11 (L046), 12/11 (L047), 13/11 reel5-sollecito-di-pagamento PROGRAMMATO alle 18:00 (L048). 10/11 non partito: è nei recuperi.
-- Restano i recuperi, tutti alle 18:00: 14/11 reel3-modello-preventivo (testi lavoro/prossimi-post-2026-10-26.json); 15/11 reel4-fattura-non-pagata (lavoro/prossimi-post-2026-10-29.json); 16/11 reel5-contratto-prestazione-occasionale-fac-simile (lavoro/prossimi-post-2026-10-31.json). Video in sito/video/<nome>.mp4.
+- Recuperi, tutti alle 18:00: 14/11 reel3-modello-preventivo PROGRAMMATO alle 18:00 (L049). PROSSIMO: domani 15/11 alle 18:00 tocca a reel4-fattura-non-pagata (testi lavoro/prossimi-post-2026-10-29.json). Poi 16/11 reel5-contratto-prestazione-occasionale-fac-simile (lavoro/prossimi-post-2026-10-31.json). Video in sito/video/<nome>.mp4.
 
 ## Vendite e consegne
 - Riquadri kit (testi: lavoro/conversione-2026-11-02.md): /diffida-ad-adempiere-fac-simile/ 4/11, /sollecito-di-pagamento/ 5/11, /messa-in-mora-fac-simile/ 6/11, /fattura-non-pagata/ INCOLLATA il 7/11. Le quattro guide sono tutte fatte, online col link Stripe. Dal 7/11 occhi.mjs non stampa più testi: scrive «guide: tutte col kit» (o quali mancano) e i controlli. Backup del vecchio occhi: lavoro/occhi-backup-2026-11-07.mjs. Qui in casa il fetch di Node non passa dal proxy: per provare occhi si sostituisce fetch con curl.
@@ -15,6 +15,7 @@
 - Kit UK €9: pagina nummo.it/getting-paid-kit-uk/ (sito/getting-paid-kit-uk/index.html), Stripe https://buy.stripe.com/6oU9AUfvu0iF8Xv8rM4c807 . Consegna: nummo.it/thanks-kit-uk-udxy/ , zip getting-paid-kit-uk-jxvjx.zip (59.040 byte, inizia con PK). sito/ è anche su GitHub pubblico: l'indirizzo «segreto» non è davvero segreto.
 - occhi.mjs controlla ogni mattina: pagine di vendita, consegna UK, link Stripe, pagine SEO IT e UK (200 + Stripe).
 - /prescrizione-fatture/ (12/11): 200, ha il link a /kit-farsi-pagare/ ma non il link Stripe diretto; occhi.mjs la controlla da L047 (backup: lavoro/occhi-backup-2026-11-12.mjs).
+- /modello-preventivo/ (14/11): 200, link a /kit-farsi-pagare/ presente, link Stripe diretto assente; occhi.mjs la controlla da L049 (backup: lavoro/occhi-backup-2026-11-14.mjs).
 
 ## Tassi da ricontrollare
 - Mora IT D.Lgs. 231/2002, 2° sem. 2026: 10,40% (BCE 2,40% + 8; GU n. 163 del 16/7/2026). Dal 1/1/2027 cambia: ricontrollarlo e aggiornarlo anche in /lettera-recupero-crediti/.
