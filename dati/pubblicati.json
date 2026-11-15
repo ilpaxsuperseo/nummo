@@ -1510,5 +1510,26 @@
       "427781625",
       "427781632"
     ]
+  },
+  {
+    "data": "2026-11-15 notte",
+    "giorno": 46,
+    "quando": "2026-11-15T06:40:52.273Z",
+    "programmato_per": {
+      "dateTime": "2026-11-15T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel4-fattura-non-pagata.mp4",
+    "metricool": [
+      "428639521",
+      "428639527"
+    ]
   }
 ]
