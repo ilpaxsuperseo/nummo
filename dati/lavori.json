@@ -865,5 +865,13 @@
     ],
     "costo_eur": 0.268836,
     "finito": "2026-11-14T06:40:49.367Z"
+  },
+  {
+    "id": "L050",
+    "giorno": 46,
+    "ordinato": "2026-11-15T06:25:51.150Z",
+    "compito": "Obiettivo: il reel di recupero reel4-fattura-non-pagata è programmato per OGGI 15/11/2026 alle 18:00 e le istruzioni sono aggiornate. Passi: 1) Leggi lavoro/prossimi-post-2026-10-29.json e prendi la voce reel4-fattura-non-pagata (testo e breve). 2) Scrivi lavoro/da-pubblicare.json con le sole 4 chiavi {\"testo\", \"breve\" (max 200 caratteri, deve contenere nummo.it/fattura-non-pagata; se manca, aggiungilo restando sotto i 200), \"media\": \"sito/video/reel4-fattura-non-pagata.mp4\", \"ora\": \"18:00\"}, senza il campo giorno. 3) Controlla che il JSON sia valido, che il video esista e sia 1080x1920 e che la pagina nummo.it/fattura-non-pagata/ risponda 200 con il link Stripe 6oUdRafvu8Pb0qZ23o4c806 (usa curl). 4) Aggiorna casa/mente/istruzioni.md: 15/11 reel4-fattura-non-pagata PROGRAMMATO (con il numero del lavoro); PROSSIMO: domani 16/11 alle 18:00 reel5-contratto-prestazione-occasionale-fac-simile (testi in lavoro/prossimi-post-2026-10-31.json), l'ultimo recupero. Aggiungi: dopo il 16/11 i reel pronti sono finiti, quindi lunedì 16/11 si decide la prossima produzione coi numeri della settimana. Sportello: 0 €. Alla fine scrivi in breve cosa hai fatto e i controlli.",
+    "budget_eur": 0.7,
+    "stato": "in_coda"
   }
 ]
