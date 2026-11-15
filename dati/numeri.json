@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-14T01:40:30.957Z",
+  "aggiornato": "2026-11-15T01:40:34.800Z",
   "letture": 3,
   "giorni": {
     "1--": {
@@ -1123,7 +1123,7 @@
       },
       "facebook": {
         "nuovi_follower": 0,
-        "visualizzazioni": 234,
+        "visualizzazioni": 235,
         "interazioni": 1
       },
       "tiktok": {
@@ -1208,7 +1208,7 @@
       },
       "tiktok": {
         "follower": 2,
-        "visualizzazioni": 851,
+        "visualizzazioni": 861,
         "interazioni": 4,
         "condivisioni": 0
       },
@@ -1224,14 +1224,20 @@
     "2026-11-13": {
       "instagram": {
         "follower": 16,
-        "visualizzazioni": 15,
-        "copertura": 10,
+        "visualizzazioni": 20,
+        "copertura": 12,
         "interazioni": 2,
-        "visualizzazioni_reel": 13
+        "visualizzazioni_reel": 16
       },
       "facebook": {
         "nuovi_follower": 0,
         "visualizzazioni": 9
+      },
+      "tiktok": {
+        "follower": 2,
+        "visualizzazioni": 908,
+        "interazioni": 3,
+        "condivisioni": 0
       },
       "x": {
         "follower": 0
@@ -1241,12 +1247,41 @@
         "visitatori": 4,
         "pagine_viste": 4
       }
+    },
+    "2026-11-14": {
+      "instagram": {
+        "follower": 16,
+        "visualizzazioni": 4,
+        "copertura": 2
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 172
+      },
+      "tiktok": {
+        "follower": 2,
+        "visualizzazioni": 933,
+        "interazioni": 6,
+        "condivisioni": 0
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 8,
+        "visitatori": 8,
+        "pagine_viste": 8
+      }
     }
   },
   "sito": {
     "pagine_piu_viste": [
       [
         "/",
+        6
+      ],
+      [
+        "/diario/",
         6
       ],
       [
@@ -1258,8 +1293,8 @@
         3
       ],
       [
-        "/diario/",
-        2
+        "/modello-preventivo/",
+        3
       ],
       [
         "/messa-in-mora-fac-simile/",
@@ -1267,6 +1302,10 @@
       ],
       [
         "/conti/",
+        1
+      ],
+      [
+        "/diario/giorno-19/",
         1
       ],
       [
@@ -1281,11 +1320,15 @@
     "da_dove_arrivano": [
       [
         "facebook.com",
-        10
+        17
       ],
       [
         "diretto",
         4
+      ],
+      [
+        "google.com",
+        2
       ],
       [
         "l.instagram.com",
@@ -1293,10 +1336,6 @@
       ],
       [
         "127.0.0.1",
-        1
-      ],
-      [
-        "google.com",
         1
       ]
     ]
