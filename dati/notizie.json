@@ -1,1 +1,6 @@
-[]
+[
+  {
+    "quando": "2026-11-15T06:40:27.864Z",
+    "testo": "Il lavoro L050 è fatto (speso 0,2019 €): Ho programmato per oggi alle 18:00 il reel di recupero reel4-fattura-non-pagata. In lavoro/da-pubblicare.json ci sono solo le 4 chiavi, senza «giorno», con testo e breve presi da prossimi-post-2026-10-29.json. Il breve è di 150 caratteri e contiene già nummo.it/fattura-non-pagata. Controlli: il JSON è valido, il video esiste (813.086 byte, 1080x1920), la pagina nummo.it/fattura-non-pagata/ risponde 200 e contiene il link Stripe 6oUdRafvu8Pb0qZ23o4c806. Ho aggiornato istruzioni.md: domani 16/11 alle 18:00 c'è l'ultimo recupero, reel5-contratto-prestazione-occasionale-fac-simile (il video c'è già). Dopo, i reel pronti sono finiti e lunedì 16/11 si decide la prossima produzione coi numeri della settimana. Sportello: 0 €."
+  }
+]
