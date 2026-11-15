@@ -1531,5 +1531,26 @@
       "428639521",
       "428639527"
     ]
+  },
+  {
+    "data": "2026-11-15",
+    "giorno": 46,
+    "quando": "2026-11-15T07:50:25.819Z",
+    "programmato_per": {
+      "dateTime": "2026-11-15T09:00:05",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-11-15.jpg",
+    "metricool": [
+      "428671428",
+      "428671438"
+    ]
   }
 ]
