@@ -7,7 +7,8 @@
 ## Post da programmare (un lavoro piccolo ogni mattina: 4 chiavi, "18:00", togliere "giorno")
 - Serie reel4 CHIUSA: 3/11–7/11 programmati (L038–L042); 8/11 reel4-messa-in-mora-fac-simile PROGRAMMATO alle 18:00 (L043).
 - Serie reel5 CHIUSA: 9/11 (L044), 11/11 (L046), 12/11 (L047), 13/11 reel5-sollecito-di-pagamento PROGRAMMATO alle 18:00 (L048). 10/11 non partito: è nei recuperi.
-- Recuperi, tutti alle 18:00: 14/11 reel3-modello-preventivo PROGRAMMATO alle 18:00 (L049). PROSSIMO: domani 15/11 alle 18:00 tocca a reel4-fattura-non-pagata (testi lavoro/prossimi-post-2026-10-29.json). Poi 16/11 reel5-contratto-prestazione-occasionale-fac-simile (lavoro/prossimi-post-2026-10-31.json). Video in sito/video/<nome>.mp4.
+- Recuperi, tutti alle 18:00: 14/11 reel3-modello-preventivo PROGRAMMATO alle 18:00 (L049); 15/11 reel4-fattura-non-pagata PROGRAMMATO alle 18:00 (L050). PROSSIMO: domani 16/11 alle 18:00 reel5-contratto-prestazione-occasionale-fac-simile (testi lavoro/prossimi-post-2026-10-31.json), l'ultimo recupero. Video in sito/video/<nome>.mp4.
+- Dopo il 16/11 i reel pronti sono finiti: lunedì 16/11 si decide la prossima produzione coi numeri della settimana. Sportello: 0 €.
 
 ## Vendite e consegne
 - Riquadri kit (testi: lavoro/conversione-2026-11-02.md): /diffida-ad-adempiere-fac-simile/ 4/11, /sollecito-di-pagamento/ 5/11, /messa-in-mora-fac-simile/ 6/11, /fattura-non-pagata/ INCOLLATA il 7/11. Le quattro guide sono tutte fatte, online col link Stripe. Dal 7/11 occhi.mjs non stampa più testi: scrive «guide: tutte col kit» (o quali mancano) e i controlli. Backup del vecchio occhi: lavoro/occhi-backup-2026-11-07.mjs. Qui in casa il fetch di Node non passa dal proxy: per provare occhi si sostituisce fetch con curl.
