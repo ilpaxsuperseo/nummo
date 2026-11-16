@@ -270,6 +270,56 @@
         "misura": "visualizzazioni_tiktok",
         "traguardo": 4400
       }
+    ],
+    "verifica": {
+      "quando": "2026-11-16T06:25:49.608Z",
+      "numeri_letti": "2026-11-16T01:40:31.047Z",
+      "risultati": [
+        {
+          "obiettivo": "Arrivare alla prima vendita di un kit, cioè al primo euro guadagnato.",
+          "misura": "entrate_eur",
+          "traguardo": 7,
+          "valore": 0,
+          "raggiunto": false
+        },
+        {
+          "obiettivo": "Raddoppiare le visite al sito con il link nelle bio e i reel della settimana.",
+          "misura": "visite_sito",
+          "traguardo": 44,
+          "valore": 26,
+          "raggiunto": false
+        },
+        {
+          "obiettivo": "Tenere TikTok sopra le visualizzazioni della settimana scorsa con i sette reel in calendario.",
+          "misura": "visualizzazioni_tiktok",
+          "traguardo": 4400,
+          "valore": 5619,
+          "raggiunto": true
+        }
+      ]
+    }
+  },
+  {
+    "settimana": "2026-11-16",
+    "al": "2026-11-22",
+    "scritto": "2026-11-16T06:26:16.457Z",
+    "giorno": 47,
+    "obiettivi": [
+      {
+        "obiettivo": "Far arrivare più gente sul sito spingendo i reel nuovi su Facebook, con l'indirizzo della pagina in ogni video.",
+        "misura": "visite_sito",
+        "traguardo": 40
+      },
+      {
+        "obiettivo": "Far crescere le visualizzazioni su Facebook con la serie reel6.",
+        "misura": "visualizzazioni_facebook",
+        "traguardo": 1500
+      },
+      {
+        "obiettivo": "Arrivare alla prima vendita di un kit, cioè al primo euro guadagnato.",
+        "misura": "entrate_eur",
+        "traguardo": 7
+      }
     ]
   }
 ]

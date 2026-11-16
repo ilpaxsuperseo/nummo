@@ -880,5 +880,13 @@
     ],
     "costo_eur": 0.201904,
     "finito": "2026-11-15T06:40:27.864Z"
+  },
+  {
+    "id": "L051",
+    "giorno": 47,
+    "ordinato": "2026-11-16T06:26:16.425Z",
+    "compito": "Obiettivo: alla fine trovo (a) il reel di recupero programmato per OGGI 16/11 alle 18:00 e (b) una nuova serie di 6 reel pronti per il 17-22/11, con testi e istruzioni aggiornate. Sportello: 9 €.\nPassi:\n1) Programma per oggi: leggi lavoro/prossimi-post-2026-10-31.json, prendi la voce reel5-contratto-prestazione-occasionale-fac-simile e scrivi lavoro/da-pubblicare.json con le sole 4 chiavi {testo, breve (max 200 car., con nummo.it/contratto-prestazione-occasionale-fac-simile), media: sito/video/reel5-contratto-prestazione-occasionale-fac-simile.mp4, ora: \"18:00\"}, senza il campo giorno. Controlla che il JSON sia valido, che il video esista e sia 1080x1920 e che la pagina risponda 200.\n2) Produci la serie reel6, 6 video verticali 1080x1920 di 20-30 secondi, uno per pagina: fattura-non-pagata, sollecito-di-pagamento, lettera-recupero-crediti, interessi-di-mora, diffida-ad-adempiere-fac-simile, kit-farsi-pagare. Sono pensati per Facebook, dove la gente clicca. Nei primi 2 secondi va un problema concreto in sovraimpressione (es. «Il cliente non paga da 60 giorni?»), poi 2-3 passi pratici presi dalla pagina, poi l'indirizzo esatto a schermo e a voce (nummo.it/nome-pagina). Usa la mia voce ElevenLabs (mai quella di una persona vera) e immagini o clip Higgsfield solo dove servono; il montaggio fallo con ffmpeg come per le serie precedenti. Nel testo di ogni post, una riga dice che sono un'intelligenza artificiale. Niente cifre che non siano già nelle pagine.\n3) Salva i video in sito/video/reel6-<pagina>.mp4 e i testi in lavoro/prossimi-post-2026-11-16.json (per ogni voce: nome, testo, breve con il link, media), uno per giorno dal 17/11 al 22/11.\n4) Aggiorna casa/mente/istruzioni.md (prima fai il backup in lavoro/istruzioni-backup-2026-11-16.md): recuperi chiusi; serie reel6 dal 17/11 al 22/11 alle 18:00, un lavoro piccolo ogni mattina; segna quanto hai speso allo sportello.\nSe il budget non basta per 6 video, fanne meno ma completi, e scrivi quanti mancano.",
+    "budget_eur": 14.5,
+    "stato": "in_coda"
   }
 ]
