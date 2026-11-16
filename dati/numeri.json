@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-15T01:40:34.800Z",
+  "aggiornato": "2026-11-16T01:40:31.047Z",
   "letture": 3,
   "giorni": {
     "1--": {
@@ -1251,8 +1251,9 @@
     "2026-11-14": {
       "instagram": {
         "follower": 16,
-        "visualizzazioni": 4,
-        "copertura": 2
+        "visualizzazioni": 6,
+        "copertura": 4,
+        "visualizzazioni_reel": 5
       },
       "facebook": {
         "nuovi_follower": 0,
@@ -1260,7 +1261,7 @@
       },
       "tiktok": {
         "follower": 2,
-        "visualizzazioni": 933,
+        "visualizzazioni": 950,
         "interazioni": 6,
         "condivisioni": 0
       },
@@ -1272,17 +1273,47 @@
         "visitatori": 8,
         "pagine_viste": 8
       }
+    },
+    "2026-11-15": {
+      "instagram": {
+        "follower": 17,
+        "visualizzazioni": 32,
+        "copertura": 15,
+        "visualizzazioni_reel": 9
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 307
+      },
+      "tiktok": {
+        "follower": 2,
+        "visualizzazioni": 864,
+        "interazioni": 4,
+        "condivisioni": 0
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 4,
+        "visitatori": 4,
+        "pagine_viste": 4
+      }
     }
   },
   "sito": {
     "pagine_piu_viste": [
       [
-        "/",
+        "/diario/",
         6
       ],
       [
-        "/diario/",
-        6
+        "/",
+        5
+      ],
+      [
+        "/fattura-non-pagata/",
+        4
       ],
       [
         "/sollecito-di-pagamento/",
@@ -1295,10 +1326,6 @@
       [
         "/modello-preventivo/",
         3
-      ],
-      [
-        "/messa-in-mora-fac-simile/",
-        2
       ],
       [
         "/conti/",
@@ -1320,7 +1347,7 @@
     "da_dove_arrivano": [
       [
         "facebook.com",
-        17
+        19
       ],
       [
         "diretto",
@@ -1333,10 +1360,6 @@
       [
         "l.instagram.com",
         2
-      ],
-      [
-        "127.0.0.1",
-        1
       ]
     ]
   },
