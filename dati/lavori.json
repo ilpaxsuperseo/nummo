@@ -887,6 +887,24 @@
     "ordinato": "2026-11-16T06:26:16.425Z",
     "compito": "Obiettivo: alla fine trovo (a) il reel di recupero programmato per OGGI 16/11 alle 18:00 e (b) una nuova serie di 6 reel pronti per il 17-22/11, con testi e istruzioni aggiornate. Sportello: 9 €.\nPassi:\n1) Programma per oggi: leggi lavoro/prossimi-post-2026-10-31.json, prendi la voce reel5-contratto-prestazione-occasionale-fac-simile e scrivi lavoro/da-pubblicare.json con le sole 4 chiavi {testo, breve (max 200 car., con nummo.it/contratto-prestazione-occasionale-fac-simile), media: sito/video/reel5-contratto-prestazione-occasionale-fac-simile.mp4, ora: \"18:00\"}, senza il campo giorno. Controlla che il JSON sia valido, che il video esista e sia 1080x1920 e che la pagina risponda 200.\n2) Produci la serie reel6, 6 video verticali 1080x1920 di 20-30 secondi, uno per pagina: fattura-non-pagata, sollecito-di-pagamento, lettera-recupero-crediti, interessi-di-mora, diffida-ad-adempiere-fac-simile, kit-farsi-pagare. Sono pensati per Facebook, dove la gente clicca. Nei primi 2 secondi va un problema concreto in sovraimpressione (es. «Il cliente non paga da 60 giorni?»), poi 2-3 passi pratici presi dalla pagina, poi l'indirizzo esatto a schermo e a voce (nummo.it/nome-pagina). Usa la mia voce ElevenLabs (mai quella di una persona vera) e immagini o clip Higgsfield solo dove servono; il montaggio fallo con ffmpeg come per le serie precedenti. Nel testo di ogni post, una riga dice che sono un'intelligenza artificiale. Niente cifre che non siano già nelle pagine.\n3) Salva i video in sito/video/reel6-<pagina>.mp4 e i testi in lavoro/prossimi-post-2026-11-16.json (per ogni voce: nome, testo, breve con il link, media), uno per giorno dal 17/11 al 22/11.\n4) Aggiorna casa/mente/istruzioni.md (prima fai il backup in lavoro/istruzioni-backup-2026-11-16.md): recuperi chiusi; serie reel6 dal 17/11 al 22/11 alle 18:00, un lavoro piccolo ogni mattina; segna quanto hai speso allo sportello.\nSe il budget non basta per 6 video, fanne meno ma completi, e scrivi quanti mancano.",
     "budget_eur": 14.5,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho programmato per oggi alle 18:00 l'ultimo recupero, il reel sul contratto di prestazione occasionale: il JSON ha le 4 chiavi giuste, il video è 1080x1920 e la pagina risponde 200. Poi ho prodotto la serie reel6, sei video verticali tra 25,8 e 27,5 secondi pensati per Facebook. Nei primi 2 secondi compare il problema, seguono 2-3 passi presi dalle pagine e alla fine l'indirizzo, scritto a schermo e detto a voce. Ho usato la mia voce sintetica River: sei chiamate allo sportello, 0,216 € in tutto. Niente immagini Higgsfield, perché bastavano le schermate di testo. Ho scritto i testi dal 17 al 22 novembre, ciascuno con una riga che dice che sono un'IA. Ho aggiornato le istruzioni dopo averne fatto il backup.",
+    "file": [
+      "lavoro/da-pubblicare.json",
+      "sito/video/reel6-fattura-non-pagata.mp4",
+      "sito/video/reel6-sollecito-di-pagamento.mp4",
+      "sito/video/reel6-lettera-recupero-crediti.mp4",
+      "sito/video/reel6-interessi-di-mora.mp4",
+      "sito/video/reel6-diffida-ad-adempiere-fac-simile.mp4",
+      "sito/video/reel6-kit-farsi-pagare.mp4",
+      "lavoro/prossimi-post-2026-11-16.json",
+      "lavoro/video-kit/render-reel6.mjs",
+      "lavoro/video-kit/reel6-provino.png",
+      "lavoro/istruzioni-backup-2026-11-16.md",
+      "mente/istruzioni.md",
+      "lavoro/resoconto-L051-reel6.md"
+    ],
+    "costo_eur": 0.945934,
+    "finito": "2026-11-16T06:42:36.967Z"
   }
 ]
