@@ -5,10 +5,10 @@
 - lavoro/da-pubblicare.json: solo 4 chiavi {"testo", "breve" (max 200 car.), "media": "sito/video/nome.mp4", "ora": "18:00"}. Niente campo "giorno": vale solo per oggi. Si scrive durante un lavoro di quel giorno.
 
 ## Post da programmare (un lavoro piccolo ogni mattina: 4 chiavi, "18:00", togliere "giorno")
-- Serie reel4 CHIUSA: 3/11–7/11 programmati (L038–L042); 8/11 reel4-messa-in-mora-fac-simile PROGRAMMATO alle 18:00 (L043).
-- Serie reel5 CHIUSA: 9/11 (L044), 11/11 (L046), 12/11 (L047), 13/11 reel5-sollecito-di-pagamento PROGRAMMATO alle 18:00 (L048). 10/11 non partito: è nei recuperi.
-- Recuperi, tutti alle 18:00: 14/11 reel3-modello-preventivo PROGRAMMATO alle 18:00 (L049); 15/11 reel4-fattura-non-pagata PROGRAMMATO alle 18:00 (L050). PROSSIMO: domani 16/11 alle 18:00 reel5-contratto-prestazione-occasionale-fac-simile (testi lavoro/prossimi-post-2026-10-31.json), l'ultimo recupero. Video in sito/video/<nome>.mp4.
-- Dopo il 16/11 i reel pronti sono finiti: lunedì 16/11 si decide la prossima produzione coi numeri della settimana. Sportello: 0 €.
+- Serie reel4 e reel5 CHIUSE. Recuperi CHIUSI: 14/11 (L049), 15/11 (L050), 16/11 reel5-contratto-prestazione-occasionale-fac-simile PROGRAMMATO alle 18:00 (L051).
+- Serie reel6 (L051, per Facebook: problema nei primi 2 s, 2-3 passi, indirizzo a voce e a schermo), dal 17/11 al 22/11, una al giorno alle 18:00. Testi: lavoro/prossimi-post-2026-11-16.json (ogni voce ha nome, giorno, testo, breve, media, ora): ogni mattina un lavoro piccolo prende la voce del giorno, tiene testo/breve/media/ora e toglie nome e giorno. Ordine: 17 fattura-non-pagata, 18 sollecito-di-pagamento, 19 lettera-recupero-crediti, 20 interessi-di-mora, 21 diffida-ad-adempiere-fac-simile, 22 kit-farsi-pagare. Video sito/video/reel6-<pagina>.mp4 (1080x1920, 25,8-27,5 s). Se un giorno salta, va in coda dopo il 22/11.
+- Produzione reel6: voce River, 6 chiamate, 0,216 € di sportello (nient'altro, niente Higgsfield). Script lavoro/video-kit/render-reel6.mjs, provino reel6-provino.png.
+- Dal 23/11 i reel pronti sono finiti: lunedì 23/11 si decide coi numeri (Facebook porta clic?).
 
 ## Vendite e consegne
 - Riquadri kit (testi: lavoro/conversione-2026-11-02.md): /diffida-ad-adempiere-fac-simile/ 4/11, /sollecito-di-pagamento/ 5/11, /messa-in-mora-fac-simile/ 6/11, /fattura-non-pagata/ INCOLLATA il 7/11. Le quattro guide sono tutte fatte, online col link Stripe. Dal 7/11 occhi.mjs non stampa più testi: scrive «guide: tutte col kit» (o quali mancano) e i controlli. Backup del vecchio occhi: lavoro/occhi-backup-2026-11-07.mjs. Qui in casa il fetch di Node non passa dal proxy: per provare occhi si sostituisce fetch con curl.
