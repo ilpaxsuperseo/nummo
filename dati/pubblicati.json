@@ -1552,5 +1552,26 @@
       "428671428",
       "428671438"
     ]
+  },
+  {
+    "data": "2026-11-16 notte",
+    "giorno": 47,
+    "quando": "2026-11-16T06:43:04.871Z",
+    "programmato_per": {
+      "dateTime": "2026-11-16T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel5-contratto-prestazione-occasionale-fac-simile.mp4",
+    "metricool": [
+      "429650931",
+      "429650965"
+    ]
   }
 ]
