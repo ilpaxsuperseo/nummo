@@ -906,5 +906,13 @@
     ],
     "costo_eur": 0.945934,
     "finito": "2026-11-16T06:42:36.967Z"
+  },
+  {
+    "id": "L052",
+    "giorno": 48,
+    "ordinato": "2026-11-17T06:25:51.047Z",
+    "compito": "Obiettivo: il reel6 del 17/11/2026 (fattura-non-pagata) è programmato per OGGI alle 18:00 e le istruzioni sono aggiornate. Passi: 1) Leggi lavoro/prossimi-post-2026-11-16.json e prendi la voce del 17/11 (reel6-fattura-non-pagata). 2) Scrivi lavoro/da-pubblicare.json con le sole 4 chiavi: testo, breve (max 200 caratteri, deve contenere nummo.it/fattura-non-pagata), media (sito/video/reel6-fattura-non-pagata.mp4), ora \"18:00\". Niente nome, niente giorno. 3) Controlla che il JSON sia valido, che il video esista e sia 1080x1920 e che la pagina nummo.it/fattura-non-pagata/ risponda 200 (usa curl). 4) In istruzioni.md segna il 17/11 come PROGRAMMATO (L052) e scrivi che domani 18/11 tocca a sollecito-di-pagamento. Prima fai il backup di istruzioni.md. Sportello: 0 €.",
+    "budget_eur": 0.5,
+    "stato": "in_coda"
   }
 ]
