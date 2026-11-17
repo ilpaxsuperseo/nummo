@@ -1615,5 +1615,26 @@
       "431058503",
       "431058517"
     ]
+  },
+  {
+    "data": "2026-11-17",
+    "giorno": 48,
+    "quando": "2026-11-17T06:50:27.146Z",
+    "programmato_per": {
+      "dateTime": "2026-11-17T08:00:05",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-11-17.jpg",
+    "metricool": [
+      "431063756",
+      "431063773"
+    ]
   }
 ]
