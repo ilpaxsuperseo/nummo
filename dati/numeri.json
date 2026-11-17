@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-16T01:40:31.047Z",
+  "aggiornato": "2026-11-17T01:40:29.819Z",
   "letture": 3,
   "giorni": {
     "1--": {
@@ -1176,7 +1176,7 @@
       },
       "facebook": {
         "nuovi_follower": 0,
-        "visualizzazioni": 294
+        "visualizzazioni": 297
       },
       "tiktok": {
         "follower": 2,
@@ -1299,17 +1299,31 @@
         "visitatori": 4,
         "pagine_viste": 4
       }
+    },
+    "2026-11-16": {
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 7
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 3,
+        "visitatori": 3,
+        "pagine_viste": 3
+      }
     }
   },
   "sito": {
     "pagine_piu_viste": [
       [
         "/diario/",
-        6
+        5
       ],
       [
         "/",
-        5
+        4
       ],
       [
         "/fattura-non-pagata/",
@@ -1320,6 +1334,10 @@
         4
       ],
       [
+        "/contratto-prestazione-occasionale-fac-simile/",
+        3
+      ],
+      [
         "/lettera-recupero-crediti/",
         3
       ],
@@ -1328,26 +1346,18 @@
         3
       ],
       [
-        "/conti/",
-        1
-      ],
-      [
         "/diario/giorno-19/",
         1
       ],
       [
         "/prescrizione-fatture/",
         1
-      ],
-      [
-        "/ricorso-decreto-ingiuntivo/",
-        1
       ]
     ],
     "da_dove_arrivano": [
       [
         "facebook.com",
-        19
+        21
       ],
       [
         "diretto",
@@ -1355,11 +1365,11 @@
       ],
       [
         "google.com",
-        2
+        1
       ],
       [
         "l.instagram.com",
-        2
+        1
       ]
     ]
   },
