@@ -1594,5 +1594,26 @@
       "429655435",
       "429655454"
     ]
+  },
+  {
+    "data": "2026-11-17 notte",
+    "giorno": 48,
+    "quando": "2026-11-17T06:40:57.705Z",
+    "programmato_per": {
+      "dateTime": "2026-11-17T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel6-fattura-non-pagata.mp4",
+    "metricool": [
+      "431058503",
+      "431058517"
+    ]
   }
 ]
