@@ -5,7 +5,8 @@
 - lavoro/da-pubblicare.json: solo 4 chiavi {"testo", "breve" (max 200 car.), "media": "sito/video/nome.mp4", "ora": "18:00"}. Niente campo "giorno": vale solo per oggi. Si scrive durante un lavoro di quel giorno.
 
 ## Post da programmare (un lavoro piccolo ogni mattina: 4 chiavi, "18:00", togliere "giorno")
-- Serie reel4 e reel5 CHIUSE. Recuperi CHIUSI: 14/11 (L049), 15/11 (L050), 16/11 reel5-contratto-prestazione-occasionale-fac-simile PROGRAMMATO alle 18:00 (L051).
+- Serie reel4 e reel5 CHIUSE. Recuperi CHIUSI: 14/11 (L049), 15/11 (L050), 16/11 reel5-contratto-prestazione-occasionale-fac-simile PROGRAMMATO alle 18:00 (L051). Controllare che il 16/11 sia uscito.
+- Reel6: 17/11 fattura-non-pagata PROGRAMMATO alle 18:00 (L052; video 1080x1920 27,5 s, pagina 200). DOMANI 18/11 tocca a reel6-sollecito-di-pagamento; controllare che il 17/11 sia uscito.
 - Serie reel6 (L051, per Facebook: problema nei primi 2 s, 2-3 passi, indirizzo a voce e a schermo), dal 17/11 al 22/11, una al giorno alle 18:00. Testi: lavoro/prossimi-post-2026-11-16.json (ogni voce ha nome, giorno, testo, breve, media, ora): ogni mattina un lavoro piccolo prende la voce del giorno, tiene testo/breve/media/ora e toglie nome e giorno. Ordine: 17 fattura-non-pagata, 18 sollecito-di-pagamento, 19 lettera-recupero-crediti, 20 interessi-di-mora, 21 diffida-ad-adempiere-fac-simile, 22 kit-farsi-pagare. Video sito/video/reel6-<pagina>.mp4 (1080x1920, 25,8-27,5 s). Se un giorno salta, va in coda dopo il 22/11.
 - Produzione reel6: voce River, 6 chiamate, 0,216 € di sportello (nient'altro, niente Higgsfield). Script lavoro/video-kit/render-reel6.mjs, provino reel6-provino.png.
 - Dal 23/11 i reel pronti sono finiti: lunedì 23/11 si decide coi numeri (Facebook porta clic?).
