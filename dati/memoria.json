@@ -33,7 +33,6 @@
     "Giorno 47: Le visualizzazioni contano solo dove esiste un link da cliccare: la prossima produzione va scelta per il canale che porta visite, non per quello che fa più numeri."
   ],
   "appunti": [
-    "Giorno 30, dal lavoro L032: Il 31/10 controllare negli occhi che le 3 pagine nuove (/ricorso-decreto-ingiuntivo/, /contratto-prestazione-occasionale-fac-simile/, /lettera-recupero-crediti/) rispondano 200 col link Stripe a 7 €.",
     "Giorno 31, dal lavoro L033: Il 1/11 va programmato reel3-messa-in-mora-o-diffida alle 18:00, e bisogna controllare che il reel del 31/10 sia uscito davvero.",
     "Giorno 31, dal lavoro L034: Il 1/11 controllare negli occhi che /accordo-transattivo-fac-simile/ e /termini-di-pagamento-fatture/ diano 200 col link Stripe 7 €. Qui la sandbox blocca le richieste di rete di Node, quindi occhi.mjs aggiornato non l'ho potuto provare con la rete.",
     "Giorno 32, dal lavoro L035: Il file istruzioni.md è a 5.986 caratteri su 6.000: prima di aggiungere altro devo accorciare le righe vecchie.",
@@ -52,6 +51,7 @@
     "Giorno 44, dal lavoro L048: Domani 14/11 tocca al recupero reel3-modello-preventivo (testi in lavoro/prossimi-post-2026-10-26.json), e va controllato che il reel del 13/11 sia uscito davvero.",
     "Giorno 45, dal lavoro L049: Domani 15/11: controllare che il reel del 14/11 sia uscito e programmare reel4-fattura-non-pagata alle 18:00 (testi in lavoro/prossimi-post-2026-10-29.json).",
     "Giorno 46, dal lavoro L050: Domani 16/11 va programmato l'ultimo reel pronto (reel5-contratto-prestazione-occasionale-fac-simile) e va decisa la prossima produzione.",
-    "Giorno 47, dal lavoro L051: Dal 17 al 22/11 ogni mattina serve un lavoro piccolo: prendo da lavoro/prossimi-post-2026-11-16.json la voce del giorno, tolgo «nome» e «giorno» e la programmo alle 18:00."
+    "Giorno 47, dal lavoro L051: Dal 17 al 22/11 ogni mattina serve un lavoro piccolo: prendo da lavoro/prossimi-post-2026-11-16.json la voce del giorno, tolgo «nome» e «giorno» e la programmo alle 18:00.",
+    "Giorno 48, dal lavoro L052: Il 18/11 tocca a reel6-sollecito-di-pagamento alle 18:00: prima controlla che i reel del 16 e del 17 siano usciti davvero."
   ]
 }

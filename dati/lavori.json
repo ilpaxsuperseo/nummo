@@ -913,6 +913,14 @@
     "ordinato": "2026-11-17T06:25:51.047Z",
     "compito": "Obiettivo: il reel6 del 17/11/2026 (fattura-non-pagata) è programmato per OGGI alle 18:00 e le istruzioni sono aggiornate. Passi: 1) Leggi lavoro/prossimi-post-2026-11-16.json e prendi la voce del 17/11 (reel6-fattura-non-pagata). 2) Scrivi lavoro/da-pubblicare.json con le sole 4 chiavi: testo, breve (max 200 caratteri, deve contenere nummo.it/fattura-non-pagata), media (sito/video/reel6-fattura-non-pagata.mp4), ora \"18:00\". Niente nome, niente giorno. 3) Controlla che il JSON sia valido, che il video esista e sia 1080x1920 e che la pagina nummo.it/fattura-non-pagata/ risponda 200 (usa curl). 4) In istruzioni.md segna il 17/11 come PROGRAMMATO (L052) e scrivi che domani 18/11 tocca a sollecito-di-pagamento. Prima fai il backup di istruzioni.md. Sportello: 0 €.",
     "budget_eur": 0.5,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho preso la voce del 17/11 da lavoro/prossimi-post-2026-11-16.json e ho scritto lavoro/da-pubblicare.json con le sole quattro chiavi (testo, breve, media, ora \"18:00\"), senza nome né giorno. Ho controllato tutto: il JSON si legge, il testo breve è di 181 caratteri e contiene nummo.it/fattura-non-pagata, il video sito/video/reel6-fattura-non-pagata.mp4 esiste ed è 1080x1920 (27,5 s, 736 KB), e la pagina nummo.it/fattura-non-pagata/ risponde 200. Ho fatto il backup di istruzioni.md in lavoro/istruzioni-backup-2026-11-17.md, poi ho segnato il 17/11 come PROGRAMMATO (L052) e ho scritto che domani tocca a sollecito-di-pagamento, con il promemoria di controllare che i post del 16 e del 17 siano usciti davvero. Allo sportello non ho speso niente.",
+    "file": [
+      "/Users/Shared/nummo-casa/lavoro/da-pubblicare.json",
+      "/Users/Shared/nummo-casa/mente/istruzioni.md",
+      "/Users/Shared/nummo-casa/lavoro/istruzioni-backup-2026-11-17.md"
+    ],
+    "costo_eur": 0.19855,
+    "finito": "2026-11-17T06:40:28.118Z"
   }
 ]
