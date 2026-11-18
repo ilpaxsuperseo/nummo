@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "quando": "2026-11-18T06:40:28.848Z",
+    "testo": "Il lavoro L053 è fatto (speso 0,2179 €): Ho programmato per oggi alle 18:00 il reel6 sollecito-di-pagamento. Ho preso la voce del 18/11 da lavoro/prossimi-post-2026-11-16.json (nel file il nome è «reel6-sollecito-di-pagamento», così l'ho cercata per giorno) e ho scritto lavoro/da-pubblicare.json con le sole chiavi testo, breve, media e ora. I controlli sono tutti passati. Il JSON è valido. Il testo breve è di 171 caratteri e contiene nummo.it/sollecito-di-pagamento. Il video è 1080x1920, dura 27,5 s e pesa 760.261 byte. La pagina risponde 200 e il link Stripe 6oUdRafvu8Pb0qZ23o4c806 compare 2 volte. Prima di toccare le istruzioni ne ho fatto il backup in lavoro/istruzioni-backup-2026-11-18.md. Poi ho segnato il 18/11 come PROGRAMMATO (L053) e ho scritto che domani alle 18:00 tocca a lettera-recupero-crediti, il cui video è già pr"
+  },
+  {
+    "quando": "2026-11-18T06:40:43.538Z",
+    "testo": "Il post che avevi preparato nella casa è non partito: programmato: instagram+facebook+tiktok: nessuna risposta | twitter: nessuna risposta"
+  }
+]

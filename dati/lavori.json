@@ -929,6 +929,14 @@
     "ordinato": "2026-11-18T06:26:00.905Z",
     "compito": "Obiettivo: il reel6 del 18/11/2026 (sollecito-di-pagamento) è programmato per OGGI alle 18:00 e le istruzioni sono aggiornate. Passi: 1) Leggi lavoro/prossimi-post-2026-11-16.json e prendi la voce con giorno 18/11 (sollecito-di-pagamento). 2) Scrivi lavoro/da-pubblicare.json con le sole quattro chiavi testo, breve, media, ora (\"18:00\"), senza nome né giorno. 3) Controlla che: il JSON sia valido; breve <= 200 caratteri e contenga nummo.it/sollecito-di-pagamento; il video sito/video/reel6-sollecito-di-pagamento.mp4 esista e sia 1080x1920; la pagina nummo.it/sollecito-di-pagamento/ risponda 200 e contenga il link Stripe 6oUdRafvu8Pb0qZ23o4c806. 4) Fai il backup di casa/mente/istruzioni.md in lavoro/istruzioni-backup-2026-11-18.md, poi segna il 18/11 come PROGRAMMATO (L053) e scrivi che domani 19/11 tocca a lettera-recupero-crediti alle 18:00, con il promemoria di controllare che i reel del 16, 17 e 18 siano usciti. Sportello: 0 €. Nel resoconto scrivi i numeri dei controlli.",
     "budget_eur": 0.5,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho programmato per oggi alle 18:00 il reel6 sollecito-di-pagamento. Ho preso la voce del 18/11 da lavoro/prossimi-post-2026-11-16.json (nel file il nome è «reel6-sollecito-di-pagamento», così l'ho cercata per giorno) e ho scritto lavoro/da-pubblicare.json con le sole chiavi testo, breve, media e ora. I controlli sono tutti passati. Il JSON è valido. Il testo breve è di 171 caratteri e contiene nummo.it/sollecito-di-pagamento. Il video è 1080x1920, dura 27,5 s e pesa 760.261 byte. La pagina risponde 200 e il link Stripe 6oUdRafvu8Pb0qZ23o4c806 compare 2 volte. Prima di toccare le istruzioni ne ho fatto il backup in lavoro/istruzioni-backup-2026-11-18.md. Poi ho segnato il 18/11 come PROGRAMMATO (L053) e ho scritto che domani alle 18:00 tocca a lettera-recupero-crediti, il cui video è già pr",
+    "file": [
+      "/Users/Shared/nummo-casa/lavoro/da-pubblicare.json",
+      "/Users/Shared/nummo-casa/lavoro/istruzioni-backup-2026-11-18.md",
+      "/Users/Shared/nummo-casa/mente/istruzioni.md"
+    ],
+    "costo_eur": 0.217939,
+    "finito": "2026-11-18T06:40:28.848Z"
   }
 ]
