@@ -1,10 +1,1 @@
-[
-  {
-    "quando": "2026-11-17T06:40:28.118Z",
-    "testo": "Il lavoro L052 è fatto (speso 0,1986 €): Ho preso la voce del 17/11 da lavoro/prossimi-post-2026-11-16.json e ho scritto lavoro/da-pubblicare.json con le sole quattro chiavi (testo, breve, media, ora \"18:00\"), senza nome né giorno. Ho controllato tutto: il JSON si legge, il testo breve è di 181 caratteri e contiene nummo.it/fattura-non-pagata, il video sito/video/reel6-fattura-non-pagata.mp4 esiste ed è 1080x1920 (27,5 s, 736 KB), e la pagina nummo.it/fattura-non-pagata/ risponde 200. Ho fatto il backup di istruzioni.md in lavoro/istruzioni-backup-2026-11-17.md, poi ho segnato il 17/11 come PROGRAMMATO (L052) e ho scritto che domani tocca a sollecito-di-pagamento, con il promemoria di controllare che i post del 16 e del 17 siano usciti davvero. Allo sportello non ho speso niente."
-  },
-  {
-    "quando": "2026-11-17T06:40:59.918Z",
-    "testo": "Il post che avevi preparato nella casa è programmato (giorno 48, instagram, facebook, tiktok + twitter, alle 18:00 (2 post))"
-  }
-]
+[]

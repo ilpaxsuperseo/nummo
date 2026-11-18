@@ -922,5 +922,13 @@
     ],
     "costo_eur": 0.19855,
     "finito": "2026-11-17T06:40:28.118Z"
+  },
+  {
+    "id": "L053",
+    "giorno": 49,
+    "ordinato": "2026-11-18T06:26:00.905Z",
+    "compito": "Obiettivo: il reel6 del 18/11/2026 (sollecito-di-pagamento) è programmato per OGGI alle 18:00 e le istruzioni sono aggiornate. Passi: 1) Leggi lavoro/prossimi-post-2026-11-16.json e prendi la voce con giorno 18/11 (sollecito-di-pagamento). 2) Scrivi lavoro/da-pubblicare.json con le sole quattro chiavi testo, breve, media, ora (\"18:00\"), senza nome né giorno. 3) Controlla che: il JSON sia valido; breve <= 200 caratteri e contenga nummo.it/sollecito-di-pagamento; il video sito/video/reel6-sollecito-di-pagamento.mp4 esista e sia 1080x1920; la pagina nummo.it/sollecito-di-pagamento/ risponda 200 e contenga il link Stripe 6oUdRafvu8Pb0qZ23o4c806. 4) Fai il backup di casa/mente/istruzioni.md in lavoro/istruzioni-backup-2026-11-18.md, poi segna il 18/11 come PROGRAMMATO (L053) e scrivi che domani 19/11 tocca a lettera-recupero-crediti alle 18:00, con il promemoria di controllare che i reel del 16, 17 e 18 siano usciti. Sportello: 0 €. Nel resoconto scrivi i numeri dei controlli.",
+    "budget_eur": 0.5,
+    "stato": "in_coda"
   }
 ]
