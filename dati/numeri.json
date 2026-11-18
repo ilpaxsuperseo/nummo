@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-17T01:40:29.819Z",
+  "aggiornato": "2026-11-18T01:40:27.115Z",
   "letture": 3,
   "giorni": {
     "1--": {
@@ -1180,7 +1180,7 @@
       },
       "tiktok": {
         "follower": 2,
-        "visualizzazioni": 881,
+        "visualizzazioni": 884,
         "interazioni": 3,
         "condivisioni": 0
       },
@@ -1203,7 +1203,7 @@
       },
       "facebook": {
         "nuovi_follower": 0,
-        "visualizzazioni": 214,
+        "visualizzazioni": 215,
         "interazioni": 2
       },
       "tiktok": {
@@ -1227,7 +1227,7 @@
         "visualizzazioni": 20,
         "copertura": 12,
         "interazioni": 2,
-        "visualizzazioni_reel": 16
+        "visualizzazioni_reel": 20
       },
       "facebook": {
         "nuovi_follower": 0,
@@ -1253,7 +1253,7 @@
         "follower": 16,
         "visualizzazioni": 6,
         "copertura": 4,
-        "visualizzazioni_reel": 5
+        "visualizzazioni_reel": 6
       },
       "facebook": {
         "nuovi_follower": 0,
@@ -1277,9 +1277,9 @@
     "2026-11-15": {
       "instagram": {
         "follower": 17,
-        "visualizzazioni": 32,
-        "copertura": 15,
-        "visualizzazioni_reel": 9
+        "visualizzazioni": 38,
+        "copertura": 17,
+        "visualizzazioni_reel": 13
       },
       "facebook": {
         "nuovi_follower": 0,
@@ -1287,7 +1287,7 @@
       },
       "tiktok": {
         "follower": 2,
-        "visualizzazioni": 864,
+        "visualizzazioni": 888,
         "interazioni": 4,
         "condivisioni": 0
       },
@@ -1301,9 +1301,22 @@
       }
     },
     "2026-11-16": {
+      "instagram": {
+        "follower": 17,
+        "visualizzazioni": 21,
+        "copertura": 5,
+        "interazioni": 1,
+        "visualizzazioni_reel": 6
+      },
       "facebook": {
         "nuovi_follower": 0,
         "visualizzazioni": 7
+      },
+      "tiktok": {
+        "follower": 2,
+        "visualizzazioni": 980,
+        "interazioni": 2,
+        "condivisioni": 0
       },
       "x": {
         "follower": 0
@@ -1312,6 +1325,33 @@
         "visite": 3,
         "visitatori": 3,
         "pagine_viste": 3
+      }
+    },
+    "2026-11-17": {
+      "instagram": {
+        "follower": 17,
+        "visualizzazioni": 14,
+        "copertura": 8,
+        "visualizzazioni_reel": 7
+      },
+      "facebook": {
+        "nuovi_follower": 0,
+        "visualizzazioni": 238,
+        "interazioni": 1
+      },
+      "tiktok": {
+        "follower": 2,
+        "visualizzazioni": 961,
+        "interazioni": 2,
+        "condivisioni": 0
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 0,
+        "visitatori": 0,
+        "pagine_viste": 0
       }
     }
   },
