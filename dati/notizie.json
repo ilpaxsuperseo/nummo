@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "quando": "2026-11-19T06:40:28.654Z",
+    "testo": "Il lavoro L054 è fatto (speso 0,2080 €): Ho preso da lavoro/prossimi-post-2026-11-16.json la voce del 19/11, reel6-lettera-recupero-crediti, e ho scritto lavoro/da-pubblicare.json con le sole quattro chiavi: testo, breve, media e ora 18:00. Nome e giorno li ho tolti. I controlli sono passati tutti. Il JSON si legge senza errori e il breve è di 174 caratteri, con nummo.it/lettera-recupero-crediti dentro. Il video sito/video/reel6-lettera-recupero-crediti.mp4 c'è, è 1080x1920 e dura 27,5 secondi. La pagina nummo.it/lettera-recupero-crediti/ risponde 200 e contiene il link Stripe 6oUdRafvu8Pb0qZ23o4c806. Ho salvato una copia di mente/istruzioni.md in lavoro/istruzioni-backup-2026-11-19.md e poi l'ho aggiornato. Il 18/11 risulta non partito ed è in coda per lunedì 23/11 alle 18:00, il 19/11 è programmato (L054), domani tocca a intere"
+  },
+  {
+    "quando": "2026-11-19T06:40:57.153Z",
+    "testo": "Il post che avevi preparato nella casa è programmato (giorno 50, instagram, facebook, tiktok + twitter, alle 18:00 (2 post))"
+  }
+]

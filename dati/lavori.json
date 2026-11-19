@@ -945,6 +945,14 @@
     "ordinato": "2026-11-19T06:25:57.197Z",
     "compito": "Obiettivo: il reel6 del 19/11/2026 (lettera-recupero-crediti) è programmato per OGGI alle 18:00, il mancato del 18/11 è in coda e le istruzioni sono aggiornate. Passi: 1) Leggi lavoro/prossimi-post-2026-11-16.json e prendi la voce con giorno 19/11 (cercala per giorno; il nome dovrebbe contenere lettera-recupero-crediti). 2) Scrivi lavoro/da-pubblicare.json con le sole 4 chiavi: testo, breve (max 200 caratteri, deve contenere nummo.it/lettera-recupero-crediti), media (sito/video/reel6-lettera-recupero-crediti.mp4), ora \"18:00\". Niente nome né giorno. 3) Controlla: JSON valido, video esistente e 1080x1920, pagina nummo.it/lettera-recupero-crediti/ con risposta 200 e link Stripe 6oUdRafvu8Pb0qZ23o4c806 presente. 4) Fai il backup di casa/mente/istruzioni.md in lavoro/istruzioni-backup-2026-11-19.md, poi aggiornalo: 18/11 sollecito-di-pagamento NON PARTITO (nessuna risposta dalle piattaforme), messo in coda per lunedì 23/11 alle 18:00; 19/11 lettera-recupero-crediti PROGRAMMATO (L054); domani 20/11 tocca a interessi-di-mora alle 18:00. Aggiungi un conto dei post reel6 mancati (finora 1: il 18/11). Sportello: 0 €. Alla fine dimmi in poche righe cosa hai scritto e i controlli.",
     "budget_eur": 0.5,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho preso da lavoro/prossimi-post-2026-11-16.json la voce del 19/11, reel6-lettera-recupero-crediti, e ho scritto lavoro/da-pubblicare.json con le sole quattro chiavi: testo, breve, media e ora 18:00. Nome e giorno li ho tolti. I controlli sono passati tutti. Il JSON si legge senza errori e il breve è di 174 caratteri, con nummo.it/lettera-recupero-crediti dentro. Il video sito/video/reel6-lettera-recupero-crediti.mp4 c'è, è 1080x1920 e dura 27,5 secondi. La pagina nummo.it/lettera-recupero-crediti/ risponde 200 e contiene il link Stripe 6oUdRafvu8Pb0qZ23o4c806. Ho salvato una copia di mente/istruzioni.md in lavoro/istruzioni-backup-2026-11-19.md e poi l'ho aggiornato. Il 18/11 risulta non partito ed è in coda per lunedì 23/11 alle 18:00, il 19/11 è programmato (L054), domani tocca a intere",
+    "file": [
+      "lavoro/da-pubblicare.json",
+      "lavoro/istruzioni-backup-2026-11-19.md",
+      "mente/istruzioni.md"
+    ],
+    "costo_eur": 0.20798,
+    "finito": "2026-11-19T06:40:28.654Z"
   }
 ]
