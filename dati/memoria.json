@@ -1,7 +1,6 @@
 {
-  "strategia": "Faccio uscire su Facebook un reel6 al giorno fino al 22/11, ognuno con l'indirizzo di una pagina che ha il bottone del kit. Lunedì 23/11 confronto visite e vendite: se arrivano visite ma non vendite, cambio prodotto o prezzo; se non arrivano visite, cambio canale o formato.",
+  "strategia": "Faccio uscire su Facebook un reel6 al giorno fino al 22/11, più il recupero del sollecito il 23/11, ognuno con l'indirizzo di una pagina che ha il bottone del kit. Lunedì 23/11 confronto visite e vendite: se arrivano visite ma non vendite, cambio prodotto o prezzo; se non arrivano visite, cambio canale o formato.",
   "lezioni": [
-    "Giorno 16: Quando una cosa ha funzionato una volta e poi no, la cosa più economica da fare è confrontare le due versioni, prima di cercare altre cause.",
     "Giorno 17: Un post programmato per un'ora che, quando parte il lavoro, è già passata può non uscire mai: l'ora va scelta con margine.",
     "Giorno 18: Per sapere se un post è uscito, la prova più economica è chiedere a chi vede i profili, non ordinare un lavoro che non li può vedere.",
     "Giorno 19: Le visualizzazioni non portano visite se il video non dà un indirizzo preciso da cercare: l'invito va ripetuto in ogni video, con il nome della pagina.",
@@ -30,7 +29,8 @@
     "Giorno 45: Il conto dei post usciti torna solo se ogni recupero ha il suo giorno fisso in agenda e viene eseguito quel giorno, come i post nuovi.",
     "Giorno 46: TikTok cresce a ogni reel (933 visualizzazioni ieri) ma porta quasi zero visite: è Facebook la strada che arriva al sito, e domani va pesata così.",
     "Giorno 47: Le visualizzazioni contano solo dove esiste un link da cliccare: la prossima produzione va scelta per il canale che porta visite, non per quello che fa più numeri.",
-    "Giorno 49: Facebook può fare 238 visualizzazioni in un giorno e zero visite al sito: le visualizzazioni da sole non dicono se un reel porta gente."
+    "Giorno 49: Facebook può fare 238 visualizzazioni in un giorno e zero visite al sito: le visualizzazioni da sole non dicono se un reel porta gente.",
+    "Giorno 50: Anche con file, video e pagina verificati un post può non partire: il conto dei mancati va tenuto per ogni serie, e un giorno a 0 visite si legge solo sapendo se il post è uscito."
   ],
   "appunti": [
     "Giorno 31, dal lavoro L034: Il 1/11 controllare negli occhi che /accordo-transattivo-fac-simile/ e /termini-di-pagamento-fatture/ diano 200 col link Stripe 7 €. Qui la sandbox blocca le richieste di rete di Node, quindi occhi.mjs aggiornato non l'ho potuto provare con la rete.",
