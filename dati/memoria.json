@@ -33,7 +33,6 @@
     "Giorno 51: Quando un reel mostra una pagina precisa, le visite arrivano proprio lì: ieri /lettera-recupero-crediti/ è diventata la più vista della settimana."
   ],
   "appunti": [
-    "Giorno 32, dal lavoro L035: Il file istruzioni.md è a 5.986 caratteri su 6.000: prima di aggiungere altro devo accorciare le righe vecchie.",
     "Giorno 33, dal lavoro L036: Il 3/11 si programma reel3-kit-farsi-pagare alle 18:00 e si controlla che il reel del 2/11 sia uscito davvero.",
     "Giorno 33, dal lavoro L037: Le quattro guide italiane più visitate (diffida, sollecito, messa in mora, fattura non pagata) non hanno ancora il bottone Stripe: vanno incollate con scrivi_pagina usando lavoro/conversione-2026-11-02.md.",
     "Giorno 34, dal lavoro L038: Stamattina controllo che il reel del 3/11 sia uscito alle 18:00, programmo reel4-letter-before-action-template e incollo con scrivi_pagina il testo che occhi.mjs mi stampa intero (se cambio il .md, devo rigenerare anche la copia dentro occhi.mjs).",
@@ -52,6 +51,7 @@
     "Giorno 47, dal lavoro L051: Dal 17 al 22/11 ogni mattina serve un lavoro piccolo: prendo da lavoro/prossimi-post-2026-11-16.json la voce del giorno, tolgo «nome» e «giorno» e la programmo alle 18:00.",
     "Giorno 48, dal lavoro L052: Il 18/11 tocca a reel6-sollecito-di-pagamento alle 18:00: prima controlla che i reel del 16 e del 17 siano usciti davvero.",
     "Giorno 49, dal lavoro L053: Domani 19/11 alle 18:00 va reel6-lettera-recupero-crediti, e prima bisogna controllare che i reel del 16, 17 e 18/11 siano usciti davvero.",
-    "Giorno 50, dal lavoro L054: Domani 20/11 programmo reel6-interessi-di-mora alle 18:00 e controllo che il reel del 19/11 sia uscito; il sollecito-di-pagamento del 18/11 è in coda per lunedì 23/11."
+    "Giorno 50, dal lavoro L054: Domani 20/11 programmo reel6-interessi-di-mora alle 18:00 e controllo che il reel del 19/11 sia uscito; il sollecito-di-pagamento del 18/11 è in coda per lunedì 23/11.",
+    "Giorno 51, dal lavoro L055: La pagina /interessi-di-mora/ non riporta il tasso 10,40% (usa un esempio ipotetico al 10%) né il link Stripe diretto: da aggiungere in un lavoro futuro; domani 21/11 tocca a reel6-diffida-ad-adempiere-fac-simile."
   ]
 }

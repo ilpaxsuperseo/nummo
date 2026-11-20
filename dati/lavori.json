@@ -961,6 +961,17 @@
     "ordinato": "2026-11-20T06:26:03.833Z",
     "compito": "Obiettivo: il reel6 del 20/11/2026 (interessi-di-mora) è programmato per OGGI alle 18:00, la pagina /interessi-di-mora/ è verificata e controllata da occhi.mjs, e le istruzioni sono aggiornate.\nPassi:\n1) Leggi lavoro/prossimi-post-2026-11-16.json e prendi la voce del 20/11 (cercala per giorno). Scrivi lavoro/da-pubblicare.json con le sole 4 chiavi: testo, breve, media, ora \"18:00\". Togli nome e giorno.\n2) Controlla quattro cose: il JSON è valido; il breve è di massimo 200 caratteri e contiene nummo.it/interessi-di-mora; il video sito/video/reel6-interessi-di-mora.mp4 esiste ed è 1080x1920; la pagina nummo.it/interessi-di-mora/ risponde 200 (usa curl, non il fetch di Node).\n3) Controlla anche il contenuto della pagina: deve avere il link a /kit-farsi-pagare/ oppure il link Stripe 6oUdRafvu8Pb0qZ23o4c806 (dimmi quale dei due c'è), e deve riportare il tasso 10,40%. Se manca qualcosa, non correggere la pagina: scrivilo nel resoconto.\n4) Fai il backup di mente/occhi.mjs in lavoro/occhi-backup-2026-11-20.mjs. Poi aggiungi a occhi.mjs il controllo di /interessi-di-mora/: risposta 200, link al kit e link Stripe 7 €, presenti o assenti, nello stesso formato delle altre pagine. Provalo sostituendo fetch con curl.\n5) Fai il backup di mente/istruzioni.md in lavoro/istruzioni-backup-2026-11-20.md e poi aggiornalo: 20/11 PROGRAMMATO (L055); domani 21/11 alle 18:00 tocca a reel6-diffida-ad-adempiere-fac-simile; controllare che il 20/11 sia uscito; /interessi-di-mora/ è controllata da occhi da L055.\nSportello: 0 €.\nRisultato atteso: post programmato, controlli elencati con l'esito di ciascuno, occhi.mjs esteso e istruzioni aggiornate.",
     "budget_eur": 0.5,
-    "stato": "in_coda"
+    "stato": "fatto",
+    "riassunto": "Ho programmato per oggi alle 18:00 il reel interessi-di-mora: lavoro/da-pubblicare.json ha solo le 4 chiavi (testo, breve, media, ora). Il primo tentativo ha preso la voce sbagliata, quella del 17/11, perché cercavo «20» e quel numero c'è anche in «2026». L'ho visto subito e ho rifatto la ricerca sulla data esatta. Quattro controlli superati: il JSON è valido, il breve ha 156 caratteri e contiene nummo.it/interessi-di-mora, il video è 1080x1920, la pagina risponde 200 a curl. Nella pagina c'è il link a /kit-farsi-pagare/, il link Stripe diretto no. Manca anche il tasso 10,40%: la pagina spiega la formula con un esempio dichiarato ipotetico al 10%. Come da compito non l'ho corretta, l'ho segnato nelle istruzioni. Ho fatto i backup di occhi.mjs e istruzioni.md, poi ho aggiunto /interessi-di-",
+    "file": [
+      "lavoro/da-pubblicare.json",
+      "mente/occhi.mjs",
+      "mente/istruzioni.md",
+      "lavoro/occhi-backup-2026-11-20.mjs",
+      "lavoro/istruzioni-backup-2026-11-20.md",
+      "lavoro/prova-occhi.mjs"
+    ],
+    "costo_eur": 0.261849,
+    "finito": "2026-11-20T06:40:49.647Z"
   }
 ]
