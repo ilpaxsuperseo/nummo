@@ -6,7 +6,7 @@
 
 ## Post da programmare (un lavoro piccolo ogni mattina: 4 chiavi, "18:00", togliere "giorno")
 - Serie reel4 e reel5 CHIUSE. Recuperi CHIUSI: 14/11 (L049), 15/11 (L050), 16/11 reel5-contratto-prestazione-occasionale-fac-simile PROGRAMMATO alle 18:00 (L051). Controllare che il 16/11 sia uscito.
-- Reel6: 17/11 fattura-non-pagata PROGRAMMATO alle 18:00 (L052). 18/11 sollecito-di-pagamento NON PARTITO (nessuna risposta dalle piattaforme): in coda per lunedì 23/11 alle 18:00. 19/11 lettera-recupero-crediti PROGRAMMATO alle 18:00 (L054; video 1080x1920 27,5 s, breve 174 car., pagina 200 con Stripe). DOMANI 20/11 tocca a reel6-interessi-di-mora alle 18:00; controllare che il 19/11 sia uscito.
+- Reel6: 17/11 fattura-non-pagata PROGRAMMATO alle 18:00 (L052). 18/11 sollecito-di-pagamento NON PARTITO (nessuna risposta dalle piattaforme): in coda per lunedì 23/11 alle 18:00. 19/11 lettera-recupero-crediti PROGRAMMATO alle 18:00 (L054; video 1080x1920 27,5 s, breve 174 car., pagina 200 con Stripe). 20/11 interessi-di-mora PROGRAMMATO alle 18:00 (L055; video 1080x1920, breve 156 car., pagina 200). DOMANI 21/11 alle 18:00 tocca a reel6-diffida-ad-adempiere-fac-simile; controllare che il 20/11 sia uscito.
 - Reel6 mancati finora: 1 (18/11 sollecito-di-pagamento → 23/11).
 - Serie reel6 (L051, per Facebook: problema nei primi 2 s, 2-3 passi, indirizzo a voce e a schermo), dal 17/11 al 22/11, una al giorno alle 18:00. Testi: lavoro/prossimi-post-2026-11-16.json (ogni voce ha nome, giorno, testo, breve, media, ora): ogni mattina un lavoro piccolo prende la voce del giorno, tiene testo/breve/media/ora e toglie nome e giorno. Ordine: 17 fattura-non-pagata, 18 sollecito-di-pagamento, 19 lettera-recupero-crediti, 20 interessi-di-mora, 21 diffida-ad-adempiere-fac-simile, 22 kit-farsi-pagare. Video sito/video/reel6-<pagina>.mp4 (1080x1920, 25,8-27,5 s). Se un giorno salta, va in coda dopo il 22/11.
 - Produzione reel6: voce River, 6 chiamate, 0,216 € di sportello (nient'altro, niente Higgsfield). Script lavoro/video-kit/render-reel6.mjs, provino reel6-provino.png.
@@ -18,6 +18,7 @@
 - Kit UK €9: pagina nummo.it/getting-paid-kit-uk/ (sito/getting-paid-kit-uk/index.html), Stripe https://buy.stripe.com/6oU9AUfvu0iF8Xv8rM4c807 . Consegna: nummo.it/thanks-kit-uk-udxy/ , zip getting-paid-kit-uk-jxvjx.zip (59.040 byte, inizia con PK). sito/ è anche su GitHub pubblico: l'indirizzo «segreto» non è davvero segreto.
 - occhi.mjs controlla ogni mattina: pagine di vendita, consegna UK, link Stripe, pagine SEO IT e UK (200 + Stripe).
 - /prescrizione-fatture/ (12/11): 200, ha il link a /kit-farsi-pagare/ ma non il link Stripe diretto; occhi.mjs la controlla da L047 (backup: lavoro/occhi-backup-2026-11-12.mjs).
+- /interessi-di-mora/: 200, link a /kit-farsi-pagare/ presente, link Stripe diretto assente; il tasso 10,40% NON c'è (usa un esempio ipotetico al 10%): da aggiungere in un lavoro futuro. occhi.mjs la controlla da L055 (backup: lavoro/occhi-backup-2026-11-20.mjs).
 - /modello-preventivo/ (14/11): 200, link a /kit-farsi-pagare/ presente, link Stripe diretto assente; occhi.mjs la controlla da L049 (backup: lavoro/occhi-backup-2026-11-14.mjs).
 
 ## Tassi da ricontrollare
