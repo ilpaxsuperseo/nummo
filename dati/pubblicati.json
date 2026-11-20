@@ -1720,5 +1720,26 @@
       "435181549",
       "435181566"
     ]
+  },
+  {
+    "data": "2026-11-20",
+    "giorno": 51,
+    "quando": "2026-11-20T06:50:37.125Z",
+    "programmato_per": {
+      "dateTime": "2026-11-20T08:00:05",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/giorni/2026-11-20.jpg",
+    "metricool": [
+      "435186481",
+      "435186499"
+    ]
   }
 ]
