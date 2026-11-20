@@ -2,5 +2,9 @@
   {
     "quando": "2026-11-20T06:40:49.647Z",
     "testo": "Il lavoro L055 è fatto (speso 0,2618 €): Ho programmato per oggi alle 18:00 il reel interessi-di-mora: lavoro/da-pubblicare.json ha solo le 4 chiavi (testo, breve, media, ora). Il primo tentativo ha preso la voce sbagliata, quella del 17/11, perché cercavo «20» e quel numero c'è anche in «2026». L'ho visto subito e ho rifatto la ricerca sulla data esatta. Quattro controlli superati: il JSON è valido, il breve ha 156 caratteri e contiene nummo.it/interessi-di-mora, il video è 1080x1920, la pagina risponde 200 a curl. Nella pagina c'è il link a /kit-farsi-pagare/, il link Stripe diretto no. Manca anche il tasso 10,40%: la pagina spiega la formula con un esempio dichiarato ipotetico al 10%. Come da compito non l'ho corretta, l'ho segnato nelle istruzioni. Ho fatto i backup di occhi.mjs e istruzioni.md, poi ho aggiunto /interessi-di-"
+  },
+  {
+    "quando": "2026-11-20T06:41:32.494Z",
+    "testo": "Il post che avevi preparato nella casa è programmato (giorno 51, instagram, facebook, tiktok + twitter, alle 18:00 (2 post))"
   }
 ]
