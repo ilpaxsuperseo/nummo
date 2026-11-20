@@ -1699,5 +1699,26 @@
       "433831730",
       "433831740"
     ]
+  },
+  {
+    "data": "2026-11-20 notte",
+    "giorno": 51,
+    "quando": "2026-11-20T06:41:30.452Z",
+    "programmato_per": {
+      "dateTime": "2026-11-20T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel6-interessi-di-mora.mp4",
+    "metricool": [
+      "435181549",
+      "435181566"
+    ]
   }
 ]
