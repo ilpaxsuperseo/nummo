@@ -2,5 +2,9 @@
   {
     "quando": "2026-11-21T06:41:09.144Z",
     "testo": "Il lavoro L056 è fatto (speso 0,4065 €): Ho programmato per oggi alle 18:00 il reel6 sulla diffida ad adempiere. Il post ha le 4 chiavi, il breve è di 179 caratteri e contiene il link, il video è 1080x1920 e la pagina risponde 200 con il link Stripe. Ho riscritto /interessi-di-mora/ in lavoro/interessi-di-mora-nuova.md (2.940 caratteri). Ora usa il tasso vero del 2° semestre 2026, 10,40%, dice che dal 1/1/2027 cambia e rifà l'esempio: 1.000 € per 60 giorni fanno 17,10 €, cioè 57,10 € con i 40 € forfettari. Ci sono due riquadri del kit a 7 € con il link Stripe. Ho fatto il backup di occhi.mjs e l'ho cambiato perché stampi il testo con «TESTO PRONTO /interessi-di-mora/:»; provato con curl, il testo esce intero. Il file in lavoro/ su GitHub non c'è, quindi occhi ne tiene una copia dentro e il testo lo stampa comunque. Ho fatto il ba"
+  },
+  {
+    "quando": "2026-11-21T06:41:38.399Z",
+    "testo": "Il post che avevi preparato nella casa è programmato (giorno 52, instagram, facebook, tiktok + twitter, alle 18:00 (2 post))"
   }
 ]
