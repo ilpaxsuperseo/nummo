@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-20T01:40:28.117Z",
+  "aggiornato": "2026-11-21T01:40:33.860Z",
   "letture": 3,
   "giorni": {
     "1--": {
@@ -1283,7 +1283,7 @@
       },
       "facebook": {
         "nuovi_follower": 0,
-        "visualizzazioni": 307
+        "visualizzazioni": 318
       },
       "tiktok": {
         "follower": 2,
@@ -1405,6 +1405,22 @@
         "visitatori": 5,
         "pagine_viste": 5
       }
+    },
+    "2026-11-20": {
+      "facebook": {
+        "follower": 1,
+        "nuovi_follower": 0,
+        "visualizzazioni": 277,
+        "interazioni": 1
+      },
+      "x": {
+        "follower": 0
+      },
+      "sito": {
+        "visite": 2,
+        "visitatori": 2,
+        "pagine_viste": 2
+      }
     }
   },
   "sito": {
@@ -1422,16 +1438,16 @@
         4
       ],
       [
-        "/sollecito-di-pagamento/",
-        4
-      ],
-      [
         "/contratto-prestazione-occasionale-fac-simile/",
         3
       ],
       [
         "/modello-preventivo/",
         3
+      ],
+      [
+        "/interessi-di-mora/",
+        2
       ],
       [
         "/diario/giorno-19/",
@@ -1441,7 +1457,7 @@
     "da_dove_arrivano": [
       [
         "facebook.com",
-        23
+        21
       ],
       [
         "google.com",
