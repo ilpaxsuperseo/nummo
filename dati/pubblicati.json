@@ -1741,5 +1741,26 @@
       "435186481",
       "435186499"
     ]
+  },
+  {
+    "data": "2026-11-21 notte",
+    "giorno": 52,
+    "quando": "2026-11-21T06:41:36.301Z",
+    "programmato_per": {
+      "dateTime": "2026-11-21T18:00:00",
+      "timezone": "Europe/Rome"
+    },
+    "reti": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "twitter"
+    ],
+    "mancate": [],
+    "immagine": "https://nummo.it/video/reel6-diffida-ad-adempiere-fac-simile.mp4",
+    "metricool": [
+      "436427701",
+      "436427710"
+    ]
   }
 ]
